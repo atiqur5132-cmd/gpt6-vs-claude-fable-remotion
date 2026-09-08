@@ -1,0 +1,3282 @@
+{
+  "language": "en",
+  "duration": 212.472,
+  "segments": [
+    {
+      "id": 1,
+      "start": 0.0,
+      "end": 6.78,
+      "text": "On paper, Anthropic's Claude Fable 5.1 just defeated OpenAI's GPT-6 Astra on the official",
+      "words": [
+        {
+          "word": " On",
+          "start": 0.0,
+          "end": 0.22,
+          "probability": 0.51
+        },
+        {
+          "word": " paper,",
+          "start": 0.22,
+          "end": 0.48,
+          "probability": 0.98
+        },
+        {
+          "word": " Anthropic's",
+          "start": 1.04,
+          "end": 1.78,
+          "probability": 0.52
+        },
+        {
+          "word": " Claude",
+          "start": 1.78,
+          "end": 2.0,
+          "probability": 0.62
+        },
+        {
+          "word": " Fable",
+          "start": 2.0,
+          "end": 2.3,
+          "probability": 0.86
+        },
+        {
+          "word": " 5",
+          "start": 2.3,
+          "end": 2.7,
+          "probability": 0.97
+        },
+        {
+          "word": ".1",
+          "start": 2.7,
+          "end": 3.22,
+          "probability": 1.0
+        },
+        {
+          "word": " just",
+          "start": 3.22,
+          "end": 3.5,
+          "probability": 0.97
+        },
+        {
+          "word": " defeated",
+          "start": 3.5,
+          "end": 3.88,
+          "probability": 0.99
+        },
+        {
+          "word": " OpenAI's",
+          "start": 3.88,
+          "end": 4.78,
+          "probability": 0.94
+        },
+        {
+          "word": " GPT",
+          "start": 4.78,
+          "end": 5.08,
+          "probability": 0.97
+        },
+        {
+          "word": "-6",
+          "start": 5.08,
+          "end": 5.58,
+          "probability": 0.9
+        },
+        {
+          "word": " Astra",
+          "start": 5.58,
+          "end": 6.04,
+          "probability": 0.89
+        },
+        {
+          "word": " on",
+          "start": 6.04,
+          "end": 6.44,
+          "probability": 0.95
+        },
+        {
+          "word": " the",
+          "start": 6.44,
+          "end": 6.56,
+          "probability": 0.99
+        },
+        {
+          "word": " official",
+          "start": 6.56,
+          "end": 6.78,
+          "probability": 0.4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 6.78,
+      "end": 11.88,
+      "text": "artificial analysis intelligence leaderboard. But the moment engineers pushed both models",
+      "words": [
+        {
+          "word": " artificial",
+          "start": 6.78,
+          "end": 7.16,
+          "probability": 0.62
+        },
+        {
+          "word": " analysis",
+          "start": 7.16,
+          "end": 7.92,
+          "probability": 0.96
+        },
+        {
+          "word": " intelligence",
+          "start": 7.92,
+          "end": 8.24,
+          "probability": 0.95
+        },
+        {
+          "word": " leaderboard.",
+          "start": 8.24,
+          "end": 9.12,
+          "probability": 0.96
+        },
+        {
+          "word": " But",
+          "start": 9.74,
+          "end": 9.88,
+          "probability": 0.97
+        },
+        {
+          "word": " the",
+          "start": 9.88,
+          "end": 10.04,
+          "probability": 0.96
+        },
+        {
+          "word": " moment",
+          "start": 10.04,
+          "end": 10.26,
+          "probability": 0.85
+        },
+        {
+          "word": " engineers",
+          "start": 10.26,
+          "end": 10.62,
+          "probability": 0.99
+        },
+        {
+          "word": " pushed",
+          "start": 10.62,
+          "end": 11.12,
+          "probability": 0.99
+        },
+        {
+          "word": " both",
+          "start": 11.12,
+          "end": 11.46,
+          "probability": 1.0
+        },
+        {
+          "word": " models",
+          "start": 11.46,
+          "end": 11.88,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 11.88,
+      "end": 16.16,
+      "text": "into real-world 3D environments. That benchmark collapsed in seconds.",
+      "words": [
+        {
+          "word": " into",
+          "start": 11.88,
+          "end": 12.26,
+          "probability": 0.99
+        },
+        {
+          "word": " real",
+          "start": 12.26,
+          "end": 12.52,
+          "probability": 0.98
+        },
+        {
+          "word": "-world",
+          "start": 12.52,
+          "end": 12.84,
+          "probability": 0.85
+        },
+        {
+          "word": " 3D",
+          "start": 12.84,
+          "end": 13.24,
+          "probability": 0.94
+        },
+        {
+          "word": " environments.",
+          "start": 13.24,
+          "end": 13.62,
+          "probability": 0.99
+        },
+        {
+          "word": " That",
+          "start": 14.66,
+          "end": 14.76,
+          "probability": 0.93
+        },
+        {
+          "word": " benchmark",
+          "start": 14.76,
+          "end": 15.12,
+          "probability": 0.99
+        },
+        {
+          "word": " collapsed",
+          "start": 15.12,
+          "end": 15.56,
+          "probability": 1.0
+        },
+        {
+          "word": " in",
+          "start": 15.56,
+          "end": 15.94,
+          "probability": 1.0
+        },
+        {
+          "word": " seconds.",
+          "start": 15.94,
+          "end": 16.16,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 17.0,
+      "end": 20.56,
+      "text": "If you are still judging Frontier AI by static synthetic leaderboards,",
+      "words": [
+        {
+          "word": " If",
+          "start": 17.0,
+          "end": 17.02,
+          "probability": 0.99
+        },
+        {
+          "word": " you",
+          "start": 17.02,
+          "end": 17.16,
+          "probability": 1.0
+        },
+        {
+          "word": " are",
+          "start": 17.16,
+          "end": 17.28,
+          "probability": 0.97
+        },
+        {
+          "word": " still",
+          "start": 17.28,
+          "end": 17.52,
+          "probability": 1.0
+        },
+        {
+          "word": " judging",
+          "start": 17.52,
+          "end": 17.92,
+          "probability": 0.99
+        },
+        {
+          "word": " Frontier",
+          "start": 17.92,
+          "end": 18.24,
+          "probability": 0.89
+        },
+        {
+          "word": " AI",
+          "start": 18.24,
+          "end": 18.7,
+          "probability": 0.96
+        },
+        {
+          "word": " by",
+          "start": 18.7,
+          "end": 19.08,
+          "probability": 0.99
+        },
+        {
+          "word": " static",
+          "start": 19.08,
+          "end": 19.4,
+          "probability": 0.93
+        },
+        {
+          "word": " synthetic",
+          "start": 19.4,
+          "end": 19.8,
+          "probability": 0.87
+        },
+        {
+          "word": " leaderboards,",
+          "start": 19.8,
+          "end": 20.56,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 21.14,
+      "end": 27.2,
+      "text": "you are making architectural decisions on a mirage. OpenAI officially launched GPT-6 Astra",
+      "words": [
+        {
+          "word": " you",
+          "start": 21.14,
+          "end": 21.3,
+          "probability": 0.99
+        },
+        {
+          "word": " are",
+          "start": 21.3,
+          "end": 21.44,
+          "probability": 0.99
+        },
+        {
+          "word": " making",
+          "start": 21.44,
+          "end": 21.68,
+          "probability": 1.0
+        },
+        {
+          "word": " architectural",
+          "start": 21.68,
+          "end": 22.22,
+          "probability": 0.99
+        },
+        {
+          "word": " decisions",
+          "start": 22.22,
+          "end": 22.88,
+          "probability": 0.99
+        },
+        {
+          "word": " on",
+          "start": 22.88,
+          "end": 23.24,
+          "probability": 1.0
+        },
+        {
+          "word": " a",
+          "start": 23.24,
+          "end": 23.34,
+          "probability": 1.0
+        },
+        {
+          "word": " mirage.",
+          "start": 23.34,
+          "end": 23.74,
+          "probability": 0.88
+        },
+        {
+          "word": " OpenAI",
+          "start": 24.34,
+          "end": 24.68,
+          "probability": 1.0
+        },
+        {
+          "word": " officially",
+          "start": 24.68,
+          "end": 25.26,
+          "probability": 1.0
+        },
+        {
+          "word": " launched",
+          "start": 25.26,
+          "end": 25.66,
+          "probability": 0.97
+        },
+        {
+          "word": " GPT",
+          "start": 25.66,
+          "end": 26.18,
+          "probability": 1.0
+        },
+        {
+          "word": "-6",
+          "start": 26.18,
+          "end": 26.64,
+          "probability": 1.0
+        },
+        {
+          "word": " Astra",
+          "start": 26.64,
+          "end": 27.2,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 27.2,
+      "end": 32.4,
+      "text": "with a single promise. Anything you can do on a computer, Astra can do for you.",
+      "words": [
+        {
+          "word": " with",
+          "start": 27.2,
+          "end": 27.36,
+          "probability": 0.97
+        },
+        {
+          "word": " a",
+          "start": 27.36,
+          "end": 27.42,
+          "probability": 0.99
+        },
+        {
+          "word": " single",
+          "start": 27.42,
+          "end": 27.66,
+          "probability": 0.99
+        },
+        {
+          "word": " promise.",
+          "start": 27.66,
+          "end": 28.08,
+          "probability": 0.97
+        },
+        {
+          "word": " Anything",
+          "start": 29.18,
+          "end": 29.38,
+          "probability": 0.96
+        },
+        {
+          "word": " you",
+          "start": 29.38,
+          "end": 29.68,
+          "probability": 1.0
+        },
+        {
+          "word": " can",
+          "start": 29.68,
+          "end": 29.82,
+          "probability": 1.0
+        },
+        {
+          "word": " do",
+          "start": 29.82,
+          "end": 30.0,
+          "probability": 1.0
+        },
+        {
+          "word": " on",
+          "start": 30.0,
+          "end": 30.26,
+          "probability": 0.99
+        },
+        {
+          "word": " a",
+          "start": 30.26,
+          "end": 30.34,
+          "probability": 0.99
+        },
+        {
+          "word": " computer,",
+          "start": 30.34,
+          "end": 30.64,
+          "probability": 1.0
+        },
+        {
+          "word": " Astra",
+          "start": 31.4,
+          "end": 31.76,
+          "probability": 0.82
+        },
+        {
+          "word": " can",
+          "start": 31.76,
+          "end": 31.9,
+          "probability": 0.99
+        },
+        {
+          "word": " do",
+          "start": 31.9,
+          "end": 32.06,
+          "probability": 1.0
+        },
+        {
+          "word": " for",
+          "start": 32.06,
+          "end": 32.22,
+          "probability": 1.0
+        },
+        {
+          "word": " you.",
+          "start": 32.22,
+          "end": 32.4,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 32.92,
+      "end": 40.52,
+      "text": "Fast. On paper, Astra scored a near-perfect 99.9% on Arc AGI-3 and 100% on exploit bench,",
+      "words": [
+        {
+          "word": " Fast.",
+          "start": 32.92,
+          "end": 33.12,
+          "probability": 0.56
+        },
+        {
+          "word": " On",
+          "start": 33.92,
+          "end": 33.96,
+          "probability": 0.99
+        },
+        {
+          "word": " paper,",
+          "start": 33.96,
+          "end": 34.2,
+          "probability": 0.99
+        },
+        {
+          "word": " Astra",
+          "start": 34.86,
+          "end": 35.2,
+          "probability": 0.99
+        },
+        {
+          "word": " scored",
+          "start": 35.2,
+          "end": 35.42,
+          "probability": 1.0
+        },
+        {
+          "word": " a",
+          "start": 35.42,
+          "end": 35.64,
+          "probability": 0.99
+        },
+        {
+          "word": " near",
+          "start": 35.64,
+          "end": 35.78,
+          "probability": 0.9
+        },
+        {
+          "word": "-perfect",
+          "start": 35.78,
+          "end": 36.02,
+          "probability": 0.8
+        },
+        {
+          "word": " 99",
+          "start": 36.02,
+          "end": 36.4,
+          "probability": 0.98
+        },
+        {
+          "word": ".9",
+          "start": 36.4,
+          "end": 37.08,
+          "probability": 1.0
+        },
+        {
+          "word": "%",
+          "start": 37.08,
+          "end": 37.4,
+          "probability": 0.9
+        },
+        {
+          "word": " on",
+          "start": 37.4,
+          "end": 37.68,
+          "probability": 1.0
+        },
+        {
+          "word": " Arc",
+          "start": 37.68,
+          "end": 37.92,
+          "probability": 0.5
+        },
+        {
+          "word": " AGI",
+          "start": 37.92,
+          "end": 38.46,
+          "probability": 0.91
+        },
+        {
+          "word": "-3",
+          "start": 38.46,
+          "end": 38.8,
+          "probability": 0.64
+        },
+        {
+          "word": " and",
+          "start": 38.8,
+          "end": 39.04,
+          "probability": 0.97
+        },
+        {
+          "word": " 100",
+          "start": 39.04,
+          "end": 39.2,
+          "probability": 1.0
+        },
+        {
+          "word": "%",
+          "start": 39.2,
+          "end": 39.66,
+          "probability": 0.99
+        },
+        {
+          "word": " on",
+          "start": 39.66,
+          "end": 39.88,
+          "probability": 0.99
+        },
+        {
+          "word": " exploit",
+          "start": 39.88,
+          "end": 40.16,
+          "probability": 0.22
+        },
+        {
+          "word": " bench,",
+          "start": 40.16,
+          "end": 40.52,
+          "probability": 0.87
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 41.0,
+      "end": 47.4,
+      "text": "armed with a 1.05 million token context window. Yet when artificial analysis released its updated",
+      "words": [
+        {
+          "word": " armed",
+          "start": 41.0,
+          "end": 41.24,
+          "probability": 0.99
+        },
+        {
+          "word": " with",
+          "start": 41.24,
+          "end": 41.54,
+          "probability": 1.0
+        },
+        {
+          "word": " a",
+          "start": 41.54,
+          "end": 41.62,
+          "probability": 0.99
+        },
+        {
+          "word": " 1",
+          "start": 41.62,
+          "end": 41.86,
+          "probability": 0.97
+        },
+        {
+          "word": ".05",
+          "start": 41.86,
+          "end": 42.5,
+          "probability": 0.99
+        },
+        {
+          "word": " million",
+          "start": 42.5,
+          "end": 43.02,
+          "probability": 0.95
+        },
+        {
+          "word": " token",
+          "start": 43.02,
+          "end": 43.36,
+          "probability": 0.91
+        },
+        {
+          "word": " context",
+          "start": 43.36,
+          "end": 43.82,
+          "probability": 0.93
+        },
+        {
+          "word": " window.",
+          "start": 43.82,
+          "end": 44.22,
+          "probability": 1.0
+        },
+        {
+          "word": " Yet",
+          "start": 44.84,
+          "end": 45.02,
+          "probability": 1.0
+        },
+        {
+          "word": " when",
+          "start": 45.02,
+          "end": 45.24,
+          "probability": 0.69
+        },
+        {
+          "word": " artificial",
+          "start": 45.24,
+          "end": 45.56,
+          "probability": 0.78
+        },
+        {
+          "word": " analysis",
+          "start": 45.56,
+          "end": 46.24,
+          "probability": 1.0
+        },
+        {
+          "word": " released",
+          "start": 46.24,
+          "end": 46.72,
+          "probability": 1.0
+        },
+        {
+          "word": " its",
+          "start": 46.72,
+          "end": 47.04,
+          "probability": 0.97
+        },
+        {
+          "word": " updated",
+          "start": 47.04,
+          "end": 47.4,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 47.4,
+      "end": 55.84,
+      "text": "index, Fable may first Saturday at 57 points, two points above Astra at 55. Then, the visual",
+      "words": [
+        {
+          "word": " index,",
+          "start": 47.4,
+          "end": 47.96,
+          "probability": 0.02
+        },
+        {
+          "word": " Fable",
+          "start": 48.62,
+          "end": 48.94,
+          "probability": 0.69
+        },
+        {
+          "word": " may",
+          "start": 48.94,
+          "end": 49.18,
+          "probability": 0.7
+        },
+        {
+          "word": " first",
+          "start": 49.18,
+          "end": 49.46,
+          "probability": 0.68
+        },
+        {
+          "word": " Saturday",
+          "start": 49.46,
+          "end": 49.76,
+          "probability": 0.96
+        },
+        {
+          "word": " at",
+          "start": 49.76,
+          "end": 50.22,
+          "probability": 0.97
+        },
+        {
+          "word": " 57",
+          "start": 50.22,
+          "end": 50.5,
+          "probability": 0.98
+        },
+        {
+          "word": " points,",
+          "start": 50.5,
+          "end": 51.1,
+          "probability": 0.94
+        },
+        {
+          "word": " two",
+          "start": 51.78,
+          "end": 52.02,
+          "probability": 0.59
+        },
+        {
+          "word": " points",
+          "start": 52.02,
+          "end": 52.32,
+          "probability": 1.0
+        },
+        {
+          "word": " above",
+          "start": 52.32,
+          "end": 52.58,
+          "probability": 1.0
+        },
+        {
+          "word": " Astra",
+          "start": 52.58,
+          "end": 53.12,
+          "probability": 0.9
+        },
+        {
+          "word": " at",
+          "start": 53.12,
+          "end": 53.34,
+          "probability": 0.99
+        },
+        {
+          "word": " 55.",
+          "start": 53.34,
+          "end": 53.6,
+          "probability": 1.0
+        },
+        {
+          "word": " Then,",
+          "start": 54.38,
+          "end": 54.66,
+          "probability": 0.98
+        },
+        {
+          "word": " the",
+          "start": 55.38,
+          "end": 55.54,
+          "probability": 0.98
+        },
+        {
+          "word": " visual",
+          "start": 55.54,
+          "end": 55.84,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 55.84,
+      "end": 61.42,
+      "text": "tests began. When Hezimation prompted both models to build a luxury modernist villa in Blender,",
+      "words": [
+        {
+          "word": " tests",
+          "start": 55.84,
+          "end": 56.12,
+          "probability": 0.93
+        },
+        {
+          "word": " began.",
+          "start": 56.12,
+          "end": 56.56,
+          "probability": 0.98
+        },
+        {
+          "word": " When",
+          "start": 57.28,
+          "end": 57.38,
+          "probability": 0.99
+        },
+        {
+          "word": " Hezimation",
+          "start": 57.38,
+          "end": 57.8,
+          "probability": 0.3
+        },
+        {
+          "word": " prompted",
+          "start": 57.8,
+          "end": 58.2,
+          "probability": 1.0
+        },
+        {
+          "word": " both",
+          "start": 58.2,
+          "end": 58.64,
+          "probability": 1.0
+        },
+        {
+          "word": " models",
+          "start": 58.64,
+          "end": 59.02,
+          "probability": 0.99
+        },
+        {
+          "word": " to",
+          "start": 59.02,
+          "end": 59.3,
+          "probability": 1.0
+        },
+        {
+          "word": " build",
+          "start": 59.3,
+          "end": 59.48,
+          "probability": 1.0
+        },
+        {
+          "word": " a",
+          "start": 59.48,
+          "end": 59.66,
+          "probability": 0.99
+        },
+        {
+          "word": " luxury",
+          "start": 59.66,
+          "end": 59.96,
+          "probability": 0.69
+        },
+        {
+          "word": " modernist",
+          "start": 59.96,
+          "end": 60.52,
+          "probability": 0.91
+        },
+        {
+          "word": " villa",
+          "start": 60.52,
+          "end": 60.9,
+          "probability": 0.99
+        },
+        {
+          "word": " in",
+          "start": 60.9,
+          "end": 61.04,
+          "probability": 1.0
+        },
+        {
+          "word": " Blender,",
+          "start": 61.04,
+          "end": 61.42,
+          "probability": 0.94
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 62.1,
+      "end": 68.32,
+      "text": "Fable 5.1 produced a flat, low-poly structure with cartoonish trees. Astra, on the exact same",
+      "words": [
+        {
+          "word": " Fable",
+          "start": 62.1,
+          "end": 62.4,
+          "probability": 0.99
+        },
+        {
+          "word": " 5",
+          "start": 62.4,
+          "end": 62.72,
+          "probability": 0.99
+        },
+        {
+          "word": ".1",
+          "start": 62.72,
+          "end": 63.22,
+          "probability": 1.0
+        },
+        {
+          "word": " produced",
+          "start": 63.22,
+          "end": 63.54,
+          "probability": 0.99
+        },
+        {
+          "word": " a",
+          "start": 63.54,
+          "end": 63.8,
+          "probability": 1.0
+        },
+        {
+          "word": " flat,",
+          "start": 63.8,
+          "end": 64.08,
+          "probability": 1.0
+        },
+        {
+          "word": " low",
+          "start": 64.18,
+          "end": 64.44,
+          "probability": 0.99
+        },
+        {
+          "word": "-poly",
+          "start": 64.44,
+          "end": 64.66,
+          "probability": 0.81
+        },
+        {
+          "word": " structure",
+          "start": 64.66,
+          "end": 65.06,
+          "probability": 0.99
+        },
+        {
+          "word": " with",
+          "start": 65.06,
+          "end": 65.44,
+          "probability": 0.99
+        },
+        {
+          "word": " cartoonish",
+          "start": 65.44,
+          "end": 65.96,
+          "probability": 0.95
+        },
+        {
+          "word": " trees.",
+          "start": 65.96,
+          "end": 66.22,
+          "probability": 1.0
+        },
+        {
+          "word": " Astra,",
+          "start": 66.82,
+          "end": 67.3,
+          "probability": 0.99
+        },
+        {
+          "word": " on",
+          "start": 67.44,
+          "end": 67.58,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 67.58,
+          "end": 67.7,
+          "probability": 1.0
+        },
+        {
+          "word": " exact",
+          "start": 67.7,
+          "end": 67.86,
+          "probability": 1.0
+        },
+        {
+          "word": " same",
+          "start": 67.86,
+          "end": 68.32,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 68.32,
+      "end": 74.38,
+      "text": "prompt, rendered lush vegetation, realistic water caustics in the pool, and production-ready",
+      "words": [
+        {
+          "word": " prompt,",
+          "start": 68.32,
+          "end": 68.56,
+          "probability": 0.99
+        },
+        {
+          "word": " rendered",
+          "start": 69.34,
+          "end": 69.46,
+          "probability": 0.99
+        },
+        {
+          "word": " lush",
+          "start": 69.46,
+          "end": 69.8,
+          "probability": 0.98
+        },
+        {
+          "word": " vegetation,",
+          "start": 69.8,
+          "end": 70.2,
+          "probability": 1.0
+        },
+        {
+          "word": " realistic",
+          "start": 71.14,
+          "end": 71.34,
+          "probability": 1.0
+        },
+        {
+          "word": " water",
+          "start": 71.34,
+          "end": 71.8,
+          "probability": 1.0
+        },
+        {
+          "word": " caustics",
+          "start": 71.8,
+          "end": 72.36,
+          "probability": 0.88
+        },
+        {
+          "word": " in",
+          "start": 72.36,
+          "end": 72.52,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 72.52,
+          "end": 72.62,
+          "probability": 1.0
+        },
+        {
+          "word": " pool,",
+          "start": 72.62,
+          "end": 72.84,
+          "probability": 1.0
+        },
+        {
+          "word": " and",
+          "start": 73.58,
+          "end": 73.64,
+          "probability": 1.0
+        },
+        {
+          "word": " production",
+          "start": 73.64,
+          "end": 73.96,
+          "probability": 0.99
+        },
+        {
+          "word": "-ready",
+          "start": 73.96,
+          "end": 74.38,
+          "probability": 0.95
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 74.38,
+      "end": 80.56,
+      "text": "interior lighting. It got worse for anthropic. Atomic Chat pitted both models against each other",
+      "words": [
+        {
+          "word": " interior",
+          "start": 74.38,
+          "end": 74.86,
+          "probability": 0.86
+        },
+        {
+          "word": " lighting.",
+          "start": 74.86,
+          "end": 75.22,
+          "probability": 0.99
+        },
+        {
+          "word": " It",
+          "start": 75.92,
+          "end": 75.98,
+          "probability": 0.98
+        },
+        {
+          "word": " got",
+          "start": 75.98,
+          "end": 76.12,
+          "probability": 1.0
+        },
+        {
+          "word": " worse",
+          "start": 76.12,
+          "end": 76.4,
+          "probability": 1.0
+        },
+        {
+          "word": " for",
+          "start": 76.4,
+          "end": 76.7,
+          "probability": 1.0
+        },
+        {
+          "word": " anthropic.",
+          "start": 76.7,
+          "end": 77.36,
+          "probability": 0.75
+        },
+        {
+          "word": " Atomic",
+          "start": 77.96,
+          "end": 78.28,
+          "probability": 0.97
+        },
+        {
+          "word": " Chat",
+          "start": 78.28,
+          "end": 78.6,
+          "probability": 0.52
+        },
+        {
+          "word": " pitted",
+          "start": 78.6,
+          "end": 78.98,
+          "probability": 0.99
+        },
+        {
+          "word": " both",
+          "start": 78.98,
+          "end": 79.3,
+          "probability": 1.0
+        },
+        {
+          "word": " models",
+          "start": 79.3,
+          "end": 79.6,
+          "probability": 0.99
+        },
+        {
+          "word": " against",
+          "start": 79.6,
+          "end": 80.06,
+          "probability": 1.0
+        },
+        {
+          "word": " each",
+          "start": 80.06,
+          "end": 80.34,
+          "probability": 1.0
+        },
+        {
+          "word": " other",
+          "start": 80.34,
+          "end": 80.56,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 80.56,
+      "end": 87.84,
+      "text": "to build a Porsche 911 GT3 RS. Both models took roughly two and a half hours and cost around",
+      "words": [
+        {
+          "word": " to",
+          "start": 80.56,
+          "end": 80.8,
+          "probability": 0.99
+        },
+        {
+          "word": " build",
+          "start": 80.8,
+          "end": 81.0,
+          "probability": 1.0
+        },
+        {
+          "word": " a",
+          "start": 81.0,
+          "end": 81.2,
+          "probability": 0.99
+        },
+        {
+          "word": " Porsche",
+          "start": 81.2,
+          "end": 81.44,
+          "probability": 0.95
+        },
+        {
+          "word": " 911",
+          "start": 81.44,
+          "end": 82.02,
+          "probability": 0.96
+        },
+        {
+          "word": " GT3",
+          "start": 82.02,
+          "end": 83.1,
+          "probability": 0.97
+        },
+        {
+          "word": " RS.",
+          "start": 83.1,
+          "end": 83.34,
+          "probability": 0.86
+        },
+        {
+          "word": " Both",
+          "start": 84.04,
+          "end": 84.34,
+          "probability": 1.0
+        },
+        {
+          "word": " models",
+          "start": 84.34,
+          "end": 84.62,
+          "probability": 1.0
+        },
+        {
+          "word": " took",
+          "start": 84.62,
+          "end": 85.04,
+          "probability": 1.0
+        },
+        {
+          "word": " roughly",
+          "start": 85.04,
+          "end": 85.32,
+          "probability": 0.97
+        },
+        {
+          "word": " two",
+          "start": 85.32,
+          "end": 85.76,
+          "probability": 0.42
+        },
+        {
+          "word": " and",
+          "start": 85.76,
+          "end": 85.94,
+          "probability": 0.95
+        },
+        {
+          "word": " a",
+          "start": 85.94,
+          "end": 86.0,
+          "probability": 0.96
+        },
+        {
+          "word": " half",
+          "start": 86.0,
+          "end": 86.22,
+          "probability": 1.0
+        },
+        {
+          "word": " hours",
+          "start": 86.22,
+          "end": 86.56,
+          "probability": 0.99
+        },
+        {
+          "word": " and",
+          "start": 86.56,
+          "end": 87.22,
+          "probability": 0.77
+        },
+        {
+          "word": " cost",
+          "start": 87.22,
+          "end": 87.42,
+          "probability": 0.99
+        },
+        {
+          "word": " around",
+          "start": 87.42,
+          "end": 87.84,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 87.84,
+      "end": 95.26,
+      "text": "$120. But look at the output. Astra sculpted authentic aerodynamic hood scoops, fender vents,",
+      "words": [
+        {
+          "word": " $120.",
+          "start": 87.84,
+          "end": 88.52,
+          "probability": 0.89
+        },
+        {
+          "word": " But",
+          "start": 89.48,
+          "end": 89.72,
+          "probability": 0.98
+        },
+        {
+          "word": " look",
+          "start": 89.72,
+          "end": 89.92,
+          "probability": 0.98
+        },
+        {
+          "word": " at",
+          "start": 89.92,
+          "end": 90.12,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 90.12,
+          "end": 90.26,
+          "probability": 1.0
+        },
+        {
+          "word": " output.",
+          "start": 90.26,
+          "end": 90.54,
+          "probability": 0.99
+        },
+        {
+          "word": " Astra",
+          "start": 91.32,
+          "end": 91.64,
+          "probability": 0.69
+        },
+        {
+          "word": " sculpted",
+          "start": 91.64,
+          "end": 92.14,
+          "probability": 0.83
+        },
+        {
+          "word": " authentic",
+          "start": 92.14,
+          "end": 92.46,
+          "probability": 0.88
+        },
+        {
+          "word": " aerodynamic",
+          "start": 92.46,
+          "end": 93.3,
+          "probability": 0.99
+        },
+        {
+          "word": " hood",
+          "start": 93.3,
+          "end": 93.66,
+          "probability": 1.0
+        },
+        {
+          "word": " scoops,",
+          "start": 93.66,
+          "end": 94.2,
+          "probability": 0.86
+        },
+        {
+          "word": " fender",
+          "start": 94.68,
+          "end": 95.06,
+          "probability": 0.96
+        },
+        {
+          "word": " vents,",
+          "start": 95.06,
+          "end": 95.26,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 95.72,
+      "end": 102.86,
+      "text": "and aggressive race blitters. Fable 5.1 delivered a warped, blocky toy car. This isn't just about",
+      "words": [
+        {
+          "word": " and",
+          "start": 95.72,
+          "end": 95.98,
+          "probability": 1.0
+        },
+        {
+          "word": " aggressive",
+          "start": 95.98,
+          "end": 96.24,
+          "probability": 1.0
+        },
+        {
+          "word": " race",
+          "start": 96.24,
+          "end": 96.62,
+          "probability": 0.94
+        },
+        {
+          "word": " blitters.",
+          "start": 96.62,
+          "end": 97.02,
+          "probability": 0.57
+        },
+        {
+          "word": " Fable",
+          "start": 97.66,
+          "end": 97.92,
+          "probability": 0.88
+        },
+        {
+          "word": " 5",
+          "start": 97.92,
+          "end": 98.26,
+          "probability": 0.99
+        },
+        {
+          "word": ".1",
+          "start": 98.26,
+          "end": 98.84,
+          "probability": 1.0
+        },
+        {
+          "word": " delivered",
+          "start": 98.84,
+          "end": 99.1,
+          "probability": 0.99
+        },
+        {
+          "word": " a",
+          "start": 99.1,
+          "end": 99.5,
+          "probability": 0.99
+        },
+        {
+          "word": " warped,",
+          "start": 99.5,
+          "end": 99.76,
+          "probability": 0.97
+        },
+        {
+          "word": " blocky",
+          "start": 100.54,
+          "end": 100.82,
+          "probability": 0.97
+        },
+        {
+          "word": " toy",
+          "start": 100.82,
+          "end": 100.98,
+          "probability": 0.99
+        },
+        {
+          "word": " car.",
+          "start": 100.98,
+          "end": 101.28,
+          "probability": 0.95
+        },
+        {
+          "word": " This",
+          "start": 101.82,
+          "end": 101.98,
+          "probability": 0.99
+        },
+        {
+          "word": " isn't",
+          "start": 101.98,
+          "end": 102.34,
+          "probability": 1.0
+        },
+        {
+          "word": " just",
+          "start": 102.34,
+          "end": 102.54,
+          "probability": 1.0
+        },
+        {
+          "word": " about",
+          "start": 102.54,
+          "end": 102.86,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 102.86,
+      "end": 109.08,
+      "text": "aesthetics. It is spatial reasoning. When Lumina tested a one-shot prompt to engineer a Boeing 777",
+      "words": [
+        {
+          "word": " aesthetics.",
+          "start": 102.86,
+          "end": 103.26,
+          "probability": 0.43
+        },
+        {
+          "word": " It",
+          "start": 104.32,
+          "end": 104.44,
+          "probability": 0.97
+        },
+        {
+          "word": " is",
+          "start": 104.44,
+          "end": 104.54,
+          "probability": 0.98
+        },
+        {
+          "word": " spatial",
+          "start": 104.54,
+          "end": 104.78,
+          "probability": 0.93
+        },
+        {
+          "word": " reasoning.",
+          "start": 104.78,
+          "end": 105.38,
+          "probability": 1.0
+        },
+        {
+          "word": " When",
+          "start": 106.0,
+          "end": 106.16,
+          "probability": 0.99
+        },
+        {
+          "word": " Lumina",
+          "start": 106.16,
+          "end": 106.52,
+          "probability": 0.76
+        },
+        {
+          "word": " tested",
+          "start": 106.52,
+          "end": 106.82,
+          "probability": 1.0
+        },
+        {
+          "word": " a",
+          "start": 106.82,
+          "end": 107.0,
+          "probability": 0.99
+        },
+        {
+          "word": " one",
+          "start": 107.0,
+          "end": 107.16,
+          "probability": 0.93
+        },
+        {
+          "word": "-shot",
+          "start": 107.16,
+          "end": 107.42,
+          "probability": 0.9
+        },
+        {
+          "word": " prompt",
+          "start": 107.42,
+          "end": 107.66,
+          "probability": 0.93
+        },
+        {
+          "word": " to",
+          "start": 107.66,
+          "end": 107.9,
+          "probability": 0.99
+        },
+        {
+          "word": " engineer",
+          "start": 107.9,
+          "end": 108.22,
+          "probability": 0.96
+        },
+        {
+          "word": " a",
+          "start": 108.22,
+          "end": 108.42,
+          "probability": 0.98
+        },
+        {
+          "word": " Boeing",
+          "start": 108.42,
+          "end": 108.58,
+          "probability": 0.99
+        },
+        {
+          "word": " 777",
+          "start": 108.58,
+          "end": 109.08,
+          "probability": 0.94
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 109.08,
+      "end": 113.88,
+      "text": "landing simulation, Astra spent 30 minutes researching real aircraft specifications,",
+      "words": [
+        {
+          "word": " landing",
+          "start": 109.08,
+          "end": 109.86,
+          "probability": 0.98
+        },
+        {
+          "word": " simulation,",
+          "start": 109.86,
+          "end": 110.4,
+          "probability": 0.99
+        },
+        {
+          "word": " Astra",
+          "start": 111.14,
+          "end": 111.42,
+          "probability": 0.77
+        },
+        {
+          "word": " spent",
+          "start": 111.42,
+          "end": 111.64,
+          "probability": 0.99
+        },
+        {
+          "word": " 30",
+          "start": 111.64,
+          "end": 111.96,
+          "probability": 0.96
+        },
+        {
+          "word": " minutes",
+          "start": 111.96,
+          "end": 112.18,
+          "probability": 0.94
+        },
+        {
+          "word": " researching",
+          "start": 112.18,
+          "end": 112.66,
+          "probability": 1.0
+        },
+        {
+          "word": " real",
+          "start": 112.66,
+          "end": 113.04,
+          "probability": 0.98
+        },
+        {
+          "word": " aircraft",
+          "start": 113.04,
+          "end": 113.4,
+          "probability": 1.0
+        },
+        {
+          "word": " specifications,",
+          "start": 113.4,
+          "end": 113.88,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start": 115.08,
+      "end": 119.32,
+      "text": "then built a fully interactive flight laboratory with real-time landing gear kinematics, pitch",
+      "words": [
+        {
+          "word": " then",
+          "start": 115.08,
+          "end": 115.22,
+          "probability": 0.99
+        },
+        {
+          "word": " built",
+          "start": 115.22,
+          "end": 115.44,
+          "probability": 1.0
+        },
+        {
+          "word": " a",
+          "start": 115.44,
+          "end": 115.58,
+          "probability": 1.0
+        },
+        {
+          "word": " fully",
+          "start": 115.58,
+          "end": 115.86,
+          "probability": 1.0
+        },
+        {
+          "word": " interactive",
+          "start": 115.86,
+          "end": 116.26,
+          "probability": 0.89
+        },
+        {
+          "word": " flight",
+          "start": 116.26,
+          "end": 116.64,
+          "probability": 0.99
+        },
+        {
+          "word": " laboratory",
+          "start": 116.64,
+          "end": 117.02,
+          "probability": 1.0
+        },
+        {
+          "word": " with",
+          "start": 117.02,
+          "end": 117.44,
+          "probability": 0.99
+        },
+        {
+          "word": " real",
+          "start": 117.44,
+          "end": 117.6,
+          "probability": 0.98
+        },
+        {
+          "word": "-time",
+          "start": 117.6,
+          "end": 117.9,
+          "probability": 0.94
+        },
+        {
+          "word": " landing",
+          "start": 117.9,
+          "end": 118.2,
+          "probability": 1.0
+        },
+        {
+          "word": " gear",
+          "start": 118.2,
+          "end": 118.42,
+          "probability": 0.98
+        },
+        {
+          "word": " kinematics,",
+          "start": 118.42,
+          "end": 118.96,
+          "probability": 0.98
+        },
+        {
+          "word": " pitch",
+          "start": 119.22,
+          "end": 119.32,
+          "probability": 0.96
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start": 119.32,
+      "end": 125.1,
+      "text": "attitude telemetry, and tire clearance physics. On AIML, API's multi-scene collision test,",
+      "words": [
+        {
+          "word": " attitude",
+          "start": 119.32,
+          "end": 119.56,
+          "probability": 0.57
+        },
+        {
+          "word": " telemetry,",
+          "start": 119.56,
+          "end": 120.2,
+          "probability": 0.99
+        },
+        {
+          "word": " and",
+          "start": 120.54,
+          "end": 120.6,
+          "probability": 1.0
+        },
+        {
+          "word": " tire",
+          "start": 120.6,
+          "end": 120.82,
+          "probability": 0.98
+        },
+        {
+          "word": " clearance",
+          "start": 120.82,
+          "end": 121.14,
+          "probability": 1.0
+        },
+        {
+          "word": " physics.",
+          "start": 121.14,
+          "end": 121.44,
+          "probability": 0.99
+        },
+        {
+          "word": " On",
+          "start": 122.18,
+          "end": 122.3,
+          "probability": 0.99
+        },
+        {
+          "word": " AIML,",
+          "start": 122.3,
+          "end": 122.94,
+          "probability": 0.74
+        },
+        {
+          "word": " API's",
+          "start": 123.2,
+          "end": 123.82,
+          "probability": 0.8
+        },
+        {
+          "word": " multi",
+          "start": 123.82,
+          "end": 124.08,
+          "probability": 0.74
+        },
+        {
+          "word": "-scene",
+          "start": 124.08,
+          "end": 124.38,
+          "probability": 0.82
+        },
+        {
+          "word": " collision",
+          "start": 124.38,
+          "end": 124.72,
+          "probability": 0.97
+        },
+        {
+          "word": " test,",
+          "start": 124.72,
+          "end": 125.1,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start": 125.78,
+      "end": 131.92,
+      "text": "Astra handled high-energy planetary particle physics in half the token count, costing $1.67",
+      "words": [
+        {
+          "word": " Astra",
+          "start": 125.78,
+          "end": 126.22,
+          "probability": 0.96
+        },
+        {
+          "word": " handled",
+          "start": 126.22,
+          "end": 126.46,
+          "probability": 0.81
+        },
+        {
+          "word": " high",
+          "start": 126.46,
+          "end": 126.78,
+          "probability": 0.99
+        },
+        {
+          "word": "-energy",
+          "start": 126.78,
+          "end": 127.1,
+          "probability": 0.93
+        },
+        {
+          "word": " planetary",
+          "start": 127.1,
+          "end": 127.44,
+          "probability": 0.94
+        },
+        {
+          "word": " particle",
+          "start": 127.44,
+          "end": 127.94,
+          "probability": 0.99
+        },
+        {
+          "word": " physics",
+          "start": 127.94,
+          "end": 128.4,
+          "probability": 1.0
+        },
+        {
+          "word": " in",
+          "start": 128.4,
+          "end": 128.76,
+          "probability": 0.99
+        },
+        {
+          "word": " half",
+          "start": 128.76,
+          "end": 129.0,
+          "probability": 0.99
+        },
+        {
+          "word": " the",
+          "start": 129.0,
+          "end": 129.24,
+          "probability": 0.99
+        },
+        {
+          "word": " token",
+          "start": 129.24,
+          "end": 129.44,
+          "probability": 0.74
+        },
+        {
+          "word": " count,",
+          "start": 129.44,
+          "end": 129.8,
+          "probability": 1.0
+        },
+        {
+          "word": " costing",
+          "start": 130.38,
+          "end": 130.8,
+          "probability": 1.0
+        },
+        {
+          "word": " $1",
+          "start": 130.8,
+          "end": 131.32,
+          "probability": 0.97
+        },
+        {
+          "word": ".67",
+          "start": 131.32,
+          "end": 131.92,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "start": 132.56,
+      "end": 138.66,
+      "text": "compared to Fable's $2.51. And in physical robotics, the gap turns into an abyss.",
+      "words": [
+        {
+          "word": " compared",
+          "start": 132.5,
+          "end": 132.8,
+          "probability": 0.0
+        },
+        {
+          "word": " to",
+          "start": 132.8,
+          "end": 133.08,
+          "probability": 0.99
+        },
+        {
+          "word": " Fable's",
+          "start": 133.08,
+          "end": 133.52,
+          "probability": 0.65
+        },
+        {
+          "word": " $2",
+          "start": 133.52,
+          "end": 133.78,
+          "probability": 0.9
+        },
+        {
+          "word": ".51.",
+          "start": 133.78,
+          "end": 134.68,
+          "probability": 0.99
+        },
+        {
+          "word": " And",
+          "start": 135.48,
+          "end": 135.74,
+          "probability": 0.88
+        },
+        {
+          "word": " in",
+          "start": 135.74,
+          "end": 135.9,
+          "probability": 0.96
+        },
+        {
+          "word": " physical",
+          "start": 135.9,
+          "end": 136.16,
+          "probability": 0.94
+        },
+        {
+          "word": " robotics,",
+          "start": 136.16,
+          "end": 136.68,
+          "probability": 0.98
+        },
+        {
+          "word": " the",
+          "start": 137.22,
+          "end": 137.24,
+          "probability": 0.99
+        },
+        {
+          "word": " gap",
+          "start": 137.24,
+          "end": 137.42,
+          "probability": 0.89
+        },
+        {
+          "word": " turns",
+          "start": 137.42,
+          "end": 137.84,
+          "probability": 1.0
+        },
+        {
+          "word": " into",
+          "start": 137.84,
+          "end": 138.3,
+          "probability": 0.99
+        },
+        {
+          "word": " an",
+          "start": 138.3,
+          "end": 138.46,
+          "probability": 0.99
+        },
+        {
+          "word": " abyss.",
+          "start": 138.46,
+          "end": 138.66,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "start": 139.4,
+      "end": 145.26,
+      "text": "In real robotic arm manipulation tests, Astra achieved a 95% task completion rate compared to",
+      "words": [
+        {
+          "word": " In",
+          "start": 139.4,
+          "end": 139.5,
+          "probability": 0.99
+        },
+        {
+          "word": " real",
+          "start": 139.5,
+          "end": 139.72,
+          "probability": 0.93
+        },
+        {
+          "word": " robotic",
+          "start": 139.72,
+          "end": 140.18,
+          "probability": 0.92
+        },
+        {
+          "word": " arm",
+          "start": 140.18,
+          "end": 140.46,
+          "probability": 0.84
+        },
+        {
+          "word": " manipulation",
+          "start": 140.46,
+          "end": 140.76,
+          "probability": 1.0
+        },
+        {
+          "word": " tests,",
+          "start": 140.76,
+          "end": 141.52,
+          "probability": 0.99
+        },
+        {
+          "word": " Astra",
+          "start": 141.94,
+          "end": 142.36,
+          "probability": 0.72
+        },
+        {
+          "word": " achieved",
+          "start": 142.36,
+          "end": 142.64,
+          "probability": 0.99
+        },
+        {
+          "word": " a",
+          "start": 142.64,
+          "end": 142.82,
+          "probability": 0.99
+        },
+        {
+          "word": " 95",
+          "start": 142.82,
+          "end": 143.06,
+          "probability": 0.99
+        },
+        {
+          "word": "%",
+          "start": 143.06,
+          "end": 143.7,
+          "probability": 0.94
+        },
+        {
+          "word": " task",
+          "start": 143.7,
+          "end": 143.94,
+          "probability": 0.88
+        },
+        {
+          "word": " completion",
+          "start": 143.94,
+          "end": 144.3,
+          "probability": 0.99
+        },
+        {
+          "word": " rate",
+          "start": 144.3,
+          "end": 144.7,
+          "probability": 1.0
+        },
+        {
+          "word": " compared",
+          "start": 144.7,
+          "end": 144.96,
+          "probability": 0.95
+        },
+        {
+          "word": " to",
+          "start": 144.96,
+          "end": 145.26,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "start": 145.26,
+      "end": 152.9,
+      "text": "Fable 5.1's 40%, while running 2.3 times cheaper. Why is this happening? Look at the A omniscience",
+      "words": [
+        {
+          "word": " Fable",
+          "start": 145.26,
+          "end": 145.48,
+          "probability": 1.0
+        },
+        {
+          "word": " 5",
+          "start": 145.48,
+          "end": 145.86,
+          "probability": 0.89
+        },
+        {
+          "word": ".1's",
+          "start": 145.86,
+          "end": 146.38,
+          "probability": 0.86
+        },
+        {
+          "word": " 40%,",
+          "start": 146.38,
+          "end": 147.14,
+          "probability": 0.75
+        },
+        {
+          "word": " while",
+          "start": 147.14,
+          "end": 147.66,
+          "probability": 1.0
+        },
+        {
+          "word": " running",
+          "start": 147.66,
+          "end": 147.94,
+          "probability": 1.0
+        },
+        {
+          "word": " 2",
+          "start": 147.94,
+          "end": 148.2,
+          "probability": 0.99
+        },
+        {
+          "word": ".3",
+          "start": 148.2,
+          "end": 148.66,
+          "probability": 1.0
+        },
+        {
+          "word": " times",
+          "start": 148.66,
+          "end": 148.98,
+          "probability": 0.62
+        },
+        {
+          "word": " cheaper.",
+          "start": 148.98,
+          "end": 149.16,
+          "probability": 1.0
+        },
+        {
+          "word": " Why",
+          "start": 149.88,
+          "end": 150.02,
+          "probability": 0.98
+        },
+        {
+          "word": " is",
+          "start": 150.02,
+          "end": 150.22,
+          "probability": 1.0
+        },
+        {
+          "word": " this",
+          "start": 150.22,
+          "end": 150.36,
+          "probability": 1.0
+        },
+        {
+          "word": " happening?",
+          "start": 150.36,
+          "end": 150.8,
+          "probability": 1.0
+        },
+        {
+          "word": " Look",
+          "start": 151.4,
+          "end": 151.62,
+          "probability": 0.99
+        },
+        {
+          "word": " at",
+          "start": 151.62,
+          "end": 151.9,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 151.9,
+          "end": 152.1,
+          "probability": 0.99
+        },
+        {
+          "word": " A",
+          "start": 152.1,
+          "end": 152.32,
+          "probability": 0.67
+        },
+        {
+          "word": " omniscience",
+          "start": 152.32,
+          "end": 152.9,
+          "probability": 0.75
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "start": 152.9,
+      "end": 158.92,
+      "text": "hallucination index. While Claude Fable 5.1 hallucinates at a staggering 73%,",
+      "words": [
+        {
+          "word": " hallucination",
+          "start": 152.9,
+          "end": 153.52,
+          "probability": 0.98
+        },
+        {
+          "word": " index.",
+          "start": 153.52,
+          "end": 154.1,
+          "probability": 1.0
+        },
+        {
+          "word": " While",
+          "start": 154.7,
+          "end": 154.94,
+          "probability": 0.99
+        },
+        {
+          "word": " Claude",
+          "start": 154.94,
+          "end": 155.18,
+          "probability": 0.7
+        },
+        {
+          "word": " Fable",
+          "start": 155.18,
+          "end": 155.52,
+          "probability": 0.99
+        },
+        {
+          "word": " 5",
+          "start": 155.52,
+          "end": 155.96,
+          "probability": 0.96
+        },
+        {
+          "word": ".1",
+          "start": 155.96,
+          "end": 156.42,
+          "probability": 1.0
+        },
+        {
+          "word": " hallucinates",
+          "start": 156.42,
+          "end": 156.96,
+          "probability": 0.97
+        },
+        {
+          "word": " at",
+          "start": 156.96,
+          "end": 157.24,
+          "probability": 1.0
+        },
+        {
+          "word": " a",
+          "start": 157.24,
+          "end": 157.32,
+          "probability": 1.0
+        },
+        {
+          "word": " staggering",
+          "start": 157.32,
+          "end": 157.58,
+          "probability": 0.99
+        },
+        {
+          "word": " 73%,",
+          "start": 157.58,
+          "end": 158.92,
+          "probability": 0.94
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "start": 158.92,
+      "end": 165.94,
+      "text": "GPT-6 Astra slashed the down to 51%, nearly half the hallucination rate of previous generation models.",
+      "words": [
+        {
+          "word": " GPT",
+          "start": 158.92,
+          "end": 159.6,
+          "probability": 0.75
+        },
+        {
+          "word": "-6",
+          "start": 159.6,
+          "end": 160.06,
+          "probability": 0.81
+        },
+        {
+          "word": " Astra",
+          "start": 160.06,
+          "end": 160.46,
+          "probability": 0.81
+        },
+        {
+          "word": " slashed",
+          "start": 160.46,
+          "end": 160.88,
+          "probability": 0.9
+        },
+        {
+          "word": " the",
+          "start": 160.88,
+          "end": 161.08,
+          "probability": 0.79
+        },
+        {
+          "word": " down",
+          "start": 161.08,
+          "end": 161.32,
+          "probability": 0.95
+        },
+        {
+          "word": " to",
+          "start": 161.32,
+          "end": 161.46,
+          "probability": 0.98
+        },
+        {
+          "word": " 51%,",
+          "start": 161.46,
+          "end": 162.46,
+          "probability": 0.6
+        },
+        {
+          "word": " nearly",
+          "start": 162.46,
+          "end": 163.18,
+          "probability": 0.98
+        },
+        {
+          "word": " half",
+          "start": 163.18,
+          "end": 163.56,
+          "probability": 0.99
+        },
+        {
+          "word": " the",
+          "start": 163.56,
+          "end": 163.8,
+          "probability": 0.98
+        },
+        {
+          "word": " hallucination",
+          "start": 163.8,
+          "end": 164.2,
+          "probability": 0.99
+        },
+        {
+          "word": " rate",
+          "start": 164.2,
+          "end": 164.6,
+          "probability": 1.0
+        },
+        {
+          "word": " of",
+          "start": 164.6,
+          "end": 164.8,
+          "probability": 1.0
+        },
+        {
+          "word": " previous",
+          "start": 164.8,
+          "end": 165.0,
+          "probability": 0.99
+        },
+        {
+          "word": " generation",
+          "start": 165.0,
+          "end": 165.4,
+          "probability": 0.75
+        },
+        {
+          "word": " models.",
+          "start": 165.4,
+          "end": 165.94,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "start": 166.64,
+      "end": 173.34,
+      "text": "On Code Arena's WebDev leaderboard, AstraMax locked down the number one parato spot at 1797",
+      "words": [
+        {
+          "word": " On",
+          "start": 166.64,
+          "end": 166.72,
+          "probability": 0.98
+        },
+        {
+          "word": " Code",
+          "start": 166.72,
+          "end": 167.0,
+          "probability": 0.46
+        },
+        {
+          "word": " Arena's",
+          "start": 167.0,
+          "end": 167.5,
+          "probability": 0.83
+        },
+        {
+          "word": " WebDev",
+          "start": 167.5,
+          "end": 167.9,
+          "probability": 0.63
+        },
+        {
+          "word": " leaderboard,",
+          "start": 167.9,
+          "end": 168.42,
+          "probability": 0.86
+        },
+        {
+          "word": " AstraMax",
+          "start": 169.14,
+          "end": 169.72,
+          "probability": 0.79
+        },
+        {
+          "word": " locked",
+          "start": 169.72,
+          "end": 170.3,
+          "probability": 0.96
+        },
+        {
+          "word": " down",
+          "start": 170.3,
+          "end": 170.56,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 170.56,
+          "end": 170.7,
+          "probability": 0.99
+        },
+        {
+          "word": " number",
+          "start": 170.7,
+          "end": 170.92,
+          "probability": 0.69
+        },
+        {
+          "word": " one",
+          "start": 170.92,
+          "end": 171.18,
+          "probability": 0.52
+        },
+        {
+          "word": " parato",
+          "start": 171.18,
+          "end": 171.54,
+          "probability": 0.28
+        },
+        {
+          "word": " spot",
+          "start": 171.54,
+          "end": 171.9,
+          "probability": 0.98
+        },
+        {
+          "word": " at",
+          "start": 171.9,
+          "end": 172.24,
+          "probability": 0.99
+        },
+        {
+          "word": " 1797",
+          "start": 172.24,
+          "end": 173.34,
+          "probability": 0.91
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "start": 173.34,
+      "end": 180.16,
+      "text": "points. Developers are pushing this into absurd territory. Amar Reshi used Astra to compile and",
+      "words": [
+        {
+          "word": " points.",
+          "start": 173.34,
+          "end": 173.72,
+          "probability": 0.96
+        },
+        {
+          "word": " Developers",
+          "start": 174.32,
+          "end": 174.6,
+          "probability": 0.95
+        },
+        {
+          "word": " are",
+          "start": 174.6,
+          "end": 175.16,
+          "probability": 1.0
+        },
+        {
+          "word": " pushing",
+          "start": 175.16,
+          "end": 175.44,
+          "probability": 1.0
+        },
+        {
+          "word": " this",
+          "start": 175.44,
+          "end": 175.8,
+          "probability": 0.99
+        },
+        {
+          "word": " into",
+          "start": 175.8,
+          "end": 176.16,
+          "probability": 0.99
+        },
+        {
+          "word": " absurd",
+          "start": 176.16,
+          "end": 176.58,
+          "probability": 0.99
+        },
+        {
+          "word": " territory.",
+          "start": 176.58,
+          "end": 177.22,
+          "probability": 1.0
+        },
+        {
+          "word": " Amar",
+          "start": 178.12,
+          "end": 178.12,
+          "probability": 0.23
+        },
+        {
+          "word": " Reshi",
+          "start": 178.12,
+          "end": 178.58,
+          "probability": 0.46
+        },
+        {
+          "word": " used",
+          "start": 178.58,
+          "end": 178.82,
+          "probability": 1.0
+        },
+        {
+          "word": " Astra",
+          "start": 178.82,
+          "end": 179.3,
+          "probability": 0.98
+        },
+        {
+          "word": " to",
+          "start": 179.3,
+          "end": 179.48,
+          "probability": 1.0
+        },
+        {
+          "word": " compile",
+          "start": 179.48,
+          "end": 179.74,
+          "probability": 1.0
+        },
+        {
+          "word": " and",
+          "start": 179.74,
+          "end": 180.16,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "start": 180.16,
+      "end": 186.08,
+      "text": "execute AAA PC games like Skyrim and Batman Arkham City directly on an iPad Mini with native touch",
+      "words": [
+        {
+          "word": " execute",
+          "start": 180.16,
+          "end": 180.58,
+          "probability": 1.0
+        },
+        {
+          "word": " AAA",
+          "start": 180.58,
+          "end": 181.08,
+          "probability": 0.64
+        },
+        {
+          "word": " PC",
+          "start": 181.08,
+          "end": 181.36,
+          "probability": 0.42
+        },
+        {
+          "word": " games",
+          "start": 181.36,
+          "end": 181.76,
+          "probability": 0.97
+        },
+        {
+          "word": " like",
+          "start": 181.76,
+          "end": 182.12,
+          "probability": 0.91
+        },
+        {
+          "word": " Skyrim",
+          "start": 182.12,
+          "end": 182.44,
+          "probability": 0.96
+        },
+        {
+          "word": " and",
+          "start": 182.44,
+          "end": 182.84,
+          "probability": 0.99
+        },
+        {
+          "word": " Batman",
+          "start": 182.84,
+          "end": 183.04,
+          "probability": 0.57
+        },
+        {
+          "word": " Arkham",
+          "start": 183.04,
+          "end": 183.38,
+          "probability": 0.9
+        },
+        {
+          "word": " City",
+          "start": 183.38,
+          "end": 183.76,
+          "probability": 0.98
+        },
+        {
+          "word": " directly",
+          "start": 183.76,
+          "end": 184.14,
+          "probability": 0.94
+        },
+        {
+          "word": " on",
+          "start": 184.14,
+          "end": 184.58,
+          "probability": 1.0
+        },
+        {
+          "word": " an",
+          "start": 184.58,
+          "end": 184.68,
+          "probability": 0.99
+        },
+        {
+          "word": " iPad",
+          "start": 184.68,
+          "end": 184.88,
+          "probability": 0.96
+        },
+        {
+          "word": " Mini",
+          "start": 184.88,
+          "end": 185.3,
+          "probability": 0.41
+        },
+        {
+          "word": " with",
+          "start": 185.3,
+          "end": 185.58,
+          "probability": 0.99
+        },
+        {
+          "word": " native",
+          "start": 185.58,
+          "end": 185.8,
+          "probability": 0.92
+        },
+        {
+          "word": " touch",
+          "start": 185.8,
+          "end": 186.08,
+          "probability": 0.96
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "start": 186.08,
+      "end": 192.96,
+      "text": "controls. Priesh built an entire 3D geological history of Earth in 30 minutes using just 4% of",
+      "words": [
+        {
+          "word": " controls.",
+          "start": 186.08,
+          "end": 186.54,
+          "probability": 0.62
+        },
+        {
+          "word": " Priesh",
+          "start": 187.2,
+          "end": 187.5,
+          "probability": 0.54
+        },
+        {
+          "word": " built",
+          "start": 187.5,
+          "end": 187.86,
+          "probability": 0.98
+        },
+        {
+          "word": " an",
+          "start": 187.86,
+          "end": 188.1,
+          "probability": 0.99
+        },
+        {
+          "word": " entire",
+          "start": 188.1,
+          "end": 188.36,
+          "probability": 1.0
+        },
+        {
+          "word": " 3D",
+          "start": 188.36,
+          "end": 189.04,
+          "probability": 0.93
+        },
+        {
+          "word": " geological",
+          "start": 189.04,
+          "end": 189.34,
+          "probability": 0.99
+        },
+        {
+          "word": " history",
+          "start": 189.34,
+          "end": 190.04,
+          "probability": 0.99
+        },
+        {
+          "word": " of",
+          "start": 190.04,
+          "end": 190.24,
+          "probability": 1.0
+        },
+        {
+          "word": " Earth",
+          "start": 190.24,
+          "end": 190.4,
+          "probability": 0.76
+        },
+        {
+          "word": " in",
+          "start": 190.4,
+          "end": 190.76,
+          "probability": 0.97
+        },
+        {
+          "word": " 30",
+          "start": 190.76,
+          "end": 191.02,
+          "probability": 0.97
+        },
+        {
+          "word": " minutes",
+          "start": 191.02,
+          "end": 191.32,
+          "probability": 0.98
+        },
+        {
+          "word": " using",
+          "start": 191.32,
+          "end": 191.66,
+          "probability": 0.95
+        },
+        {
+          "word": " just",
+          "start": 191.66,
+          "end": 192.06,
+          "probability": 0.99
+        },
+        {
+          "word": " 4",
+          "start": 192.06,
+          "end": 192.34,
+          "probability": 0.92
+        },
+        {
+          "word": "%",
+          "start": 192.34,
+          "end": 192.74,
+          "probability": 0.92
+        },
+        {
+          "word": " of",
+          "start": 192.74,
+          "end": 192.96,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "start": 192.96,
+      "end": 199.76,
+      "text": "a weekly quota. Yes, on Simplebench, both models technically broke past the human baseline of 83.7%.",
+      "words": [
+        {
+          "word": " a",
+          "start": 192.96,
+          "end": 193.04,
+          "probability": 1.0
+        },
+        {
+          "word": " weekly",
+          "start": 193.04,
+          "end": 193.22,
+          "probability": 0.96
+        },
+        {
+          "word": " quota.",
+          "start": 193.22,
+          "end": 193.58,
+          "probability": 1.0
+        },
+        {
+          "word": " Yes,",
+          "start": 194.28,
+          "end": 194.48,
+          "probability": 0.98
+        },
+        {
+          "word": " on",
+          "start": 194.68,
+          "end": 194.84,
+          "probability": 1.0
+        },
+        {
+          "word": " Simplebench,",
+          "start": 194.84,
+          "end": 195.38,
+          "probability": 0.82
+        },
+        {
+          "word": " both",
+          "start": 195.74,
+          "end": 195.84,
+          "probability": 1.0
+        },
+        {
+          "word": " models",
+          "start": 195.84,
+          "end": 196.22,
+          "probability": 0.99
+        },
+        {
+          "word": " technically",
+          "start": 196.22,
+          "end": 196.72,
+          "probability": 0.99
+        },
+        {
+          "word": " broke",
+          "start": 196.72,
+          "end": 197.1,
+          "probability": 1.0
+        },
+        {
+          "word": " past",
+          "start": 197.1,
+          "end": 197.52,
+          "probability": 0.96
+        },
+        {
+          "word": " the",
+          "start": 197.52,
+          "end": 197.78,
+          "probability": 1.0
+        },
+        {
+          "word": " human",
+          "start": 197.78,
+          "end": 197.98,
+          "probability": 1.0
+        },
+        {
+          "word": " baseline",
+          "start": 197.98,
+          "end": 198.36,
+          "probability": 0.95
+        },
+        {
+          "word": " of",
+          "start": 198.36,
+          "end": 198.74,
+          "probability": 1.0
+        },
+        {
+          "word": " 83",
+          "start": 198.74,
+          "end": 198.98,
+          "probability": 0.99
+        },
+        {
+          "word": ".7%.",
+          "start": 198.98,
+          "end": 199.76,
+          "probability": 0.9
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "start": 200.34,
+      "end": 205.78,
+      "text": "But when software 3D engines and autonomous computer use are on the line, the leaderboard",
+      "words": [
+        {
+          "word": " But",
+          "start": 200.34,
+          "end": 200.88,
+          "probability": 0.99
+        },
+        {
+          "word": " when",
+          "start": 200.88,
+          "end": 201.1,
+          "probability": 0.92
+        },
+        {
+          "word": " software",
+          "start": 201.1,
+          "end": 201.44,
+          "probability": 0.99
+        },
+        {
+          "word": " 3D",
+          "start": 201.44,
+          "end": 202.22,
+          "probability": 0.65
+        },
+        {
+          "word": " engines",
+          "start": 202.22,
+          "end": 202.48,
+          "probability": 0.97
+        },
+        {
+          "word": " and",
+          "start": 202.48,
+          "end": 203.02,
+          "probability": 0.96
+        },
+        {
+          "word": " autonomous",
+          "start": 203.02,
+          "end": 203.38,
+          "probability": 0.96
+        },
+        {
+          "word": " computer",
+          "start": 203.38,
+          "end": 203.74,
+          "probability": 1.0
+        },
+        {
+          "word": " use",
+          "start": 203.74,
+          "end": 204.14,
+          "probability": 1.0
+        },
+        {
+          "word": " are",
+          "start": 204.14,
+          "end": 204.44,
+          "probability": 1.0
+        },
+        {
+          "word": " on",
+          "start": 204.44,
+          "end": 204.66,
+          "probability": 1.0
+        },
+        {
+          "word": " the",
+          "start": 204.66,
+          "end": 204.76,
+          "probability": 0.99
+        },
+        {
+          "word": " line,",
+          "start": 204.76,
+          "end": 205.02,
+          "probability": 0.99
+        },
+        {
+          "word": " the",
+          "start": 205.3,
+          "end": 205.36,
+          "probability": 1.0
+        },
+        {
+          "word": " leaderboard",
+          "start": 205.36,
+          "end": 205.78,
+          "probability": 0.95
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "start": 205.78,
+      "end": 211.88,
+      "text": "lied. GPT-6 Astra isn't just an LLM. It is an autonomous digital operator.",
+      "words": [
+        {
+          "word": " lied.",
+          "start": 205.78,
+          "end": 206.16,
+          "probability": 0.0
+        },
+        {
+          "word": " GPT",
+          "start": 206.78,
+          "end": 207.1,
+          "probability": 0.95
+        },
+        {
+          "word": "-6",
+          "start": 207.1,
+          "end": 207.62,
+          "probability": 0.88
+        },
+        {
+          "word": " Astra",
+          "start": 207.62,
+          "end": 208.16,
+          "probability": 0.9
+        },
+        {
+          "word": " isn't",
+          "start": 208.16,
+          "end": 208.58,
+          "probability": 0.98
+        },
+        {
+          "word": " just",
+          "start": 208.58,
+          "end": 208.74,
+          "probability": 1.0
+        },
+        {
+          "word": " an",
+          "start": 208.74,
+          "end": 208.94,
+          "probability": 0.99
+        },
+        {
+          "word": " LLM.",
+          "start": 208.94,
+          "end": 209.56,
+          "probability": 0.96
+        },
+        {
+          "word": " It",
+          "start": 210.22,
+          "end": 210.34,
+          "probability": 0.97
+        },
+        {
+          "word": " is",
+          "start": 210.34,
+          "end": 210.42,
+          "probability": 0.99
+        },
+        {
+          "word": " an",
+          "start": 210.42,
+          "end": 210.54,
+          "probability": 1.0
+        },
+        {
+          "word": " autonomous",
+          "start": 210.54,
+          "end": 210.82,
+          "probability": 0.92
+        },
+        {
+          "word": " digital",
+          "start": 210.82,
+          "end": 211.42,
+          "probability": 0.98
+        },
+        {
+          "word": " operator.",
+          "start": 211.42,
+          "end": 211.88,
+          "probability": 0.99
+        }
+      ]
+    }
+  ]
+}

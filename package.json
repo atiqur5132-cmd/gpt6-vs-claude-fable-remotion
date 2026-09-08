@@ -1,0 +1,23 @@
+{
+  "name": "gpt6-vs-fable-remotion",
+  "version": "1.0.0",
+  "description": "Cinematic AI Documentary: GPT-6 Astra vs Claude Fable 5.1",
+  "scripts": {
+    "start": "remotion preview",
+    "build": "remotion render Video out/video.mp4",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.260",
+    "@remotion/media-utils": "^4.0.260",
+    "lucide-react": "^1.16.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "remotion": "^4.0.260"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

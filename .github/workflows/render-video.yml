@@ -1,0 +1,35 @@
+name: Render Remotion Video
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Ensure Chrome Headless Shell
+        run: npx remotion browser ensure
+
+      - name: Render Full MP4 Video
+        run: npx remotion render Video out/video.mp4 --concurrency=4
+
+      - name: Upload Rendered Video
+        uses: actions/upload-artifact@v4
+        with:
+          name: gpt6-vs-fable-video
+          path: out/video.mp4
