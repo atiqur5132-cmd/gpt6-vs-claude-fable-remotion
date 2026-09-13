@@ -1,642 +1,320 @@
-import React from "react";
-import { AbsoluteFill, Img, staticFile } from "remotion";
-import { OpenAILogo, AnthropicLogo, DeepSeekLogo, GoogleGeminiLogo } from "./RealLogos";
+import React, { useMemo } from "react";
+import { AbsoluteFill } from "remotion";
+import { OpenAILogo, DeepSeekLogo } from "./RealLogos";
+
+export type ThumbnailStyleVariant = "gpt6_astra_red" | "gpt6_sol_blue" | "deepseek_v4_blue" | "frontier_leaks_blue";
 
 interface ThumbnailProps {
-  variant?: "hypocrisy" | "shootout" | "leak";
+  variant?: ThumbnailStyleVariant;
 }
 
-export const Thumbnail: React.FC<ThumbnailProps> = ({ variant = "hypocrisy" }) => {
-  if (variant === "shootout") {
-    return (
-      <AbsoluteFill
-        style={{
-          backgroundColor: "#060913",
-          fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-          overflow: "hidden",
-        }}
-      >
-        {/* Background Atmospheric Glows */}
-        <div
-          style={{
-            position: "absolute",
-            top: "-15%",
-            left: "-10%",
-            width: 900,
-            height: 900,
-            background: "radial-gradient(circle, rgba(0, 112, 243, 0.28) 0%, transparent 70%)",
-            filter: "blur(80px)",
-          }}
+// 3D Perspective Wave Grid Generator (exact math matching the channel reference)
+const WaveMesh: React.FC<{ themeColor: "blue" | "red" }> = ({ themeColor }) => {
+  const isRed = themeColor === "red";
+  const primaryColor = isRed ? "#FF4444" : "#38BDF8";
+  const dimColor = isRed ? "rgba(255, 68, 68, 0.22)" : "rgba(56, 189, 248, 0.22)";
+
+  const { dots, lines } = useMemo(() => {
+    const width = 1920;
+    const height = 1080;
+    const rows = 40;
+    const cols = 64;
+    const grid: { x: number; y: number; z: number; size: number; opacity: number }[][] = [];
+
+    for (let r = 0; r < rows; r++) {
+      const v = r / (rows - 1);
+      const z = 340 + v * 1750;
+      grid[r] = [];
+
+      for (let c = 0; c < cols; c++) {
+        const u = c / (cols - 1);
+        const x = (u - 0.44) * 3000;
+        // Natural landscape undulating waves
+        const wave1 = Math.sin(u * Math.PI * 2.2 - 0.3) * 180;
+        const wave2 = Math.cos(v * Math.PI * 1.5) * 160;
+        const wave3 = Math.sin((u * 1.5 + v) * 3.8) * 60;
+        const y = 350 - (wave1 + wave2 + wave3);
+
+        const focal = 950;
+        const projX = width * 0.5 + (x * focal) / z;
+        const projY = height * 0.42 + (y * focal) / z;
+
+        const size = Math.max(1.1, (1100 / z) * 2.6);
+        const opacity = Math.min(1, Math.max(0.12, 1 - (z - 340) / 1650));
+
+        grid[r][c] = { x: projX, y: projY, z, size, opacity };
+      }
+    }
+
+    const allDots: { x: number; y: number; size: number; opacity: number }[] = [];
+    const lineSegments: { x1: number; y1: number; x2: number; y2: number; opacity: number }[] = [];
+
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        const p = grid[r][c];
+        if (p.x >= -60 && p.x <= width + 60 && p.y >= 240 && p.y <= height + 60) {
+          allDots.push(p);
+
+          if (c < cols - 1) {
+            const nextP = grid[r][c + 1];
+            if (nextP.x >= -60 && nextP.x <= width + 60 && nextP.y >= 240 && nextP.y <= height + 60) {
+              lineSegments.push({
+                x1: p.x,
+                y1: p.y,
+                x2: nextP.x,
+                y2: nextP.y,
+                opacity: p.opacity * 0.2,
+              });
+            }
+          }
+        }
+      }
+    }
+
+    return { dots: allDots, lines: lineSegments };
+  }, []);
+
+  return (
+    <svg
+      style={{
+        position: "absolute",
+        inset: 0,
+        width: 1920,
+        height: 1080,
+        pointerEvents: "none",
+        zIndex: 5,
+      }}
+    >
+      <defs>
+        <radialGradient id={`dotGlow-${themeColor}`} cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stopColor="#FFFFFF" stopOpacity="1" />
+          <stop offset="60%" stopColor={primaryColor} stopOpacity="0.85" />
+          <stop offset="100%" stopColor={primaryColor} stopOpacity="0" />
+        </radialGradient>
+      </defs>
+
+      {/* Wireframe Grid Lines */}
+      {lines.map((l, i) => (
+        <line
+          key={`l-${i}`}
+          x1={l.x1}
+          y1={l.y1}
+          x2={l.x2}
+          y2={l.y2}
+          stroke={dimColor}
+          strokeWidth={0.7}
+          strokeOpacity={l.opacity}
         />
-        <div
-          style={{
-            position: "absolute",
-            bottom: "-15%",
-            right: "-10%",
-            width: 1000,
-            height: 1000,
-            background: "radial-gradient(circle, rgba(16, 185, 129, 0.25) 0%, transparent 70%)",
-            filter: "blur(90px)",
-          }}
+      ))}
+
+      {/* 3D Wave Perspective Dots */}
+      {dots.map((d, i) => (
+        <circle
+          key={`d-${i}`}
+          cx={d.x}
+          cy={d.y}
+          r={d.size}
+          fill={d.size > 2.2 ? `url(#dotGlow-${themeColor})` : primaryColor}
+          opacity={d.opacity}
         />
+      ))}
+    </svg>
+  );
+};
 
-        {/* Subtle high-tech grid texture */}
-        <div
-          style={{
-            position: "absolute",
-            inset: 0,
-            backgroundImage: "radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px)",
-            backgroundSize: "32px 32px",
-            opacity: 0.7,
-          }}
-        />
+// Verified Badge (Twitter / YouTube Blue Checkmark)
+const VerifiedBadge: React.FC<{ size?: number }> = ({ size = 28 }) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    style={{ display: "inline-block", verticalAlign: "middle", filter: "drop-shadow(0 2px 4px rgba(0,0,0,0.6))" }}
+  >
+    <circle cx="12" cy="12" r="11" fill="#1D9BF0" />
+    <path
+      d="M7.5 12.2L10.5 15.2L16.5 9.2"
+      stroke="#FFFFFF"
+      strokeWidth="2.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
 
-        {/* Content Container */}
-        <div
-          style={{
-            position: "absolute",
-            inset: 0,
-            padding: "60px 72px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-            zIndex: 10,
-          }}
-        >
-          {/* Left Column (Text & Badges) */}
-          <div
-            style={{
-              width: 740,
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              gap: 22,
-            }}
-          >
-            {/* Authentic Brand Badges */}
-            <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: 12,
-                  padding: "10px 24px",
-                  background: "rgba(10, 18, 36, 0.88)",
-                  border: "1.5px solid rgba(56, 189, 248, 0.5)",
-                  borderRadius: 14,
-                  backdropFilter: "blur(16px)",
-                  boxShadow: "0 8px 24px rgba(0, 0, 0, 0.4)",
-                }}
-              >
-                <DeepSeekLogo size={36} />
-                <span style={{ color: "#38BDF8", fontWeight: 800, fontSize: 20, letterSpacing: -0.2 }}>
-                  DeepSeek V4.1
-                </span>
-              </div>
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: 12,
-                  padding: "10px 24px",
-                  background: "rgba(10, 18, 36, 0.88)",
-                  border: "1.5px solid rgba(16, 185, 129, 0.5)",
-                  borderRadius: 14,
-                  backdropFilter: "blur(16px)",
-                  boxShadow: "0 8px 24px rgba(0, 0, 0, 0.4)",
-                }}
-              >
-                <GoogleGeminiLogo size={34} />
-                <span style={{ color: "#10B981", fontWeight: 800, fontSize: 20, letterSpacing: -0.2 }}>
-                  Gemini 3.8
-                </span>
-              </div>
-            </div>
+export const Thumbnail: React.FC<ThumbnailProps> = ({ variant = "gpt6_astra_red" }) => {
+  let borderColor = "#FF1818";
+  let theme: "blue" | "red" = "red";
+  let logoNode = <OpenAILogo size={52} color="#FFFFFF" />;
+  let companyName = "OPENAI";
+  let preTitle = "BEST USECASE";
+  let preTitleColor = "#FF4848";
+  let heroTitle = "GPT-6 ASTRA";
+  let heroGlow = "0 0 20px #FFFFFF, 0 0 45px rgba(255, 60, 60, 0.95), 0 0 90px rgba(255, 30, 30, 0.75), 0 0 140px rgba(255, 10, 10, 0.4)";
+  let streakGradient = "radial-gradient(ellipse at center, rgba(255, 35, 35, 0.4) 0%, rgba(255, 35, 35, 0.15) 45%, transparent 70%)";
 
-            {/* Category Alert Pill */}
-            <div
-              style={{
-                alignSelf: "flex-start",
-                padding: "8px 22px",
-                background: "rgba(239, 68, 68, 0.16)",
-                border: "1.5px solid #EF4444",
-                borderRadius: 8,
-                color: "#F87171",
-                fontSize: 16,
-                fontWeight: 900,
-                letterSpacing: 2.5,
-                textTransform: "uppercase",
-              }}
-            >
-              THE CLOSED MOAT IS DEAD
-            </div>
-
-            {/* Giant Kinetic Typography */}
-            <div style={{ display: "flex", flexDirection: "column", lineHeight: 0.92, marginTop: 4 }}>
-              <span
-                style={{
-                  fontSize: 130,
-                  fontWeight: 950,
-                  color: "#FFFFFF",
-                  letterSpacing: -4,
-                  textShadow: "0 10px 40px rgba(0,0,0,0.9)",
-                }}
-              >
-                CHEAP AI
-              </span>
-              <span
-                style={{
-                  fontSize: 130,
-                  fontWeight: 950,
-                  color: "#00E5FF",
-                  letterSpacing: -4,
-                  textShadow: "0 0 50px rgba(0, 229, 255, 0.8)",
-                }}
-              >
-                JUST WON.
-              </span>
-            </div>
-
-            {/* Price Contrast Punchline */}
-            <div style={{ marginTop: 10 }}>
-              <span
-                style={{
-                  display: "inline-block",
-                  fontSize: 32,
-                  fontWeight: 900,
-                  color: "#F59E0B",
-                  background: "rgba(245, 158, 11, 0.14)",
-                  padding: "14px 28px",
-                  borderRadius: 14,
-                  border: "1.5px solid rgba(245, 158, 11, 0.55)",
-                  letterSpacing: 1,
-                  boxShadow: "0 10px 30px rgba(245, 158, 11, 0.15)",
-                }}
-              >
-                $200 SUBSCRIPTION VS 0.002¢
-              </span>
-            </div>
-          </div>
-
-          {/* Right Column: Exact 16:9 Uncropped Evidence Card */}
-          <div
-            style={{
-              width: 980,
-              height: 551.25, // 980 * 9 / 16 = exact 16:9! Zero crop!
-              borderRadius: 20,
-              overflow: "hidden",
-              border: "2px solid rgba(56, 189, 248, 0.5)",
-              boxShadow: "0 30px 90px rgba(0,0,0,0.95), 0 0 60px rgba(0, 112, 243, 0.35)",
-              position: "relative",
-              backgroundColor: "#000000",
-            }}
-          >
-            <Img
-              src={staticFile("daily_evidence/thumb_hero_shootout.png")}
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover", // Perfect 1:1 pixel match, zero crop because aspect ratio matches 16:9!
-              }}
-            />
-
-            {/* Top Telemetry Overlay */}
-            <div
-              style={{
-                position: "absolute",
-                top: 20,
-                left: 20,
-                background: "rgba(6, 10, 18, 0.92)",
-                backdropFilter: "blur(14px)",
-                border: "1px solid rgba(16, 185, 129, 0.6)",
-                borderRadius: 10,
-                padding: "8px 20px",
-                display: "flex",
-                alignItems: "center",
-                gap: 10,
-              }}
-            >
-              <div style={{ width: 10, height: 10, borderRadius: "50%", background: "#10B981" }} />
-              <span style={{ color: "#E2E8F0", fontSize: 14, fontWeight: 800, letterSpacing: 1 }}>
-                REAL 4-WAY 60 FPS WEBGL REEF
-              </span>
-            </div>
-
-            {/* Bottom Right Live Badge */}
-            <div
-              style={{
-                position: "absolute",
-                bottom: 20,
-                right: 20,
-                background: "rgba(6, 10, 18, 0.94)",
-                backdropFilter: "blur(14px)",
-                border: "1px solid rgba(245, 158, 11, 0.6)",
-                borderRadius: 10,
-                padding: "8px 20px",
-                color: "#F59E0B",
-                fontSize: 14,
-                fontWeight: 800,
-                letterSpacing: 1,
-              }}
-            >
-              2-SECOND HOT RELOAD
-            </div>
-          </div>
-        </div>
-      </AbsoluteFill>
-    );
+  if (variant === "gpt6_sol_blue") {
+    borderColor = "#007BFF";
+    theme = "blue";
+    logoNode = <OpenAILogo size={52} color="#FFFFFF" />;
+    companyName = "OPENAI";
+    preTitle = "INTRODUCING";
+    preTitleColor = "#38BDF8";
+    heroTitle = "GPT-6 'SOL'";
+    heroGlow = "0 0 20px #FFFFFF, 0 0 45px rgba(0, 160, 255, 0.95), 0 0 90px rgba(0, 130, 255, 0.75), 0 0 140px rgba(0, 90, 255, 0.45)";
+    streakGradient = "radial-gradient(ellipse at center, rgba(0, 130, 255, 0.4) 0%, rgba(0, 130, 255, 0.15) 45%, transparent 70%)";
+  } else if (variant === "deepseek_v4_blue") {
+    borderColor = "#007BFF";
+    theme = "blue";
+    logoNode = <DeepSeekLogo size={52} />;
+    companyName = "DEEPSEEK";
+    preTitle = "INTRODUCING";
+    preTitleColor = "#38BDF8";
+    heroTitle = "DEEPSEEK V4.1";
+    heroGlow = "0 0 20px #FFFFFF, 0 0 45px rgba(0, 160, 255, 0.95), 0 0 90px rgba(0, 130, 255, 0.75), 0 0 140px rgba(0, 90, 255, 0.45)";
+    streakGradient = "radial-gradient(ellipse at center, rgba(0, 130, 255, 0.4) 0%, rgba(0, 130, 255, 0.15) 45%, transparent 70%)";
+  } else if (variant === "frontier_leaks_blue") {
+    borderColor = "#007BFF";
+    theme = "blue";
+    logoNode = <OpenAILogo size={52} color="#FFFFFF" />;
+    companyName = "OPENAI";
+    preTitle = "NEW LEAKS ON";
+    preTitleColor = "#38BDF8";
+    heroTitle = "GPT-6 & FABLE";
+    heroGlow = "0 0 20px #FFFFFF, 0 0 45px rgba(0, 160, 255, 0.95), 0 0 90px rgba(0, 130, 255, 0.75), 0 0 140px rgba(0, 90, 255, 0.45)";
+    streakGradient = "radial-gradient(ellipse at center, rgba(0, 130, 255, 0.4) 0%, rgba(0, 130, 255, 0.15) 45%, transparent 70%)";
   }
 
-  if (variant === "leak") {
-    return (
-      <AbsoluteFill
-        style={{
-          backgroundColor: "#060913",
-          fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-          overflow: "hidden",
-        }}
-      >
-        {/* Glowing backdrop */}
-        <div
-          style={{
-            position: "absolute",
-            top: "-20%",
-            left: "20%",
-            width: 1000,
-            height: 1000,
-            background: "radial-gradient(circle, rgba(239, 68, 68, 0.3) 0%, transparent 70%)",
-            filter: "blur(100px)",
-          }}
-        />
-
-        {/* Content Container */}
-        <div
-          style={{
-            position: "absolute",
-            inset: 0,
-            padding: "60px 72px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-            zIndex: 10,
-          }}
-        >
-          {/* Left Column */}
-          <div
-            style={{
-              width: 740,
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              gap: 22,
-            }}
-          >
-            {/* Category Pill */}
-            <div
-              style={{
-                alignSelf: "flex-start",
-                padding: "8px 22px",
-                background: "rgba(239, 68, 68, 0.2)",
-                border: "1.5px solid #EF4444",
-                borderRadius: 8,
-                color: "#FF4D4D",
-                fontSize: 16,
-                fontWeight: 900,
-                letterSpacing: 2.5,
-                textTransform: "uppercase",
-              }}
-            >
-              UNCUT EVIDENCE LEAK
-            </div>
-
-            {/* Giant Title */}
-            <div style={{ display: "flex", flexDirection: "column", lineHeight: 0.92 }}>
-              <span
-                style={{
-                  fontSize: 130,
-                  fontWeight: 950,
-                  color: "#FF3333",
-                  letterSpacing: -4,
-                  textShadow: "0 0 50px rgba(255, 51, 51, 0.7)",
-                }}
-              >
-                THE $200 LIE
-              </span>
-              <span
-                style={{
-                  fontSize: 120,
-                  fontWeight: 950,
-                  color: "#FFFFFF",
-                  letterSpacing: -4,
-                  textShadow: "0 10px 40px rgba(0,0,0,0.9)",
-                }}
-              >
-                GPT-6 IS REAL.
-              </span>
-            </div>
-
-            {/* Bottom punchline */}
-            <div style={{ marginTop: 10 }}>
-              <span
-                style={{
-                  display: "inline-block",
-                  fontSize: 30,
-                  fontWeight: 900,
-                  color: "#00E5FF",
-                  background: "rgba(0, 229, 255, 0.14)",
-                  padding: "14px 28px",
-                  borderRadius: 14,
-                  border: "1.5px solid rgba(0, 229, 255, 0.55)",
-                  letterSpacing: 1,
-                }}
-              >
-                50-MIN UNFILTERED PROCEDURAL WORLD
-              </span>
-            </div>
-          </div>
-
-          {/* Right Column: 16:9 Hero */}
-          <div
-            style={{
-              width: 980,
-              height: 551.25,
-              borderRadius: 20,
-              overflow: "hidden",
-              border: "2px solid rgba(239, 68, 68, 0.6)",
-              boxShadow: "0 30px 90px rgba(0,0,0,0.95), 0 0 60px rgba(239, 68, 68, 0.35)",
-              position: "relative",
-              backgroundColor: "#000000",
-            }}
-          >
-            <Img
-              src={staticFile("daily_evidence/thumb_hero_3d.png")}
-              style={{
-                width: "100%",
-                height: "100%",
-                objectFit: "cover",
-              }}
-            />
-            <div
-              style={{
-                position: "absolute",
-                top: 20,
-                left: 20,
-                background: "rgba(6, 10, 18, 0.92)",
-                backdropFilter: "blur(14px)",
-                border: "1px solid rgba(16, 185, 129, 0.6)",
-                borderRadius: 10,
-                padding: "8px 20px",
-                display: "flex",
-                alignItems: "center",
-                gap: 10,
-              }}
-            >
-              <div style={{ width: 10, height: 10, borderRadius: "50%", background: "#10B981" }} />
-              <span style={{ color: "#E2E8F0", fontSize: 14, fontWeight: 800, letterSpacing: 1 }}>
-                AUTONOMOUS DRIVING & PHYSICS
-              </span>
-            </div>
-          </div>
-        </div>
-      </AbsoluteFill>
-    );
-  }
-
-  // Variant: "hypocrisy" (Default)
   return (
     <AbsoluteFill
       style={{
-        backgroundColor: "#060913",
-        fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+        backgroundColor: "#02040B",
+        fontFamily: "'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif",
         overflow: "hidden",
       }}
     >
-      {/* Atmospheric Ambient Glows */}
+      {/* 1. Signature Thick Outer Colored Border (Rounded Corners) */}
       <div
         style={{
           position: "absolute",
-          top: "-20%",
-          left: "-10%",
-          width: 950,
-          height: 950,
-          background: "radial-gradient(circle, rgba(239, 68, 68, 0.26) 0%, transparent 70%)",
-          filter: "blur(90px)",
-        }}
-      />
-      <div
-        style={{
-          position: "absolute",
-          bottom: "-20%",
-          right: "-10%",
-          width: 1000,
-          height: 1000,
-          background: "radial-gradient(circle, rgba(0, 112, 243, 0.28) 0%, transparent 70%)",
-          filter: "blur(95px)",
+          inset: 14,
+          border: `10px solid ${borderColor}`,
+          borderRadius: 28,
+          pointerEvents: "none",
+          zIndex: 100,
+          boxShadow: `inset 0 0 25px ${borderColor}44, 0 0 35px ${borderColor}66`,
         }}
       />
 
-      {/* Subtle high-tech grid texture */}
+      {/* 2. Deep Atmospheric Cosmic Nebula Background */}
       <div
         style={{
           position: "absolute",
           inset: 0,
-          backgroundImage: "radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px)",
-          backgroundSize: "32px 32px",
-          opacity: 0.7,
+          background: "radial-gradient(ellipse at 50% 30%, #050B1C 0%, #010207 100%)",
         }}
       />
 
-      {/* Content Container */}
+      {/* 3. Authentic High-Energy Nebula Light Beam in Upper Right */}
       <div
         style={{
           position: "absolute",
-          inset: 0,
-          padding: "60px 72px",
+          top: "-25%",
+          right: "-5%",
+          width: 1100,
+          height: 1100,
+          background: streakGradient,
+          transform: "rotate(-32deg) scale(1.6, 0.65)",
+          filter: "blur(55px)",
+          opacity: 0.95,
+          zIndex: 2,
+        }}
+      />
+
+      {/* Subtle ambient light pool behind title */}
+      <div
+        style={{
+          position: "absolute",
+          top: "15%",
+          left: "15%",
+          width: 700,
+          height: 500,
+          background: streakGradient,
+          filter: "blur(85px)",
+          opacity: 0.5,
+          zIndex: 2,
+        }}
+      />
+
+      {/* 4. Exact 3D Perspective Wave Grid */}
+      <WaveMesh themeColor={theme} />
+
+      {/* 5. Main Foreground Typography Lockup */}
+      <div
+        style={{
+          position: "absolute",
+          top: 135,
+          left: 115,
           display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-          zIndex: 10,
+          flexDirection: "column",
+          alignItems: "flex-start",
+          zIndex: 20,
         }}
       >
-        {/* Left Column (Text & Badges) */}
+        {/* Header: Company Logo + Name + Verified Badge */}
         <div
           style={{
-            width: 740,
             display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            gap: 22,
+            alignItems: "center",
+            gap: 14,
           }}
         >
-          {/* Authentic Brand Badges */}
-          <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: 12,
-                padding: "10px 24px",
-                background: "rgba(10, 18, 36, 0.88)",
-                border: "1.5px solid rgba(16, 163, 127, 0.5)",
-                borderRadius: 14,
-                backdropFilter: "blur(16px)",
-                boxShadow: "0 8px 24px rgba(0, 0, 0, 0.4)",
-              }}
-            >
-              <OpenAILogo size={36} />
-              <span style={{ color: "#10A37F", fontWeight: 800, fontSize: 20, letterSpacing: -0.2 }}>
-                OpenAI
-              </span>
-            </div>
-
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: 12,
-                padding: "10px 24px",
-                background: "rgba(10, 18, 36, 0.88)",
-                border: "1.5px solid rgba(217, 119, 6, 0.5)",
-                borderRadius: 14,
-                backdropFilter: "blur(16px)",
-                boxShadow: "0 8px 24px rgba(0, 0, 0, 0.4)",
-              }}
-            >
-              <AnthropicLogo size={36} />
-              <span style={{ color: "#F59E0B", fontWeight: 800, fontSize: 20, letterSpacing: -0.2 }}>
-                Anthropic
-              </span>
-            </div>
-          </div>
-
-          {/* Sub-Header Category Badge */}
-          <div
+          <div style={{ display: "flex", alignItems: "center" }}>{logoNode}</div>
+          <span
             style={{
-              alignSelf: "flex-start",
-              padding: "8px 22px",
-              background: "rgba(239, 68, 68, 0.18)",
-              border: "1.5px solid #EF4444",
-              borderRadius: 8,
-              color: "#F87171",
-              fontSize: 16,
-              fontWeight: 900,
-              letterSpacing: 2.5,
+              color: "#FFFFFF",
+              fontSize: 40,
+              fontWeight: 800,
+              letterSpacing: 2,
               textTransform: "uppercase",
+              textShadow: "0 4px 12px rgba(0, 0, 0, 0.9)",
             }}
           >
-            THE FRONTIER HYPOCRISY
-          </div>
-
-          {/* Main Kinetic Typography */}
-          <div style={{ display: "flex", flexDirection: "column", lineHeight: 0.92, marginTop: 4 }}>
-            <span
-              style={{
-                fontSize: 126,
-                fontWeight: 950,
-                color: "#EF4444",
-                letterSpacing: -3,
-                textShadow: "0 0 50px rgba(239, 68, 68, 0.7)",
-              }}
-            >
-              “SLOW DOWN”
-            </span>
-            <span
-              style={{
-                fontSize: 114,
-                fontWeight: 950,
-                color: "#FFFFFF",
-                letterSpacing: -4,
-                marginTop: 6,
-                textShadow: "0 10px 40px rgba(0,0,0,0.9)",
-              }}
-            >
-              THE $200 TRAP
-            </span>
-          </div>
-
-          {/* Bottom High-Converting Hook Pill */}
-          <div style={{ marginTop: 10 }}>
-            <span
-              style={{
-                display: "inline-block",
-                fontSize: 30,
-                fontWeight: 900,
-                color: "#00E5FF",
-                background: "rgba(0, 229, 255, 0.14)",
-                padding: "14px 28px",
-                borderRadius: 14,
-                border: "1.5px solid rgba(0, 229, 255, 0.55)",
-                letterSpacing: 1,
-                boxShadow: "0 10px 30px rgba(0, 229, 255, 0.15)",
-              }}
-            >
-              WHILE SECRETLY SHIPPING GPT-6
-            </span>
-          </div>
+            {companyName}
+          </span>
+          <VerifiedBadge size={28} />
         </div>
 
-        {/* Right Column: Exact 16:9 Uncropped 3D Demo Card */}
+        {/* Subtitle / Pre-title */}
         <div
           style={{
-            width: 980,
-            height: 551.25, // 980 * 9 / 16 = exact 16:9!
-            borderRadius: 20,
-            overflow: "hidden",
-            border: "2px solid rgba(0, 112, 243, 0.6)",
-            boxShadow: "0 30px 90px rgba(0,0,0,0.95), 0 0 70px rgba(0, 112, 243, 0.4)",
-            position: "relative",
-            backgroundColor: "#000000",
+            marginTop: 22,
+            fontSize: 54,
+            fontWeight: 800,
+            letterSpacing: 2.2,
+            color: preTitleColor,
+            textTransform: "uppercase",
+            textShadow: `0 0 25px ${preTitleColor}88, 0 4px 12px rgba(0, 0, 0, 0.9)`,
           }}
         >
-          <Img
-            src={staticFile("daily_evidence/thumb_hero_3d.png")}
-            style={{
-              width: "100%",
-              height: "100%",
-              objectFit: "cover", // Exact 16:9 ratio, 0% crop!
-            }}
-          />
+          {preTitle}
+        </div>
 
-          {/* Real Telemetry Overlay */}
-          <div
-            style={{
-              position: "absolute",
-              top: 20,
-              left: 20,
-              background: "rgba(6, 10, 18, 0.92)",
-              backdropFilter: "blur(14px)",
-              border: "1px solid rgba(16, 185, 129, 0.6)",
-              borderRadius: 10,
-              padding: "8px 20px",
-              display: "flex",
-              alignItems: "center",
-              gap: 10,
-            }}
-          >
-            <div style={{ width: 10, height: 10, borderRadius: "50%", background: "#10B981" }} />
-            <span style={{ color: "#E2E8F0", fontSize: 14, fontWeight: 800, letterSpacing: 1 }}>
-              GPT-6 ASTRA: 50-MIN 3D WORLD
-            </span>
-          </div>
-
-          <div
-            style={{
-              position: "absolute",
-              bottom: 20,
-              right: 20,
-              background: "rgba(6, 10, 18, 0.94)",
-              backdropFilter: "blur(14px)",
-              border: "1px solid rgba(239, 68, 68, 0.6)",
-              borderRadius: 10,
-              padding: "8px 20px",
-              color: "#F87171",
-              fontSize: 14,
-              fontWeight: 800,
-              letterSpacing: 1,
-            }}
-          >
-            VERIFIED UNCUT PROOF
-          </div>
+        {/* Hero Title (Impact / Arial Black wide heavy stroke weight) */}
+        <div
+          style={{
+            marginTop: 8,
+            fontSize: 162,
+            fontWeight: 900,
+            fontFamily: '"Arial Black", "Montserrat", system-ui, sans-serif',
+            color: "#FFFFFF",
+            letterSpacing: -2,
+            lineHeight: 0.95,
+            textTransform: "uppercase",
+            textShadow: heroGlow,
+          }}
+        >
+          {heroTitle}
         </div>
       </div>
     </AbsoluteFill>

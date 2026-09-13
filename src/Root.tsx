@@ -27,26 +27,35 @@ export const Root: React.FC = () => {
         height={1080}
       />
 
-      {/* High-CTR Channel Thumbnail Option 1: The Frontier Hypocrisy */}
+      {/* Channel Reference Exact Thumbnails */}
+      {/* 1. Red Border - OpenAI BEST USECASE GPT-6 ASTRA */}
       <Still
-        id="ThumbnailOption1"
-        component={() => <Thumbnail variant="hypocrisy" />}
+        id="Thumbnail-GPT6-Astra"
+        component={() => <Thumbnail variant="gpt6_astra_red" />}
         width={1920}
         height={1080}
       />
 
-      {/* High-CTR Channel Thumbnail Option 2: The Cheap Tier Shootout */}
+      {/* 2. Blue Border - OpenAI INTRODUCING GPT-6 'SOL' */}
       <Still
-        id="ThumbnailOption2"
-        component={() => <Thumbnail variant="shootout" />}
+        id="Thumbnail-GPT6-Sol"
+        component={() => <Thumbnail variant="gpt6_sol_blue" />}
         width={1920}
         height={1080}
       />
 
-      {/* High-CTR Channel Thumbnail Option 3: The Leak / Real World */}
+      {/* 3. Blue Border - DeepSeek INTRODUCING DEEPSEEK V4.1 */}
       <Still
-        id="ThumbnailOption3"
-        component={() => <Thumbnail variant="leak" />}
+        id="Thumbnail-DeepSeek-V4"
+        component={() => <Thumbnail variant="deepseek_v4_blue" />}
+        width={1920}
+        height={1080}
+      />
+
+      {/* 4. Blue Border - OpenAI NEW LEAKS ON GPT-6 & FABLE */}
+      <Still
+        id="Thumbnail-Frontier-Leaks"
+        component={() => <Thumbnail variant="frontier_leaks_blue" />}
         width={1920}
         height={1080}
       />
