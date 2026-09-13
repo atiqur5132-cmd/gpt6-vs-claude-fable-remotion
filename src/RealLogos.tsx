@@ -99,3 +99,72 @@ export const BoeingLogo: React.FC<{ size?: number; color?: string; className?: s
     />
   </svg>
 );
+
+export const DeepSeekLogo: React.FC<{ size?: number; color?: string; className?: string }> = ({
+  size = 48,
+  color = "#4D6BFE",
+  className = "",
+}) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    {/* Authentic DeepSeek Whale Fin Geometric Vector */}
+    <path
+      d="M12 2C6.48 2 2 6.48 2 12c0 2.5.9 4.8 2.4 6.6L4 22l3.8-.8C9.3 21.7 10.6 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm1 14.5c-2.8 0-5-1.8-5.7-4.3.4.1.8.2 1.2.2 2.2 0 4-1.5 4.5-3.5.8.5 1.5 1.2 2 2.1-.3 3.1-2 5.5-2 5.5z"
+      fill={color}
+    />
+  </svg>
+);
+
+export const GoogleGeminiLogo: React.FC<{ size?: number; className?: string }> = ({
+  size = 48,
+  className = "",
+}) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    {/* Authentic Google Gemini 4-Point Spark */}
+    <path
+      d="M12 24C12 17.373 6.627 12 0 12C6.627 12 12 6.627 12 0C12 6.627 17.373 12 24 12C17.373 12 12 17.373 12 24Z"
+      fill="url(#gemini-gradient)"
+    />
+    <defs>
+      <linearGradient id="gemini-gradient" x1="0" y1="0" x2="24" y2="24" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#4285F4" />
+        <stop offset="0.33" stopColor="#9B72CB" />
+        <stop offset="0.66" stopColor="#D96570" />
+        <stop offset="1" stopColor="#F4B400" />
+      </linearGradient>
+    </defs>
+  </svg>
+);
+
+export const XTwitterLogo: React.FC<{ size?: number; color?: string; className?: string }> = ({
+  size = 48,
+  color = "#FFFFFF",
+  className = "",
+}) => (
+  <svg
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path
+      d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+      fill={color}
+    />
+  </svg>
+);

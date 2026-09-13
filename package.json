@@ -4,6 +4,7 @@
   "description": "Cinematic AI Documentary: GPT-6 Astra vs Claude Fable 5.1",
   "scripts": {
     "start": "remotion preview",
+    "render:daily": "remotion render DailyVideo out/daily_documentary.mp4 --concurrency=4",
     "build": "remotion render Video out/video.mp4",
     "upgrade": "remotion upgrade"
   },
