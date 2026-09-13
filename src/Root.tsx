@@ -27,35 +27,35 @@ export const Root: React.FC = () => {
         height={1080}
       />
 
-      {/* Channel Reference Exact Thumbnails */}
-      {/* 1. Red Border - OpenAI BEST USECASE GPT-6 ASTRA */}
+      {/* Video-Matched Channel Style Thumbnails */}
+      {/* 1. Red Border - OpenAI Verified + THE $200 LIE: GPT-6 LEAKED + Real 3D World Video Screen */}
       <Still
-        id="Thumbnail-GPT6-Astra"
-        component={() => <Thumbnail variant="gpt6_astra_red" />}
+        id="Thumbnail-GPT6-Leak-Evidence"
+        component={() => <Thumbnail variant="gpt6_leak_evidence" />}
         width={1920}
         height={1080}
       />
 
-      {/* 2. Blue Border - OpenAI INTRODUCING GPT-6 'SOL' */}
+      {/* 2. Blue Border - DeepSeek Verified + THE $200 TRAP: CHEAP AI WON. + Real 4-Way WebGL Reef Screen */}
       <Still
-        id="Thumbnail-GPT6-Sol"
-        component={() => <Thumbnail variant="gpt6_sol_blue" />}
+        id="Thumbnail-Cheap-AI-Evidence"
+        component={() => <Thumbnail variant="cheap_ai_evidence" />}
         width={1920}
         height={1080}
       />
 
-      {/* 3. Blue Border - DeepSeek INTRODUCING DEEPSEEK V4.1 */}
+      {/* 3. Pure Channel Style - Red Border + OpenAI Verified + THE $200 LIE: GPT-6 LEAKED */}
       <Still
-        id="Thumbnail-DeepSeek-V4"
-        component={() => <Thumbnail variant="deepseek_v4_blue" />}
+        id="Thumbnail-Pure-GPT6-Leak"
+        component={() => <Thumbnail variant="pure_gpt6_leak" />}
         width={1920}
         height={1080}
       />
 
-      {/* 4. Blue Border - OpenAI NEW LEAKS ON GPT-6 & FABLE */}
+      {/* 4. Pure Channel Style - Blue Border + OpenAI Verified + THE FRONTIER LIE: THE $200 TRAP */}
       <Still
-        id="Thumbnail-Frontier-Leaks"
-        component={() => <Thumbnail variant="frontier_leaks_blue" />}
+        id="Thumbnail-Pure-Frontier-Trap"
+        component={() => <Thumbnail variant="pure_the_200_trap" />}
         width={1920}
         height={1080}
       />

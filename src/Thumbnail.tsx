@@ -1,15 +1,24 @@
 import React, { useMemo } from "react";
-import { AbsoluteFill } from "remotion";
-import { OpenAILogo, DeepSeekLogo } from "./RealLogos";
+import { AbsoluteFill, Img, staticFile } from "remotion";
+import { OpenAILogo, DeepSeekLogo, AnthropicLogo } from "./RealLogos";
 
-export type ThumbnailStyleVariant = "gpt6_astra_red" | "gpt6_sol_blue" | "deepseek_v4_blue" | "frontier_leaks_blue";
+export type ThumbnailStoryVariant =
+  | "gpt6_leak_evidence"      // Red border, OpenAI verified, "THE $200 LIE" -> "GPT-6 LEAKED" + Real 1080p 3D World Demo
+  | "cheap_ai_evidence"       // Blue border, DeepSeek verified, "THE $200 TRAP" -> "CHEAP AI WON." + Real 4-Way WebGL Reef
+  | "frontier_trap_evidence"  // Red/Blue border, OpenAI + Anthropic, "THE FRONTIER LIE" -> "THE $200 TRAP" + Real Video
+  | "pure_gpt6_leak"          // Exact channel style: Red border, OpenAI verified, "THE $200 LIE" -> "GPT-6 LEAKED" (Pure Wave)
+  | "pure_the_200_trap"       // Exact channel style: Blue border, OpenAI verified, "THE FRONTIER LIE" -> "THE $200 TRAP" (Pure Wave)
+  | "pure_cheap_ai_won";      // Exact channel style: Blue border, DeepSeek verified, "THE $200 TRAP" -> "CHEAP AI WON." (Pure Wave)
 
 interface ThumbnailProps {
-  variant?: ThumbnailStyleVariant;
+  variant?: ThumbnailStoryVariant;
 }
 
 // 3D Perspective Wave Grid Generator (exact math matching the channel reference)
-const WaveMesh: React.FC<{ themeColor: "blue" | "red" }> = ({ themeColor }) => {
+const WaveMesh: React.FC<{ themeColor: "blue" | "red"; fullWidth?: boolean }> = ({
+  themeColor,
+  fullWidth = true,
+}) => {
   const isRed = themeColor === "red";
   const primaryColor = isRed ? "#FF4444" : "#38BDF8";
   const dimColor = isRed ? "rgba(255, 68, 68, 0.22)" : "rgba(56, 189, 248, 0.22)";
@@ -17,8 +26,8 @@ const WaveMesh: React.FC<{ themeColor: "blue" | "red" }> = ({ themeColor }) => {
   const { dots, lines } = useMemo(() => {
     const width = 1920;
     const height = 1080;
-    const rows = 40;
-    const cols = 64;
+    const rows = 38;
+    const cols = 60;
     const grid: { x: number; y: number; z: number; size: number; opacity: number }[][] = [];
 
     for (let r = 0; r < rows; r++) {
@@ -29,7 +38,6 @@ const WaveMesh: React.FC<{ themeColor: "blue" | "red" }> = ({ themeColor }) => {
       for (let c = 0; c < cols; c++) {
         const u = c / (cols - 1);
         const x = (u - 0.44) * 3000;
-        // Natural landscape undulating waves
         const wave1 = Math.sin(u * Math.PI * 2.2 - 0.3) * 180;
         const wave2 = Math.cos(v * Math.PI * 1.5) * 160;
         const wave3 = Math.sin((u * 1.5 + v) * 3.8) * 60;
@@ -52,12 +60,12 @@ const WaveMesh: React.FC<{ themeColor: "blue" | "red" }> = ({ themeColor }) => {
     for (let r = 0; r < rows; r++) {
       for (let c = 0; c < cols; c++) {
         const p = grid[r][c];
-        if (p.x >= -60 && p.x <= width + 60 && p.y >= 240 && p.y <= height + 60) {
+        if (p.x >= -60 && p.x <= width + 60 && p.y >= 230 && p.y <= height + 60) {
           allDots.push(p);
 
           if (c < cols - 1) {
             const nextP = grid[r][c + 1];
-            if (nextP.x >= -60 && nextP.x <= width + 60 && nextP.y >= 240 && nextP.y <= height + 60) {
+            if (nextP.x >= -60 && nextP.x <= width + 60 && nextP.y >= 230 && nextP.y <= height + 60) {
               lineSegments.push({
                 x1: p.x,
                 y1: p.y,
@@ -93,7 +101,6 @@ const WaveMesh: React.FC<{ themeColor: "blue" | "red" }> = ({ themeColor }) => {
         </radialGradient>
       </defs>
 
-      {/* Wireframe Grid Lines */}
       {lines.map((l, i) => (
         <line
           key={`l-${i}`}
@@ -107,7 +114,6 @@ const WaveMesh: React.FC<{ themeColor: "blue" | "red" }> = ({ themeColor }) => {
         />
       ))}
 
-      {/* 3D Wave Perspective Dots */}
       {dots.map((d, i) => (
         <circle
           key={`d-${i}`}
@@ -142,47 +148,91 @@ const VerifiedBadge: React.FC<{ size?: number }> = ({ size = 28 }) => (
   </svg>
 );
 
-export const Thumbnail: React.FC<ThumbnailProps> = ({ variant = "gpt6_astra_red" }) => {
+export const Thumbnail: React.FC<ThumbnailProps> = ({ variant = "gpt6_leak_evidence" }) => {
+  // Defaults matching the video's core story
   let borderColor = "#FF1818";
   let theme: "blue" | "red" = "red";
-  let logoNode = <OpenAILogo size={52} color="#FFFFFF" />;
+  let logoNode = <OpenAILogo size={50} color="#FFFFFF" />;
   let companyName = "OPENAI";
-  let preTitle = "BEST USECASE";
+  let preTitle = "THE $200 LIE";
   let preTitleColor = "#FF4848";
-  let heroTitle = "GPT-6 ASTRA";
+  let heroTitleLine1 = "GPT-6";
+  let heroTitleLine2 = "LEAKED";
   let heroGlow = "0 0 20px #FFFFFF, 0 0 45px rgba(255, 60, 60, 0.95), 0 0 90px rgba(255, 30, 30, 0.75), 0 0 140px rgba(255, 10, 10, 0.4)";
   let streakGradient = "radial-gradient(ellipse at center, rgba(255, 35, 35, 0.4) 0%, rgba(255, 35, 35, 0.15) 45%, transparent 70%)";
+  let showEvidence = true;
+  let evidenceImage = "daily_evidence/thumb_hero_3d.png";
+  let evidenceBadge = "• REAL 50-MIN 3D WORLD DEMO";
 
-  if (variant === "gpt6_sol_blue") {
+  if (variant === "cheap_ai_evidence") {
+    borderColor = "#007BFF";
+    theme = "blue";
+    logoNode = <DeepSeekLogo size={50} />;
+    companyName = "DEEPSEEK";
+    preTitle = "THE $200 TRAP";
+    preTitleColor = "#38BDF8";
+    heroTitleLine1 = "CHEAP AI";
+    heroTitleLine2 = "WON.";
+    heroGlow = "0 0 20px #FFFFFF, 0 0 45px rgba(0, 160, 255, 0.95), 0 0 90px rgba(0, 130, 255, 0.75), 0 0 140px rgba(0, 90, 255, 0.45)";
+    streakGradient = "radial-gradient(ellipse at center, rgba(0, 130, 255, 0.4) 0%, rgba(0, 130, 255, 0.15) 45%, transparent 70%)";
+    showEvidence = true;
+    evidenceImage = "daily_evidence/thumb_hero_shootout.png";
+    evidenceBadge = "• REAL 4-WAY 60 FPS REEF";
+  } else if (variant === "frontier_trap_evidence") {
+    borderColor = "#007BFF";
+    theme = "blue";
+    logoNode = (
+      <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+        <OpenAILogo size={42} color="#FFFFFF" />
+        <AnthropicLogo size={38} />
+      </div>
+    );
+    companyName = "OPENAI & ANTHROPIC";
+    preTitle = "THE FRONTIER LIE";
+    preTitleColor = "#EF4444";
+    heroTitleLine1 = "THE $200";
+    heroTitleLine2 = "TRAP";
+    heroGlow = "0 0 20px #FFFFFF, 0 0 45px rgba(0, 160, 255, 0.95), 0 0 90px rgba(0, 130, 255, 0.75), 0 0 140px rgba(0, 90, 255, 0.45)";
+    streakGradient = "radial-gradient(ellipse at center, rgba(0, 130, 255, 0.4) 0%, rgba(0, 130, 255, 0.15) 45%, transparent 70%)";
+    showEvidence = true;
+    evidenceImage = "daily_evidence/thumb_hero_3d.png";
+    evidenceBadge = "• GPT-6 ASTRA SECRET SHIPMENT";
+  } else if (variant === "pure_gpt6_leak") {
+    borderColor = "#FF1818";
+    theme = "red";
+    logoNode = <OpenAILogo size={52} color="#FFFFFF" />;
+    companyName = "OPENAI";
+    preTitle = "THE $200 LIE";
+    preTitleColor = "#FF4848";
+    heroTitleLine1 = "GPT-6";
+    heroTitleLine2 = "LEAKED";
+    heroGlow = "0 0 20px #FFFFFF, 0 0 45px rgba(255, 60, 60, 0.95), 0 0 90px rgba(255, 30, 30, 0.75), 0 0 140px rgba(255, 10, 10, 0.4)";
+    streakGradient = "radial-gradient(ellipse at center, rgba(255, 35, 35, 0.4) 0%, rgba(255, 35, 35, 0.15) 45%, transparent 70%)";
+    showEvidence = false;
+  } else if (variant === "pure_the_200_trap") {
     borderColor = "#007BFF";
     theme = "blue";
     logoNode = <OpenAILogo size={52} color="#FFFFFF" />;
     companyName = "OPENAI";
-    preTitle = "INTRODUCING";
+    preTitle = "THE FRONTIER LIE";
     preTitleColor = "#38BDF8";
-    heroTitle = "GPT-6 'SOL'";
+    heroTitleLine1 = "THE $200";
+    heroTitleLine2 = "TRAP";
     heroGlow = "0 0 20px #FFFFFF, 0 0 45px rgba(0, 160, 255, 0.95), 0 0 90px rgba(0, 130, 255, 0.75), 0 0 140px rgba(0, 90, 255, 0.45)";
     streakGradient = "radial-gradient(ellipse at center, rgba(0, 130, 255, 0.4) 0%, rgba(0, 130, 255, 0.15) 45%, transparent 70%)";
-  } else if (variant === "deepseek_v4_blue") {
+    showEvidence = false;
+  } else if (variant === "pure_cheap_ai_won") {
     borderColor = "#007BFF";
     theme = "blue";
     logoNode = <DeepSeekLogo size={52} />;
     companyName = "DEEPSEEK";
-    preTitle = "INTRODUCING";
+    preTitle = "THE $200 TRAP";
     preTitleColor = "#38BDF8";
-    heroTitle = "DEEPSEEK V4.1";
+    heroTitleLine1 = "CHEAP AI";
+    heroTitleLine2 = "WON.";
     heroGlow = "0 0 20px #FFFFFF, 0 0 45px rgba(0, 160, 255, 0.95), 0 0 90px rgba(0, 130, 255, 0.75), 0 0 140px rgba(0, 90, 255, 0.45)";
     streakGradient = "radial-gradient(ellipse at center, rgba(0, 130, 255, 0.4) 0%, rgba(0, 130, 255, 0.15) 45%, transparent 70%)";
-  } else if (variant === "frontier_leaks_blue") {
-    borderColor = "#007BFF";
-    theme = "blue";
-    logoNode = <OpenAILogo size={52} color="#FFFFFF" />;
-    companyName = "OPENAI";
-    preTitle = "NEW LEAKS ON";
-    preTitleColor = "#38BDF8";
-    heroTitle = "GPT-6 & FABLE";
-    heroGlow = "0 0 20px #FFFFFF, 0 0 45px rgba(0, 160, 255, 0.95), 0 0 90px rgba(0, 130, 255, 0.75), 0 0 140px rgba(0, 90, 255, 0.45)";
-    streakGradient = "radial-gradient(ellipse at center, rgba(0, 130, 255, 0.4) 0%, rgba(0, 130, 255, 0.15) 45%, transparent 70%)";
+    showEvidence = false;
   }
 
   return (
@@ -215,7 +265,7 @@ export const Thumbnail: React.FC<ThumbnailProps> = ({ variant = "gpt6_astra_red"
         }}
       />
 
-      {/* 3. Authentic High-Energy Nebula Light Beam in Upper Right */}
+      {/* 3. Nebula Light Streak in Upper Right */}
       <div
         style={{
           position: "absolute",
@@ -231,91 +281,172 @@ export const Thumbnail: React.FC<ThumbnailProps> = ({ variant = "gpt6_astra_red"
         }}
       />
 
-      {/* Subtle ambient light pool behind title */}
-      <div
-        style={{
-          position: "absolute",
-          top: "15%",
-          left: "15%",
-          width: 700,
-          height: 500,
-          background: streakGradient,
-          filter: "blur(85px)",
-          opacity: 0.5,
-          zIndex: 2,
-        }}
-      />
-
       {/* 4. Exact 3D Perspective Wave Grid */}
-      <WaveMesh themeColor={theme} />
+      <WaveMesh themeColor={theme} fullWidth={!showEvidence} />
 
-      {/* 5. Main Foreground Typography Lockup */}
+      {/* 5. Main Foreground Layout */}
       <div
         style={{
           position: "absolute",
-          top: 135,
-          left: 115,
+          inset: 0,
+          padding: "70px 85px",
           display: "flex",
-          flexDirection: "column",
-          alignItems: "flex-start",
+          alignItems: "center",
+          justifyContent: "space-between",
           zIndex: 20,
         }}
       >
-        {/* Header: Company Logo + Name + Verified Badge */}
+        {/* Left Side: Exact Channel Typography & Verified Branding */}
         <div
           style={{
+            width: showEvidence ? 850 : 1700,
             display: "flex",
-            alignItems: "center",
-            gap: 14,
+            flexDirection: "column",
+            alignItems: "flex-start",
           }}
         >
-          <div style={{ display: "flex", alignItems: "center" }}>{logoNode}</div>
-          <span
+          {/* Header: Company Logo + Name + Verified Badge */}
+          <div
             style={{
-              color: "#FFFFFF",
-              fontSize: 40,
-              fontWeight: 800,
-              letterSpacing: 2,
-              textTransform: "uppercase",
-              textShadow: "0 4px 12px rgba(0, 0, 0, 0.9)",
+              display: "flex",
+              alignItems: "center",
+              gap: 14,
             }}
           >
-            {companyName}
-          </span>
-          <VerifiedBadge size={28} />
+            <div style={{ display: "flex", alignItems: "center" }}>{logoNode}</div>
+            <span
+              style={{
+                color: "#FFFFFF",
+                fontSize: 38,
+                fontWeight: 800,
+                letterSpacing: 2,
+                textTransform: "uppercase",
+                textShadow: "0 4px 12px rgba(0, 0, 0, 0.9)",
+              }}
+            >
+              {companyName}
+            </span>
+            <VerifiedBadge size={28} />
+          </div>
+
+          {/* Subtitle / Pre-title */}
+          <div
+            style={{
+              marginTop: 22,
+              fontSize: showEvidence ? 50 : 54,
+              fontWeight: 800,
+              letterSpacing: 2.2,
+              color: preTitleColor,
+              textTransform: "uppercase",
+              textShadow: `0 0 25px ${preTitleColor}88, 0 4px 12px rgba(0, 0, 0, 0.9)`,
+            }}
+          >
+            {preTitle}
+          </div>
+
+          {/* Hero Title (Huge, Bold, Glowing) */}
+          <div
+            style={{
+              marginTop: 8,
+              display: "flex",
+              flexDirection: "column",
+              lineHeight: 0.94,
+              fontFamily: '"Arial Black", "Montserrat", system-ui, sans-serif',
+              textTransform: "uppercase",
+              textShadow: heroGlow,
+            }}
+          >
+            <span
+              style={{
+                fontSize: showEvidence ? 136 : 160,
+                fontWeight: 900,
+                color: "#FFFFFF",
+                letterSpacing: -2,
+              }}
+            >
+              {heroTitleLine1}
+            </span>
+            <span
+              style={{
+                fontSize: showEvidence ? 136 : 160,
+                fontWeight: 900,
+                color: "#FFFFFF",
+                letterSpacing: -2,
+              }}
+            >
+              {heroTitleLine2}
+            </span>
+          </div>
+
+          {/* Optional Catchphrase Tag below Title */}
+          <div style={{ marginTop: 24 }}>
+            <span
+              style={{
+                display: "inline-block",
+                fontSize: 22,
+                fontWeight: 800,
+                color: theme === "red" ? "#FF6B6B" : "#38BDF8",
+                background: theme === "red" ? "rgba(255, 107, 107, 0.12)" : "rgba(56, 189, 248, 0.12)",
+                padding: "8px 20px",
+                borderRadius: 8,
+                border: `1.5px solid ${theme === "red" ? "rgba(255, 107, 107, 0.4)" : "rgba(56, 189, 248, 0.4)"}`,
+                letterSpacing: 1.5,
+                textTransform: "uppercase",
+              }}
+            >
+              {variant.includes("cheap")
+                ? "$200 SUBSCRIPTION VS 0.002¢"
+                : "UNCUT 50-MIN PROCEDURAL DEMO"}
+            </span>
+          </div>
         </div>
 
-        {/* Subtitle / Pre-title */}
-        <div
-          style={{
-            marginTop: 22,
-            fontSize: 54,
-            fontWeight: 800,
-            letterSpacing: 2.2,
-            color: preTitleColor,
-            textTransform: "uppercase",
-            textShadow: `0 0 25px ${preTitleColor}88, 0 4px 12px rgba(0, 0, 0, 0.9)`,
-          }}
-        >
-          {preTitle}
-        </div>
+        {/* Right Side: Real Video Evidence Screen (100% Uncropped 16:9) */}
+        {showEvidence && (
+          <div
+            style={{
+              width: 860,
+              height: 483.75, // 860 * 9 / 16 = exact 16:9! Zero crop!
+              borderRadius: 18,
+              overflow: "hidden",
+              border: `2px solid ${borderColor}`,
+              boxShadow: `0 25px 70px rgba(0,0,0,0.9), 0 0 50px ${borderColor}44`,
+              position: "relative",
+              backgroundColor: "#000000",
+            }}
+          >
+            <Img
+              src={staticFile(evidenceImage)}
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+              }}
+            />
 
-        {/* Hero Title (Impact / Arial Black wide heavy stroke weight) */}
-        <div
-          style={{
-            marginTop: 8,
-            fontSize: 162,
-            fontWeight: 900,
-            fontFamily: '"Arial Black", "Montserrat", system-ui, sans-serif',
-            color: "#FFFFFF",
-            letterSpacing: -2,
-            lineHeight: 0.95,
-            textTransform: "uppercase",
-            textShadow: heroGlow,
-          }}
-        >
-          {heroTitle}
-        </div>
+            {/* Evidence Telemetry Tag */}
+            <div
+              style={{
+                position: "absolute",
+                top: 16,
+                left: 16,
+                background: "rgba(5, 8, 16, 0.94)",
+                backdropFilter: "blur(12px)",
+                border: "1px solid rgba(16, 185, 129, 0.6)",
+                borderRadius: 8,
+                padding: "6px 16px",
+                display: "flex",
+                alignItems: "center",
+                gap: 8,
+              }}
+            >
+              <div style={{ width: 8, height: 8, borderRadius: "50%", background: "#10B981" }} />
+              <span style={{ color: "#E2E8F0", fontSize: 13, fontWeight: 800, letterSpacing: 1 }}>
+                {evidenceBadge}
+              </span>
+            </div>
+          </div>
+        )}
       </div>
     </AbsoluteFill>
   );
