@@ -1,7 +1,16 @@
-name: Render Remotion Video
+﻿name: Render Remotion Video
 
 on:
   workflow_dispatch:
+    inputs:
+      composition:
+        description: 'Composition to render'
+        required: true
+        default: 'DailyVideo'
+        type: choice
+        options:
+          - DailyVideo
+          - Video
   push:
     branches:
       - main
@@ -26,10 +35,10 @@ jobs:
         run: npx remotion browser ensure
 
       - name: Render Full MP4 Video
-        run: npx remotion render Video out/video.mp4 --concurrency=4
+        run: npx remotion render ${{ inputs.composition || 'DailyVideo' }} out/daily_video.mp4 --concurrency=4
 
       - name: Upload Rendered Video
         uses: actions/upload-artifact@v4
         with:
-          name: gpt6-vs-fable-video
-          path: out/video.mp4
+          name: daily-ai-documentary-video
+          path: out/daily_video.mp4
