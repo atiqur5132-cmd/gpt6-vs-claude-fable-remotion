@@ -37,10 +37,10 @@ jobs:
         run: npx remotion browser ensure
 
       - name: Render Full MP4 Video
-        run: npx remotion render ${{ inputs.composition || 'LongFormDocumentary' }} out/documentary_frontier_leaks_2026.mp4 --concurrency=4
+        run: npx remotion render ${{ inputs.composition || 'GoogleRSIDocumentary' }} out/google_dream_rsi_documentary_2026.mp4 --concurrency=4
 
       - name: Upload Rendered Video
         uses: actions/upload-artifact@v4
         with:
-          name: frontier-leaks-documentary-video
-          path: out/documentary_frontier_leaks_2026.mp4
+          name: google-dream-rsi-documentary
+          path: out/google_dream_rsi_documentary_2026.mp4

@@ -14,19 +14,14 @@ export const GoogleRSIDocumentary: React.FC = () => {
       {/* 5.08-Minute Studio Mastered Voiceover Audio (Loudnorm -16 LUFS) */}
       <Audio src={staticFile('google_rsi_voiceover.wav')} />
 
-      {/* Subtle Cinematic Grid Ambient Layer */}
+      {/* Cinematic Grid Ambient Background Layer */}
       <Atmosphere />
 
       {/* Series Sequence: Exactly 9,140 frames @ 30fps (5.08 Minutes / > 5 Mins) */}
       <Series>
-        {/* Act 1a: The Rubicon & RSI Defined (0 to 980 | 32.7s) */}
-        <Series.Sequence durationInFrames={980}>
-          <Act1RSIThreshold beat="rubicon" />
-        </Series.Sequence>
-
-        {/* Act 1b: Dream-RSI Official Paper Reveal (980 to 1996 | 33.9s) */}
-        <Series.Sequence durationInFrames={1016}>
-          <Act1RSIThreshold beat="paper_reveal" />
+        {/* Act 1: The Singularity Threshold & Evidence (0 to 1996 | 66.5s) */}
+        <Series.Sequence durationInFrames={1996}>
+          <Act1RSIThreshold />
         </Series.Sequence>
 
         {/* Act 2: The Impossible Evaluation Wall (1996 to 3533 | 51.2s) */}
@@ -34,12 +29,12 @@ export const GoogleRSIDocumentary: React.FC = () => {
           <Act2EvaluationWall />
         </Series.Sequence>
 
-        {/* Act 3: The Replay Dream World Mechanism (3533 to 5378 | 61.5s) */}
+        {/* Act 3: The Replay Dream World Simulator (3533 to 5378 | 61.5s) */}
         <Series.Sequence durationInFrames={1845}>
           <Act3DreamSimulator />
         </Series.Sequence>
 
-        {/* Act 4: The 162x Benchmark Carnage & Frozen Weights (5378 to 7126 | 58.3s) */}
+        {/* Act 4: The 162x Benchmark & Frozen Weights (5378 to 7126 | 58.3s) */}
         <Series.Sequence durationInFrames={1748}>
           <Act4BenchmarkCarnage />
         </Series.Sequence>

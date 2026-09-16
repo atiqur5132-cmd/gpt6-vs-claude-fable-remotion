@@ -1,130 +1,197 @@
 import React from 'react';
-import { AbsoluteFill, useCurrentFrame, interpolate, spring, useVideoConfig } from 'remotion';
+import { AbsoluteFill, Series, useCurrentFrame, interpolate } from 'remotion';
+import { EvolutionaryFlywheel } from '../../components/EvolutionaryFlywheel';
 import { GoogleGeminiLogo } from '../../RealLogos';
-import { RefreshCw, Sparkles, Zap, Infinity, ArrowUpRight } from 'lucide-react';
+import {
+  RefreshCw,
+  Sparkles,
+  Zap,
+  TrendingUp,
+  Cpu,
+  Layers,
+  ArrowRight,
+  ShieldCheck,
+  Flame,
+} from 'lucide-react';
 
 export const Act6EvolutionaryFlywheel: React.FC = () => {
+  return (
+    <AbsoluteFill style={{ backgroundColor: '#05070E' }}>
+      <Series>
+        {/* Micro-beat 60: 148f (4.9s) -> The End of Flat Static Transformers */}
+        <Series.Sequence durationInFrames={148}>
+          <BeatEndOfStaticTransformers />
+        </Series.Sequence>
+
+        {/* Micro-beat 61: 135f (4.5s) -> Trillions of Human Text Tokens Limit */}
+        <Series.Sequence durationInFrames={135}>
+          <BeatHumanTokenLimit />
+        </Series.Sequence>
+
+        {/* Micro-beat 62: 161f (5.4s) -> THE 4-STEP EVOLUTIONARY FLYWHEEL */}
+        <Series.Sequence durationInFrames={161}>
+          <EvolutionaryFlywheel />
+        </Series.Sequence>
+
+        {/* Micro-beat 63: 102f (3.4s) -> Accelerated Flywheel Spinning */}
+        <Series.Sequence durationInFrames={102}>
+          <BeatFlywheelAcceleration />
+        </Series.Sequence>
+
+        {/* Micro-beat 64: 120f (4.0s) -> Reality -> Dream -> Upgraded Reality Cycle */}
+        <Series.Sequence durationInFrames={120}>
+          <BeatLoopCycle />
+        </Series.Sequence>
+
+        {/* Micro-beat 65: 173f (5.8s) -> Returning Smarter Than Yesterday */}
+        <Series.Sequence durationInFrames={173}>
+          <BeatSmarterThanYesterday />
+        </Series.Sequence>
+
+        {/* Micro-beat 66: 184f (6.1s) -> Untethered from Human Curation Chains */}
+        <Series.Sequence durationInFrames={184}>
+          <BeatUntetheredFromHumanData />
+        </Series.Sequence>
+
+        {/* Micro-beat 67: 121f (4.0s) -> Grand Outro: Dream-RSI Arrived */}
+        <Series.Sequence durationInFrames={121}>
+          <BeatGrandOutro />
+        </Series.Sequence>
+      </Series>
+    </AbsoluteFill>
+  );
+};
+
+// -------------------------------------------------------------
+// SUB-BEATS
+// -------------------------------------------------------------
+
+const BeatEndOfStaticTransformers: React.FC = () => {
+  return (
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ backgroundColor: 'rgba(239, 68, 68, 0.1)', border: '1px solid rgba(239, 68, 68, 0.4)', borderRadius: 20, padding: '36px 54px', textAlign: 'center' }}>
+        <div style={{ color: '#EF4444', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>
+          PARADIGM OBSOLESCENCE
+        </div>
+        <div style={{ color: '#FFFFFF', fontSize: 40, fontWeight: 900, marginTop: 6 }}>
+          The Era of Flat Static Transformers is Over
+        </div>
+        <div style={{ color: '#94A3B8', fontSize: 14, fontFamily: 'monospace', marginTop: 10 }}>
+          Diminishing returns on human text token scaling
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const BeatHumanTokenLimit: React.FC = () => {
+  return (
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ backgroundColor: 'rgba(15, 23, 42, 0.85)', border: '1px solid rgba(255, 255, 255, 0.1)', borderRadius: 18, padding: '32px 56px', textAlign: 'center' }}>
+        <div style={{ color: '#EAB308', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>
+          DATA WALL REACHED
+        </div>
+        <div style={{ color: '#FFFFFF', fontSize: 36, fontWeight: 900, marginTop: 8 }}>
+          Trillions of Human Tokens Insufficient
+        </div>
+        <div style={{ color: '#94A3B8', fontSize: 14, fontFamily: 'monospace', marginTop: 8 }}>
+          Incremental gains require autonomous synthetic exploration
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const BeatFlywheelAcceleration: React.FC = () => {
+  return (
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 12, backgroundColor: 'rgba(34, 197, 94, 0.15)', border: '1px solid #22C55E', borderRadius: 20, padding: '8px 24px', marginBottom: 16 }}>
+        <Zap size={18} color="#22C55E" />
+        <span style={{ color: '#22C55E', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>
+          EXPONENTIAL COMPOUNDING
+        </span>
+      </div>
+      <div style={{ color: '#FFFFFF', fontSize: 48, fontWeight: 900, textAlign: 'center' }}>
+        Unlocked The Evolutionary Flywheel
+      </div>
+    </div>
+  );
+};
+
+const BeatLoopCycle: React.FC = () => {
+  return (
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 18, maxWidth: 940, width: '100%' }}>
+        <div style={{ flex: 1, backgroundColor: 'rgba(59, 130, 246, 0.1)', border: '1px solid #3B82F6', borderRadius: 14, padding: '20px', textAlign: 'center' }}>
+          <div style={{ color: '#3B82F6', fontSize: 12, fontFamily: 'monospace' }}>STAGE 1</div>
+          <div style={{ color: '#FFFFFF', fontSize: 18, fontWeight: 800 }}>Explores Reality</div>
+        </div>
+        <div style={{ color: '#64748B', fontSize: 22 }}>➔</div>
+        <div style={{ flex: 1, backgroundColor: 'rgba(168, 85, 247, 0.1)', border: '1px solid #A855F7', borderRadius: 14, padding: '20px', textAlign: 'center' }}>
+          <div style={{ color: '#A855F7', fontSize: 12, fontFamily: 'monospace' }}>STAGE 2</div>
+          <div style={{ color: '#FFFFFF', fontSize: 18, fontWeight: 800 }}>Dreams Mistakes</div>
+        </div>
+        <div style={{ color: '#64748B', fontSize: 22 }}>➔</div>
+        <div style={{ flex: 1, backgroundColor: 'rgba(34, 197, 94, 0.1)', border: '1px solid #22C55E', borderRadius: 14, padding: '20px', textAlign: 'center' }}>
+          <div style={{ color: '#22C55E', fontSize: 12, fontFamily: 'monospace' }}>STAGE 3</div>
+          <div style={{ color: '#FFFFFF', fontSize: 18, fontWeight: 800 }}>Rewrites Logic</div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const BeatSmarterThanYesterday: React.FC = () => {
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-
-  const entrance = spring({
-    frame,
-    fps,
-    config: { damping: 18, stiffness: 120 },
-  });
-
-  const opacity = interpolate(frame, [0, 15], [0, 1], { extrapolateRight: 'clamp' });
-  const spin = interpolate(frame, [0, 300], [0, 360]);
+  const pulse = Math.sin(frame / 6) * 0.1 + 0.9;
 
   return (
-    <AbsoluteFill style={{ backgroundColor: '#05070E', opacity }}>
-      {/* High-End Cosmic Gradient */}
-      <div
-        style={{
-          position: 'absolute',
-          inset: 0,
-          backgroundImage: 'radial-gradient(circle at 50% 40%, rgba(66, 133, 244, 0.18) 0%, transparent 70%)',
-        }}
-      />
-
-      {/* Header */}
-      <div
-        style={{
-          position: 'absolute',
-          top: 50,
-          left: 80,
-          right: 80,
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          borderBottom: '1px solid rgba(255,255,255,0.1)',
-          paddingBottom: 20,
-        }}
-      >
-        <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
-          <GoogleGeminiLogo size={32} />
-          <span style={{ color: '#4285F4', fontSize: 16, fontFamily: 'monospace', letterSpacing: '0.2em', fontWeight: 800 }}>
-            THE POST-TRANSFORMER ERA
-          </span>
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ backgroundColor: 'rgba(34, 197, 94, 0.15)', border: '2px solid #22C55E', borderRadius: 24, padding: '36px 64px', textAlign: 'center', transform: `scale(${pulse})`, boxShadow: '0 0 40px rgba(34, 197, 94, 0.25)' }}>
+        <div style={{ color: '#22C55E', fontSize: 14, fontFamily: 'monospace', letterSpacing: '0.25em', fontWeight: 800 }}>
+          THE RECURSIVE COMPOUND
         </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 10, backgroundColor: 'rgba(16, 163, 127, 0.15)', border: '1px solid rgba(16, 163, 127, 0.3)', padding: '6px 16px', borderRadius: 20 }}>
-          <Infinity size={18} color="#10A37F" />
-          <span style={{ color: '#10A37F', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>
-            THE EVOLUTIONARY FLYWHEEL
-          </span>
+        <div style={{ color: '#FFFFFF', fontSize: 46, fontWeight: 900, marginTop: 8 }}>
+          Returns Smarter Than It Was Yesterday
         </div>
       </div>
+    </div>
+  );
+};
 
-      {/* Main Content Box */}
-      <div
-        style={{
-          position: 'absolute',
-          top: 150,
-          left: 120,
-          right: 120,
-          bottom: 80,
-          backgroundColor: 'rgba(15, 23, 42, 0.9)',
-          border: '1px solid rgba(66, 133, 244, 0.35)',
-          borderRadius: 24,
-          padding: 44,
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'space-between',
-          boxShadow: '0 25px 50px rgba(0,0,0,0.8)',
-          transform: `translateY(${(1 - entrance) * 20}px)`,
-        }}
-      >
-        <div>
-          <div style={{ color: '#38BDF8', fontSize: 13, fontFamily: 'monospace', letterSpacing: '0.2em', fontWeight: 800, marginBottom: 8 }}>
-            THE SUPERINTELLIGENCE TRAJECTORY
-          </div>
-          <div style={{ color: '#FFFFFF', fontSize: 48, fontWeight: 900, lineHeight: 1.15 }}>
-            Beyond the Limits of Human Dataset Curation
-          </div>
-          <p style={{ color: '#94A3B8', fontSize: 18, marginTop: 12, lineHeight: 1.6, maxWidth: 1000 }}>
-            The machine explores reality, dreams about its mistakes, rewrites its problem-solving logic, and returns smarter than it was yesterday. The intelligence ceiling has officially shattered.
-          </p>
+const BeatUntetheredFromHumanData: React.FC = () => {
+  return (
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ backgroundColor: 'rgba(15, 23, 42, 0.9)', border: '1px solid rgba(59, 130, 246, 0.4)', borderRadius: 20, padding: '36px 56px', textAlign: 'center' }}>
+        <div style={{ color: '#38BDF8', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>
+          THE CEILING BROKEN
         </div>
-
-        {/* 4-Node Circular Cognitive Flywheel */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 18 }}>
-          <div style={{ backgroundColor: 'rgba(30, 41, 59, 0.6)', border: '1px solid rgba(66, 133, 244, 0.3)', borderRadius: 16, padding: 22, textAlign: 'center' }}>
-            <div style={{ color: '#4285F4', fontSize: 32, fontWeight: 900, fontFamily: 'monospace' }}>01</div>
-            <div style={{ color: '#FFFFFF', fontSize: 18, fontWeight: 800, marginTop: 6 }}>Explores Reality</div>
-            <div style={{ color: '#94A3B8', fontSize: 13, marginTop: 4 }}>Attempts complex scientific discovery tasks</div>
-          </div>
-
-          <div style={{ backgroundColor: 'rgba(30, 41, 59, 0.6)', border: '1px solid rgba(56, 189, 248, 0.3)', borderRadius: 16, padding: 22, textAlign: 'center' }}>
-            <div style={{ color: '#38BDF8', fontSize: 32, fontWeight: 900, fontFamily: 'monospace' }}>02</div>
-            <div style={{ color: '#FFFFFF', fontSize: 18, fontWeight: 800, marginTop: 6 }}>Dreams in Replay</div>
-            <div style={{ color: '#94A3B8', fontSize: 13, marginTop: 4 }}>Simulates mistakes in historical tree</div>
-          </div>
-
-          <div style={{ backgroundColor: 'rgba(30, 41, 59, 0.6)', border: '1px solid rgba(245, 158, 11, 0.3)', borderRadius: 16, padding: 22, textAlign: 'center' }}>
-            <div style={{ color: '#F59E0B', fontSize: 32, fontWeight: 900, fontFamily: 'monospace' }}>03</div>
-            <div style={{ color: '#FFFFFF', fontSize: 18, fontWeight: 800, marginTop: 6 }}>Mutates Search</div>
-            <div style={{ color: '#94A3B8', fontSize: 13, marginTop: 4 }}>Evolves superior exploration heuristics</div>
-          </div>
-
-          <div style={{ backgroundColor: 'rgba(30, 41, 59, 0.6)', border: '1px solid rgba(16, 163, 127, 0.3)', borderRadius: 16, padding: 22, textAlign: 'center' }}>
-            <div style={{ color: '#10A37F', fontSize: 32, fontWeight: 900, fontFamily: 'monospace' }}>04</div>
-            <div style={{ color: '#FFFFFF', fontSize: 18, fontWeight: 800, marginTop: 6 }}>Recursive Leap</div>
-            <div style={{ color: '#94A3B8', fontSize: 13, marginTop: 4 }}>Redeploys with compounded capability</div>
-          </div>
+        <div style={{ color: '#FFFFFF', fontSize: 38, fontWeight: 900, marginTop: 8 }}>
+          Untethered from Human Dataset Limits
         </div>
-
-        {/* Bottom Verdict Banner */}
-        <div style={{ backgroundColor: 'rgba(16, 163, 127, 0.15)', border: '2px solid #10A37F', borderRadius: 16, padding: '18px 28px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <div>
-            <div style={{ color: '#10A37F', fontSize: 12, fontFamily: 'monospace', fontWeight: 800 }}>HISTORIC CONVERGENCE</div>
-            <div style={{ color: '#FFFFFF', fontSize: 20, fontWeight: 800 }}>The Era of Recursive Self-Improvement Has Officially Arrived.</div>
-          </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10, color: '#10A37F', fontFamily: 'monospace', fontWeight: 800, fontSize: 15 }}>
-            <Sparkles size={20} />
-            <span>AGI RECURSION ACTIVE</span>
-          </div>
+        <div style={{ color: '#94A3B8', fontSize: 14, fontFamily: 'monospace', marginTop: 10 }}>
+          Self-generating ground truth through offline simulation
         </div>
       </div>
-    </AbsoluteFill>
+    </div>
+  );
+};
+
+const BeatGrandOutro: React.FC = () => {
+  return (
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ width: 90, height: 90, borderRadius: '50%', backgroundColor: 'rgba(66, 133, 244, 0.15)', border: '2px solid #4285F4', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 20, boxShadow: '0 0 50px rgba(66, 133, 244, 0.4)' }}>
+        <GoogleGeminiLogo size={56} />
+      </div>
+      <div style={{ color: '#4285F4', fontSize: 14, fontFamily: 'monospace', letterSpacing: '0.3em', fontWeight: 800 }}>
+        THE SINGULARITY HORIZON
+      </div>
+      <div style={{ color: '#FFFFFF', fontSize: 52, fontWeight: 900, fontFamily: 'monospace', marginTop: 8, textAlign: 'center' }}>
+        THE ERA OF RECURSIVE SELF-IMPROVEMENT HAS ARRIVED
+      </div>
+      <div style={{ backgroundColor: 'rgba(34, 197, 94, 0.15)', border: '1px solid #22C55E', borderRadius: 8, padding: '6px 20px', color: '#22C55E', fontFamily: 'monospace', fontSize: 13, fontWeight: 800, marginTop: 20 }}>
+        GOOGLE DEEPMIND • DREAM-RSI
+      </div>
+    </div>
   );
 };
