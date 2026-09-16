@@ -6,9 +6,10 @@ on:
       composition:
         description: 'Composition to render'
         required: true
-        default: 'LongFormDocumentary'
+        default: 'GoogleRSIDocumentary'
         type: choice
         options:
+          - GoogleRSIDocumentary
           - LongFormDocumentary
           - DailyVideo
           - Video

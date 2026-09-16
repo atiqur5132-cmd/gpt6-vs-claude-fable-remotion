@@ -3,11 +3,22 @@ import { Composition, Still } from "remotion";
 import { MainVideo } from "./MainVideo";
 import { DailyVideo } from "./DailyVideo";
 import { LongFormDocumentary } from "./LongFormDocumentary";
+import { GoogleRSIDocumentary } from "./GoogleRSIDocumentary";
 import { Thumbnail } from "./Thumbnail";
 
 export const Root: React.FC = () => {
   return (
     <>
+      {/* 5.08-Minute Google DeepMind Dream-RSI & AGI Documentary (>5 Minutes) */}
+      <Composition
+        id="GoogleRSIDocumentary"
+        component={GoogleRSIDocumentary}
+        durationInFrames={9140}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* 6.01-Minute Master AI Documentary (>5 Minutes) */}
       <Composition
         id="LongFormDocumentary"

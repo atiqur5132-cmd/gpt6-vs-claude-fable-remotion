@@ -1,0 +1,5676 @@
+{
+  "duration": 304.66,
+  "totalFrames": 9140,
+  "fps": 30,
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 10.04,
+      "startFrame": 0,
+      "endFrame": 301,
+      "text": "For decades, the theoretical boundaries separating artificial intelligence from true superintelligence was defined by a single terrifying concept, recursive self-improvement.",
+      "words": [
+        {
+          "word": "For",
+          "start": 0.0,
+          "end": 0.24,
+          "startFrame": 0,
+          "endFrame": 7
+        },
+        {
+          "word": "decades,",
+          "start": 0.24,
+          "end": 0.54,
+          "startFrame": 7,
+          "endFrame": 16
+        },
+        {
+          "word": "the",
+          "start": 1.08,
+          "end": 1.3,
+          "startFrame": 32,
+          "endFrame": 39
+        },
+        {
+          "word": "theoretical",
+          "start": 1.3,
+          "end": 1.62,
+          "startFrame": 39,
+          "endFrame": 49
+        },
+        {
+          "word": "boundaries",
+          "start": 1.62,
+          "end": 2.1,
+          "startFrame": 49,
+          "endFrame": 63
+        },
+        {
+          "word": "separating",
+          "start": 2.1,
+          "end": 2.68,
+          "startFrame": 63,
+          "endFrame": 80
+        },
+        {
+          "word": "artificial",
+          "start": 2.68,
+          "end": 3.14,
+          "startFrame": 80,
+          "endFrame": 94
+        },
+        {
+          "word": "intelligence",
+          "start": 3.14,
+          "end": 3.88,
+          "startFrame": 94,
+          "endFrame": 116
+        },
+        {
+          "word": "from",
+          "start": 3.88,
+          "end": 4.22,
+          "startFrame": 116,
+          "endFrame": 127
+        },
+        {
+          "word": "true",
+          "start": 4.22,
+          "end": 4.46,
+          "startFrame": 127,
+          "endFrame": 134
+        },
+        {
+          "word": "superintelligence",
+          "start": 4.46,
+          "end": 5.06,
+          "startFrame": 134,
+          "endFrame": 152
+        },
+        {
+          "word": "was",
+          "start": 5.06,
+          "end": 5.62,
+          "startFrame": 152,
+          "endFrame": 169
+        },
+        {
+          "word": "defined",
+          "start": 5.62,
+          "end": 5.82,
+          "startFrame": 169,
+          "endFrame": 175
+        },
+        {
+          "word": "by",
+          "start": 5.82,
+          "end": 6.32,
+          "startFrame": 175,
+          "endFrame": 190
+        },
+        {
+          "word": "a",
+          "start": 6.32,
+          "end": 6.46,
+          "startFrame": 190,
+          "endFrame": 194
+        },
+        {
+          "word": "single",
+          "start": 6.46,
+          "end": 6.84,
+          "startFrame": 194,
+          "endFrame": 205
+        },
+        {
+          "word": "terrifying",
+          "start": 6.84,
+          "end": 7.3,
+          "startFrame": 205,
+          "endFrame": 219
+        },
+        {
+          "word": "concept,",
+          "start": 7.3,
+          "end": 8.06,
+          "startFrame": 219,
+          "endFrame": 242
+        },
+        {
+          "word": "recursive",
+          "start": 8.6,
+          "end": 8.94,
+          "startFrame": 258,
+          "endFrame": 268
+        },
+        {
+          "word": "self",
+          "start": 8.94,
+          "end": 9.42,
+          "startFrame": 268,
+          "endFrame": 283
+        },
+        {
+          "word": "-improvement.",
+          "start": 9.42,
+          "end": 10.04,
+          "startFrame": 283,
+          "endFrame": 301
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "start": 10.44,
+      "end": 18.38,
+      "startFrame": 313,
+      "endFrame": 551,
+      "text": "The idea that an algorithm could actively redesign, optimize, and accelerate its own cognitive architecture without human intervention.",
+      "words": [
+        {
+          "word": "The",
+          "start": 10.44,
+          "end": 10.66,
+          "startFrame": 313,
+          "endFrame": 320
+        },
+        {
+          "word": "idea",
+          "start": 10.66,
+          "end": 10.9,
+          "startFrame": 320,
+          "endFrame": 327
+        },
+        {
+          "word": "that",
+          "start": 10.9,
+          "end": 11.24,
+          "startFrame": 327,
+          "endFrame": 337
+        },
+        {
+          "word": "an",
+          "start": 11.24,
+          "end": 11.36,
+          "startFrame": 337,
+          "endFrame": 341
+        },
+        {
+          "word": "algorithm",
+          "start": 11.36,
+          "end": 11.74,
+          "startFrame": 341,
+          "endFrame": 352
+        },
+        {
+          "word": "could",
+          "start": 11.74,
+          "end": 12.08,
+          "startFrame": 352,
+          "endFrame": 362
+        },
+        {
+          "word": "actively",
+          "start": 12.08,
+          "end": 12.5,
+          "startFrame": 362,
+          "endFrame": 375
+        },
+        {
+          "word": "redesign,",
+          "start": 12.5,
+          "end": 13.1,
+          "startFrame": 375,
+          "endFrame": 393
+        },
+        {
+          "word": "optimize,",
+          "start": 13.56,
+          "end": 14.14,
+          "startFrame": 407,
+          "endFrame": 424
+        },
+        {
+          "word": "and",
+          "start": 15.02,
+          "end": 15.08,
+          "startFrame": 451,
+          "endFrame": 452
+        },
+        {
+          "word": "accelerate",
+          "start": 15.08,
+          "end": 15.5,
+          "startFrame": 452,
+          "endFrame": 465
+        },
+        {
+          "word": "its",
+          "start": 15.5,
+          "end": 15.86,
+          "startFrame": 465,
+          "endFrame": 476
+        },
+        {
+          "word": "own",
+          "start": 15.86,
+          "end": 16.02,
+          "startFrame": 476,
+          "endFrame": 481
+        },
+        {
+          "word": "cognitive",
+          "start": 16.02,
+          "end": 16.34,
+          "startFrame": 481,
+          "endFrame": 490
+        },
+        {
+          "word": "architecture",
+          "start": 16.34,
+          "end": 17.06,
+          "startFrame": 490,
+          "endFrame": 512
+        },
+        {
+          "word": "without",
+          "start": 17.06,
+          "end": 17.42,
+          "startFrame": 512,
+          "endFrame": 523
+        },
+        {
+          "word": "human",
+          "start": 17.42,
+          "end": 17.8,
+          "startFrame": 523,
+          "endFrame": 534
+        },
+        {
+          "word": "intervention.",
+          "start": 17.8,
+          "end": 18.38,
+          "startFrame": 534,
+          "endFrame": 551
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 19.02,
+      "end": 22.8,
+      "startFrame": 571,
+      "endFrame": 684,
+      "text": "Mathematicians warned that the moment an AI system masters this loop,",
+      "words": [
+        {
+          "word": "Mathematicians",
+          "start": 19.02,
+          "end": 19.76,
+          "startFrame": 571,
+          "endFrame": 593
+        },
+        {
+          "word": "warned",
+          "start": 19.76,
+          "end": 20.06,
+          "startFrame": 593,
+          "endFrame": 602
+        },
+        {
+          "word": "that",
+          "start": 20.06,
+          "end": 20.4,
+          "startFrame": 602,
+          "endFrame": 612
+        },
+        {
+          "word": "the",
+          "start": 20.4,
+          "end": 20.56,
+          "startFrame": 612,
+          "endFrame": 617
+        },
+        {
+          "word": "moment",
+          "start": 20.56,
+          "end": 20.86,
+          "startFrame": 617,
+          "endFrame": 626
+        },
+        {
+          "word": "an",
+          "start": 20.86,
+          "end": 21.08,
+          "startFrame": 626,
+          "endFrame": 632
+        },
+        {
+          "word": "AI",
+          "start": 21.08,
+          "end": 21.3,
+          "startFrame": 632,
+          "endFrame": 639
+        },
+        {
+          "word": "system",
+          "start": 21.3,
+          "end": 21.78,
+          "startFrame": 639,
+          "endFrame": 653
+        },
+        {
+          "word": "masters",
+          "start": 21.78,
+          "end": 22.1,
+          "startFrame": 653,
+          "endFrame": 663
+        },
+        {
+          "word": "this",
+          "start": 22.1,
+          "end": 22.54,
+          "startFrame": 663,
+          "endFrame": 676
+        },
+        {
+          "word": "loop,",
+          "start": 22.54,
+          "end": 22.8,
+          "startFrame": 676,
+          "endFrame": 684
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 23.36,
+      "end": 27.02,
+      "startFrame": 701,
+      "endFrame": 811,
+      "text": "an intelligence explosion becomes an absolute mathematical certainty.",
+      "words": [
+        {
+          "word": "an",
+          "start": 23.06,
+          "end": 23.46,
+          "startFrame": 692,
+          "endFrame": 704
+        },
+        {
+          "word": "intelligence",
+          "start": 23.46,
+          "end": 24.08,
+          "startFrame": 704,
+          "endFrame": 722
+        },
+        {
+          "word": "explosion",
+          "start": 24.08,
+          "end": 24.62,
+          "startFrame": 722,
+          "endFrame": 739
+        },
+        {
+          "word": "becomes",
+          "start": 24.62,
+          "end": 25.14,
+          "startFrame": 739,
+          "endFrame": 754
+        },
+        {
+          "word": "an",
+          "start": 25.14,
+          "end": 25.4,
+          "startFrame": 754,
+          "endFrame": 762
+        },
+        {
+          "word": "absolute",
+          "start": 25.4,
+          "end": 25.84,
+          "startFrame": 762,
+          "endFrame": 775
+        },
+        {
+          "word": "mathematical",
+          "start": 25.84,
+          "end": 26.3,
+          "startFrame": 775,
+          "endFrame": 789
+        },
+        {
+          "word": "certainty.",
+          "start": 26.3,
+          "end": 27.02,
+          "startFrame": 789,
+          "endFrame": 811
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 27.52,
+      "end": 32.68,
+      "startFrame": 826,
+      "endFrame": 980,
+      "text": "Today, September 16th, 2026, Google DeepMind crossed that Rubicon.",
+      "words": [
+        {
+          "word": "Today,",
+          "start": 27.52,
+          "end": 27.88,
+          "startFrame": 826,
+          "endFrame": 836
+        },
+        {
+          "word": "September",
+          "start": 28.16,
+          "end": 28.42,
+          "startFrame": 845,
+          "endFrame": 853
+        },
+        {
+          "word": "16th,",
+          "start": 28.42,
+          "end": 29.18,
+          "startFrame": 853,
+          "endFrame": 875
+        },
+        {
+          "word": "2026,",
+          "start": 29.32,
+          "end": 29.98,
+          "startFrame": 880,
+          "endFrame": 899
+        },
+        {
+          "word": "Google",
+          "start": 30.62,
+          "end": 30.84,
+          "startFrame": 919,
+          "endFrame": 925
+        },
+        {
+          "word": "DeepMind",
+          "start": 30.84,
+          "end": 31.48,
+          "startFrame": 925,
+          "endFrame": 944
+        },
+        {
+          "word": "crossed",
+          "start": 31.48,
+          "end": 31.82,
+          "startFrame": 944,
+          "endFrame": 955
+        },
+        {
+          "word": "that",
+          "start": 31.82,
+          "end": 32.2,
+          "startFrame": 955,
+          "endFrame": 966
+        },
+        {
+          "word": "Rubicon.",
+          "start": 32.2,
+          "end": 32.68,
+          "startFrame": 966,
+          "endFrame": 980
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 33.28,
+      "end": 36.88,
+      "startFrame": 998,
+      "endFrame": 1106,
+      "text": "In a landmark research drop that sent shockwaves through the global research community,",
+      "words": [
+        {
+          "word": "In",
+          "start": 33.28,
+          "end": 33.38,
+          "startFrame": 998,
+          "endFrame": 1001
+        },
+        {
+          "word": "a",
+          "start": 33.38,
+          "end": 33.46,
+          "startFrame": 1001,
+          "endFrame": 1004
+        },
+        {
+          "word": "landmark",
+          "start": 33.46,
+          "end": 33.68,
+          "startFrame": 1004,
+          "endFrame": 1010
+        },
+        {
+          "word": "research",
+          "start": 33.68,
+          "end": 34.12,
+          "startFrame": 1010,
+          "endFrame": 1024
+        },
+        {
+          "word": "drop",
+          "start": 34.12,
+          "end": 34.52,
+          "startFrame": 1024,
+          "endFrame": 1036
+        },
+        {
+          "word": "that",
+          "start": 34.52,
+          "end": 34.76,
+          "startFrame": 1036,
+          "endFrame": 1043
+        },
+        {
+          "word": "sent",
+          "start": 34.76,
+          "end": 34.94,
+          "startFrame": 1043,
+          "endFrame": 1048
+        },
+        {
+          "word": "shockwaves",
+          "start": 34.94,
+          "end": 35.48,
+          "startFrame": 1048,
+          "endFrame": 1064
+        },
+        {
+          "word": "through",
+          "start": 35.48,
+          "end": 35.8,
+          "startFrame": 1064,
+          "endFrame": 1074
+        },
+        {
+          "word": "the",
+          "start": 35.8,
+          "end": 35.92,
+          "startFrame": 1074,
+          "endFrame": 1078
+        },
+        {
+          "word": "global",
+          "start": 35.92,
+          "end": 36.14,
+          "startFrame": 1078,
+          "endFrame": 1084
+        },
+        {
+          "word": "research",
+          "start": 36.14,
+          "end": 36.52,
+          "startFrame": 1084,
+          "endFrame": 1096
+        },
+        {
+          "word": "community,",
+          "start": 36.52,
+          "end": 36.88,
+          "startFrame": 1096,
+          "endFrame": 1106
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 37.6,
+      "end": 42.02,
+      "startFrame": 1128,
+      "endFrame": 1261,
+      "text": "Google DeepMind, alongside researchers from the University of Maryland and Virginia,",
+      "words": [
+        {
+          "word": "Google",
+          "start": 37.6,
+          "end": 37.86,
+          "startFrame": 1128,
+          "endFrame": 1136
+        },
+        {
+          "word": "DeepMind,",
+          "start": 37.86,
+          "end": 38.54,
+          "startFrame": 1136,
+          "endFrame": 1156
+        },
+        {
+          "word": "alongside",
+          "start": 38.98,
+          "end": 39.38,
+          "startFrame": 1169,
+          "endFrame": 1181
+        },
+        {
+          "word": "researchers",
+          "start": 39.38,
+          "end": 39.96,
+          "startFrame": 1181,
+          "endFrame": 1199
+        },
+        {
+          "word": "from",
+          "start": 39.96,
+          "end": 40.42,
+          "startFrame": 1199,
+          "endFrame": 1213
+        },
+        {
+          "word": "the",
+          "start": 40.42,
+          "end": 40.52,
+          "startFrame": 1213,
+          "endFrame": 1216
+        },
+        {
+          "word": "University",
+          "start": 40.52,
+          "end": 40.84,
+          "startFrame": 1216,
+          "endFrame": 1225
+        },
+        {
+          "word": "of",
+          "start": 40.84,
+          "end": 41.18,
+          "startFrame": 1225,
+          "endFrame": 1235
+        },
+        {
+          "word": "Maryland",
+          "start": 41.18,
+          "end": 41.36,
+          "startFrame": 1235,
+          "endFrame": 1241
+        },
+        {
+          "word": "and",
+          "start": 41.36,
+          "end": 41.74,
+          "startFrame": 1241,
+          "endFrame": 1252
+        },
+        {
+          "word": "Virginia,",
+          "start": 41.74,
+          "end": 42.02,
+          "startFrame": 1252,
+          "endFrame": 1261
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 42.7,
+      "end": 44.52,
+      "startFrame": 1281,
+      "endFrame": 1336,
+      "text": "officially unveiled DreamRSI.",
+      "words": [
+        {
+          "word": "officially",
+          "start": 42.7,
+          "end": 43.22,
+          "startFrame": 1281,
+          "endFrame": 1297
+        },
+        {
+          "word": "unveiled",
+          "start": 43.22,
+          "end": 43.62,
+          "startFrame": 1297,
+          "endFrame": 1309
+        },
+        {
+          "word": "DreamRSI.",
+          "start": 43.62,
+          "end": 44.52,
+          "startFrame": 1309,
+          "endFrame": 1336
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 45.04,
+      "end": 47.08,
+      "startFrame": 1351,
+      "endFrame": 1412,
+      "text": "This is not another chatbot upgrade.",
+      "words": [
+        {
+          "word": "This",
+          "start": 45.04,
+          "end": 45.3,
+          "startFrame": 1351,
+          "endFrame": 1359
+        },
+        {
+          "word": "is",
+          "start": 45.3,
+          "end": 45.42,
+          "startFrame": 1359,
+          "endFrame": 1363
+        },
+        {
+          "word": "not",
+          "start": 45.42,
+          "end": 45.68,
+          "startFrame": 1363,
+          "endFrame": 1370
+        },
+        {
+          "word": "another",
+          "start": 45.68,
+          "end": 46.16,
+          "startFrame": 1370,
+          "endFrame": 1385
+        },
+        {
+          "word": "chatbot",
+          "start": 46.16,
+          "end": 46.7,
+          "startFrame": 1385,
+          "endFrame": 1401
+        },
+        {
+          "word": "upgrade.",
+          "start": 46.7,
+          "end": 47.08,
+          "startFrame": 1401,
+          "endFrame": 1412
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 47.08,
+      "end": 56.64,
+      "startFrame": 1412,
+      "endFrame": 1699,
+      "text": "It is an autonomous recursive self-improvement engine engineered specifically for scientific discovery, algorithmic engineering, and mathematical breakthroughs.",
+      "words": [
+        {
+          "word": "It",
+          "start": 47.08,
+          "end": 47.66,
+          "startFrame": 1412,
+          "endFrame": 1430
+        },
+        {
+          "word": "is",
+          "start": 47.66,
+          "end": 48.02,
+          "startFrame": 1430,
+          "endFrame": 1441
+        },
+        {
+          "word": "an",
+          "start": 48.02,
+          "end": 48.12,
+          "startFrame": 1441,
+          "endFrame": 1444
+        },
+        {
+          "word": "autonomous",
+          "start": 48.12,
+          "end": 48.48,
+          "startFrame": 1444,
+          "endFrame": 1454
+        },
+        {
+          "word": "recursive",
+          "start": 48.48,
+          "end": 48.88,
+          "startFrame": 1454,
+          "endFrame": 1466
+        },
+        {
+          "word": "self",
+          "start": 48.88,
+          "end": 49.44,
+          "startFrame": 1466,
+          "endFrame": 1483
+        },
+        {
+          "word": "-improvement",
+          "start": 49.44,
+          "end": 50.1,
+          "startFrame": 1483,
+          "endFrame": 1503
+        },
+        {
+          "word": "engine",
+          "start": 50.1,
+          "end": 50.28,
+          "startFrame": 1503,
+          "endFrame": 1508
+        },
+        {
+          "word": "engineered",
+          "start": 50.28,
+          "end": 51.0,
+          "startFrame": 1508,
+          "endFrame": 1530
+        },
+        {
+          "word": "specifically",
+          "start": 51.0,
+          "end": 51.48,
+          "startFrame": 1530,
+          "endFrame": 1544
+        },
+        {
+          "word": "for",
+          "start": 51.48,
+          "end": 52.0,
+          "startFrame": 1544,
+          "endFrame": 1560
+        },
+        {
+          "word": "scientific",
+          "start": 52.0,
+          "end": 52.36,
+          "startFrame": 1560,
+          "endFrame": 1571
+        },
+        {
+          "word": "discovery,",
+          "start": 52.36,
+          "end": 53.0,
+          "startFrame": 1571,
+          "endFrame": 1590
+        },
+        {
+          "word": "algorithmic",
+          "start": 53.7,
+          "end": 54.4,
+          "startFrame": 1611,
+          "endFrame": 1632
+        },
+        {
+          "word": "engineering,",
+          "start": 54.4,
+          "end": 54.78,
+          "startFrame": 1632,
+          "endFrame": 1643
+        },
+        {
+          "word": "and",
+          "start": 55.26,
+          "end": 55.32,
+          "startFrame": 1658,
+          "endFrame": 1660
+        },
+        {
+          "word": "mathematical",
+          "start": 55.32,
+          "end": 55.68,
+          "startFrame": 1660,
+          "endFrame": 1670
+        },
+        {
+          "word": "breakthroughs.",
+          "start": 55.68,
+          "end": 56.64,
+          "startFrame": 1670,
+          "endFrame": 1699
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 57.0,
+      "end": 65.98,
+      "startFrame": 1710,
+      "endFrame": 1979,
+      "text": "And the reason it is shaking the foundation of artificial intelligence is because DeepMind solved the fatal bottleneck that had paralyzed self-improving agents for years.",
+      "words": [
+        {
+          "word": "And",
+          "start": 57.0,
+          "end": 57.2,
+          "startFrame": 1710,
+          "endFrame": 1716
+        },
+        {
+          "word": "the",
+          "start": 57.2,
+          "end": 57.32,
+          "startFrame": 1716,
+          "endFrame": 1720
+        },
+        {
+          "word": "reason",
+          "start": 57.32,
+          "end": 57.6,
+          "startFrame": 1720,
+          "endFrame": 1728
+        },
+        {
+          "word": "it",
+          "start": 57.6,
+          "end": 57.8,
+          "startFrame": 1728,
+          "endFrame": 1734
+        },
+        {
+          "word": "is",
+          "start": 57.8,
+          "end": 57.92,
+          "startFrame": 1734,
+          "endFrame": 1738
+        },
+        {
+          "word": "shaking",
+          "start": 57.92,
+          "end": 58.14,
+          "startFrame": 1738,
+          "endFrame": 1744
+        },
+        {
+          "word": "the",
+          "start": 58.14,
+          "end": 58.44,
+          "startFrame": 1744,
+          "endFrame": 1753
+        },
+        {
+          "word": "foundation",
+          "start": 58.44,
+          "end": 58.84,
+          "startFrame": 1753,
+          "endFrame": 1765
+        },
+        {
+          "word": "of",
+          "start": 58.84,
+          "end": 59.16,
+          "startFrame": 1765,
+          "endFrame": 1775
+        },
+        {
+          "word": "artificial",
+          "start": 59.16,
+          "end": 59.38,
+          "startFrame": 1775,
+          "endFrame": 1781
+        },
+        {
+          "word": "intelligence",
+          "start": 59.38,
+          "end": 59.84,
+          "startFrame": 1781,
+          "endFrame": 1795
+        },
+        {
+          "word": "is",
+          "start": 59.84,
+          "end": 61.18,
+          "startFrame": 1795,
+          "endFrame": 1835
+        },
+        {
+          "word": "because",
+          "start": 61.18,
+          "end": 61.42,
+          "startFrame": 1835,
+          "endFrame": 1843
+        },
+        {
+          "word": "DeepMind",
+          "start": 61.42,
+          "end": 61.94,
+          "startFrame": 1843,
+          "endFrame": 1858
+        },
+        {
+          "word": "solved",
+          "start": 61.94,
+          "end": 62.32,
+          "startFrame": 1858,
+          "endFrame": 1870
+        },
+        {
+          "word": "the",
+          "start": 62.32,
+          "end": 62.68,
+          "startFrame": 1870,
+          "endFrame": 1880
+        },
+        {
+          "word": "fatal",
+          "start": 62.68,
+          "end": 62.88,
+          "startFrame": 1880,
+          "endFrame": 1886
+        },
+        {
+          "word": "bottleneck",
+          "start": 62.88,
+          "end": 63.28,
+          "startFrame": 1886,
+          "endFrame": 1898
+        },
+        {
+          "word": "that",
+          "start": 63.28,
+          "end": 63.7,
+          "startFrame": 1898,
+          "endFrame": 1911
+        },
+        {
+          "word": "had",
+          "start": 63.7,
+          "end": 63.82,
+          "startFrame": 1911,
+          "endFrame": 1915
+        },
+        {
+          "word": "paralyzed",
+          "start": 63.82,
+          "end": 64.16,
+          "startFrame": 1915,
+          "endFrame": 1925
+        },
+        {
+          "word": "self",
+          "start": 64.16,
+          "end": 64.66,
+          "startFrame": 1925,
+          "endFrame": 1940
+        },
+        {
+          "word": "-improving",
+          "start": 64.66,
+          "end": 65.14,
+          "startFrame": 1940,
+          "endFrame": 1954
+        },
+        {
+          "word": "agents",
+          "start": 65.14,
+          "end": 65.4,
+          "startFrame": 1954,
+          "endFrame": 1962
+        },
+        {
+          "word": "for",
+          "start": 65.4,
+          "end": 65.74,
+          "startFrame": 1962,
+          "endFrame": 1972
+        },
+        {
+          "word": "years.",
+          "start": 65.74,
+          "end": 65.98,
+          "startFrame": 1972,
+          "endFrame": 1979
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 66.52,
+      "end": 73.14,
+      "startFrame": 1996,
+      "endFrame": 2194,
+      "text": "To understand the magnitude of what just happened, you have to understand why AI self-improvement was previously impossible.",
+      "words": [
+        {
+          "word": "To",
+          "start": 66.52,
+          "end": 66.72,
+          "startFrame": 1996,
+          "endFrame": 2002
+        },
+        {
+          "word": "understand",
+          "start": 66.72,
+          "end": 67.08,
+          "startFrame": 2002,
+          "endFrame": 2012
+        },
+        {
+          "word": "the",
+          "start": 67.08,
+          "end": 67.48,
+          "startFrame": 2012,
+          "endFrame": 2024
+        },
+        {
+          "word": "magnitude",
+          "start": 67.48,
+          "end": 67.9,
+          "startFrame": 2024,
+          "endFrame": 2037
+        },
+        {
+          "word": "of",
+          "start": 67.9,
+          "end": 68.22,
+          "startFrame": 2037,
+          "endFrame": 2047
+        },
+        {
+          "word": "what",
+          "start": 68.22,
+          "end": 68.4,
+          "startFrame": 2047,
+          "endFrame": 2052
+        },
+        {
+          "word": "just",
+          "start": 68.4,
+          "end": 68.58,
+          "startFrame": 2052,
+          "endFrame": 2057
+        },
+        {
+          "word": "happened,",
+          "start": 68.58,
+          "end": 69.0,
+          "startFrame": 2057,
+          "endFrame": 2070
+        },
+        {
+          "word": "you",
+          "start": 69.5,
+          "end": 69.68,
+          "startFrame": 2085,
+          "endFrame": 2090
+        },
+        {
+          "word": "have",
+          "start": 69.68,
+          "end": 69.82,
+          "startFrame": 2090,
+          "endFrame": 2095
+        },
+        {
+          "word": "to",
+          "start": 69.82,
+          "end": 69.96,
+          "startFrame": 2095,
+          "endFrame": 2099
+        },
+        {
+          "word": "understand",
+          "start": 69.96,
+          "end": 70.28,
+          "startFrame": 2099,
+          "endFrame": 2108
+        },
+        {
+          "word": "why",
+          "start": 70.28,
+          "end": 70.76,
+          "startFrame": 2108,
+          "endFrame": 2123
+        },
+        {
+          "word": "AI",
+          "start": 70.76,
+          "end": 71.06,
+          "startFrame": 2123,
+          "endFrame": 2132
+        },
+        {
+          "word": "self",
+          "start": 71.06,
+          "end": 71.48,
+          "startFrame": 2132,
+          "endFrame": 2144
+        },
+        {
+          "word": "-improvement",
+          "start": 71.48,
+          "end": 72.04,
+          "startFrame": 2144,
+          "endFrame": 2161
+        },
+        {
+          "word": "was",
+          "start": 72.04,
+          "end": 72.24,
+          "startFrame": 2161,
+          "endFrame": 2167
+        },
+        {
+          "word": "previously",
+          "start": 72.24,
+          "end": 72.56,
+          "startFrame": 2167,
+          "endFrame": 2177
+        },
+        {
+          "word": "impossible.",
+          "start": 72.56,
+          "end": 73.14,
+          "startFrame": 2177,
+          "endFrame": 2194
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 73.84,
+      "end": 80.6,
+      "startFrame": 2215,
+      "endFrame": 2418,
+      "text": "Historically, if you wanted an autonomous coding agent to discover a better mathematical solver or write a faster GPU kernel,",
+      "words": [
+        {
+          "word": "Historically,",
+          "start": 73.84,
+          "end": 74.44,
+          "startFrame": 2215,
+          "endFrame": 2233
+        },
+        {
+          "word": "if",
+          "start": 75.1,
+          "end": 75.2,
+          "startFrame": 2253,
+          "endFrame": 2256
+        },
+        {
+          "word": "you",
+          "start": 75.2,
+          "end": 75.3,
+          "startFrame": 2256,
+          "endFrame": 2259
+        },
+        {
+          "word": "wanted",
+          "start": 75.3,
+          "end": 75.56,
+          "startFrame": 2259,
+          "endFrame": 2267
+        },
+        {
+          "word": "an",
+          "start": 75.56,
+          "end": 75.76,
+          "startFrame": 2267,
+          "endFrame": 2273
+        },
+        {
+          "word": "autonomous",
+          "start": 75.76,
+          "end": 76.16,
+          "startFrame": 2273,
+          "endFrame": 2285
+        },
+        {
+          "word": "coding",
+          "start": 76.16,
+          "end": 76.42,
+          "startFrame": 2285,
+          "endFrame": 2293
+        },
+        {
+          "word": "agent",
+          "start": 76.42,
+          "end": 76.84,
+          "startFrame": 2293,
+          "endFrame": 2305
+        },
+        {
+          "word": "to",
+          "start": 76.84,
+          "end": 77.1,
+          "startFrame": 2305,
+          "endFrame": 2313
+        },
+        {
+          "word": "discover",
+          "start": 77.1,
+          "end": 77.4,
+          "startFrame": 2313,
+          "endFrame": 2322
+        },
+        {
+          "word": "a",
+          "start": 77.4,
+          "end": 77.64,
+          "startFrame": 2322,
+          "endFrame": 2329
+        },
+        {
+          "word": "better",
+          "start": 77.64,
+          "end": 77.82,
+          "startFrame": 2329,
+          "endFrame": 2335
+        },
+        {
+          "word": "mathematical",
+          "start": 77.82,
+          "end": 78.24,
+          "startFrame": 2335,
+          "endFrame": 2347
+        },
+        {
+          "word": "solver",
+          "start": 78.24,
+          "end": 78.88,
+          "startFrame": 2347,
+          "endFrame": 2366
+        },
+        {
+          "word": "or",
+          "start": 78.88,
+          "end": 79.12,
+          "startFrame": 2366,
+          "endFrame": 2374
+        },
+        {
+          "word": "write",
+          "start": 79.12,
+          "end": 79.36,
+          "startFrame": 2374,
+          "endFrame": 2381
+        },
+        {
+          "word": "a",
+          "start": 79.36,
+          "end": 79.54,
+          "startFrame": 2381,
+          "endFrame": 2386
+        },
+        {
+          "word": "faster",
+          "start": 79.54,
+          "end": 79.78,
+          "startFrame": 2386,
+          "endFrame": 2393
+        },
+        {
+          "word": "GPU",
+          "start": 79.78,
+          "end": 80.1,
+          "startFrame": 2393,
+          "endFrame": 2403
+        },
+        {
+          "word": "kernel,",
+          "start": 80.1,
+          "end": 80.6,
+          "startFrame": 2403,
+          "endFrame": 2418
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 81.32,
+      "end": 84.76,
+      "startFrame": 2440,
+      "endFrame": 2543,
+      "text": "the agent relied on a static pre-programmed exploration strategy.",
+      "words": [
+        {
+          "word": "the",
+          "start": 81.32,
+          "end": 81.44,
+          "startFrame": 2440,
+          "endFrame": 2443
+        },
+        {
+          "word": "agent",
+          "start": 81.44,
+          "end": 81.7,
+          "startFrame": 2443,
+          "endFrame": 2451
+        },
+        {
+          "word": "relied",
+          "start": 81.7,
+          "end": 82.0,
+          "startFrame": 2451,
+          "endFrame": 2460
+        },
+        {
+          "word": "on",
+          "start": 82.0,
+          "end": 82.4,
+          "startFrame": 2460,
+          "endFrame": 2472
+        },
+        {
+          "word": "a",
+          "start": 82.4,
+          "end": 82.5,
+          "startFrame": 2472,
+          "endFrame": 2475
+        },
+        {
+          "word": "static",
+          "start": 82.5,
+          "end": 82.86,
+          "startFrame": 2475,
+          "endFrame": 2486
+        },
+        {
+          "word": "pre",
+          "start": 82.86,
+          "end": 83.22,
+          "startFrame": 2486,
+          "endFrame": 2497
+        },
+        {
+          "word": "-programmed",
+          "start": 83.22,
+          "end": 83.8,
+          "startFrame": 2497,
+          "endFrame": 2514
+        },
+        {
+          "word": "exploration",
+          "start": 83.8,
+          "end": 83.98,
+          "startFrame": 2514,
+          "endFrame": 2519
+        },
+        {
+          "word": "strategy.",
+          "start": 83.98,
+          "end": 84.76,
+          "startFrame": 2519,
+          "endFrame": 2543
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 85.28,
+      "end": 87.36,
+      "startFrame": 2558,
+      "endFrame": 2621,
+      "text": "It searched through problem spaces blindly.",
+      "words": [
+        {
+          "word": "It",
+          "start": 85.28,
+          "end": 85.46,
+          "startFrame": 2558,
+          "endFrame": 2564
+        },
+        {
+          "word": "searched",
+          "start": 85.46,
+          "end": 85.68,
+          "startFrame": 2564,
+          "endFrame": 2570
+        },
+        {
+          "word": "through",
+          "start": 85.68,
+          "end": 86.12,
+          "startFrame": 2570,
+          "endFrame": 2584
+        },
+        {
+          "word": "problem",
+          "start": 86.12,
+          "end": 86.52,
+          "startFrame": 2584,
+          "endFrame": 2596
+        },
+        {
+          "word": "spaces",
+          "start": 86.52,
+          "end": 86.88,
+          "startFrame": 2596,
+          "endFrame": 2606
+        },
+        {
+          "word": "blindly.",
+          "start": 86.88,
+          "end": 87.36,
+          "startFrame": 2606,
+          "endFrame": 2621
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 88.22,
+      "end": 91.5,
+      "startFrame": 2647,
+      "endFrame": 2745,
+      "text": "In theory, the agent could optimize its own search algorithm.",
+      "words": [
+        {
+          "word": "In",
+          "start": 88.22,
+          "end": 88.32,
+          "startFrame": 2647,
+          "endFrame": 2650
+        },
+        {
+          "word": "theory,",
+          "start": 88.32,
+          "end": 88.66,
+          "startFrame": 2650,
+          "endFrame": 2660
+        },
+        {
+          "word": "the",
+          "start": 88.94,
+          "end": 89.06,
+          "startFrame": 2668,
+          "endFrame": 2672
+        },
+        {
+          "word": "agent",
+          "start": 89.06,
+          "end": 89.36,
+          "startFrame": 2672,
+          "endFrame": 2681
+        },
+        {
+          "word": "could",
+          "start": 89.36,
+          "end": 89.68,
+          "startFrame": 2681,
+          "endFrame": 2690
+        },
+        {
+          "word": "optimize",
+          "start": 89.68,
+          "end": 90.12,
+          "startFrame": 2690,
+          "endFrame": 2704
+        },
+        {
+          "word": "its",
+          "start": 90.12,
+          "end": 90.58,
+          "startFrame": 2704,
+          "endFrame": 2717
+        },
+        {
+          "word": "own",
+          "start": 90.58,
+          "end": 90.78,
+          "startFrame": 2717,
+          "endFrame": 2723
+        },
+        {
+          "word": "search",
+          "start": 90.78,
+          "end": 91.0,
+          "startFrame": 2723,
+          "endFrame": 2730
+        },
+        {
+          "word": "algorithm.",
+          "start": 91.0,
+          "end": 91.5,
+          "startFrame": 2730,
+          "endFrame": 2745
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 92.22,
+      "end": 96.24,
+      "startFrame": 2767,
+      "endFrame": 2887,
+      "text": "But doing so in the real world created an impossible economic wall.",
+      "words": [
+        {
+          "word": "But",
+          "start": 92.22,
+          "end": 92.34,
+          "startFrame": 2767,
+          "endFrame": 2770
+        },
+        {
+          "word": "doing",
+          "start": 92.34,
+          "end": 92.6,
+          "startFrame": 2770,
+          "endFrame": 2778
+        },
+        {
+          "word": "so",
+          "start": 92.6,
+          "end": 92.92,
+          "startFrame": 2778,
+          "endFrame": 2788
+        },
+        {
+          "word": "in",
+          "start": 92.92,
+          "end": 93.2,
+          "startFrame": 2788,
+          "endFrame": 2796
+        },
+        {
+          "word": "the",
+          "start": 93.2,
+          "end": 93.32,
+          "startFrame": 2796,
+          "endFrame": 2800
+        },
+        {
+          "word": "real",
+          "start": 93.32,
+          "end": 93.5,
+          "startFrame": 2800,
+          "endFrame": 2805
+        },
+        {
+          "word": "world",
+          "start": 93.5,
+          "end": 93.88,
+          "startFrame": 2805,
+          "endFrame": 2816
+        },
+        {
+          "word": "created",
+          "start": 93.88,
+          "end": 94.3,
+          "startFrame": 2816,
+          "endFrame": 2829
+        },
+        {
+          "word": "an",
+          "start": 94.3,
+          "end": 94.76,
+          "startFrame": 2829,
+          "endFrame": 2843
+        },
+        {
+          "word": "impossible",
+          "start": 94.76,
+          "end": 95.1,
+          "startFrame": 2843,
+          "endFrame": 2853
+        },
+        {
+          "word": "economic",
+          "start": 95.1,
+          "end": 95.62,
+          "startFrame": 2853,
+          "endFrame": 2869
+        },
+        {
+          "word": "wall.",
+          "start": 95.62,
+          "end": 96.24,
+          "startFrame": 2869,
+          "endFrame": 2887
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 96.74,
+      "end": 101.52,
+      "startFrame": 2902,
+      "endFrame": 3046,
+      "text": "Every time the model proposed a new way of exploring, it had to run thousands of expensive,",
+      "words": [
+        {
+          "word": "Every",
+          "start": 96.74,
+          "end": 97.0,
+          "startFrame": 2902,
+          "endFrame": 2910
+        },
+        {
+          "word": "time",
+          "start": 97.0,
+          "end": 97.32,
+          "startFrame": 2910,
+          "endFrame": 2920
+        },
+        {
+          "word": "the",
+          "start": 97.32,
+          "end": 97.48,
+          "startFrame": 2920,
+          "endFrame": 2924
+        },
+        {
+          "word": "model",
+          "start": 97.48,
+          "end": 97.68,
+          "startFrame": 2924,
+          "endFrame": 2930
+        },
+        {
+          "word": "proposed",
+          "start": 97.68,
+          "end": 98.08,
+          "startFrame": 2930,
+          "endFrame": 2942
+        },
+        {
+          "word": "a",
+          "start": 98.08,
+          "end": 98.36,
+          "startFrame": 2942,
+          "endFrame": 2951
+        },
+        {
+          "word": "new",
+          "start": 98.36,
+          "end": 98.5,
+          "startFrame": 2951,
+          "endFrame": 2955
+        },
+        {
+          "word": "way",
+          "start": 98.5,
+          "end": 98.76,
+          "startFrame": 2955,
+          "endFrame": 2963
+        },
+        {
+          "word": "of",
+          "start": 98.76,
+          "end": 98.9,
+          "startFrame": 2963,
+          "endFrame": 2967
+        },
+        {
+          "word": "exploring,",
+          "start": 98.9,
+          "end": 99.26,
+          "startFrame": 2967,
+          "endFrame": 2978
+        },
+        {
+          "word": "it",
+          "start": 99.8,
+          "end": 100.04,
+          "startFrame": 2994,
+          "endFrame": 3001
+        },
+        {
+          "word": "had",
+          "start": 100.04,
+          "end": 100.14,
+          "startFrame": 3001,
+          "endFrame": 3004
+        },
+        {
+          "word": "to",
+          "start": 100.14,
+          "end": 100.28,
+          "startFrame": 3004,
+          "endFrame": 3008
+        },
+        {
+          "word": "run",
+          "start": 100.28,
+          "end": 100.52,
+          "startFrame": 3008,
+          "endFrame": 3016
+        },
+        {
+          "word": "thousands",
+          "start": 100.52,
+          "end": 100.86,
+          "startFrame": 3016,
+          "endFrame": 3026
+        },
+        {
+          "word": "of",
+          "start": 100.86,
+          "end": 101.16,
+          "startFrame": 3026,
+          "endFrame": 3035
+        },
+        {
+          "word": "expensive,",
+          "start": 101.16,
+          "end": 101.52,
+          "startFrame": 3035,
+          "endFrame": 3046
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 101.52,
+      "end": 106.82,
+      "startFrame": 3046,
+      "endFrame": 3205,
+      "text": "time-consuming real world evaluations in compute sandboxes to verify if the new strategy worked.",
+      "words": [
+        {
+          "word": "time",
+          "start": 101.52,
+          "end": 102.06,
+          "startFrame": 3046,
+          "endFrame": 3062
+        },
+        {
+          "word": "-consuming",
+          "start": 102.06,
+          "end": 102.4,
+          "startFrame": 3062,
+          "endFrame": 3072
+        },
+        {
+          "word": "real",
+          "start": 102.4,
+          "end": 102.78,
+          "startFrame": 3072,
+          "endFrame": 3083
+        },
+        {
+          "word": "world",
+          "start": 102.78,
+          "end": 103.1,
+          "startFrame": 3083,
+          "endFrame": 3093
+        },
+        {
+          "word": "evaluations",
+          "start": 103.1,
+          "end": 103.64,
+          "startFrame": 3093,
+          "endFrame": 3109
+        },
+        {
+          "word": "in",
+          "start": 103.64,
+          "end": 104.1,
+          "startFrame": 3109,
+          "endFrame": 3123
+        },
+        {
+          "word": "compute",
+          "start": 104.1,
+          "end": 104.38,
+          "startFrame": 3123,
+          "endFrame": 3131
+        },
+        {
+          "word": "sandboxes",
+          "start": 104.38,
+          "end": 104.92,
+          "startFrame": 3131,
+          "endFrame": 3148
+        },
+        {
+          "word": "to",
+          "start": 104.92,
+          "end": 105.24,
+          "startFrame": 3148,
+          "endFrame": 3157
+        },
+        {
+          "word": "verify",
+          "start": 105.24,
+          "end": 105.44,
+          "startFrame": 3157,
+          "endFrame": 3163
+        },
+        {
+          "word": "if",
+          "start": 105.44,
+          "end": 105.92,
+          "startFrame": 3163,
+          "endFrame": 3178
+        },
+        {
+          "word": "the",
+          "start": 105.92,
+          "end": 106.04,
+          "startFrame": 3178,
+          "endFrame": 3181
+        },
+        {
+          "word": "new",
+          "start": 106.04,
+          "end": 106.14,
+          "startFrame": 3181,
+          "endFrame": 3184
+        },
+        {
+          "word": "strategy",
+          "start": 106.14,
+          "end": 106.42,
+          "startFrame": 3184,
+          "endFrame": 3193
+        },
+        {
+          "word": "worked.",
+          "start": 106.42,
+          "end": 106.82,
+          "startFrame": 3193,
+          "endFrame": 3205
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start": 107.38,
+      "end": 111.54,
+      "startFrame": 3221,
+      "endFrame": 3346,
+      "text": "Testing new exploration policies online would burn millions of dollars in compute,",
+      "words": [
+        {
+          "word": "Testing",
+          "start": 107.38,
+          "end": 107.78,
+          "startFrame": 3221,
+          "endFrame": 3233
+        },
+        {
+          "word": "new",
+          "start": 107.78,
+          "end": 107.98,
+          "startFrame": 3233,
+          "endFrame": 3239
+        },
+        {
+          "word": "exploration",
+          "start": 107.98,
+          "end": 108.3,
+          "startFrame": 3239,
+          "endFrame": 3249
+        },
+        {
+          "word": "policies",
+          "start": 108.3,
+          "end": 108.92,
+          "startFrame": 3249,
+          "endFrame": 3268
+        },
+        {
+          "word": "online",
+          "start": 108.92,
+          "end": 109.32,
+          "startFrame": 3268,
+          "endFrame": 3280
+        },
+        {
+          "word": "would",
+          "start": 109.32,
+          "end": 109.74,
+          "startFrame": 3280,
+          "endFrame": 3292
+        },
+        {
+          "word": "burn",
+          "start": 109.74,
+          "end": 110.02,
+          "startFrame": 3292,
+          "endFrame": 3301
+        },
+        {
+          "word": "millions",
+          "start": 110.02,
+          "end": 110.36,
+          "startFrame": 3301,
+          "endFrame": 3311
+        },
+        {
+          "word": "of",
+          "start": 110.36,
+          "end": 110.58,
+          "startFrame": 3311,
+          "endFrame": 3317
+        },
+        {
+          "word": "dollars",
+          "start": 110.58,
+          "end": 110.92,
+          "startFrame": 3317,
+          "endFrame": 3328
+        },
+        {
+          "word": "in",
+          "start": 110.92,
+          "end": 111.2,
+          "startFrame": 3328,
+          "endFrame": 3336
+        },
+        {
+          "word": "compute,",
+          "start": 111.2,
+          "end": 111.54,
+          "startFrame": 3336,
+          "endFrame": 3346
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start": 112.0,
+      "end": 117.16,
+      "startFrame": 3360,
+      "endFrame": 3515,
+      "text": "forcing agents to abandon self-improvement and settle for rigid, hard-coded heuristics.",
+      "words": [
+        {
+          "word": "forcing",
+          "start": 112.0,
+          "end": 112.56,
+          "startFrame": 3360,
+          "endFrame": 3377
+        },
+        {
+          "word": "agents",
+          "start": 112.56,
+          "end": 112.96,
+          "startFrame": 3377,
+          "endFrame": 3389
+        },
+        {
+          "word": "to",
+          "start": 112.96,
+          "end": 113.32,
+          "startFrame": 3389,
+          "endFrame": 3400
+        },
+        {
+          "word": "abandon",
+          "start": 113.32,
+          "end": 113.56,
+          "startFrame": 3400,
+          "endFrame": 3407
+        },
+        {
+          "word": "self",
+          "start": 113.56,
+          "end": 113.98,
+          "startFrame": 3407,
+          "endFrame": 3419
+        },
+        {
+          "word": "-improvement",
+          "start": 113.98,
+          "end": 114.56,
+          "startFrame": 3419,
+          "endFrame": 3437
+        },
+        {
+          "word": "and",
+          "start": 114.56,
+          "end": 114.72,
+          "startFrame": 3437,
+          "endFrame": 3442
+        },
+        {
+          "word": "settle",
+          "start": 114.72,
+          "end": 114.96,
+          "startFrame": 3442,
+          "endFrame": 3449
+        },
+        {
+          "word": "for",
+          "start": 114.96,
+          "end": 115.24,
+          "startFrame": 3449,
+          "endFrame": 3457
+        },
+        {
+          "word": "rigid,",
+          "start": 115.24,
+          "end": 115.52,
+          "startFrame": 3457,
+          "endFrame": 3466
+        },
+        {
+          "word": "hard",
+          "start": 116.2,
+          "end": 116.36,
+          "startFrame": 3486,
+          "endFrame": 3491
+        },
+        {
+          "word": "-coded",
+          "start": 116.36,
+          "end": 116.68,
+          "startFrame": 3491,
+          "endFrame": 3500
+        },
+        {
+          "word": "heuristics.",
+          "start": 116.68,
+          "end": 117.16,
+          "startFrame": 3500,
+          "endFrame": 3515
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start": 117.78,
+      "end": 122.36,
+      "startFrame": 3533,
+      "endFrame": 3671,
+      "text": "DeepMind's DreamRSI shatters this barrier through a breathtaking architectural insight.",
+      "words": [
+        {
+          "word": "DeepMind's",
+          "start": 117.78,
+          "end": 118.38,
+          "startFrame": 3533,
+          "endFrame": 3551
+        },
+        {
+          "word": "DreamRSI",
+          "start": 118.38,
+          "end": 119.0,
+          "startFrame": 3551,
+          "endFrame": 3570
+        },
+        {
+          "word": "shatters",
+          "start": 119.0,
+          "end": 119.52,
+          "startFrame": 3570,
+          "endFrame": 3586
+        },
+        {
+          "word": "this",
+          "start": 119.52,
+          "end": 119.76,
+          "startFrame": 3586,
+          "endFrame": 3593
+        },
+        {
+          "word": "barrier",
+          "start": 119.76,
+          "end": 120.1,
+          "startFrame": 3593,
+          "endFrame": 3603
+        },
+        {
+          "word": "through",
+          "start": 120.1,
+          "end": 120.5,
+          "startFrame": 3603,
+          "endFrame": 3615
+        },
+        {
+          "word": "a",
+          "start": 120.5,
+          "end": 120.6,
+          "startFrame": 3615,
+          "endFrame": 3618
+        },
+        {
+          "word": "breathtaking",
+          "start": 120.6,
+          "end": 121.04,
+          "startFrame": 3618,
+          "endFrame": 3631
+        },
+        {
+          "word": "architectural",
+          "start": 121.04,
+          "end": 121.64,
+          "startFrame": 3631,
+          "endFrame": 3649
+        },
+        {
+          "word": "insight.",
+          "start": 121.64,
+          "end": 122.36,
+          "startFrame": 3649,
+          "endFrame": 3671
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "start": 123.2,
+      "end": 124.28,
+      "startFrame": 3696,
+      "endFrame": 3728,
+      "text": "The replay dream world.",
+      "words": [
+        {
+          "word": "The",
+          "start": 123.2,
+          "end": 123.32,
+          "startFrame": 3696,
+          "endFrame": 3700
+        },
+        {
+          "word": "replay",
+          "start": 123.32,
+          "end": 123.56,
+          "startFrame": 3700,
+          "endFrame": 3707
+        },
+        {
+          "word": "dream",
+          "start": 123.56,
+          "end": 123.94,
+          "startFrame": 3707,
+          "endFrame": 3718
+        },
+        {
+          "word": "world.",
+          "start": 123.94,
+          "end": 124.28,
+          "startFrame": 3718,
+          "endFrame": 3728
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "start": 124.92,
+      "end": 128.28,
+      "startFrame": 3748,
+      "endFrame": 3848,
+      "text": "When an AI agent attempts to solve a complex scientific challenge,",
+      "words": [
+        {
+          "word": "When",
+          "start": 124.92,
+          "end": 125.08,
+          "startFrame": 3748,
+          "endFrame": 3752
+        },
+        {
+          "word": "an",
+          "start": 125.08,
+          "end": 125.18,
+          "startFrame": 3752,
+          "endFrame": 3755
+        },
+        {
+          "word": "AI",
+          "start": 125.18,
+          "end": 125.4,
+          "startFrame": 3755,
+          "endFrame": 3762
+        },
+        {
+          "word": "agent",
+          "start": 125.4,
+          "end": 125.88,
+          "startFrame": 3762,
+          "endFrame": 3776
+        },
+        {
+          "word": "attempts",
+          "start": 125.88,
+          "end": 126.14,
+          "startFrame": 3776,
+          "endFrame": 3784
+        },
+        {
+          "word": "to",
+          "start": 126.14,
+          "end": 126.42,
+          "startFrame": 3784,
+          "endFrame": 3793
+        },
+        {
+          "word": "solve",
+          "start": 126.42,
+          "end": 126.68,
+          "startFrame": 3793,
+          "endFrame": 3800
+        },
+        {
+          "word": "a",
+          "start": 126.68,
+          "end": 126.82,
+          "startFrame": 3800,
+          "endFrame": 3805
+        },
+        {
+          "word": "complex",
+          "start": 126.82,
+          "end": 127.24,
+          "startFrame": 3805,
+          "endFrame": 3817
+        },
+        {
+          "word": "scientific",
+          "start": 127.24,
+          "end": 127.62,
+          "startFrame": 3817,
+          "endFrame": 3829
+        },
+        {
+          "word": "challenge,",
+          "start": 127.62,
+          "end": 128.28,
+          "startFrame": 3829,
+          "endFrame": 3848
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "start": 128.28,
+      "end": 134.34,
+      "startFrame": 3848,
+      "endFrame": 4030,
+      "text": "it leaves behind an extensive footprint, a branching discovery tree containing every dead end,",
+      "words": [
+        {
+          "word": "it",
+          "start": 128.28,
+          "end": 129.04,
+          "startFrame": 3848,
+          "endFrame": 3871
+        },
+        {
+          "word": "leaves",
+          "start": 129.04,
+          "end": 129.22,
+          "startFrame": 3871,
+          "endFrame": 3877
+        },
+        {
+          "word": "behind",
+          "start": 129.22,
+          "end": 129.72,
+          "startFrame": 3877,
+          "endFrame": 3892
+        },
+        {
+          "word": "an",
+          "start": 129.72,
+          "end": 129.92,
+          "startFrame": 3892,
+          "endFrame": 3898
+        },
+        {
+          "word": "extensive",
+          "start": 129.92,
+          "end": 130.28,
+          "startFrame": 3898,
+          "endFrame": 3908
+        },
+        {
+          "word": "footprint,",
+          "start": 130.28,
+          "end": 130.72,
+          "startFrame": 3908,
+          "endFrame": 3922
+        },
+        {
+          "word": "a",
+          "start": 131.7,
+          "end": 131.78,
+          "startFrame": 3951,
+          "endFrame": 3953
+        },
+        {
+          "word": "branching",
+          "start": 131.78,
+          "end": 132.08,
+          "startFrame": 3953,
+          "endFrame": 3962
+        },
+        {
+          "word": "discovery",
+          "start": 132.08,
+          "end": 132.38,
+          "startFrame": 3962,
+          "endFrame": 3971
+        },
+        {
+          "word": "tree",
+          "start": 132.38,
+          "end": 132.96,
+          "startFrame": 3971,
+          "endFrame": 3989
+        },
+        {
+          "word": "containing",
+          "start": 132.96,
+          "end": 133.28,
+          "startFrame": 3989,
+          "endFrame": 3998
+        },
+        {
+          "word": "every",
+          "start": 133.28,
+          "end": 133.86,
+          "startFrame": 3998,
+          "endFrame": 4016
+        },
+        {
+          "word": "dead",
+          "start": 133.86,
+          "end": 134.1,
+          "startFrame": 4016,
+          "endFrame": 4023
+        },
+        {
+          "word": "end,",
+          "start": 134.1,
+          "end": 134.34,
+          "startFrame": 4023,
+          "endFrame": 4030
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "start": 134.9,
+      "end": 139.32,
+      "startFrame": 4047,
+      "endFrame": 4180,
+      "text": "every failure, and every intermediate breakthrough it encountered along the way.",
+      "words": [
+        {
+          "word": "every",
+          "start": 134.9,
+          "end": 135.18,
+          "startFrame": 4047,
+          "endFrame": 4055
+        },
+        {
+          "word": "failure,",
+          "start": 135.18,
+          "end": 135.58,
+          "startFrame": 4055,
+          "endFrame": 4067
+        },
+        {
+          "word": "and",
+          "start": 136.36,
+          "end": 136.48,
+          "startFrame": 4091,
+          "endFrame": 4094
+        },
+        {
+          "word": "every",
+          "start": 136.48,
+          "end": 136.86,
+          "startFrame": 4094,
+          "endFrame": 4106
+        },
+        {
+          "word": "intermediate",
+          "start": 136.86,
+          "end": 137.42,
+          "startFrame": 4106,
+          "endFrame": 4123
+        },
+        {
+          "word": "breakthrough",
+          "start": 137.42,
+          "end": 137.68,
+          "startFrame": 4123,
+          "endFrame": 4130
+        },
+        {
+          "word": "it",
+          "start": 137.68,
+          "end": 138.08,
+          "startFrame": 4130,
+          "endFrame": 4142
+        },
+        {
+          "word": "encountered",
+          "start": 138.08,
+          "end": 138.36,
+          "startFrame": 4142,
+          "endFrame": 4151
+        },
+        {
+          "word": "along",
+          "start": 138.36,
+          "end": 138.86,
+          "startFrame": 4151,
+          "endFrame": 4166
+        },
+        {
+          "word": "the",
+          "start": 138.86,
+          "end": 139.12,
+          "startFrame": 4166,
+          "endFrame": 4174
+        },
+        {
+          "word": "way.",
+          "start": 139.12,
+          "end": 139.32,
+          "startFrame": 4174,
+          "endFrame": 4180
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "start": 139.78,
+      "end": 146.48,
+      "startFrame": 4193,
+      "endFrame": 4394,
+      "text": "DreamRSI takes that accumulated historical tree and converts it into a complete, high-fidelity offline simulator.",
+      "words": [
+        {
+          "word": "DreamRSI",
+          "start": 139.78,
+          "end": 140.46,
+          "startFrame": 4193,
+          "endFrame": 4214
+        },
+        {
+          "word": "takes",
+          "start": 140.46,
+          "end": 140.9,
+          "startFrame": 4214,
+          "endFrame": 4227
+        },
+        {
+          "word": "that",
+          "start": 140.9,
+          "end": 141.14,
+          "startFrame": 4227,
+          "endFrame": 4234
+        },
+        {
+          "word": "accumulated",
+          "start": 141.14,
+          "end": 141.5,
+          "startFrame": 4234,
+          "endFrame": 4245
+        },
+        {
+          "word": "historical",
+          "start": 141.5,
+          "end": 142.14,
+          "startFrame": 4245,
+          "endFrame": 4264
+        },
+        {
+          "word": "tree",
+          "start": 142.14,
+          "end": 142.66,
+          "startFrame": 4264,
+          "endFrame": 4280
+        },
+        {
+          "word": "and",
+          "start": 142.66,
+          "end": 142.96,
+          "startFrame": 4280,
+          "endFrame": 4289
+        },
+        {
+          "word": "converts",
+          "start": 142.96,
+          "end": 143.3,
+          "startFrame": 4289,
+          "endFrame": 4299
+        },
+        {
+          "word": "it",
+          "start": 143.3,
+          "end": 143.58,
+          "startFrame": 4299,
+          "endFrame": 4307
+        },
+        {
+          "word": "into",
+          "start": 143.58,
+          "end": 143.92,
+          "startFrame": 4307,
+          "endFrame": 4318
+        },
+        {
+          "word": "a",
+          "start": 143.92,
+          "end": 144.08,
+          "startFrame": 4318,
+          "endFrame": 4322
+        },
+        {
+          "word": "complete,",
+          "start": 144.08,
+          "end": 144.46,
+          "startFrame": 4322,
+          "endFrame": 4334
+        },
+        {
+          "word": "high",
+          "start": 144.8,
+          "end": 145.1,
+          "startFrame": 4344,
+          "endFrame": 4353
+        },
+        {
+          "word": "-fidelity",
+          "start": 145.1,
+          "end": 145.38,
+          "startFrame": 4353,
+          "endFrame": 4361
+        },
+        {
+          "word": "offline",
+          "start": 145.38,
+          "end": 145.82,
+          "startFrame": 4361,
+          "endFrame": 4375
+        },
+        {
+          "word": "simulator.",
+          "start": 145.82,
+          "end": 146.48,
+          "startFrame": 4375,
+          "endFrame": 4394
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "start": 147.08,
+      "end": 150.4,
+      "startFrame": 4412,
+      "endFrame": 4512,
+      "text": "Because the true outcomes of those historical branches are already known,",
+      "words": [
+        {
+          "word": "Because",
+          "start": 147.08,
+          "end": 147.34,
+          "startFrame": 4412,
+          "endFrame": 4420
+        },
+        {
+          "word": "the",
+          "start": 147.34,
+          "end": 147.54,
+          "startFrame": 4420,
+          "endFrame": 4426
+        },
+        {
+          "word": "true",
+          "start": 147.54,
+          "end": 147.72,
+          "startFrame": 4426,
+          "endFrame": 4432
+        },
+        {
+          "word": "outcomes",
+          "start": 147.72,
+          "end": 148.12,
+          "startFrame": 4432,
+          "endFrame": 4444
+        },
+        {
+          "word": "of",
+          "start": 148.12,
+          "end": 148.46,
+          "startFrame": 4444,
+          "endFrame": 4454
+        },
+        {
+          "word": "those",
+          "start": 148.46,
+          "end": 148.6,
+          "startFrame": 4454,
+          "endFrame": 4458
+        },
+        {
+          "word": "historical",
+          "start": 148.6,
+          "end": 148.98,
+          "startFrame": 4458,
+          "endFrame": 4469
+        },
+        {
+          "word": "branches",
+          "start": 148.98,
+          "end": 149.4,
+          "startFrame": 4469,
+          "endFrame": 4482
+        },
+        {
+          "word": "are",
+          "start": 149.4,
+          "end": 149.8,
+          "startFrame": 4482,
+          "endFrame": 4494
+        },
+        {
+          "word": "already",
+          "start": 149.8,
+          "end": 150.06,
+          "startFrame": 4494,
+          "endFrame": 4502
+        },
+        {
+          "word": "known,",
+          "start": 150.06,
+          "end": 150.4,
+          "startFrame": 4502,
+          "endFrame": 4512
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "start": 150.4,
+      "end": 156.32,
+      "startFrame": 4512,
+      "endFrame": 4690,
+      "text": "the system can test thousands of newly mutated exploration strategies entirely inside this dream state",
+      "words": [
+        {
+          "word": "the",
+          "start": 150.4,
+          "end": 150.9,
+          "startFrame": 4512,
+          "endFrame": 4527
+        },
+        {
+          "word": "system",
+          "start": 150.9,
+          "end": 151.36,
+          "startFrame": 4527,
+          "endFrame": 4541
+        },
+        {
+          "word": "can",
+          "start": 151.36,
+          "end": 151.56,
+          "startFrame": 4541,
+          "endFrame": 4547
+        },
+        {
+          "word": "test",
+          "start": 151.56,
+          "end": 151.78,
+          "startFrame": 4547,
+          "endFrame": 4553
+        },
+        {
+          "word": "thousands",
+          "start": 151.78,
+          "end": 152.24,
+          "startFrame": 4553,
+          "endFrame": 4567
+        },
+        {
+          "word": "of",
+          "start": 152.24,
+          "end": 152.46,
+          "startFrame": 4567,
+          "endFrame": 4574
+        },
+        {
+          "word": "newly",
+          "start": 152.46,
+          "end": 152.66,
+          "startFrame": 4574,
+          "endFrame": 4580
+        },
+        {
+          "word": "mutated",
+          "start": 152.66,
+          "end": 153.18,
+          "startFrame": 4580,
+          "endFrame": 4595
+        },
+        {
+          "word": "exploration",
+          "start": 153.18,
+          "end": 153.56,
+          "startFrame": 4595,
+          "endFrame": 4607
+        },
+        {
+          "word": "strategies",
+          "start": 153.56,
+          "end": 154.28,
+          "startFrame": 4607,
+          "endFrame": 4628
+        },
+        {
+          "word": "entirely",
+          "start": 154.28,
+          "end": 154.8,
+          "startFrame": 4628,
+          "endFrame": 4644
+        },
+        {
+          "word": "inside",
+          "start": 154.8,
+          "end": 155.22,
+          "startFrame": 4644,
+          "endFrame": 4657
+        },
+        {
+          "word": "this",
+          "start": 155.22,
+          "end": 155.68,
+          "startFrame": 4657,
+          "endFrame": 4670
+        },
+        {
+          "word": "dream",
+          "start": 155.68,
+          "end": 155.92,
+          "startFrame": 4670,
+          "endFrame": 4678
+        },
+        {
+          "word": "state",
+          "start": 155.92,
+          "end": 156.32,
+          "startFrame": 4678,
+          "endFrame": 4690
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "start": 156.32,
+      "end": 158.82,
+      "startFrame": 4690,
+      "endFrame": 4765,
+      "text": "at virtually zero computational cost.",
+      "words": [
+        {
+          "word": "at",
+          "start": 156.32,
+          "end": 156.92,
+          "startFrame": 4690,
+          "endFrame": 4708
+        },
+        {
+          "word": "virtually",
+          "start": 156.92,
+          "end": 157.3,
+          "startFrame": 4708,
+          "endFrame": 4719
+        },
+        {
+          "word": "zero",
+          "start": 157.3,
+          "end": 157.72,
+          "startFrame": 4719,
+          "endFrame": 4732
+        },
+        {
+          "word": "computational",
+          "start": 157.72,
+          "end": 158.06,
+          "startFrame": 4732,
+          "endFrame": 4742
+        },
+        {
+          "word": "cost.",
+          "start": 158.06,
+          "end": 158.82,
+          "startFrame": 4742,
+          "endFrame": 4765
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "start": 159.32,
+      "end": 165.08,
+      "startFrame": 4780,
+      "endFrame": 4952,
+      "text": "The agent enters a cognitive sandbox, simulating and replaying its own past problem-solving attempts.",
+      "words": [
+        {
+          "word": "The",
+          "start": 159.32,
+          "end": 159.48,
+          "startFrame": 4780,
+          "endFrame": 4784
+        },
+        {
+          "word": "agent",
+          "start": 159.48,
+          "end": 159.7,
+          "startFrame": 4784,
+          "endFrame": 4791
+        },
+        {
+          "word": "enters",
+          "start": 159.7,
+          "end": 160.2,
+          "startFrame": 4791,
+          "endFrame": 4806
+        },
+        {
+          "word": "a",
+          "start": 160.2,
+          "end": 160.4,
+          "startFrame": 4806,
+          "endFrame": 4812
+        },
+        {
+          "word": "cognitive",
+          "start": 160.4,
+          "end": 160.72,
+          "startFrame": 4812,
+          "endFrame": 4822
+        },
+        {
+          "word": "sandbox,",
+          "start": 160.72,
+          "end": 161.14,
+          "startFrame": 4822,
+          "endFrame": 4834
+        },
+        {
+          "word": "simulating",
+          "start": 161.36,
+          "end": 162.38,
+          "startFrame": 4841,
+          "endFrame": 4871
+        },
+        {
+          "word": "and",
+          "start": 162.38,
+          "end": 162.76,
+          "startFrame": 4871,
+          "endFrame": 4883
+        },
+        {
+          "word": "replaying",
+          "start": 162.76,
+          "end": 163.18,
+          "startFrame": 4883,
+          "endFrame": 4895
+        },
+        {
+          "word": "its",
+          "start": 163.18,
+          "end": 163.46,
+          "startFrame": 4895,
+          "endFrame": 4904
+        },
+        {
+          "word": "own",
+          "start": 163.46,
+          "end": 163.68,
+          "startFrame": 4904,
+          "endFrame": 4910
+        },
+        {
+          "word": "past",
+          "start": 163.68,
+          "end": 163.96,
+          "startFrame": 4910,
+          "endFrame": 4919
+        },
+        {
+          "word": "problem",
+          "start": 163.96,
+          "end": 164.36,
+          "startFrame": 4919,
+          "endFrame": 4931
+        },
+        {
+          "word": "-solving",
+          "start": 164.36,
+          "end": 164.78,
+          "startFrame": 4931,
+          "endFrame": 4943
+        },
+        {
+          "word": "attempts.",
+          "start": 164.78,
+          "end": 165.08,
+          "startFrame": 4943,
+          "endFrame": 4952
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "start": 165.74,
+      "end": 168.56,
+      "startFrame": 4972,
+      "endFrame": 5057,
+      "text": "It watches where it wasted compute on dead ends.",
+      "words": [
+        {
+          "word": "It",
+          "start": 165.74,
+          "end": 165.92,
+          "startFrame": 4972,
+          "endFrame": 4978
+        },
+        {
+          "word": "watches",
+          "start": 165.92,
+          "end": 166.2,
+          "startFrame": 4978,
+          "endFrame": 4986
+        },
+        {
+          "word": "where",
+          "start": 166.2,
+          "end": 166.7,
+          "startFrame": 4986,
+          "endFrame": 5001
+        },
+        {
+          "word": "it",
+          "start": 166.7,
+          "end": 166.92,
+          "startFrame": 5001,
+          "endFrame": 5008
+        },
+        {
+          "word": "wasted",
+          "start": 166.92,
+          "end": 167.2,
+          "startFrame": 5008,
+          "endFrame": 5016
+        },
+        {
+          "word": "compute",
+          "start": 167.2,
+          "end": 167.66,
+          "startFrame": 5016,
+          "endFrame": 5030
+        },
+        {
+          "word": "on",
+          "start": 167.66,
+          "end": 168.04,
+          "startFrame": 5030,
+          "endFrame": 5041
+        },
+        {
+          "word": "dead",
+          "start": 168.04,
+          "end": 168.24,
+          "startFrame": 5041,
+          "endFrame": 5047
+        },
+        {
+          "word": "ends.",
+          "start": 168.24,
+          "end": 168.56,
+          "startFrame": 5047,
+          "endFrame": 5057
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "start": 169.16,
+      "end": 170.96,
+      "startFrame": 5075,
+      "endFrame": 5129,
+      "text": "It rewires its search heuristics.",
+      "words": [
+        {
+          "word": "It",
+          "start": 169.16,
+          "end": 169.3,
+          "startFrame": 5075,
+          "endFrame": 5079
+        },
+        {
+          "word": "rewires",
+          "start": 169.3,
+          "end": 169.76,
+          "startFrame": 5079,
+          "endFrame": 5093
+        },
+        {
+          "word": "its",
+          "start": 169.76,
+          "end": 170.12,
+          "startFrame": 5093,
+          "endFrame": 5104
+        },
+        {
+          "word": "search",
+          "start": 170.12,
+          "end": 170.4,
+          "startFrame": 5104,
+          "endFrame": 5112
+        },
+        {
+          "word": "heuristics.",
+          "start": 170.4,
+          "end": 170.96,
+          "startFrame": 5112,
+          "endFrame": 5129
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "start": 171.66,
+      "end": 175.58,
+      "startFrame": 5150,
+      "endFrame": 5267,
+      "text": "It selects the highest performing exploration policy discovered in its dreams",
+      "words": [
+        {
+          "word": "It",
+          "start": 171.66,
+          "end": 171.8,
+          "startFrame": 5150,
+          "endFrame": 5154
+        },
+        {
+          "word": "selects",
+          "start": 171.8,
+          "end": 172.06,
+          "startFrame": 5154,
+          "endFrame": 5162
+        },
+        {
+          "word": "the",
+          "start": 172.06,
+          "end": 172.4,
+          "startFrame": 5162,
+          "endFrame": 5172
+        },
+        {
+          "word": "highest",
+          "start": 172.4,
+          "end": 172.7,
+          "startFrame": 5172,
+          "endFrame": 5181
+        },
+        {
+          "word": "performing",
+          "start": 172.7,
+          "end": 173.12,
+          "startFrame": 5181,
+          "endFrame": 5194
+        },
+        {
+          "word": "exploration",
+          "start": 173.12,
+          "end": 173.6,
+          "startFrame": 5194,
+          "endFrame": 5208
+        },
+        {
+          "word": "policy",
+          "start": 173.6,
+          "end": 174.34,
+          "startFrame": 5208,
+          "endFrame": 5230
+        },
+        {
+          "word": "discovered",
+          "start": 174.34,
+          "end": 174.66,
+          "startFrame": 5230,
+          "endFrame": 5240
+        },
+        {
+          "word": "in",
+          "start": 174.66,
+          "end": 175.16,
+          "startFrame": 5240,
+          "endFrame": 5255
+        },
+        {
+          "word": "its",
+          "start": 175.16,
+          "end": 175.3,
+          "startFrame": 5255,
+          "endFrame": 5259
+        },
+        {
+          "word": "dreams",
+          "start": 175.3,
+          "end": 175.58,
+          "startFrame": 5259,
+          "endFrame": 5267
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "start": 175.58,
+      "end": 179.28,
+      "startFrame": 5267,
+      "endFrame": 5378,
+      "text": "and redeploys it directly back into the physical world.",
+      "words": [
+        {
+          "word": "and",
+          "start": 175.58,
+          "end": 176.58,
+          "startFrame": 5267,
+          "endFrame": 5297
+        },
+        {
+          "word": "redeploys",
+          "start": 176.58,
+          "end": 177.26,
+          "startFrame": 5297,
+          "endFrame": 5318
+        },
+        {
+          "word": "it",
+          "start": 177.26,
+          "end": 177.36,
+          "startFrame": 5318,
+          "endFrame": 5321
+        },
+        {
+          "word": "directly",
+          "start": 177.36,
+          "end": 177.68,
+          "startFrame": 5321,
+          "endFrame": 5330
+        },
+        {
+          "word": "back",
+          "start": 177.68,
+          "end": 178.12,
+          "startFrame": 5330,
+          "endFrame": 5344
+        },
+        {
+          "word": "into",
+          "start": 178.12,
+          "end": 178.38,
+          "startFrame": 5344,
+          "endFrame": 5351
+        },
+        {
+          "word": "the",
+          "start": 178.38,
+          "end": 178.62,
+          "startFrame": 5351,
+          "endFrame": 5359
+        },
+        {
+          "word": "physical",
+          "start": 178.62,
+          "end": 178.88,
+          "startFrame": 5359,
+          "endFrame": 5366
+        },
+        {
+          "word": "world.",
+          "start": 178.88,
+          "end": 179.28,
+          "startFrame": 5366,
+          "endFrame": 5378
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "start": 179.28,
+      "end": 182.8,
+      "startFrame": 5378,
+      "endFrame": 5484,
+      "text": "The results reported by the DeepMind team are staggering.",
+      "words": [
+        {
+          "word": "The",
+          "start": 179.28,
+          "end": 179.78,
+          "startFrame": 5378,
+          "endFrame": 5393
+        },
+        {
+          "word": "results",
+          "start": 179.78,
+          "end": 180.28,
+          "startFrame": 5393,
+          "endFrame": 5408
+        },
+        {
+          "word": "reported",
+          "start": 180.28,
+          "end": 180.9,
+          "startFrame": 5408,
+          "endFrame": 5427
+        },
+        {
+          "word": "by",
+          "start": 180.9,
+          "end": 181.24,
+          "startFrame": 5427,
+          "endFrame": 5437
+        },
+        {
+          "word": "the",
+          "start": 181.24,
+          "end": 181.4,
+          "startFrame": 5437,
+          "endFrame": 5442
+        },
+        {
+          "word": "DeepMind",
+          "start": 181.4,
+          "end": 181.82,
+          "startFrame": 5442,
+          "endFrame": 5455
+        },
+        {
+          "word": "team",
+          "start": 181.82,
+          "end": 182.1,
+          "startFrame": 5455,
+          "endFrame": 5463
+        },
+        {
+          "word": "are",
+          "start": 182.1,
+          "end": 182.42,
+          "startFrame": 5463,
+          "endFrame": 5473
+        },
+        {
+          "word": "staggering.",
+          "start": 182.42,
+          "end": 182.8,
+          "startFrame": 5473,
+          "endFrame": 5484
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "start": 183.56,
+      "end": 187.14,
+      "startFrame": 5507,
+      "endFrame": 5614,
+      "text": "In rigorous benchmarks across algorithm engineering and mathematical optimization,",
+      "words": [
+        {
+          "word": "In",
+          "start": 183.56,
+          "end": 183.66,
+          "startFrame": 5507,
+          "endFrame": 5510
+        },
+        {
+          "word": "rigorous",
+          "start": 183.66,
+          "end": 183.9,
+          "startFrame": 5510,
+          "endFrame": 5517
+        },
+        {
+          "word": "benchmarks",
+          "start": 183.9,
+          "end": 184.28,
+          "startFrame": 5517,
+          "endFrame": 5528
+        },
+        {
+          "word": "across",
+          "start": 184.28,
+          "end": 184.86,
+          "startFrame": 5528,
+          "endFrame": 5546
+        },
+        {
+          "word": "algorithm",
+          "start": 184.86,
+          "end": 185.38,
+          "startFrame": 5546,
+          "endFrame": 5561
+        },
+        {
+          "word": "engineering",
+          "start": 185.38,
+          "end": 185.86,
+          "startFrame": 5561,
+          "endFrame": 5576
+        },
+        {
+          "word": "and",
+          "start": 185.86,
+          "end": 186.24,
+          "startFrame": 5576,
+          "endFrame": 5587
+        },
+        {
+          "word": "mathematical",
+          "start": 186.24,
+          "end": 186.5,
+          "startFrame": 5587,
+          "endFrame": 5595
+        },
+        {
+          "word": "optimization,",
+          "start": 186.5,
+          "end": 187.14,
+          "startFrame": 5595,
+          "endFrame": 5614
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "start": 188.06,
+      "end": 190.6,
+      "startFrame": 5642,
+      "endFrame": 5718,
+      "text": "such as synthesizing high-performance lasso solvers,",
+      "words": [
+        {
+          "word": "such",
+          "start": 188.06,
+          "end": 188.24,
+          "startFrame": 5642,
+          "endFrame": 5647
+        },
+        {
+          "word": "as",
+          "start": 188.24,
+          "end": 188.44,
+          "startFrame": 5647,
+          "endFrame": 5653
+        },
+        {
+          "word": "synthesizing",
+          "start": 188.44,
+          "end": 189.12,
+          "startFrame": 5653,
+          "endFrame": 5674
+        },
+        {
+          "word": "high",
+          "start": 189.12,
+          "end": 189.3,
+          "startFrame": 5674,
+          "endFrame": 5679
+        },
+        {
+          "word": "-performance",
+          "start": 189.3,
+          "end": 189.66,
+          "startFrame": 5679,
+          "endFrame": 5690
+        },
+        {
+          "word": "lasso",
+          "start": 189.66,
+          "end": 190.06,
+          "startFrame": 5690,
+          "endFrame": 5702
+        },
+        {
+          "word": "solvers,",
+          "start": 190.06,
+          "end": 190.6,
+          "startFrame": 5702,
+          "endFrame": 5718
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "start": 191.26,
+      "end": 198.42,
+      "startFrame": 5738,
+      "endFrame": 5953,
+      "text": "DreamRSI achieved superior discovery quality while requiring 162 times fewer agent calls than traditional industry baselines.",
+      "words": [
+        {
+          "word": "DreamRSI",
+          "start": 191.26,
+          "end": 191.88,
+          "startFrame": 5738,
+          "endFrame": 5756
+        },
+        {
+          "word": "achieved",
+          "start": 191.88,
+          "end": 192.34,
+          "startFrame": 5756,
+          "endFrame": 5770
+        },
+        {
+          "word": "superior",
+          "start": 192.34,
+          "end": 192.8,
+          "startFrame": 5770,
+          "endFrame": 5784
+        },
+        {
+          "word": "discovery",
+          "start": 192.8,
+          "end": 193.16,
+          "startFrame": 5784,
+          "endFrame": 5795
+        },
+        {
+          "word": "quality",
+          "start": 193.16,
+          "end": 193.76,
+          "startFrame": 5795,
+          "endFrame": 5813
+        },
+        {
+          "word": "while",
+          "start": 193.76,
+          "end": 194.06,
+          "startFrame": 5813,
+          "endFrame": 5822
+        },
+        {
+          "word": "requiring",
+          "start": 194.06,
+          "end": 194.44,
+          "startFrame": 5822,
+          "endFrame": 5833
+        },
+        {
+          "word": "162",
+          "start": 194.44,
+          "end": 195.24,
+          "startFrame": 5833,
+          "endFrame": 5857
+        },
+        {
+          "word": "times",
+          "start": 195.24,
+          "end": 195.84,
+          "startFrame": 5857,
+          "endFrame": 5875
+        },
+        {
+          "word": "fewer",
+          "start": 195.84,
+          "end": 196.04,
+          "startFrame": 5875,
+          "endFrame": 5881
+        },
+        {
+          "word": "agent",
+          "start": 196.04,
+          "end": 196.42,
+          "startFrame": 5881,
+          "endFrame": 5893
+        },
+        {
+          "word": "calls",
+          "start": 196.42,
+          "end": 196.8,
+          "startFrame": 5893,
+          "endFrame": 5904
+        },
+        {
+          "word": "than",
+          "start": 196.8,
+          "end": 197.08,
+          "startFrame": 5904,
+          "endFrame": 5912
+        },
+        {
+          "word": "traditional",
+          "start": 197.08,
+          "end": 197.28,
+          "startFrame": 5912,
+          "endFrame": 5918
+        },
+        {
+          "word": "industry",
+          "start": 197.28,
+          "end": 197.94,
+          "startFrame": 5918,
+          "endFrame": 5938
+        },
+        {
+          "word": "baselines.",
+          "start": 197.94,
+          "end": 198.42,
+          "startFrame": 5938,
+          "endFrame": 5953
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "start": 199.02,
+      "end": 200.24,
+      "startFrame": 5971,
+      "endFrame": 6007,
+      "text": "Think about that multiplier.",
+      "words": [
+        {
+          "word": "Think",
+          "start": 199.02,
+          "end": 199.26,
+          "startFrame": 5971,
+          "endFrame": 5978
+        },
+        {
+          "word": "about",
+          "start": 199.26,
+          "end": 199.58,
+          "startFrame": 5978,
+          "endFrame": 5987
+        },
+        {
+          "word": "that",
+          "start": 199.58,
+          "end": 199.88,
+          "startFrame": 5987,
+          "endFrame": 5996
+        },
+        {
+          "word": "multiplier.",
+          "start": 199.88,
+          "end": 200.24,
+          "startFrame": 5996,
+          "endFrame": 6007
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "start": 201.26,
+      "end": 207.12,
+      "startFrame": 6038,
+      "endFrame": 6214,
+      "text": "A scientific optimization task that previously required tens of thousands of expensive computational iterations",
+      "words": [
+        {
+          "word": "A",
+          "start": 201.26,
+          "end": 201.38,
+          "startFrame": 6038,
+          "endFrame": 6041
+        },
+        {
+          "word": "scientific",
+          "start": 201.38,
+          "end": 201.76,
+          "startFrame": 6041,
+          "endFrame": 6053
+        },
+        {
+          "word": "optimization",
+          "start": 201.76,
+          "end": 202.28,
+          "startFrame": 6053,
+          "endFrame": 6068
+        },
+        {
+          "word": "task",
+          "start": 202.28,
+          "end": 203.06,
+          "startFrame": 6068,
+          "endFrame": 6092
+        },
+        {
+          "word": "that",
+          "start": 203.06,
+          "end": 203.34,
+          "startFrame": 6092,
+          "endFrame": 6100
+        },
+        {
+          "word": "previously",
+          "start": 203.34,
+          "end": 203.7,
+          "startFrame": 6100,
+          "endFrame": 6111
+        },
+        {
+          "word": "required",
+          "start": 203.7,
+          "end": 204.32,
+          "startFrame": 6111,
+          "endFrame": 6130
+        },
+        {
+          "word": "tens",
+          "start": 204.32,
+          "end": 204.76,
+          "startFrame": 6130,
+          "endFrame": 6143
+        },
+        {
+          "word": "of",
+          "start": 204.76,
+          "end": 205.04,
+          "startFrame": 6143,
+          "endFrame": 6151
+        },
+        {
+          "word": "thousands",
+          "start": 205.04,
+          "end": 205.36,
+          "startFrame": 6151,
+          "endFrame": 6161
+        },
+        {
+          "word": "of",
+          "start": 205.36,
+          "end": 205.72,
+          "startFrame": 6161,
+          "endFrame": 6172
+        },
+        {
+          "word": "expensive",
+          "start": 205.72,
+          "end": 206.04,
+          "startFrame": 6172,
+          "endFrame": 6181
+        },
+        {
+          "word": "computational",
+          "start": 206.04,
+          "end": 206.5,
+          "startFrame": 6181,
+          "endFrame": 6195
+        },
+        {
+          "word": "iterations",
+          "start": 206.5,
+          "end": 207.12,
+          "startFrame": 6195,
+          "endFrame": 6214
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "start": 207.12,
+      "end": 209.62,
+      "startFrame": 6214,
+      "endFrame": 6289,
+      "text": "was compressed by a factor of 162.",
+      "words": [
+        {
+          "word": "was",
+          "start": 207.12,
+          "end": 207.66,
+          "startFrame": 6214,
+          "endFrame": 6230
+        },
+        {
+          "word": "compressed",
+          "start": 207.66,
+          "end": 207.94,
+          "startFrame": 6230,
+          "endFrame": 6238
+        },
+        {
+          "word": "by",
+          "start": 207.94,
+          "end": 208.4,
+          "startFrame": 6238,
+          "endFrame": 6252
+        },
+        {
+          "word": "a",
+          "start": 208.4,
+          "end": 208.52,
+          "startFrame": 6252,
+          "endFrame": 6256
+        },
+        {
+          "word": "factor",
+          "start": 208.52,
+          "end": 208.86,
+          "startFrame": 6256,
+          "endFrame": 6266
+        },
+        {
+          "word": "of",
+          "start": 208.86,
+          "end": 209.12,
+          "startFrame": 6266,
+          "endFrame": 6274
+        },
+        {
+          "word": "162.",
+          "start": 209.12,
+          "end": 209.62,
+          "startFrame": 6274,
+          "endFrame": 6289
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "start": 210.6,
+      "end": 212.9,
+      "startFrame": 6318,
+      "endFrame": 6387,
+      "text": "And here is the most profound technical revelation.",
+      "words": [
+        {
+          "word": "And",
+          "start": 210.6,
+          "end": 210.74,
+          "startFrame": 6318,
+          "endFrame": 6322
+        },
+        {
+          "word": "here",
+          "start": 210.74,
+          "end": 211.0,
+          "startFrame": 6322,
+          "endFrame": 6330
+        },
+        {
+          "word": "is",
+          "start": 211.0,
+          "end": 211.22,
+          "startFrame": 6330,
+          "endFrame": 6337
+        },
+        {
+          "word": "the",
+          "start": 211.22,
+          "end": 211.36,
+          "startFrame": 6337,
+          "endFrame": 6341
+        },
+        {
+          "word": "most",
+          "start": 211.36,
+          "end": 211.54,
+          "startFrame": 6341,
+          "endFrame": 6346
+        },
+        {
+          "word": "profound",
+          "start": 211.54,
+          "end": 211.96,
+          "startFrame": 6346,
+          "endFrame": 6359
+        },
+        {
+          "word": "technical",
+          "start": 211.96,
+          "end": 212.52,
+          "startFrame": 6359,
+          "endFrame": 6376
+        },
+        {
+          "word": "revelation.",
+          "start": 212.52,
+          "end": 212.9,
+          "startFrame": 6376,
+          "endFrame": 6387
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "start": 214.04,
+      "end": 219.14,
+      "startFrame": 6421,
+      "endFrame": 6574,
+      "text": "DreamRSI achieves this recursive leap without retraining or fine-tuning a single model weight.",
+      "words": [
+        {
+          "word": "DreamRSI",
+          "start": 214.04,
+          "end": 214.72,
+          "startFrame": 6421,
+          "endFrame": 6442
+        },
+        {
+          "word": "achieves",
+          "start": 214.72,
+          "end": 215.08,
+          "startFrame": 6442,
+          "endFrame": 6452
+        },
+        {
+          "word": "this",
+          "start": 215.08,
+          "end": 215.48,
+          "startFrame": 6452,
+          "endFrame": 6464
+        },
+        {
+          "word": "recursive",
+          "start": 215.48,
+          "end": 215.78,
+          "startFrame": 6464,
+          "endFrame": 6473
+        },
+        {
+          "word": "leap",
+          "start": 215.78,
+          "end": 216.26,
+          "startFrame": 6473,
+          "endFrame": 6488
+        },
+        {
+          "word": "without",
+          "start": 216.26,
+          "end": 216.68,
+          "startFrame": 6488,
+          "endFrame": 6500
+        },
+        {
+          "word": "retraining",
+          "start": 216.68,
+          "end": 217.28,
+          "startFrame": 6500,
+          "endFrame": 6518
+        },
+        {
+          "word": "or",
+          "start": 217.28,
+          "end": 217.58,
+          "startFrame": 6518,
+          "endFrame": 6527
+        },
+        {
+          "word": "fine",
+          "start": 217.58,
+          "end": 217.8,
+          "startFrame": 6527,
+          "endFrame": 6534
+        },
+        {
+          "word": "-tuning",
+          "start": 217.8,
+          "end": 218.18,
+          "startFrame": 6534,
+          "endFrame": 6545
+        },
+        {
+          "word": "a",
+          "start": 218.18,
+          "end": 218.3,
+          "startFrame": 6545,
+          "endFrame": 6549
+        },
+        {
+          "word": "single",
+          "start": 218.3,
+          "end": 218.56,
+          "startFrame": 6549,
+          "endFrame": 6557
+        },
+        {
+          "word": "model",
+          "start": 218.56,
+          "end": 218.8,
+          "startFrame": 6557,
+          "endFrame": 6564
+        },
+        {
+          "word": "weight.",
+          "start": 218.8,
+          "end": 219.14,
+          "startFrame": 6564,
+          "endFrame": 6574
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "start": 219.68,
+      "end": 222.9,
+      "startFrame": 6590,
+      "endFrame": 6687,
+      "text": "The underlying neural network weights remain completely frozen.",
+      "words": [
+        {
+          "word": "The",
+          "start": 219.68,
+          "end": 219.8,
+          "startFrame": 6590,
+          "endFrame": 6594
+        },
+        {
+          "word": "underlying",
+          "start": 219.8,
+          "end": 220.22,
+          "startFrame": 6594,
+          "endFrame": 6607
+        },
+        {
+          "word": "neural",
+          "start": 220.22,
+          "end": 220.64,
+          "startFrame": 6607,
+          "endFrame": 6619
+        },
+        {
+          "word": "network",
+          "start": 220.64,
+          "end": 220.98,
+          "startFrame": 6619,
+          "endFrame": 6629
+        },
+        {
+          "word": "weights",
+          "start": 220.98,
+          "end": 221.38,
+          "startFrame": 6629,
+          "endFrame": 6641
+        },
+        {
+          "word": "remain",
+          "start": 221.38,
+          "end": 221.86,
+          "startFrame": 6641,
+          "endFrame": 6656
+        },
+        {
+          "word": "completely",
+          "start": 221.86,
+          "end": 222.52,
+          "startFrame": 6656,
+          "endFrame": 6676
+        },
+        {
+          "word": "frozen.",
+          "start": 222.52,
+          "end": 222.9,
+          "startFrame": 6676,
+          "endFrame": 6687
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "start": 223.66,
+      "end": 229.16,
+      "startFrame": 6710,
+      "endFrame": 6875,
+      "text": "The intelligence does not come from burning hundreds of megawatts of electricity on brute-force back propagation.",
+      "words": [
+        {
+          "word": "The",
+          "start": 223.66,
+          "end": 223.76,
+          "startFrame": 6710,
+          "endFrame": 6713
+        },
+        {
+          "word": "intelligence",
+          "start": 223.76,
+          "end": 224.1,
+          "startFrame": 6713,
+          "endFrame": 6723
+        },
+        {
+          "word": "does",
+          "start": 224.1,
+          "end": 224.54,
+          "startFrame": 6723,
+          "endFrame": 6736
+        },
+        {
+          "word": "not",
+          "start": 224.54,
+          "end": 224.74,
+          "startFrame": 6736,
+          "endFrame": 6742
+        },
+        {
+          "word": "come",
+          "start": 224.74,
+          "end": 225.08,
+          "startFrame": 6742,
+          "endFrame": 6752
+        },
+        {
+          "word": "from",
+          "start": 225.08,
+          "end": 225.4,
+          "startFrame": 6752,
+          "endFrame": 6762
+        },
+        {
+          "word": "burning",
+          "start": 225.4,
+          "end": 225.76,
+          "startFrame": 6762,
+          "endFrame": 6773
+        },
+        {
+          "word": "hundreds",
+          "start": 225.76,
+          "end": 226.1,
+          "startFrame": 6773,
+          "endFrame": 6783
+        },
+        {
+          "word": "of",
+          "start": 226.1,
+          "end": 226.48,
+          "startFrame": 6783,
+          "endFrame": 6794
+        },
+        {
+          "word": "megawatts",
+          "start": 226.48,
+          "end": 226.96,
+          "startFrame": 6794,
+          "endFrame": 6809
+        },
+        {
+          "word": "of",
+          "start": 226.96,
+          "end": 227.22,
+          "startFrame": 6809,
+          "endFrame": 6817
+        },
+        {
+          "word": "electricity",
+          "start": 227.22,
+          "end": 227.58,
+          "startFrame": 6817,
+          "endFrame": 6827
+        },
+        {
+          "word": "on",
+          "start": 227.58,
+          "end": 228.16,
+          "startFrame": 6827,
+          "endFrame": 6845
+        },
+        {
+          "word": "brute",
+          "start": 228.16,
+          "end": 228.38,
+          "startFrame": 6845,
+          "endFrame": 6851
+        },
+        {
+          "word": "-force",
+          "start": 228.38,
+          "end": 228.72,
+          "startFrame": 6851,
+          "endFrame": 6862
+        },
+        {
+          "word": "back",
+          "start": 228.72,
+          "end": 228.92,
+          "startFrame": 6862,
+          "endFrame": 6868
+        },
+        {
+          "word": "propagation.",
+          "start": 228.92,
+          "end": 229.16,
+          "startFrame": 6868,
+          "endFrame": 6875
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "start": 230.1,
+      "end": 233.72,
+      "startFrame": 6903,
+      "endFrame": 7012,
+      "text": "It comes from an agile, programmable, metacognitive orchestration layer",
+      "words": [
+        {
+          "word": "It",
+          "start": 230.1,
+          "end": 230.24,
+          "startFrame": 6903,
+          "endFrame": 6907
+        },
+        {
+          "word": "comes",
+          "start": 230.24,
+          "end": 230.44,
+          "startFrame": 6907,
+          "endFrame": 6913
+        },
+        {
+          "word": "from",
+          "start": 230.44,
+          "end": 230.72,
+          "startFrame": 6913,
+          "endFrame": 6922
+        },
+        {
+          "word": "an",
+          "start": 230.72,
+          "end": 230.86,
+          "startFrame": 6922,
+          "endFrame": 6926
+        },
+        {
+          "word": "agile,",
+          "start": 230.86,
+          "end": 231.24,
+          "startFrame": 6926,
+          "endFrame": 6937
+        },
+        {
+          "word": "programmable,",
+          "start": 231.5,
+          "end": 232.06,
+          "startFrame": 6945,
+          "endFrame": 6962
+        },
+        {
+          "word": "metacognitive",
+          "start": 232.3,
+          "end": 232.76,
+          "startFrame": 6969,
+          "endFrame": 6983
+        },
+        {
+          "word": "orchestration",
+          "start": 232.76,
+          "end": 233.48,
+          "startFrame": 6983,
+          "endFrame": 7004
+        },
+        {
+          "word": "layer",
+          "start": 233.48,
+          "end": 233.72,
+          "startFrame": 7004,
+          "endFrame": 7012
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "start": 233.72,
+      "end": 237.52,
+      "startFrame": 7012,
+      "endFrame": 7126,
+      "text": "that allows the model to evolve its own discovery methodology dynamically.",
+      "words": [
+        {
+          "word": "that",
+          "start": 233.72,
+          "end": 234.04,
+          "startFrame": 7012,
+          "endFrame": 7021
+        },
+        {
+          "word": "allows",
+          "start": 234.04,
+          "end": 234.3,
+          "startFrame": 7021,
+          "endFrame": 7029
+        },
+        {
+          "word": "the",
+          "start": 234.3,
+          "end": 234.6,
+          "startFrame": 7029,
+          "endFrame": 7038
+        },
+        {
+          "word": "model",
+          "start": 234.6,
+          "end": 234.86,
+          "startFrame": 7038,
+          "endFrame": 7046
+        },
+        {
+          "word": "to",
+          "start": 234.86,
+          "end": 235.14,
+          "startFrame": 7046,
+          "endFrame": 7054
+        },
+        {
+          "word": "evolve",
+          "start": 235.14,
+          "end": 235.38,
+          "startFrame": 7054,
+          "endFrame": 7061
+        },
+        {
+          "word": "its",
+          "start": 235.38,
+          "end": 235.78,
+          "startFrame": 7061,
+          "endFrame": 7073
+        },
+        {
+          "word": "own",
+          "start": 235.78,
+          "end": 235.98,
+          "startFrame": 7073,
+          "endFrame": 7079
+        },
+        {
+          "word": "discovery",
+          "start": 235.98,
+          "end": 236.38,
+          "startFrame": 7079,
+          "endFrame": 7091
+        },
+        {
+          "word": "methodology",
+          "start": 236.38,
+          "end": 236.94,
+          "startFrame": 7091,
+          "endFrame": 7108
+        },
+        {
+          "word": "dynamically.",
+          "start": 236.94,
+          "end": 237.52,
+          "startFrame": 7108,
+          "endFrame": 7126
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "start": 238.48,
+      "end": 243.08,
+      "startFrame": 7154,
+      "endFrame": 7292,
+      "text": "This breakthrough explains why DeepMind co-founder Demi Sasabi's recently stepped back",
+      "words": [
+        {
+          "word": "This",
+          "start": 238.48,
+          "end": 238.6,
+          "startFrame": 7154,
+          "endFrame": 7158
+        },
+        {
+          "word": "breakthrough",
+          "start": 238.6,
+          "end": 238.84,
+          "startFrame": 7158,
+          "endFrame": 7165
+        },
+        {
+          "word": "explains",
+          "start": 238.84,
+          "end": 239.44,
+          "startFrame": 7165,
+          "endFrame": 7183
+        },
+        {
+          "word": "why",
+          "start": 239.44,
+          "end": 239.78,
+          "startFrame": 7183,
+          "endFrame": 7193
+        },
+        {
+          "word": "DeepMind",
+          "start": 239.78,
+          "end": 240.3,
+          "startFrame": 7193,
+          "endFrame": 7209
+        },
+        {
+          "word": "co",
+          "start": 240.3,
+          "end": 240.62,
+          "startFrame": 7209,
+          "endFrame": 7219
+        },
+        {
+          "word": "-founder",
+          "start": 240.62,
+          "end": 240.96,
+          "startFrame": 7219,
+          "endFrame": 7229
+        },
+        {
+          "word": "Demi",
+          "start": 240.96,
+          "end": 241.38,
+          "startFrame": 7229,
+          "endFrame": 7241
+        },
+        {
+          "word": "Sasabi's",
+          "start": 241.38,
+          "end": 242.06,
+          "startFrame": 7241,
+          "endFrame": 7262
+        },
+        {
+          "word": "recently",
+          "start": 242.06,
+          "end": 242.42,
+          "startFrame": 7262,
+          "endFrame": 7273
+        },
+        {
+          "word": "stepped",
+          "start": 242.42,
+          "end": 242.76,
+          "startFrame": 7273,
+          "endFrame": 7283
+        },
+        {
+          "word": "back",
+          "start": 242.76,
+          "end": 243.08,
+          "startFrame": 7283,
+          "endFrame": 7292
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "start": 243.08,
+      "end": 247.94,
+      "startFrame": 7292,
+      "endFrame": 7438,
+      "text": "from day-to-day corporate operations to become Alphabet's chief scientist and chair of DeepMind,",
+      "words": [
+        {
+          "word": "from",
+          "start": 243.08,
+          "end": 243.34,
+          "startFrame": 7292,
+          "endFrame": 7300
+        },
+        {
+          "word": "day",
+          "start": 243.34,
+          "end": 243.54,
+          "startFrame": 7300,
+          "endFrame": 7306
+        },
+        {
+          "word": "-to",
+          "start": 243.54,
+          "end": 243.68,
+          "startFrame": 7306,
+          "endFrame": 7310
+        },
+        {
+          "word": "-day",
+          "start": 243.68,
+          "end": 243.84,
+          "startFrame": 7310,
+          "endFrame": 7315
+        },
+        {
+          "word": "corporate",
+          "start": 243.84,
+          "end": 244.1,
+          "startFrame": 7315,
+          "endFrame": 7323
+        },
+        {
+          "word": "operations",
+          "start": 244.1,
+          "end": 244.74,
+          "startFrame": 7323,
+          "endFrame": 7342
+        },
+        {
+          "word": "to",
+          "start": 244.74,
+          "end": 245.06,
+          "startFrame": 7342,
+          "endFrame": 7352
+        },
+        {
+          "word": "become",
+          "start": 245.06,
+          "end": 245.26,
+          "startFrame": 7352,
+          "endFrame": 7358
+        },
+        {
+          "word": "Alphabet's",
+          "start": 245.26,
+          "end": 245.92,
+          "startFrame": 7358,
+          "endFrame": 7378
+        },
+        {
+          "word": "chief",
+          "start": 245.92,
+          "end": 246.1,
+          "startFrame": 7378,
+          "endFrame": 7383
+        },
+        {
+          "word": "scientist",
+          "start": 246.1,
+          "end": 246.54,
+          "startFrame": 7383,
+          "endFrame": 7396
+        },
+        {
+          "word": "and",
+          "start": 246.54,
+          "end": 247.0,
+          "startFrame": 7396,
+          "endFrame": 7410
+        },
+        {
+          "word": "chair",
+          "start": 247.0,
+          "end": 247.24,
+          "startFrame": 7410,
+          "endFrame": 7417
+        },
+        {
+          "word": "of",
+          "start": 247.24,
+          "end": 247.46,
+          "startFrame": 7417,
+          "endFrame": 7424
+        },
+        {
+          "word": "DeepMind,",
+          "start": 247.46,
+          "end": 247.94,
+          "startFrame": 7424,
+          "endFrame": 7438
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "start": 248.46,
+      "end": 251.78,
+      "startFrame": 7454,
+      "endFrame": 7553,
+      "text": "dedicating his entire focus to the architecture of AGI.",
+      "words": [
+        {
+          "word": "dedicating",
+          "start": 248.46,
+          "end": 249.06,
+          "startFrame": 7454,
+          "endFrame": 7472
+        },
+        {
+          "word": "his",
+          "start": 249.06,
+          "end": 249.34,
+          "startFrame": 7472,
+          "endFrame": 7480
+        },
+        {
+          "word": "entire",
+          "start": 249.34,
+          "end": 249.64,
+          "startFrame": 7480,
+          "endFrame": 7489
+        },
+        {
+          "word": "focus",
+          "start": 249.64,
+          "end": 250.16,
+          "startFrame": 7489,
+          "endFrame": 7505
+        },
+        {
+          "word": "to",
+          "start": 250.16,
+          "end": 250.4,
+          "startFrame": 7505,
+          "endFrame": 7512
+        },
+        {
+          "word": "the",
+          "start": 250.4,
+          "end": 250.5,
+          "startFrame": 7512,
+          "endFrame": 7515
+        },
+        {
+          "word": "architecture",
+          "start": 250.5,
+          "end": 250.8,
+          "startFrame": 7515,
+          "endFrame": 7524
+        },
+        {
+          "word": "of",
+          "start": 250.8,
+          "end": 251.3,
+          "startFrame": 7524,
+          "endFrame": 7539
+        },
+        {
+          "word": "AGI.",
+          "start": 251.3,
+          "end": 251.78,
+          "startFrame": 7539,
+          "endFrame": 7553
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "start": 252.22,
+      "end": 255.48,
+      "startFrame": 7567,
+      "endFrame": 7664,
+      "text": "Google isn't competing in the commercial chatbot war anymore.",
+      "words": [
+        {
+          "word": "Google",
+          "start": 252.22,
+          "end": 252.36,
+          "startFrame": 7567,
+          "endFrame": 7571
+        },
+        {
+          "word": "isn't",
+          "start": 252.36,
+          "end": 253.0,
+          "startFrame": 7571,
+          "endFrame": 7590
+        },
+        {
+          "word": "competing",
+          "start": 253.0,
+          "end": 253.34,
+          "startFrame": 7590,
+          "endFrame": 7600
+        },
+        {
+          "word": "in",
+          "start": 253.34,
+          "end": 253.78,
+          "startFrame": 7600,
+          "endFrame": 7613
+        },
+        {
+          "word": "the",
+          "start": 253.78,
+          "end": 253.9,
+          "startFrame": 7613,
+          "endFrame": 7617
+        },
+        {
+          "word": "commercial",
+          "start": 253.9,
+          "end": 254.2,
+          "startFrame": 7617,
+          "endFrame": 7626
+        },
+        {
+          "word": "chatbot",
+          "start": 254.2,
+          "end": 254.78,
+          "startFrame": 7626,
+          "endFrame": 7643
+        },
+        {
+          "word": "war",
+          "start": 254.78,
+          "end": 255.04,
+          "startFrame": 7643,
+          "endFrame": 7651
+        },
+        {
+          "word": "anymore.",
+          "start": 255.04,
+          "end": 255.48,
+          "startFrame": 7651,
+          "endFrame": 7664
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "start": 256.08,
+      "end": 258.42,
+      "startFrame": 7682,
+      "endFrame": 7753,
+      "text": "They are systematically building the algorithmic engines",
+      "words": [
+        {
+          "word": "They",
+          "start": 256.08,
+          "end": 256.28,
+          "startFrame": 7682,
+          "endFrame": 7688
+        },
+        {
+          "word": "are",
+          "start": 256.28,
+          "end": 256.38,
+          "startFrame": 7688,
+          "endFrame": 7691
+        },
+        {
+          "word": "systematically",
+          "start": 256.38,
+          "end": 256.78,
+          "startFrame": 7691,
+          "endFrame": 7703
+        },
+        {
+          "word": "building",
+          "start": 256.78,
+          "end": 257.38,
+          "startFrame": 7703,
+          "endFrame": 7721
+        },
+        {
+          "word": "the",
+          "start": 257.38,
+          "end": 257.66,
+          "startFrame": 7721,
+          "endFrame": 7730
+        },
+        {
+          "word": "algorithmic",
+          "start": 257.66,
+          "end": 258.26,
+          "startFrame": 7730,
+          "endFrame": 7748
+        },
+        {
+          "word": "engines",
+          "start": 258.26,
+          "end": 258.42,
+          "startFrame": 7748,
+          "endFrame": 7753
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "start": 258.42,
+      "end": 261.2,
+      "startFrame": 7753,
+      "endFrame": 7836,
+      "text": "required to solve the seven millennium prize problems,",
+      "words": [
+        {
+          "word": "required",
+          "start": 258.42,
+          "end": 258.96,
+          "startFrame": 7753,
+          "endFrame": 7769
+        },
+        {
+          "word": "to",
+          "start": 258.96,
+          "end": 259.26,
+          "startFrame": 7769,
+          "endFrame": 7778
+        },
+        {
+          "word": "solve",
+          "start": 259.26,
+          "end": 259.52,
+          "startFrame": 7778,
+          "endFrame": 7786
+        },
+        {
+          "word": "the",
+          "start": 259.52,
+          "end": 259.74,
+          "startFrame": 7786,
+          "endFrame": 7792
+        },
+        {
+          "word": "seven",
+          "start": 259.74,
+          "end": 260.04,
+          "startFrame": 7792,
+          "endFrame": 7801
+        },
+        {
+          "word": "millennium",
+          "start": 260.04,
+          "end": 260.34,
+          "startFrame": 7801,
+          "endFrame": 7810
+        },
+        {
+          "word": "prize",
+          "start": 260.34,
+          "end": 260.7,
+          "startFrame": 7810,
+          "endFrame": 7821
+        },
+        {
+          "word": "problems,",
+          "start": 260.7,
+          "end": 261.2,
+          "startFrame": 7821,
+          "endFrame": 7836
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "start": 261.2,
+      "end": 266.52,
+      "startFrame": 7836,
+      "endFrame": 7996,
+      "text": "decode complex biological proteins, and automate the discovery of novel physics.",
+      "words": [
+        {
+          "word": "decode",
+          "start": 261.2,
+          "end": 262.24,
+          "startFrame": 7836,
+          "endFrame": 7867
+        },
+        {
+          "word": "complex",
+          "start": 262.24,
+          "end": 262.7,
+          "startFrame": 7867,
+          "endFrame": 7881
+        },
+        {
+          "word": "biological",
+          "start": 262.7,
+          "end": 263.22,
+          "startFrame": 7881,
+          "endFrame": 7897
+        },
+        {
+          "word": "proteins,",
+          "start": 263.22,
+          "end": 263.88,
+          "startFrame": 7897,
+          "endFrame": 7916
+        },
+        {
+          "word": "and",
+          "start": 264.42,
+          "end": 264.66,
+          "startFrame": 7933,
+          "endFrame": 7940
+        },
+        {
+          "word": "automate",
+          "start": 264.66,
+          "end": 265.06,
+          "startFrame": 7940,
+          "endFrame": 7952
+        },
+        {
+          "word": "the",
+          "start": 265.06,
+          "end": 265.3,
+          "startFrame": 7952,
+          "endFrame": 7959
+        },
+        {
+          "word": "discovery",
+          "start": 265.3,
+          "end": 265.74,
+          "startFrame": 7959,
+          "endFrame": 7972
+        },
+        {
+          "word": "of",
+          "start": 265.74,
+          "end": 265.96,
+          "startFrame": 7972,
+          "endFrame": 7979
+        },
+        {
+          "word": "novel",
+          "start": 265.96,
+          "end": 266.12,
+          "startFrame": 7979,
+          "endFrame": 7984
+        },
+        {
+          "word": "physics.",
+          "start": 266.12,
+          "end": 266.52,
+          "startFrame": 7984,
+          "endFrame": 7996
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "start": 267.26,
+      "end": 270.64,
+      "startFrame": 8018,
+      "endFrame": 8119,
+      "text": "We have officially moved past the era of flat, static transformers",
+      "words": [
+        {
+          "word": "We",
+          "start": 267.26,
+          "end": 267.32,
+          "startFrame": 8018,
+          "endFrame": 8020
+        },
+        {
+          "word": "have",
+          "start": 267.32,
+          "end": 267.46,
+          "startFrame": 8020,
+          "endFrame": 8024
+        },
+        {
+          "word": "officially",
+          "start": 267.46,
+          "end": 267.82,
+          "startFrame": 8024,
+          "endFrame": 8035
+        },
+        {
+          "word": "moved",
+          "start": 267.82,
+          "end": 268.24,
+          "startFrame": 8035,
+          "endFrame": 8047
+        },
+        {
+          "word": "past",
+          "start": 268.24,
+          "end": 268.6,
+          "startFrame": 8047,
+          "endFrame": 8058
+        },
+        {
+          "word": "the",
+          "start": 268.6,
+          "end": 268.92,
+          "startFrame": 8058,
+          "endFrame": 8068
+        },
+        {
+          "word": "era",
+          "start": 268.92,
+          "end": 269.16,
+          "startFrame": 8068,
+          "endFrame": 8075
+        },
+        {
+          "word": "of",
+          "start": 269.16,
+          "end": 269.42,
+          "startFrame": 8075,
+          "endFrame": 8083
+        },
+        {
+          "word": "flat,",
+          "start": 269.42,
+          "end": 269.7,
+          "startFrame": 8083,
+          "endFrame": 8091
+        },
+        {
+          "word": "static",
+          "start": 270.14,
+          "end": 270.54,
+          "startFrame": 8104,
+          "endFrame": 8116
+        },
+        {
+          "word": "transformers",
+          "start": 270.54,
+          "end": 270.93,
+          "startFrame": 8116,
+          "endFrame": 8128
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "start": 271.46,
+      "end": 275.34,
+      "startFrame": 8144,
+      "endFrame": 8260,
+      "text": "that require trillions of tokens of human text just to produce incremental gains.",
+      "words": [
+        {
+          "word": "that",
+          "start": 271.46,
+          "end": 271.62,
+          "startFrame": 8144,
+          "endFrame": 8149
+        },
+        {
+          "word": "require",
+          "start": 271.62,
+          "end": 271.94,
+          "startFrame": 8149,
+          "endFrame": 8158
+        },
+        {
+          "word": "trillions",
+          "start": 271.94,
+          "end": 272.4,
+          "startFrame": 8158,
+          "endFrame": 8172
+        },
+        {
+          "word": "of",
+          "start": 272.4,
+          "end": 272.7,
+          "startFrame": 8172,
+          "endFrame": 8181
+        },
+        {
+          "word": "tokens",
+          "start": 272.7,
+          "end": 272.96,
+          "startFrame": 8181,
+          "endFrame": 8189
+        },
+        {
+          "word": "of",
+          "start": 272.96,
+          "end": 273.2,
+          "startFrame": 8189,
+          "endFrame": 8196
+        },
+        {
+          "word": "human",
+          "start": 273.2,
+          "end": 273.42,
+          "startFrame": 8196,
+          "endFrame": 8203
+        },
+        {
+          "word": "text",
+          "start": 273.42,
+          "end": 273.64,
+          "startFrame": 8203,
+          "endFrame": 8209
+        },
+        {
+          "word": "just",
+          "start": 273.64,
+          "end": 274.02,
+          "startFrame": 8209,
+          "endFrame": 8221
+        },
+        {
+          "word": "to",
+          "start": 274.02,
+          "end": 274.18,
+          "startFrame": 8221,
+          "endFrame": 8225
+        },
+        {
+          "word": "produce",
+          "start": 274.18,
+          "end": 274.46,
+          "startFrame": 8225,
+          "endFrame": 8234
+        },
+        {
+          "word": "incremental",
+          "start": 274.46,
+          "end": 274.76,
+          "startFrame": 8234,
+          "endFrame": 8243
+        },
+        {
+          "word": "gains.",
+          "start": 274.76,
+          "end": 275.34,
+          "startFrame": 8243,
+          "endFrame": 8260
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "start": 275.98,
+      "end": 280.44,
+      "startFrame": 8279,
+      "endFrame": 8413,
+      "text": "By combining accumulated discovery histories with offline recursive dream simulators,",
+      "words": [
+        {
+          "word": "By",
+          "start": 275.98,
+          "end": 276.08,
+          "startFrame": 8279,
+          "endFrame": 8282
+        },
+        {
+          "word": "combining",
+          "start": 276.08,
+          "end": 276.54,
+          "startFrame": 8282,
+          "endFrame": 8296
+        },
+        {
+          "word": "accumulated",
+          "start": 276.54,
+          "end": 276.88,
+          "startFrame": 8296,
+          "endFrame": 8306
+        },
+        {
+          "word": "discovery",
+          "start": 276.88,
+          "end": 277.58,
+          "startFrame": 8306,
+          "endFrame": 8327
+        },
+        {
+          "word": "histories",
+          "start": 277.58,
+          "end": 278.02,
+          "startFrame": 8327,
+          "endFrame": 8341
+        },
+        {
+          "word": "with",
+          "start": 278.02,
+          "end": 278.54,
+          "startFrame": 8341,
+          "endFrame": 8356
+        },
+        {
+          "word": "offline",
+          "start": 278.54,
+          "end": 278.96,
+          "startFrame": 8356,
+          "endFrame": 8369
+        },
+        {
+          "word": "recursive",
+          "start": 278.96,
+          "end": 279.44,
+          "startFrame": 8369,
+          "endFrame": 8383
+        },
+        {
+          "word": "dream",
+          "start": 279.44,
+          "end": 279.88,
+          "startFrame": 8383,
+          "endFrame": 8396
+        },
+        {
+          "word": "simulators,",
+          "start": 279.88,
+          "end": 280.44,
+          "startFrame": 8396,
+          "endFrame": 8413
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "start": 281.34,
+      "end": 284.28,
+      "startFrame": 8440,
+      "endFrame": 8528,
+      "text": "Google DeepMind has unlocked an evolutionary flywheel.",
+      "words": [
+        {
+          "word": "Google",
+          "start": 281.34,
+          "end": 281.48,
+          "startFrame": 8440,
+          "endFrame": 8444
+        },
+        {
+          "word": "DeepMind",
+          "start": 281.48,
+          "end": 282.14,
+          "startFrame": 8444,
+          "endFrame": 8464
+        },
+        {
+          "word": "has",
+          "start": 282.14,
+          "end": 282.4,
+          "startFrame": 8464,
+          "endFrame": 8472
+        },
+        {
+          "word": "unlocked",
+          "start": 282.4,
+          "end": 282.8,
+          "startFrame": 8472,
+          "endFrame": 8484
+        },
+        {
+          "word": "an",
+          "start": 282.8,
+          "end": 283.1,
+          "startFrame": 8484,
+          "endFrame": 8493
+        },
+        {
+          "word": "evolutionary",
+          "start": 283.1,
+          "end": 283.44,
+          "startFrame": 8493,
+          "endFrame": 8503
+        },
+        {
+          "word": "flywheel.",
+          "start": 283.44,
+          "end": 284.28,
+          "startFrame": 8503,
+          "endFrame": 8528
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "start": 284.74,
+      "end": 288.0,
+      "startFrame": 8542,
+      "endFrame": 8640,
+      "text": "The machine explores reality, dreams about its mistakes,",
+      "words": [
+        {
+          "word": "The",
+          "start": 284.74,
+          "end": 284.9,
+          "startFrame": 8542,
+          "endFrame": 8547
+        },
+        {
+          "word": "machine",
+          "start": 284.9,
+          "end": 285.12,
+          "startFrame": 8547,
+          "endFrame": 8554
+        },
+        {
+          "word": "explores",
+          "start": 285.12,
+          "end": 285.64,
+          "startFrame": 8554,
+          "endFrame": 8569
+        },
+        {
+          "word": "reality,",
+          "start": 285.64,
+          "end": 286.26,
+          "startFrame": 8569,
+          "endFrame": 8588
+        },
+        {
+          "word": "dreams",
+          "start": 286.76,
+          "end": 287.0,
+          "startFrame": 8603,
+          "endFrame": 8610
+        },
+        {
+          "word": "about",
+          "start": 287.0,
+          "end": 287.38,
+          "startFrame": 8610,
+          "endFrame": 8621
+        },
+        {
+          "word": "its",
+          "start": 287.38,
+          "end": 287.56,
+          "startFrame": 8621,
+          "endFrame": 8627
+        },
+        {
+          "word": "mistakes,",
+          "start": 287.56,
+          "end": 288.0,
+          "startFrame": 8627,
+          "endFrame": 8640
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "start": 288.72,
+      "end": 290.56,
+      "startFrame": 8662,
+      "endFrame": 8717,
+      "text": "rewrites its problem-solving logic,",
+      "words": [
+        {
+          "word": "rewrites",
+          "start": 288.72,
+          "end": 289.38,
+          "startFrame": 8662,
+          "endFrame": 8681
+        },
+        {
+          "word": "its",
+          "start": 289.38,
+          "end": 289.46,
+          "startFrame": 8681,
+          "endFrame": 8684
+        },
+        {
+          "word": "problem",
+          "start": 289.46,
+          "end": 289.74,
+          "startFrame": 8684,
+          "endFrame": 8692
+        },
+        {
+          "word": "-solving",
+          "start": 289.74,
+          "end": 290.18,
+          "startFrame": 8692,
+          "endFrame": 8705
+        },
+        {
+          "word": "logic,",
+          "start": 290.18,
+          "end": 290.56,
+          "startFrame": 8705,
+          "endFrame": 8717
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "start": 291.18,
+      "end": 293.84,
+      "startFrame": 8735,
+      "endFrame": 8815,
+      "text": "and returns to reality smarter than it was yesterday.",
+      "words": [
+        {
+          "word": "and",
+          "start": 291.18,
+          "end": 291.42,
+          "startFrame": 8735,
+          "endFrame": 8743
+        },
+        {
+          "word": "returns",
+          "start": 291.42,
+          "end": 291.72,
+          "startFrame": 8743,
+          "endFrame": 8752
+        },
+        {
+          "word": "to",
+          "start": 291.72,
+          "end": 292.02,
+          "startFrame": 8752,
+          "endFrame": 8761
+        },
+        {
+          "word": "reality",
+          "start": 292.02,
+          "end": 292.26,
+          "startFrame": 8761,
+          "endFrame": 8768
+        },
+        {
+          "word": "smarter",
+          "start": 292.26,
+          "end": 292.76,
+          "startFrame": 8768,
+          "endFrame": 8783
+        },
+        {
+          "word": "than",
+          "start": 292.76,
+          "end": 293.3,
+          "startFrame": 8783,
+          "endFrame": 8799
+        },
+        {
+          "word": "it",
+          "start": 293.3,
+          "end": 293.4,
+          "startFrame": 8799,
+          "endFrame": 8802
+        },
+        {
+          "word": "was",
+          "start": 293.4,
+          "end": 293.52,
+          "startFrame": 8802,
+          "endFrame": 8806
+        },
+        {
+          "word": "yesterday.",
+          "start": 293.52,
+          "end": 293.84,
+          "startFrame": 8806,
+          "endFrame": 8815
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "start": 294.5,
+      "end": 299.3,
+      "startFrame": 8835,
+      "endFrame": 8979,
+      "text": "The ceiling of artificial intelligence is no longer tethered to the limits of human data",
+      "words": [
+        {
+          "word": "The",
+          "start": 294.5,
+          "end": 294.6,
+          "startFrame": 8835,
+          "endFrame": 8838
+        },
+        {
+          "word": "ceiling",
+          "start": 294.6,
+          "end": 294.92,
+          "startFrame": 8838,
+          "endFrame": 8848
+        },
+        {
+          "word": "of",
+          "start": 294.92,
+          "end": 295.26,
+          "startFrame": 8848,
+          "endFrame": 8858
+        },
+        {
+          "word": "artificial",
+          "start": 295.26,
+          "end": 295.66,
+          "startFrame": 8858,
+          "endFrame": 8870
+        },
+        {
+          "word": "intelligence",
+          "start": 295.66,
+          "end": 296.32,
+          "startFrame": 8870,
+          "endFrame": 8890
+        },
+        {
+          "word": "is",
+          "start": 296.32,
+          "end": 296.74,
+          "startFrame": 8890,
+          "endFrame": 8902
+        },
+        {
+          "word": "no",
+          "start": 296.74,
+          "end": 296.98,
+          "startFrame": 8902,
+          "endFrame": 8909
+        },
+        {
+          "word": "longer",
+          "start": 296.98,
+          "end": 297.32,
+          "startFrame": 8909,
+          "endFrame": 8920
+        },
+        {
+          "word": "tethered",
+          "start": 297.32,
+          "end": 297.74,
+          "startFrame": 8920,
+          "endFrame": 8932
+        },
+        {
+          "word": "to",
+          "start": 297.74,
+          "end": 298.02,
+          "startFrame": 8932,
+          "endFrame": 8941
+        },
+        {
+          "word": "the",
+          "start": 298.02,
+          "end": 298.14,
+          "startFrame": 8941,
+          "endFrame": 8944
+        },
+        {
+          "word": "limits",
+          "start": 298.14,
+          "end": 298.46,
+          "startFrame": 8944,
+          "endFrame": 8954
+        },
+        {
+          "word": "of",
+          "start": 298.46,
+          "end": 298.8,
+          "startFrame": 8954,
+          "endFrame": 8964
+        },
+        {
+          "word": "human",
+          "start": 298.8,
+          "end": 299.02,
+          "startFrame": 8964,
+          "endFrame": 8971
+        },
+        {
+          "word": "data",
+          "start": 299.02,
+          "end": 299.3,
+          "startFrame": 8971,
+          "endFrame": 8979
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "start": 299.3,
+      "end": 300.04,
+      "startFrame": 8979,
+      "endFrame": 9001,
+      "text": "set curation.",
+      "words": [
+        {
+          "word": "set",
+          "start": 299.3,
+          "end": 299.58,
+          "startFrame": 8979,
+          "endFrame": 8987
+        },
+        {
+          "word": "curation.",
+          "start": 299.58,
+          "end": 300.04,
+          "startFrame": 8987,
+          "endFrame": 9001
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "start": 300.64,
+      "end": 303.96,
+      "startFrame": 9019,
+      "endFrame": 9119,
+      "text": "The era of recursive self-improvement has officially arrived.",
+      "words": [
+        {
+          "word": "The",
+          "start": 300.64,
+          "end": 300.72,
+          "startFrame": 9019,
+          "endFrame": 9022
+        },
+        {
+          "word": "era",
+          "start": 300.72,
+          "end": 300.98,
+          "startFrame": 9022,
+          "endFrame": 9029
+        },
+        {
+          "word": "of",
+          "start": 300.98,
+          "end": 301.34,
+          "startFrame": 9029,
+          "endFrame": 9040
+        },
+        {
+          "word": "recursive",
+          "start": 301.34,
+          "end": 301.6,
+          "startFrame": 9040,
+          "endFrame": 9048
+        },
+        {
+          "word": "self",
+          "start": 301.6,
+          "end": 302.14,
+          "startFrame": 9048,
+          "endFrame": 9064
+        },
+        {
+          "word": "-improvement",
+          "start": 302.14,
+          "end": 302.78,
+          "startFrame": 9064,
+          "endFrame": 9083
+        },
+        {
+          "word": "has",
+          "start": 302.78,
+          "end": 303.04,
+          "startFrame": 9083,
+          "endFrame": 9091
+        },
+        {
+          "word": "officially",
+          "start": 303.04,
+          "end": 303.38,
+          "startFrame": 9091,
+          "endFrame": 9101
+        },
+        {
+          "word": "arrived.",
+          "start": 303.38,
+          "end": 303.96,
+          "startFrame": 9101,
+          "endFrame": 9119
+        }
+      ]
+    }
+  ]
+}
