@@ -1,4 +1,4 @@
-﻿name: Render Remotion Video
+name: Render Remotion Video
 
 on:
   workflow_dispatch:
@@ -6,9 +6,10 @@ on:
       composition:
         description: 'Composition to render'
         required: true
-        default: 'DailyVideo'
+        default: 'LongFormDocumentary'
         type: choice
         options:
+          - LongFormDocumentary
           - DailyVideo
           - Video
   push:
@@ -35,10 +36,10 @@ jobs:
         run: npx remotion browser ensure
 
       - name: Render Full MP4 Video
-        run: npx remotion render ${{ inputs.composition || 'DailyVideo' }} out/daily_video.mp4 --concurrency=4
+        run: npx remotion render ${{ inputs.composition || 'LongFormDocumentary' }} out/documentary_frontier_leaks_2026.mp4 --concurrency=4
 
       - name: Upload Rendered Video
         uses: actions/upload-artifact@v4
         with:
-          name: daily-ai-documentary-video
-          path: out/daily_video.mp4
+          name: frontier-leaks-documentary-video
+          path: out/documentary_frontier_leaks_2026.mp4

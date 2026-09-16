@@ -2,11 +2,22 @@ import React from "react";
 import { Composition, Still } from "remotion";
 import { MainVideo } from "./MainVideo";
 import { DailyVideo } from "./DailyVideo";
+import { LongFormDocumentary } from "./LongFormDocumentary";
 import { Thumbnail } from "./Thumbnail";
 
 export const Root: React.FC = () => {
   return (
     <>
+      {/* 6.01-Minute Master AI Documentary (>5 Minutes) */}
+      <Composition
+        id="LongFormDocumentary"
+        component={LongFormDocumentary}
+        durationInFrames={10812}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* 4.07-Minute Full Documentary Composition */}
       <Composition
         id="DailyVideo"

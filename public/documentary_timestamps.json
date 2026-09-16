@@ -1,0 +1,6434 @@
+{
+  "duration": 360.38,
+  "totalFrames": 10812,
+  "fps": 30,
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 4.74,
+      "startFrame": 0,
+      "endFrame": 142,
+      "text": "Right now, the largest artificial intelligence labs in the world are publicly pleading for",
+      "words": [
+        {
+          "word": "Right",
+          "start": 0.0,
+          "end": 0.24,
+          "startFrame": 0,
+          "endFrame": 7
+        },
+        {
+          "word": "now,",
+          "start": 0.24,
+          "end": 0.52,
+          "startFrame": 7,
+          "endFrame": 16
+        },
+        {
+          "word": "the",
+          "start": 0.62,
+          "end": 0.88,
+          "startFrame": 19,
+          "endFrame": 26
+        },
+        {
+          "word": "largest",
+          "start": 0.88,
+          "end": 1.26,
+          "startFrame": 26,
+          "endFrame": 38
+        },
+        {
+          "word": "artificial",
+          "start": 1.26,
+          "end": 1.6,
+          "startFrame": 38,
+          "endFrame": 48
+        },
+        {
+          "word": "intelligence",
+          "start": 1.6,
+          "end": 2.08,
+          "startFrame": 48,
+          "endFrame": 62
+        },
+        {
+          "word": "labs",
+          "start": 2.08,
+          "end": 2.72,
+          "startFrame": 62,
+          "endFrame": 82
+        },
+        {
+          "word": "in",
+          "start": 2.72,
+          "end": 3.02,
+          "startFrame": 82,
+          "endFrame": 91
+        },
+        {
+          "word": "the",
+          "start": 3.02,
+          "end": 3.12,
+          "startFrame": 91,
+          "endFrame": 94
+        },
+        {
+          "word": "world",
+          "start": 3.12,
+          "end": 3.36,
+          "startFrame": 94,
+          "endFrame": 101
+        },
+        {
+          "word": "are",
+          "start": 3.36,
+          "end": 3.64,
+          "startFrame": 101,
+          "endFrame": 109
+        },
+        {
+          "word": "publicly",
+          "start": 3.64,
+          "end": 3.98,
+          "startFrame": 109,
+          "endFrame": 119
+        },
+        {
+          "word": "pleading",
+          "start": 3.98,
+          "end": 4.42,
+          "startFrame": 119,
+          "endFrame": 133
+        },
+        {
+          "word": "for",
+          "start": 4.42,
+          "end": 4.74,
+          "startFrame": 133,
+          "endFrame": 142
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "start": 4.74,
+      "end": 10.26,
+      "startFrame": 142,
+      "endFrame": 308,
+      "text": "regulation, while redlining their computational clusters behind closed doors. Over the weekend,",
+      "words": [
+        {
+          "word": "regulation,",
+          "start": 4.74,
+          "end": 5.06,
+          "startFrame": 142,
+          "endFrame": 152
+        },
+        {
+          "word": "while",
+          "start": 5.78,
+          "end": 6.02,
+          "startFrame": 173,
+          "endFrame": 181
+        },
+        {
+          "word": "redlining",
+          "start": 6.02,
+          "end": 6.52,
+          "startFrame": 181,
+          "endFrame": 196
+        },
+        {
+          "word": "their",
+          "start": 6.52,
+          "end": 6.82,
+          "startFrame": 196,
+          "endFrame": 205
+        },
+        {
+          "word": "computational",
+          "start": 6.82,
+          "end": 7.14,
+          "startFrame": 205,
+          "endFrame": 214
+        },
+        {
+          "word": "clusters",
+          "start": 7.14,
+          "end": 7.74,
+          "startFrame": 214,
+          "endFrame": 232
+        },
+        {
+          "word": "behind",
+          "start": 7.74,
+          "end": 8.26,
+          "startFrame": 232,
+          "endFrame": 248
+        },
+        {
+          "word": "closed",
+          "start": 8.26,
+          "end": 8.52,
+          "startFrame": 248,
+          "endFrame": 256
+        },
+        {
+          "word": "doors.",
+          "start": 8.52,
+          "end": 8.96,
+          "startFrame": 256,
+          "endFrame": 269
+        },
+        {
+          "word": "Over",
+          "start": 9.48,
+          "end": 9.7,
+          "startFrame": 284,
+          "endFrame": 291
+        },
+        {
+          "word": "the",
+          "start": 9.7,
+          "end": 9.88,
+          "startFrame": 291,
+          "endFrame": 296
+        },
+        {
+          "word": "weekend,",
+          "start": 9.88,
+          "end": 10.26,
+          "startFrame": 296,
+          "endFrame": 308
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 10.58,
+      "end": 16.28,
+      "startFrame": 317,
+      "endFrame": 488,
+      "text": "anthropic CEO Dario Amade went on record warning that Frontier AI is advancing at a velocity",
+      "words": [
+        {
+          "word": "anthropic",
+          "start": 10.58,
+          "end": 11.54,
+          "startFrame": 317,
+          "endFrame": 346
+        },
+        {
+          "word": "CEO",
+          "start": 11.54,
+          "end": 11.82,
+          "startFrame": 346,
+          "endFrame": 355
+        },
+        {
+          "word": "Dario",
+          "start": 11.82,
+          "end": 12.2,
+          "startFrame": 355,
+          "endFrame": 366
+        },
+        {
+          "word": "Amade",
+          "start": 12.2,
+          "end": 12.62,
+          "startFrame": 366,
+          "endFrame": 379
+        },
+        {
+          "word": "went",
+          "start": 12.62,
+          "end": 12.96,
+          "startFrame": 379,
+          "endFrame": 389
+        },
+        {
+          "word": "on",
+          "start": 12.96,
+          "end": 13.18,
+          "startFrame": 389,
+          "endFrame": 395
+        },
+        {
+          "word": "record",
+          "start": 13.18,
+          "end": 13.4,
+          "startFrame": 395,
+          "endFrame": 402
+        },
+        {
+          "word": "warning",
+          "start": 13.4,
+          "end": 13.88,
+          "startFrame": 402,
+          "endFrame": 416
+        },
+        {
+          "word": "that",
+          "start": 13.88,
+          "end": 14.12,
+          "startFrame": 416,
+          "endFrame": 424
+        },
+        {
+          "word": "Frontier",
+          "start": 14.12,
+          "end": 14.4,
+          "startFrame": 424,
+          "endFrame": 432
+        },
+        {
+          "word": "AI",
+          "start": 14.4,
+          "end": 14.76,
+          "startFrame": 432,
+          "endFrame": 443
+        },
+        {
+          "word": "is",
+          "start": 14.76,
+          "end": 15.16,
+          "startFrame": 443,
+          "endFrame": 455
+        },
+        {
+          "word": "advancing",
+          "start": 15.16,
+          "end": 15.46,
+          "startFrame": 455,
+          "endFrame": 464
+        },
+        {
+          "word": "at",
+          "start": 15.46,
+          "end": 15.92,
+          "startFrame": 464,
+          "endFrame": 478
+        },
+        {
+          "word": "a",
+          "start": 15.92,
+          "end": 16.0,
+          "startFrame": 478,
+          "endFrame": 480
+        },
+        {
+          "word": "velocity",
+          "start": 16.0,
+          "end": 16.28,
+          "startFrame": 480,
+          "endFrame": 488
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "start": 16.28,
+      "end": 22.9,
+      "startFrame": 488,
+      "endFrame": 687,
+      "text": "humanity is entirely unprepared to control. Within hours of that statement, anthropic quietly deployed",
+      "words": [
+        {
+          "word": "humanity",
+          "start": 16.28,
+          "end": 16.84,
+          "startFrame": 488,
+          "endFrame": 505
+        },
+        {
+          "word": "is",
+          "start": 16.84,
+          "end": 17.28,
+          "startFrame": 505,
+          "endFrame": 518
+        },
+        {
+          "word": "entirely",
+          "start": 17.28,
+          "end": 17.6,
+          "startFrame": 518,
+          "endFrame": 528
+        },
+        {
+          "word": "unprepared",
+          "start": 17.6,
+          "end": 18.16,
+          "startFrame": 528,
+          "endFrame": 545
+        },
+        {
+          "word": "to",
+          "start": 18.16,
+          "end": 18.54,
+          "startFrame": 545,
+          "endFrame": 556
+        },
+        {
+          "word": "control.",
+          "start": 18.54,
+          "end": 18.9,
+          "startFrame": 556,
+          "endFrame": 567
+        },
+        {
+          "word": "Within",
+          "start": 19.56,
+          "end": 19.62,
+          "startFrame": 587,
+          "endFrame": 589
+        },
+        {
+          "word": "hours",
+          "start": 19.62,
+          "end": 20.02,
+          "startFrame": 589,
+          "endFrame": 601
+        },
+        {
+          "word": "of",
+          "start": 20.02,
+          "end": 20.26,
+          "startFrame": 601,
+          "endFrame": 608
+        },
+        {
+          "word": "that",
+          "start": 20.26,
+          "end": 20.4,
+          "startFrame": 608,
+          "endFrame": 612
+        },
+        {
+          "word": "statement,",
+          "start": 20.4,
+          "end": 20.84,
+          "startFrame": 612,
+          "endFrame": 625
+        },
+        {
+          "word": "anthropic",
+          "start": 21.38,
+          "end": 22.02,
+          "startFrame": 641,
+          "endFrame": 661
+        },
+        {
+          "word": "quietly",
+          "start": 22.02,
+          "end": 22.26,
+          "startFrame": 661,
+          "endFrame": 668
+        },
+        {
+          "word": "deployed",
+          "start": 22.26,
+          "end": 22.9,
+          "startFrame": 668,
+          "endFrame": 687
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "start": 22.9,
+      "end": 28.62,
+      "startFrame": 687,
+      "endFrame": 859,
+      "text": "Claude Opus 5.2 and Fable 5.2 directly to production to capture top software engineering benchmarks.",
+      "words": [
+        {
+          "word": "Claude",
+          "start": 22.9,
+          "end": 23.12,
+          "startFrame": 687,
+          "endFrame": 694
+        },
+        {
+          "word": "Opus",
+          "start": 23.12,
+          "end": 23.62,
+          "startFrame": 694,
+          "endFrame": 709
+        },
+        {
+          "word": "5",
+          "start": 23.62,
+          "end": 23.88,
+          "startFrame": 709,
+          "endFrame": 716
+        },
+        {
+          "word": ".2",
+          "start": 23.88,
+          "end": 24.4,
+          "startFrame": 716,
+          "endFrame": 732
+        },
+        {
+          "word": "and",
+          "start": 24.4,
+          "end": 24.58,
+          "startFrame": 732,
+          "endFrame": 737
+        },
+        {
+          "word": "Fable",
+          "start": 24.58,
+          "end": 24.78,
+          "startFrame": 737,
+          "endFrame": 743
+        },
+        {
+          "word": "5",
+          "start": 24.78,
+          "end": 25.18,
+          "startFrame": 743,
+          "endFrame": 755
+        },
+        {
+          "word": ".2",
+          "start": 25.18,
+          "end": 25.62,
+          "startFrame": 755,
+          "endFrame": 769
+        },
+        {
+          "word": "directly",
+          "start": 25.62,
+          "end": 25.92,
+          "startFrame": 769,
+          "endFrame": 778
+        },
+        {
+          "word": "to",
+          "start": 25.92,
+          "end": 26.24,
+          "startFrame": 778,
+          "endFrame": 787
+        },
+        {
+          "word": "production",
+          "start": 26.24,
+          "end": 26.46,
+          "startFrame": 787,
+          "endFrame": 794
+        },
+        {
+          "word": "to",
+          "start": 26.46,
+          "end": 26.8,
+          "startFrame": 794,
+          "endFrame": 804
+        },
+        {
+          "word": "capture",
+          "start": 26.8,
+          "end": 27.16,
+          "startFrame": 804,
+          "endFrame": 815
+        },
+        {
+          "word": "top",
+          "start": 27.16,
+          "end": 27.4,
+          "startFrame": 815,
+          "endFrame": 822
+        },
+        {
+          "word": "software",
+          "start": 27.4,
+          "end": 27.86,
+          "startFrame": 822,
+          "endFrame": 836
+        },
+        {
+          "word": "engineering",
+          "start": 27.86,
+          "end": 28.14,
+          "startFrame": 836,
+          "endFrame": 844
+        },
+        {
+          "word": "benchmarks.",
+          "start": 28.14,
+          "end": 28.62,
+          "startFrame": 844,
+          "endFrame": 859
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "start": 33.68,
+      "end": 40.8,
+      "startFrame": 1010,
+      "endFrame": 1224,
+      "text": "Within 48 hours, OpenAI countered with GPT-6 Astra. While internal leaks revealed they are",
+      "words": [
+        {
+          "word": "Within",
+          "start": 33.68,
+          "end": 34.48,
+          "startFrame": 1010,
+          "endFrame": 1034
+        },
+        {
+          "word": "48",
+          "start": 34.48,
+          "end": 35.28,
+          "startFrame": 1034,
+          "endFrame": 1058
+        },
+        {
+          "word": "hours,",
+          "start": 35.28,
+          "end": 35.68,
+          "startFrame": 1058,
+          "endFrame": 1070
+        },
+        {
+          "word": "OpenAI",
+          "start": 36.12,
+          "end": 36.54,
+          "startFrame": 1084,
+          "endFrame": 1096
+        },
+        {
+          "word": "countered",
+          "start": 36.54,
+          "end": 37.0,
+          "startFrame": 1096,
+          "endFrame": 1110
+        },
+        {
+          "word": "with",
+          "start": 37.0,
+          "end": 37.2,
+          "startFrame": 1110,
+          "endFrame": 1116
+        },
+        {
+          "word": "GPT",
+          "start": 37.2,
+          "end": 37.5,
+          "startFrame": 1116,
+          "endFrame": 1125
+        },
+        {
+          "word": "-6",
+          "start": 37.5,
+          "end": 37.98,
+          "startFrame": 1125,
+          "endFrame": 1139
+        },
+        {
+          "word": "Astra.",
+          "start": 37.98,
+          "end": 38.44,
+          "startFrame": 1139,
+          "endFrame": 1153
+        },
+        {
+          "word": "While",
+          "start": 39.1,
+          "end": 39.26,
+          "startFrame": 1173,
+          "endFrame": 1178
+        },
+        {
+          "word": "internal",
+          "start": 39.26,
+          "end": 39.62,
+          "startFrame": 1178,
+          "endFrame": 1189
+        },
+        {
+          "word": "leaks",
+          "start": 39.62,
+          "end": 39.92,
+          "startFrame": 1189,
+          "endFrame": 1198
+        },
+        {
+          "word": "revealed",
+          "start": 39.92,
+          "end": 40.3,
+          "startFrame": 1198,
+          "endFrame": 1209
+        },
+        {
+          "word": "they",
+          "start": 40.3,
+          "end": 40.7,
+          "startFrame": 1209,
+          "endFrame": 1221
+        },
+        {
+          "word": "are",
+          "start": 40.7,
+          "end": 40.8,
+          "startFrame": 1221,
+          "endFrame": 1224
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "start": 40.8,
+      "end": 47.56,
+      "startFrame": 1224,
+      "endFrame": 1427,
+      "text": "already staging GPT-6 Seoul inside private API routes. Elon Musk chimed in, agreeing that frontier",
+      "words": [
+        {
+          "word": "already",
+          "start": 40.8,
+          "end": 41.08,
+          "startFrame": 1224,
+          "endFrame": 1232
+        },
+        {
+          "word": "staging",
+          "start": 41.08,
+          "end": 41.5,
+          "startFrame": 1232,
+          "endFrame": 1245
+        },
+        {
+          "word": "GPT",
+          "start": 41.5,
+          "end": 41.98,
+          "startFrame": 1245,
+          "endFrame": 1259
+        },
+        {
+          "word": "-6",
+          "start": 41.98,
+          "end": 42.46,
+          "startFrame": 1259,
+          "endFrame": 1274
+        },
+        {
+          "word": "Seoul",
+          "start": 42.46,
+          "end": 42.68,
+          "startFrame": 1274,
+          "endFrame": 1280
+        },
+        {
+          "word": "inside",
+          "start": 42.68,
+          "end": 43.0,
+          "startFrame": 1280,
+          "endFrame": 1290
+        },
+        {
+          "word": "private",
+          "start": 43.0,
+          "end": 43.56,
+          "startFrame": 1290,
+          "endFrame": 1307
+        },
+        {
+          "word": "API",
+          "start": 43.56,
+          "end": 43.96,
+          "startFrame": 1307,
+          "endFrame": 1319
+        },
+        {
+          "word": "routes.",
+          "start": 43.96,
+          "end": 44.36,
+          "startFrame": 1319,
+          "endFrame": 1331
+        },
+        {
+          "word": "Elon",
+          "start": 44.96,
+          "end": 45.18,
+          "startFrame": 1349,
+          "endFrame": 1355
+        },
+        {
+          "word": "Musk",
+          "start": 45.18,
+          "end": 45.46,
+          "startFrame": 1355,
+          "endFrame": 1364
+        },
+        {
+          "word": "chimed",
+          "start": 45.46,
+          "end": 46.06,
+          "startFrame": 1364,
+          "endFrame": 1382
+        },
+        {
+          "word": "in,",
+          "start": 46.06,
+          "end": 46.18,
+          "startFrame": 1382,
+          "endFrame": 1385
+        },
+        {
+          "word": "agreeing",
+          "start": 46.82,
+          "end": 47.02,
+          "startFrame": 1405,
+          "endFrame": 1411
+        },
+        {
+          "word": "that",
+          "start": 47.02,
+          "end": 47.38,
+          "startFrame": 1411,
+          "endFrame": 1421
+        },
+        {
+          "word": "frontier",
+          "start": 47.38,
+          "end": 47.56,
+          "startFrame": 1421,
+          "endFrame": 1427
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "start": 47.56,
+      "end": 54.2,
+      "startFrame": 1427,
+      "endFrame": 1626,
+      "text": "pacing is critical, while immediately accelerating XAI's deployment of GRC-4.7. Silicon Valley",
+      "words": [
+        {
+          "word": "pacing",
+          "start": 47.56,
+          "end": 48.06,
+          "startFrame": 1427,
+          "endFrame": 1442
+        },
+        {
+          "word": "is",
+          "start": 48.06,
+          "end": 48.36,
+          "startFrame": 1442,
+          "endFrame": 1451
+        },
+        {
+          "word": "critical,",
+          "start": 48.36,
+          "end": 48.58,
+          "startFrame": 1451,
+          "endFrame": 1457
+        },
+        {
+          "word": "while",
+          "start": 49.2,
+          "end": 49.46,
+          "startFrame": 1476,
+          "endFrame": 1484
+        },
+        {
+          "word": "immediately",
+          "start": 49.46,
+          "end": 49.9,
+          "startFrame": 1484,
+          "endFrame": 1497
+        },
+        {
+          "word": "accelerating",
+          "start": 49.9,
+          "end": 50.56,
+          "startFrame": 1497,
+          "endFrame": 1517
+        },
+        {
+          "word": "XAI's",
+          "start": 50.56,
+          "end": 51.38,
+          "startFrame": 1517,
+          "endFrame": 1541
+        },
+        {
+          "word": "deployment",
+          "start": 51.38,
+          "end": 51.62,
+          "startFrame": 1541,
+          "endFrame": 1549
+        },
+        {
+          "word": "of",
+          "start": 51.62,
+          "end": 52.02,
+          "startFrame": 1549,
+          "endFrame": 1561
+        },
+        {
+          "word": "GRC",
+          "start": 52.02,
+          "end": 52.22,
+          "startFrame": 1561,
+          "endFrame": 1567
+        },
+        {
+          "word": "-4",
+          "start": 52.22,
+          "end": 52.52,
+          "startFrame": 1567,
+          "endFrame": 1576
+        },
+        {
+          "word": ".7.",
+          "start": 52.52,
+          "end": 53.04,
+          "startFrame": 1576,
+          "endFrame": 1591
+        },
+        {
+          "word": "Silicon",
+          "start": 53.58,
+          "end": 53.8,
+          "startFrame": 1607,
+          "endFrame": 1614
+        },
+        {
+          "word": "Valley",
+          "start": 53.8,
+          "end": 54.2,
+          "startFrame": 1614,
+          "endFrame": 1626
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "start": 54.2,
+      "end": 59.38,
+      "startFrame": 1626,
+      "endFrame": 1781,
+      "text": "is preaching safety to the cameras. While nobody's foot is anywhere near the brake pedal,",
+      "words": [
+        {
+          "word": "is",
+          "start": 54.2,
+          "end": 54.62,
+          "startFrame": 1626,
+          "endFrame": 1639
+        },
+        {
+          "word": "preaching",
+          "start": 54.62,
+          "end": 54.82,
+          "startFrame": 1639,
+          "endFrame": 1645
+        },
+        {
+          "word": "safety",
+          "start": 54.82,
+          "end": 55.26,
+          "startFrame": 1645,
+          "endFrame": 1658
+        },
+        {
+          "word": "to",
+          "start": 55.26,
+          "end": 55.64,
+          "startFrame": 1658,
+          "endFrame": 1669
+        },
+        {
+          "word": "the",
+          "start": 55.64,
+          "end": 55.72,
+          "startFrame": 1669,
+          "endFrame": 1672
+        },
+        {
+          "word": "cameras.",
+          "start": 55.72,
+          "end": 56.02,
+          "startFrame": 1672,
+          "endFrame": 1681
+        },
+        {
+          "word": "While",
+          "start": 56.86,
+          "end": 57.02,
+          "startFrame": 1706,
+          "endFrame": 1711
+        },
+        {
+          "word": "nobody's",
+          "start": 57.02,
+          "end": 57.54,
+          "startFrame": 1711,
+          "endFrame": 1726
+        },
+        {
+          "word": "foot",
+          "start": 57.54,
+          "end": 57.72,
+          "startFrame": 1726,
+          "endFrame": 1732
+        },
+        {
+          "word": "is",
+          "start": 57.72,
+          "end": 57.96,
+          "startFrame": 1732,
+          "endFrame": 1739
+        },
+        {
+          "word": "anywhere",
+          "start": 57.96,
+          "end": 58.34,
+          "startFrame": 1739,
+          "endFrame": 1750
+        },
+        {
+          "word": "near",
+          "start": 58.34,
+          "end": 58.7,
+          "startFrame": 1750,
+          "endFrame": 1761
+        },
+        {
+          "word": "the",
+          "start": 58.7,
+          "end": 58.86,
+          "startFrame": 1761,
+          "endFrame": 1766
+        },
+        {
+          "word": "brake",
+          "start": 58.86,
+          "end": 59.04,
+          "startFrame": 1766,
+          "endFrame": 1771
+        },
+        {
+          "word": "pedal,",
+          "start": 59.04,
+          "end": 59.38,
+          "startFrame": 1771,
+          "endFrame": 1781
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "start": 59.94,
+      "end": 63.24,
+      "startFrame": 1798,
+      "endFrame": 1897,
+      "text": "and the reason they are terrified of pausing for even a single week,",
+      "words": [
+        {
+          "word": "and",
+          "start": 59.94,
+          "end": 60.12,
+          "startFrame": 1798,
+          "endFrame": 1804
+        },
+        {
+          "word": "the",
+          "start": 60.12,
+          "end": 60.22,
+          "startFrame": 1804,
+          "endFrame": 1807
+        },
+        {
+          "word": "reason",
+          "start": 60.22,
+          "end": 60.54,
+          "startFrame": 1807,
+          "endFrame": 1816
+        },
+        {
+          "word": "they",
+          "start": 60.54,
+          "end": 60.74,
+          "startFrame": 1816,
+          "endFrame": 1822
+        },
+        {
+          "word": "are",
+          "start": 60.74,
+          "end": 60.9,
+          "startFrame": 1822,
+          "endFrame": 1827
+        },
+        {
+          "word": "terrified",
+          "start": 60.9,
+          "end": 61.3,
+          "startFrame": 1827,
+          "endFrame": 1839
+        },
+        {
+          "word": "of",
+          "start": 61.3,
+          "end": 61.58,
+          "startFrame": 1839,
+          "endFrame": 1847
+        },
+        {
+          "word": "pausing",
+          "start": 61.58,
+          "end": 62.02,
+          "startFrame": 1847,
+          "endFrame": 1861
+        },
+        {
+          "word": "for",
+          "start": 62.02,
+          "end": 62.3,
+          "startFrame": 1861,
+          "endFrame": 1869
+        },
+        {
+          "word": "even",
+          "start": 62.3,
+          "end": 62.56,
+          "startFrame": 1869,
+          "endFrame": 1877
+        },
+        {
+          "word": "a",
+          "start": 62.56,
+          "end": 62.7,
+          "startFrame": 1877,
+          "endFrame": 1881
+        },
+        {
+          "word": "single",
+          "start": 62.7,
+          "end": 62.94,
+          "startFrame": 1881,
+          "endFrame": 1888
+        },
+        {
+          "word": "week,",
+          "start": 62.94,
+          "end": 63.24,
+          "startFrame": 1888,
+          "endFrame": 1897
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "start": 64.0,
+      "end": 67.7,
+      "startFrame": 1920,
+      "endFrame": 2031,
+      "text": "is because the definition of software generation just fundamentally mutated.",
+      "words": [
+        {
+          "word": "is",
+          "start": 64.0,
+          "end": 64.26,
+          "startFrame": 1920,
+          "endFrame": 1928
+        },
+        {
+          "word": "because",
+          "start": 64.26,
+          "end": 64.52,
+          "startFrame": 1928,
+          "endFrame": 1936
+        },
+        {
+          "word": "the",
+          "start": 64.52,
+          "end": 64.76,
+          "startFrame": 1936,
+          "endFrame": 1943
+        },
+        {
+          "word": "definition",
+          "start": 64.76,
+          "end": 65.18,
+          "startFrame": 1943,
+          "endFrame": 1955
+        },
+        {
+          "word": "of",
+          "start": 65.18,
+          "end": 65.44,
+          "startFrame": 1955,
+          "endFrame": 1963
+        },
+        {
+          "word": "software",
+          "start": 65.44,
+          "end": 65.68,
+          "startFrame": 1963,
+          "endFrame": 1970
+        },
+        {
+          "word": "generation",
+          "start": 65.68,
+          "end": 66.18,
+          "startFrame": 1970,
+          "endFrame": 1985
+        },
+        {
+          "word": "just",
+          "start": 66.18,
+          "end": 66.7,
+          "startFrame": 1985,
+          "endFrame": 2001
+        },
+        {
+          "word": "fundamentally",
+          "start": 66.7,
+          "end": 67.1,
+          "startFrame": 2001,
+          "endFrame": 2013
+        },
+        {
+          "word": "mutated.",
+          "start": 67.1,
+          "end": 67.7,
+          "startFrame": 2013,
+          "endFrame": 2031
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "start": 68.4,
+      "end": 74.52,
+      "startFrame": 2052,
+      "endFrame": 2236,
+      "text": "Four months, OpenAI engineers tested a secretive internal checkpoint codenamed Mosaic Alpha FDM.",
+      "words": [
+        {
+          "word": "Four",
+          "start": 68.4,
+          "end": 68.62,
+          "startFrame": 2052,
+          "endFrame": 2059
+        },
+        {
+          "word": "months,",
+          "start": 68.62,
+          "end": 68.86,
+          "startFrame": 2059,
+          "endFrame": 2066
+        },
+        {
+          "word": "OpenAI",
+          "start": 69.42,
+          "end": 69.9,
+          "startFrame": 2083,
+          "endFrame": 2097
+        },
+        {
+          "word": "engineers",
+          "start": 69.9,
+          "end": 70.4,
+          "startFrame": 2097,
+          "endFrame": 2112
+        },
+        {
+          "word": "tested",
+          "start": 70.4,
+          "end": 70.92,
+          "startFrame": 2112,
+          "endFrame": 2128
+        },
+        {
+          "word": "a",
+          "start": 70.92,
+          "end": 71.26,
+          "startFrame": 2128,
+          "endFrame": 2138
+        },
+        {
+          "word": "secretive",
+          "start": 71.26,
+          "end": 71.56,
+          "startFrame": 2138,
+          "endFrame": 2147
+        },
+        {
+          "word": "internal",
+          "start": 71.56,
+          "end": 72.02,
+          "startFrame": 2147,
+          "endFrame": 2161
+        },
+        {
+          "word": "checkpoint",
+          "start": 72.02,
+          "end": 72.42,
+          "startFrame": 2161,
+          "endFrame": 2173
+        },
+        {
+          "word": "codenamed",
+          "start": 72.42,
+          "end": 73.3,
+          "startFrame": 2173,
+          "endFrame": 2199
+        },
+        {
+          "word": "Mosaic",
+          "start": 73.3,
+          "end": 73.9,
+          "startFrame": 2199,
+          "endFrame": 2217
+        },
+        {
+          "word": "Alpha",
+          "start": 73.9,
+          "end": 74.02,
+          "startFrame": 2217,
+          "endFrame": 2221
+        },
+        {
+          "word": "FDM.",
+          "start": 74.02,
+          "end": 74.52,
+          "startFrame": 2221,
+          "endFrame": 2236
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "start": 75.18,
+      "end": 81.04,
+      "startFrame": 2255,
+      "endFrame": 2431,
+      "text": "When this architecture finally surfaced as GPT-6 Astra, the industry assumed it represented the",
+      "words": [
+        {
+          "word": "When",
+          "start": 75.18,
+          "end": 75.32,
+          "startFrame": 2255,
+          "endFrame": 2260
+        },
+        {
+          "word": "this",
+          "start": 75.32,
+          "end": 75.5,
+          "startFrame": 2260,
+          "endFrame": 2265
+        },
+        {
+          "word": "architecture",
+          "start": 75.5,
+          "end": 75.86,
+          "startFrame": 2265,
+          "endFrame": 2276
+        },
+        {
+          "word": "finally",
+          "start": 75.86,
+          "end": 76.42,
+          "startFrame": 2276,
+          "endFrame": 2293
+        },
+        {
+          "word": "surfaced",
+          "start": 76.42,
+          "end": 76.86,
+          "startFrame": 2293,
+          "endFrame": 2306
+        },
+        {
+          "word": "as",
+          "start": 76.86,
+          "end": 77.22,
+          "startFrame": 2306,
+          "endFrame": 2317
+        },
+        {
+          "word": "GPT",
+          "start": 77.22,
+          "end": 77.56,
+          "startFrame": 2317,
+          "endFrame": 2327
+        },
+        {
+          "word": "-6",
+          "start": 77.56,
+          "end": 78.0,
+          "startFrame": 2327,
+          "endFrame": 2340
+        },
+        {
+          "word": "Astra,",
+          "start": 78.0,
+          "end": 78.46,
+          "startFrame": 2340,
+          "endFrame": 2354
+        },
+        {
+          "word": "the",
+          "start": 79.06,
+          "end": 79.26,
+          "startFrame": 2372,
+          "endFrame": 2378
+        },
+        {
+          "word": "industry",
+          "start": 79.26,
+          "end": 79.6,
+          "startFrame": 2378,
+          "endFrame": 2388
+        },
+        {
+          "word": "assumed",
+          "start": 79.6,
+          "end": 80.14,
+          "startFrame": 2388,
+          "endFrame": 2404
+        },
+        {
+          "word": "it",
+          "start": 80.14,
+          "end": 80.3,
+          "startFrame": 2404,
+          "endFrame": 2409
+        },
+        {
+          "word": "represented",
+          "start": 80.3,
+          "end": 80.66,
+          "startFrame": 2409,
+          "endFrame": 2420
+        },
+        {
+          "word": "the",
+          "start": 80.66,
+          "end": 81.04,
+          "startFrame": 2420,
+          "endFrame": 2431
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "start": 81.04,
+      "end": 86.6,
+      "startFrame": 2431,
+      "endFrame": 2598,
+      "text": "absolute outer boundary of OpenAI's technical roadmap. Then the internal API leaks began.",
+      "words": [
+        {
+          "word": "absolute",
+          "start": 81.04,
+          "end": 81.5,
+          "startFrame": 2431,
+          "endFrame": 2445
+        },
+        {
+          "word": "outer",
+          "start": 81.5,
+          "end": 81.76,
+          "startFrame": 2445,
+          "endFrame": 2453
+        },
+        {
+          "word": "boundary",
+          "start": 81.76,
+          "end": 82.2,
+          "startFrame": 2453,
+          "endFrame": 2466
+        },
+        {
+          "word": "of",
+          "start": 82.2,
+          "end": 82.54,
+          "startFrame": 2466,
+          "endFrame": 2476
+        },
+        {
+          "word": "OpenAI's",
+          "start": 82.54,
+          "end": 83.2,
+          "startFrame": 2476,
+          "endFrame": 2496
+        },
+        {
+          "word": "technical",
+          "start": 83.2,
+          "end": 83.48,
+          "startFrame": 2496,
+          "endFrame": 2504
+        },
+        {
+          "word": "roadmap.",
+          "start": 83.48,
+          "end": 83.82,
+          "startFrame": 2504,
+          "endFrame": 2515
+        },
+        {
+          "word": "Then",
+          "start": 84.56,
+          "end": 84.76,
+          "startFrame": 2537,
+          "endFrame": 2543
+        },
+        {
+          "word": "the",
+          "start": 84.76,
+          "end": 84.98,
+          "startFrame": 2543,
+          "endFrame": 2549
+        },
+        {
+          "word": "internal",
+          "start": 84.98,
+          "end": 85.32,
+          "startFrame": 2549,
+          "endFrame": 2560
+        },
+        {
+          "word": "API",
+          "start": 85.32,
+          "end": 85.64,
+          "startFrame": 2560,
+          "endFrame": 2569
+        },
+        {
+          "word": "leaks",
+          "start": 85.64,
+          "end": 86.18,
+          "startFrame": 2569,
+          "endFrame": 2585
+        },
+        {
+          "word": "began.",
+          "start": 86.18,
+          "end": 86.6,
+          "startFrame": 2585,
+          "endFrame": 2598
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "start": 87.66,
+      "end": 92.72,
+      "startFrame": 2630,
+      "endFrame": 2782,
+      "text": "Developers inspecting early gateway endpoints and arena testing spotted an unreleased model tag.",
+      "words": [
+        {
+          "word": "Developers",
+          "start": 87.66,
+          "end": 87.66,
+          "startFrame": 2630,
+          "endFrame": 2630
+        },
+        {
+          "word": "inspecting",
+          "start": 87.66,
+          "end": 88.2,
+          "startFrame": 2630,
+          "endFrame": 2646
+        },
+        {
+          "word": "early",
+          "start": 88.2,
+          "end": 88.66,
+          "startFrame": 2646,
+          "endFrame": 2660
+        },
+        {
+          "word": "gateway",
+          "start": 88.66,
+          "end": 88.98,
+          "startFrame": 2660,
+          "endFrame": 2669
+        },
+        {
+          "word": "endpoints",
+          "start": 88.98,
+          "end": 89.68,
+          "startFrame": 2669,
+          "endFrame": 2690
+        },
+        {
+          "word": "and",
+          "start": 89.68,
+          "end": 90.06,
+          "startFrame": 2690,
+          "endFrame": 2702
+        },
+        {
+          "word": "arena",
+          "start": 90.06,
+          "end": 90.22,
+          "startFrame": 2702,
+          "endFrame": 2707
+        },
+        {
+          "word": "testing",
+          "start": 90.22,
+          "end": 90.7,
+          "startFrame": 2707,
+          "endFrame": 2721
+        },
+        {
+          "word": "spotted",
+          "start": 90.7,
+          "end": 91.14,
+          "startFrame": 2721,
+          "endFrame": 2734
+        },
+        {
+          "word": "an",
+          "start": 91.14,
+          "end": 91.46,
+          "startFrame": 2734,
+          "endFrame": 2744
+        },
+        {
+          "word": "unreleased",
+          "start": 91.46,
+          "end": 92.0,
+          "startFrame": 2744,
+          "endFrame": 2760
+        },
+        {
+          "word": "model",
+          "start": 92.0,
+          "end": 92.26,
+          "startFrame": 2760,
+          "endFrame": 2768
+        },
+        {
+          "word": "tag.",
+          "start": 92.26,
+          "end": 92.72,
+          "startFrame": 2768,
+          "endFrame": 2782
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "start": 93.42,
+      "end": 98.54,
+      "startFrame": 2803,
+      "endFrame": 2956,
+      "text": "GPT-6 Seoul. Initial telemetry reveals why engineers are so alarmed.",
+      "words": [
+        {
+          "word": "GPT",
+          "start": 93.42,
+          "end": 93.84,
+          "startFrame": 2803,
+          "endFrame": 2815
+        },
+        {
+          "word": "-6",
+          "start": 93.84,
+          "end": 94.32,
+          "startFrame": 2815,
+          "endFrame": 2830
+        },
+        {
+          "word": "Seoul.",
+          "start": 94.32,
+          "end": 94.52,
+          "startFrame": 2830,
+          "endFrame": 2836
+        },
+        {
+          "word": "Initial",
+          "start": 95.14,
+          "end": 95.42,
+          "startFrame": 2854,
+          "endFrame": 2863
+        },
+        {
+          "word": "telemetry",
+          "start": 95.42,
+          "end": 95.96,
+          "startFrame": 2863,
+          "endFrame": 2879
+        },
+        {
+          "word": "reveals",
+          "start": 95.96,
+          "end": 96.5,
+          "startFrame": 2879,
+          "endFrame": 2895
+        },
+        {
+          "word": "why",
+          "start": 96.5,
+          "end": 97.02,
+          "startFrame": 2895,
+          "endFrame": 2911
+        },
+        {
+          "word": "engineers",
+          "start": 97.02,
+          "end": 97.38,
+          "startFrame": 2911,
+          "endFrame": 2921
+        },
+        {
+          "word": "are",
+          "start": 97.38,
+          "end": 97.9,
+          "startFrame": 2921,
+          "endFrame": 2937
+        },
+        {
+          "word": "so",
+          "start": 97.9,
+          "end": 98.14,
+          "startFrame": 2937,
+          "endFrame": 2944
+        },
+        {
+          "word": "alarmed.",
+          "start": 98.14,
+          "end": 98.54,
+          "startFrame": 2944,
+          "endFrame": 2956
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "start": 99.12,
+      "end": 104.78,
+      "startFrame": 2974,
+      "endFrame": 3143,
+      "text": "Seoul is not a stripped down lightweight derivative. It matches Astra's multi-step reasoning depth,",
+      "words": [
+        {
+          "word": "Seoul",
+          "start": 99.12,
+          "end": 99.4,
+          "startFrame": 2974,
+          "endFrame": 2982
+        },
+        {
+          "word": "is",
+          "start": 99.4,
+          "end": 99.72,
+          "startFrame": 2982,
+          "endFrame": 2992
+        },
+        {
+          "word": "not",
+          "start": 99.72,
+          "end": 99.96,
+          "startFrame": 2992,
+          "endFrame": 2999
+        },
+        {
+          "word": "a",
+          "start": 99.96,
+          "end": 100.16,
+          "startFrame": 2999,
+          "endFrame": 3005
+        },
+        {
+          "word": "stripped",
+          "start": 100.16,
+          "end": 100.38,
+          "startFrame": 3005,
+          "endFrame": 3011
+        },
+        {
+          "word": "down",
+          "start": 100.38,
+          "end": 100.74,
+          "startFrame": 3011,
+          "endFrame": 3022
+        },
+        {
+          "word": "lightweight",
+          "start": 100.74,
+          "end": 101.1,
+          "startFrame": 3022,
+          "endFrame": 3033
+        },
+        {
+          "word": "derivative.",
+          "start": 101.1,
+          "end": 101.54,
+          "startFrame": 3033,
+          "endFrame": 3046
+        },
+        {
+          "word": "It",
+          "start": 102.44,
+          "end": 102.54,
+          "startFrame": 3073,
+          "endFrame": 3076
+        },
+        {
+          "word": "matches",
+          "start": 102.54,
+          "end": 102.86,
+          "startFrame": 3076,
+          "endFrame": 3086
+        },
+        {
+          "word": "Astra's",
+          "start": 102.86,
+          "end": 103.46,
+          "startFrame": 3086,
+          "endFrame": 3104
+        },
+        {
+          "word": "multi",
+          "start": 103.46,
+          "end": 103.62,
+          "startFrame": 3104,
+          "endFrame": 3109
+        },
+        {
+          "word": "-step",
+          "start": 103.62,
+          "end": 104.02,
+          "startFrame": 3109,
+          "endFrame": 3121
+        },
+        {
+          "word": "reasoning",
+          "start": 104.02,
+          "end": 104.3,
+          "startFrame": 3121,
+          "endFrame": 3129
+        },
+        {
+          "word": "depth,",
+          "start": 104.3,
+          "end": 104.78,
+          "startFrame": 3129,
+          "endFrame": 3143
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "start": 105.34,
+      "end": 111.52,
+      "startFrame": 3160,
+      "endFrame": 3346,
+      "text": "but slashes token latency by nearly 70%. By pricing it in line with standard utility tiers,",
+      "words": [
+        {
+          "word": "but",
+          "start": 105.2,
+          "end": 105.56,
+          "startFrame": 3156,
+          "endFrame": 3167
+        },
+        {
+          "word": "slashes",
+          "start": 105.56,
+          "end": 106.0,
+          "startFrame": 3167,
+          "endFrame": 3180
+        },
+        {
+          "word": "token",
+          "start": 106.0,
+          "end": 106.36,
+          "startFrame": 3180,
+          "endFrame": 3191
+        },
+        {
+          "word": "latency",
+          "start": 106.36,
+          "end": 106.64,
+          "startFrame": 3191,
+          "endFrame": 3199
+        },
+        {
+          "word": "by",
+          "start": 106.64,
+          "end": 107.22,
+          "startFrame": 3199,
+          "endFrame": 3217
+        },
+        {
+          "word": "nearly",
+          "start": 107.22,
+          "end": 107.46,
+          "startFrame": 3217,
+          "endFrame": 3224
+        },
+        {
+          "word": "70%.",
+          "start": 107.46,
+          "end": 108.56,
+          "startFrame": 3224,
+          "endFrame": 3257
+        },
+        {
+          "word": "By",
+          "start": 108.56,
+          "end": 109.04,
+          "startFrame": 3257,
+          "endFrame": 3271
+        },
+        {
+          "word": "pricing",
+          "start": 109.04,
+          "end": 109.44,
+          "startFrame": 3271,
+          "endFrame": 3283
+        },
+        {
+          "word": "it",
+          "start": 109.44,
+          "end": 109.64,
+          "startFrame": 3283,
+          "endFrame": 3289
+        },
+        {
+          "word": "in",
+          "start": 109.64,
+          "end": 109.78,
+          "startFrame": 3289,
+          "endFrame": 3293
+        },
+        {
+          "word": "line",
+          "start": 109.78,
+          "end": 110.0,
+          "startFrame": 3293,
+          "endFrame": 3300
+        },
+        {
+          "word": "with",
+          "start": 110.0,
+          "end": 110.32,
+          "startFrame": 3300,
+          "endFrame": 3310
+        },
+        {
+          "word": "standard",
+          "start": 110.32,
+          "end": 110.58,
+          "startFrame": 3310,
+          "endFrame": 3317
+        },
+        {
+          "word": "utility",
+          "start": 110.58,
+          "end": 110.92,
+          "startFrame": 3317,
+          "endFrame": 3328
+        },
+        {
+          "word": "tiers,",
+          "start": 110.92,
+          "end": 111.52,
+          "startFrame": 3328,
+          "endFrame": 3346
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "start": 112.06,
+      "end": 117.18,
+      "startFrame": 3362,
+      "endFrame": 3515,
+      "text": "OpenAI is preparing to deploy a frontier engine that makes previous generational flagships obsolete",
+      "words": [
+        {
+          "word": "OpenAI",
+          "start": 112.06,
+          "end": 112.48,
+          "startFrame": 3362,
+          "endFrame": 3374
+        },
+        {
+          "word": "is",
+          "start": 112.48,
+          "end": 112.84,
+          "startFrame": 3374,
+          "endFrame": 3385
+        },
+        {
+          "word": "preparing",
+          "start": 112.84,
+          "end": 113.12,
+          "startFrame": 3385,
+          "endFrame": 3394
+        },
+        {
+          "word": "to",
+          "start": 113.12,
+          "end": 113.48,
+          "startFrame": 3394,
+          "endFrame": 3404
+        },
+        {
+          "word": "deploy",
+          "start": 113.48,
+          "end": 113.78,
+          "startFrame": 3404,
+          "endFrame": 3413
+        },
+        {
+          "word": "a",
+          "start": 113.78,
+          "end": 114.02,
+          "startFrame": 3413,
+          "endFrame": 3421
+        },
+        {
+          "word": "frontier",
+          "start": 114.02,
+          "end": 114.22,
+          "startFrame": 3421,
+          "endFrame": 3427
+        },
+        {
+          "word": "engine",
+          "start": 114.22,
+          "end": 114.7,
+          "startFrame": 3427,
+          "endFrame": 3441
+        },
+        {
+          "word": "that",
+          "start": 114.7,
+          "end": 115.1,
+          "startFrame": 3441,
+          "endFrame": 3453
+        },
+        {
+          "word": "makes",
+          "start": 115.1,
+          "end": 115.32,
+          "startFrame": 3453,
+          "endFrame": 3460
+        },
+        {
+          "word": "previous",
+          "start": 115.32,
+          "end": 115.64,
+          "startFrame": 3460,
+          "endFrame": 3469
+        },
+        {
+          "word": "generational",
+          "start": 115.64,
+          "end": 116.14,
+          "startFrame": 3469,
+          "endFrame": 3484
+        },
+        {
+          "word": "flagships",
+          "start": 116.14,
+          "end": 116.9,
+          "startFrame": 3484,
+          "endFrame": 3507
+        },
+        {
+          "word": "obsolete",
+          "start": 116.9,
+          "end": 117.18,
+          "startFrame": 3507,
+          "endFrame": 3515
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "start": 117.18,
+      "end": 123.26,
+      "startFrame": 3515,
+      "endFrame": 3698,
+      "text": "overnight. To understand why this internal escalation is happening, you have to look at what developers",
+      "words": [
+        {
+          "word": "overnight.",
+          "start": 117.18,
+          "end": 117.86,
+          "startFrame": 3515,
+          "endFrame": 3536
+        },
+        {
+          "word": "To",
+          "start": 118.48,
+          "end": 118.68,
+          "startFrame": 3554,
+          "endFrame": 3560
+        },
+        {
+          "word": "understand",
+          "start": 118.68,
+          "end": 118.98,
+          "startFrame": 3560,
+          "endFrame": 3569
+        },
+        {
+          "word": "why",
+          "start": 118.98,
+          "end": 119.48,
+          "startFrame": 3569,
+          "endFrame": 3584
+        },
+        {
+          "word": "this",
+          "start": 119.48,
+          "end": 119.74,
+          "startFrame": 3584,
+          "endFrame": 3592
+        },
+        {
+          "word": "internal",
+          "start": 119.74,
+          "end": 120.1,
+          "startFrame": 3592,
+          "endFrame": 3603
+        },
+        {
+          "word": "escalation",
+          "start": 120.1,
+          "end": 120.5,
+          "startFrame": 3603,
+          "endFrame": 3615
+        },
+        {
+          "word": "is",
+          "start": 120.5,
+          "end": 120.96,
+          "startFrame": 3615,
+          "endFrame": 3629
+        },
+        {
+          "word": "happening,",
+          "start": 120.96,
+          "end": 121.32,
+          "startFrame": 3629,
+          "endFrame": 3640
+        },
+        {
+          "word": "you",
+          "start": 121.82,
+          "end": 122.0,
+          "startFrame": 3655,
+          "endFrame": 3660
+        },
+        {
+          "word": "have",
+          "start": 122.0,
+          "end": 122.12,
+          "startFrame": 3660,
+          "endFrame": 3664
+        },
+        {
+          "word": "to",
+          "start": 122.12,
+          "end": 122.28,
+          "startFrame": 3664,
+          "endFrame": 3668
+        },
+        {
+          "word": "look",
+          "start": 122.28,
+          "end": 122.48,
+          "startFrame": 3668,
+          "endFrame": 3674
+        },
+        {
+          "word": "at",
+          "start": 122.48,
+          "end": 122.66,
+          "startFrame": 3674,
+          "endFrame": 3680
+        },
+        {
+          "word": "what",
+          "start": 122.66,
+          "end": 122.88,
+          "startFrame": 3680,
+          "endFrame": 3686
+        },
+        {
+          "word": "developers",
+          "start": 122.88,
+          "end": 123.26,
+          "startFrame": 3686,
+          "endFrame": 3698
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "start": 123.26,
+      "end": 128.74,
+      "startFrame": 3698,
+      "endFrame": 3862,
+      "text": "are actually producing with Astra. Consider this demonstration by researcher Nakhla-Peep.",
+      "words": [
+        {
+          "word": "are",
+          "start": 123.26,
+          "end": 123.7,
+          "startFrame": 3698,
+          "endFrame": 3711
+        },
+        {
+          "word": "actually",
+          "start": 123.7,
+          "end": 124.0,
+          "startFrame": 3711,
+          "endFrame": 3720
+        },
+        {
+          "word": "producing",
+          "start": 124.0,
+          "end": 124.4,
+          "startFrame": 3720,
+          "endFrame": 3732
+        },
+        {
+          "word": "with",
+          "start": 124.4,
+          "end": 124.78,
+          "startFrame": 3732,
+          "endFrame": 3743
+        },
+        {
+          "word": "Astra.",
+          "start": 124.78,
+          "end": 125.24,
+          "startFrame": 3743,
+          "endFrame": 3757
+        },
+        {
+          "word": "Consider",
+          "start": 125.68,
+          "end": 126.02,
+          "startFrame": 3770,
+          "endFrame": 3781
+        },
+        {
+          "word": "this",
+          "start": 126.02,
+          "end": 126.38,
+          "startFrame": 3781,
+          "endFrame": 3791
+        },
+        {
+          "word": "demonstration",
+          "start": 126.38,
+          "end": 126.94,
+          "startFrame": 3791,
+          "endFrame": 3808
+        },
+        {
+          "word": "by",
+          "start": 126.94,
+          "end": 127.56,
+          "startFrame": 3808,
+          "endFrame": 3827
+        },
+        {
+          "word": "researcher",
+          "start": 127.56,
+          "end": 128.0,
+          "startFrame": 3827,
+          "endFrame": 3840
+        },
+        {
+          "word": "Nakhla",
+          "start": 128.0,
+          "end": 128.6,
+          "startFrame": 3840,
+          "endFrame": 3858
+        },
+        {
+          "word": "-Peep.",
+          "start": 128.6,
+          "end": 128.74,
+          "startFrame": 3858,
+          "endFrame": 3862
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "start": 129.3,
+      "end": 135.22,
+      "startFrame": 3879,
+      "endFrame": 4057,
+      "text": "He fed GPT-6 Astra a single, unannotated gameplay video of a steam fishing game called How to Fish.",
+      "words": [
+        {
+          "word": "He",
+          "start": 129.18,
+          "end": 129.48,
+          "startFrame": 3875,
+          "endFrame": 3884
+        },
+        {
+          "word": "fed",
+          "start": 129.48,
+          "end": 129.74,
+          "startFrame": 3884,
+          "endFrame": 3892
+        },
+        {
+          "word": "GPT",
+          "start": 129.74,
+          "end": 130.12,
+          "startFrame": 3892,
+          "endFrame": 3904
+        },
+        {
+          "word": "-6",
+          "start": 130.12,
+          "end": 130.54,
+          "startFrame": 3904,
+          "endFrame": 3916
+        },
+        {
+          "word": "Astra",
+          "start": 130.54,
+          "end": 130.98,
+          "startFrame": 3916,
+          "endFrame": 3929
+        },
+        {
+          "word": "a",
+          "start": 130.98,
+          "end": 131.18,
+          "startFrame": 3929,
+          "endFrame": 3935
+        },
+        {
+          "word": "single,",
+          "start": 131.18,
+          "end": 131.5,
+          "startFrame": 3935,
+          "endFrame": 3945
+        },
+        {
+          "word": "unannotated",
+          "start": 131.82,
+          "end": 132.4,
+          "startFrame": 3955,
+          "endFrame": 3972
+        },
+        {
+          "word": "gameplay",
+          "start": 132.4,
+          "end": 132.6,
+          "startFrame": 3972,
+          "endFrame": 3978
+        },
+        {
+          "word": "video",
+          "start": 132.6,
+          "end": 133.26,
+          "startFrame": 3978,
+          "endFrame": 3998
+        },
+        {
+          "word": "of",
+          "start": 133.26,
+          "end": 133.48,
+          "startFrame": 3998,
+          "endFrame": 4004
+        },
+        {
+          "word": "a",
+          "start": 133.48,
+          "end": 133.56,
+          "startFrame": 4004,
+          "endFrame": 4007
+        },
+        {
+          "word": "steam",
+          "start": 133.56,
+          "end": 133.76,
+          "startFrame": 4007,
+          "endFrame": 4013
+        },
+        {
+          "word": "fishing",
+          "start": 133.76,
+          "end": 134.04,
+          "startFrame": 4013,
+          "endFrame": 4021
+        },
+        {
+          "word": "game",
+          "start": 134.04,
+          "end": 134.38,
+          "startFrame": 4021,
+          "endFrame": 4031
+        },
+        {
+          "word": "called",
+          "start": 134.38,
+          "end": 134.72,
+          "startFrame": 4031,
+          "endFrame": 4042
+        },
+        {
+          "word": "How",
+          "start": 134.72,
+          "end": 134.92,
+          "startFrame": 4042,
+          "endFrame": 4048
+        },
+        {
+          "word": "to",
+          "start": 134.92,
+          "end": 135.04,
+          "startFrame": 4048,
+          "endFrame": 4051
+        },
+        {
+          "word": "Fish.",
+          "start": 135.04,
+          "end": 135.22,
+          "startFrame": 4051,
+          "endFrame": 4057
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "start": 135.88,
+      "end": 141.16,
+      "startFrame": 4076,
+      "endFrame": 4235,
+      "text": "The model was not given source code, API documentation, or pre-rendered assets.",
+      "words": [
+        {
+          "word": "The",
+          "start": 135.88,
+          "end": 135.98,
+          "startFrame": 4076,
+          "endFrame": 4079
+        },
+        {
+          "word": "model",
+          "start": 135.98,
+          "end": 136.2,
+          "startFrame": 4079,
+          "endFrame": 4086
+        },
+        {
+          "word": "was",
+          "start": 136.2,
+          "end": 136.52,
+          "startFrame": 4086,
+          "endFrame": 4096
+        },
+        {
+          "word": "not",
+          "start": 136.52,
+          "end": 136.78,
+          "startFrame": 4096,
+          "endFrame": 4103
+        },
+        {
+          "word": "given",
+          "start": 136.78,
+          "end": 137.08,
+          "startFrame": 4103,
+          "endFrame": 4112
+        },
+        {
+          "word": "source",
+          "start": 137.08,
+          "end": 137.38,
+          "startFrame": 4112,
+          "endFrame": 4121
+        },
+        {
+          "word": "code,",
+          "start": 137.38,
+          "end": 137.8,
+          "startFrame": 4121,
+          "endFrame": 4134
+        },
+        {
+          "word": "API",
+          "start": 138.5,
+          "end": 138.62,
+          "startFrame": 4155,
+          "endFrame": 4159
+        },
+        {
+          "word": "documentation,",
+          "start": 138.62,
+          "end": 139.26,
+          "startFrame": 4159,
+          "endFrame": 4178
+        },
+        {
+          "word": "or",
+          "start": 140.14,
+          "end": 140.26,
+          "startFrame": 4204,
+          "endFrame": 4208
+        },
+        {
+          "word": "pre",
+          "start": 140.26,
+          "end": 140.46,
+          "startFrame": 4208,
+          "endFrame": 4214
+        },
+        {
+          "word": "-rendered",
+          "start": 140.46,
+          "end": 140.78,
+          "startFrame": 4214,
+          "endFrame": 4223
+        },
+        {
+          "word": "assets.",
+          "start": 140.78,
+          "end": 141.16,
+          "startFrame": 4223,
+          "endFrame": 4235
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "start": 141.86,
+      "end": 147.56,
+      "startFrame": 4256,
+      "endFrame": 4427,
+      "text": "In a single pass, Astra reconstructed the game from scratch. It didn't just render static geometry.",
+      "words": [
+        {
+          "word": "In",
+          "start": 141.86,
+          "end": 142.0,
+          "startFrame": 4256,
+          "endFrame": 4260
+        },
+        {
+          "word": "a",
+          "start": 142.0,
+          "end": 142.1,
+          "startFrame": 4260,
+          "endFrame": 4263
+        },
+        {
+          "word": "single",
+          "start": 142.1,
+          "end": 142.36,
+          "startFrame": 4263,
+          "endFrame": 4271
+        },
+        {
+          "word": "pass,",
+          "start": 142.36,
+          "end": 142.66,
+          "startFrame": 4271,
+          "endFrame": 4280
+        },
+        {
+          "word": "Astra",
+          "start": 143.0,
+          "end": 143.34,
+          "startFrame": 4290,
+          "endFrame": 4300
+        },
+        {
+          "word": "reconstructed",
+          "start": 143.34,
+          "end": 143.68,
+          "startFrame": 4300,
+          "endFrame": 4310
+        },
+        {
+          "word": "the",
+          "start": 143.68,
+          "end": 144.22,
+          "startFrame": 4310,
+          "endFrame": 4327
+        },
+        {
+          "word": "game",
+          "start": 144.22,
+          "end": 144.46,
+          "startFrame": 4327,
+          "endFrame": 4334
+        },
+        {
+          "word": "from",
+          "start": 144.46,
+          "end": 144.7,
+          "startFrame": 4334,
+          "endFrame": 4341
+        },
+        {
+          "word": "scratch.",
+          "start": 144.7,
+          "end": 144.94,
+          "startFrame": 4341,
+          "endFrame": 4348
+        },
+        {
+          "word": "It",
+          "start": 145.78,
+          "end": 145.9,
+          "startFrame": 4373,
+          "endFrame": 4377
+        },
+        {
+          "word": "didn't",
+          "start": 145.9,
+          "end": 146.18,
+          "startFrame": 4377,
+          "endFrame": 4385
+        },
+        {
+          "word": "just",
+          "start": 146.18,
+          "end": 146.44,
+          "startFrame": 4385,
+          "endFrame": 4393
+        },
+        {
+          "word": "render",
+          "start": 146.44,
+          "end": 146.68,
+          "startFrame": 4393,
+          "endFrame": 4400
+        },
+        {
+          "word": "static",
+          "start": 146.68,
+          "end": 147.24,
+          "startFrame": 4400,
+          "endFrame": 4417
+        },
+        {
+          "word": "geometry.",
+          "start": 147.24,
+          "end": 147.56,
+          "startFrame": 4417,
+          "endFrame": 4427
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "start": 148.52,
+      "end": 153.74,
+      "startFrame": 4456,
+      "endFrame": 4612,
+      "text": "The model generated bending rod physics, dynamic fishing line tension, underwater fish collision",
+      "words": [
+        {
+          "word": "The",
+          "start": 148.52,
+          "end": 148.62,
+          "startFrame": 4456,
+          "endFrame": 4459
+        },
+        {
+          "word": "model",
+          "start": 148.62,
+          "end": 148.86,
+          "startFrame": 4459,
+          "endFrame": 4466
+        },
+        {
+          "word": "generated",
+          "start": 148.86,
+          "end": 149.28,
+          "startFrame": 4466,
+          "endFrame": 4478
+        },
+        {
+          "word": "bending",
+          "start": 149.28,
+          "end": 149.72,
+          "startFrame": 4478,
+          "endFrame": 4492
+        },
+        {
+          "word": "rod",
+          "start": 149.72,
+          "end": 150.0,
+          "startFrame": 4492,
+          "endFrame": 4500
+        },
+        {
+          "word": "physics,",
+          "start": 150.0,
+          "end": 150.34,
+          "startFrame": 4500,
+          "endFrame": 4510
+        },
+        {
+          "word": "dynamic",
+          "start": 150.94,
+          "end": 151.18,
+          "startFrame": 4528,
+          "endFrame": 4535
+        },
+        {
+          "word": "fishing",
+          "start": 151.18,
+          "end": 151.64,
+          "startFrame": 4535,
+          "endFrame": 4549
+        },
+        {
+          "word": "line",
+          "start": 151.64,
+          "end": 151.92,
+          "startFrame": 4549,
+          "endFrame": 4558
+        },
+        {
+          "word": "tension,",
+          "start": 151.92,
+          "end": 152.24,
+          "startFrame": 4558,
+          "endFrame": 4567
+        },
+        {
+          "word": "underwater",
+          "start": 152.8,
+          "end": 153.06,
+          "startFrame": 4584,
+          "endFrame": 4592
+        },
+        {
+          "word": "fish",
+          "start": 153.06,
+          "end": 153.52,
+          "startFrame": 4592,
+          "endFrame": 4606
+        },
+        {
+          "word": "collision",
+          "start": 153.52,
+          "end": 153.74,
+          "startFrame": 4606,
+          "endFrame": 4612
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "start": 153.74,
+      "end": 159.18,
+      "startFrame": 4612,
+      "endFrame": 4775,
+      "text": "meshes, and six distinct behavioral AI species. It built inventory persistence,",
+      "words": [
+        {
+          "word": "meshes,",
+          "start": 153.74,
+          "end": 154.14,
+          "startFrame": 4612,
+          "endFrame": 4624
+        },
+        {
+          "word": "and",
+          "start": 154.76,
+          "end": 154.96,
+          "startFrame": 4643,
+          "endFrame": 4649
+        },
+        {
+          "word": "six",
+          "start": 154.96,
+          "end": 155.2,
+          "startFrame": 4649,
+          "endFrame": 4656
+        },
+        {
+          "word": "distinct",
+          "start": 155.2,
+          "end": 155.62,
+          "startFrame": 4656,
+          "endFrame": 4669
+        },
+        {
+          "word": "behavioral",
+          "start": 155.62,
+          "end": 156.34,
+          "startFrame": 4669,
+          "endFrame": 4690
+        },
+        {
+          "word": "AI",
+          "start": 156.34,
+          "end": 156.62,
+          "startFrame": 4690,
+          "endFrame": 4699
+        },
+        {
+          "word": "species.",
+          "start": 156.62,
+          "end": 157.06,
+          "startFrame": 4699,
+          "endFrame": 4712
+        },
+        {
+          "word": "It",
+          "start": 157.78,
+          "end": 157.9,
+          "startFrame": 4733,
+          "endFrame": 4737
+        },
+        {
+          "word": "built",
+          "start": 157.9,
+          "end": 158.1,
+          "startFrame": 4737,
+          "endFrame": 4743
+        },
+        {
+          "word": "inventory",
+          "start": 158.1,
+          "end": 158.76,
+          "startFrame": 4743,
+          "endFrame": 4763
+        },
+        {
+          "word": "persistence,",
+          "start": 158.76,
+          "end": 159.18,
+          "startFrame": 4763,
+          "endFrame": 4775
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "start": 159.72,
+      "end": 166.0,
+      "startFrame": 4792,
+      "endFrame": 4980,
+      "text": "money systems, and dynamic cooking mechanics. Video footage in. Fully compiled playable physics",
+      "words": [
+        {
+          "word": "money",
+          "start": 159.72,
+          "end": 159.86,
+          "startFrame": 4792,
+          "endFrame": 4796
+        },
+        {
+          "word": "systems,",
+          "start": 159.86,
+          "end": 160.22,
+          "startFrame": 4796,
+          "endFrame": 4807
+        },
+        {
+          "word": "and",
+          "start": 160.72,
+          "end": 160.78,
+          "startFrame": 4822,
+          "endFrame": 4823
+        },
+        {
+          "word": "dynamic",
+          "start": 160.78,
+          "end": 161.16,
+          "startFrame": 4823,
+          "endFrame": 4835
+        },
+        {
+          "word": "cooking",
+          "start": 161.16,
+          "end": 161.52,
+          "startFrame": 4835,
+          "endFrame": 4846
+        },
+        {
+          "word": "mechanics.",
+          "start": 161.52,
+          "end": 161.98,
+          "startFrame": 4846,
+          "endFrame": 4859
+        },
+        {
+          "word": "Video",
+          "start": 162.64,
+          "end": 163.04,
+          "startFrame": 4879,
+          "endFrame": 4891
+        },
+        {
+          "word": "footage",
+          "start": 163.04,
+          "end": 163.36,
+          "startFrame": 4891,
+          "endFrame": 4901
+        },
+        {
+          "word": "in.",
+          "start": 163.36,
+          "end": 163.68,
+          "startFrame": 4901,
+          "endFrame": 4910
+        },
+        {
+          "word": "Fully",
+          "start": 164.22,
+          "end": 164.44,
+          "startFrame": 4927,
+          "endFrame": 4933
+        },
+        {
+          "word": "compiled",
+          "start": 164.44,
+          "end": 165.1,
+          "startFrame": 4933,
+          "endFrame": 4953
+        },
+        {
+          "word": "playable",
+          "start": 165.1,
+          "end": 165.46,
+          "startFrame": 4953,
+          "endFrame": 4964
+        },
+        {
+          "word": "physics",
+          "start": 165.46,
+          "end": 166.0,
+          "startFrame": 4964,
+          "endFrame": 4980
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "start": 166.0,
+      "end": 171.88,
+      "startFrame": 4980,
+      "endFrame": 5156,
+      "text": "simulation out. Then came the Mario Kart demonstration by Lumina. Using Astra Pro,",
+      "words": [
+        {
+          "word": "simulation",
+          "start": 166.0,
+          "end": 166.48,
+          "startFrame": 4980,
+          "endFrame": 4994
+        },
+        {
+          "word": "out.",
+          "start": 166.48,
+          "end": 167.0,
+          "startFrame": 4994,
+          "endFrame": 5010
+        },
+        {
+          "word": "Then",
+          "start": 167.52,
+          "end": 167.74,
+          "startFrame": 5026,
+          "endFrame": 5032
+        },
+        {
+          "word": "came",
+          "start": 167.74,
+          "end": 168.02,
+          "startFrame": 5032,
+          "endFrame": 5041
+        },
+        {
+          "word": "the",
+          "start": 168.02,
+          "end": 168.32,
+          "startFrame": 5041,
+          "endFrame": 5050
+        },
+        {
+          "word": "Mario",
+          "start": 168.32,
+          "end": 168.58,
+          "startFrame": 5050,
+          "endFrame": 5057
+        },
+        {
+          "word": "Kart",
+          "start": 168.58,
+          "end": 168.94,
+          "startFrame": 5057,
+          "endFrame": 5068
+        },
+        {
+          "word": "demonstration",
+          "start": 168.94,
+          "end": 169.34,
+          "startFrame": 5068,
+          "endFrame": 5080
+        },
+        {
+          "word": "by",
+          "start": 169.34,
+          "end": 169.96,
+          "startFrame": 5080,
+          "endFrame": 5099
+        },
+        {
+          "word": "Lumina.",
+          "start": 169.96,
+          "end": 170.36,
+          "startFrame": 5099,
+          "endFrame": 5111
+        },
+        {
+          "word": "Using",
+          "start": 170.88,
+          "end": 171.2,
+          "startFrame": 5126,
+          "endFrame": 5136
+        },
+        {
+          "word": "Astra",
+          "start": 171.2,
+          "end": 171.68,
+          "startFrame": 5136,
+          "endFrame": 5150
+        },
+        {
+          "word": "Pro,",
+          "start": 171.68,
+          "end": 171.88,
+          "startFrame": 5150,
+          "endFrame": 5156
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "start": 172.12,
+      "end": 177.92,
+      "startFrame": 5164,
+      "endFrame": 5338,
+      "text": "they generated a complete playable 3D kart racing game inside a single self-contained HTML file.",
+      "words": [
+        {
+          "word": "they",
+          "start": 172.12,
+          "end": 172.22,
+          "startFrame": 5164,
+          "endFrame": 5167
+        },
+        {
+          "word": "generated",
+          "start": 172.22,
+          "end": 172.58,
+          "startFrame": 5167,
+          "endFrame": 5177
+        },
+        {
+          "word": "a",
+          "start": 172.58,
+          "end": 172.82,
+          "startFrame": 5177,
+          "endFrame": 5185
+        },
+        {
+          "word": "complete",
+          "start": 172.82,
+          "end": 173.16,
+          "startFrame": 5185,
+          "endFrame": 5195
+        },
+        {
+          "word": "playable",
+          "start": 173.16,
+          "end": 173.64,
+          "startFrame": 5195,
+          "endFrame": 5209
+        },
+        {
+          "word": "3D",
+          "start": 173.64,
+          "end": 174.22,
+          "startFrame": 5209,
+          "endFrame": 5227
+        },
+        {
+          "word": "kart",
+          "start": 174.22,
+          "end": 174.48,
+          "startFrame": 5227,
+          "endFrame": 5234
+        },
+        {
+          "word": "racing",
+          "start": 174.48,
+          "end": 174.8,
+          "startFrame": 5234,
+          "endFrame": 5244
+        },
+        {
+          "word": "game",
+          "start": 174.8,
+          "end": 175.06,
+          "startFrame": 5244,
+          "endFrame": 5252
+        },
+        {
+          "word": "inside",
+          "start": 175.06,
+          "end": 175.46,
+          "startFrame": 5252,
+          "endFrame": 5264
+        },
+        {
+          "word": "a",
+          "start": 175.46,
+          "end": 175.74,
+          "startFrame": 5264,
+          "endFrame": 5272
+        },
+        {
+          "word": "single",
+          "start": 175.74,
+          "end": 176.1,
+          "startFrame": 5272,
+          "endFrame": 5283
+        },
+        {
+          "word": "self",
+          "start": 176.1,
+          "end": 176.44,
+          "startFrame": 5283,
+          "endFrame": 5293
+        },
+        {
+          "word": "-contained",
+          "start": 176.44,
+          "end": 176.72,
+          "startFrame": 5293,
+          "endFrame": 5302
+        },
+        {
+          "word": "HTML",
+          "start": 176.72,
+          "end": 177.4,
+          "startFrame": 5302,
+          "endFrame": 5322
+        },
+        {
+          "word": "file.",
+          "start": 177.4,
+          "end": 177.92,
+          "startFrame": 5322,
+          "endFrame": 5338
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "start": 177.92,
+      "end": 184.56,
+      "startFrame": 5338,
+      "endFrame": 5537,
+      "text": "For distinct courses, eight interactive playable characters, AI opponents that calculate slip",
+      "words": [
+        {
+          "word": "For",
+          "start": 177.92,
+          "end": 178.6,
+          "startFrame": 5338,
+          "endFrame": 5358
+        },
+        {
+          "word": "distinct",
+          "start": 178.6,
+          "end": 178.8,
+          "startFrame": 5358,
+          "endFrame": 5364
+        },
+        {
+          "word": "courses,",
+          "start": 178.8,
+          "end": 179.42,
+          "startFrame": 5364,
+          "endFrame": 5383
+        },
+        {
+          "word": "eight",
+          "start": 180.18,
+          "end": 180.32,
+          "startFrame": 5405,
+          "endFrame": 5410
+        },
+        {
+          "word": "interactive",
+          "start": 180.32,
+          "end": 180.98,
+          "startFrame": 5410,
+          "endFrame": 5429
+        },
+        {
+          "word": "playable",
+          "start": 180.98,
+          "end": 181.3,
+          "startFrame": 5429,
+          "endFrame": 5439
+        },
+        {
+          "word": "characters,",
+          "start": 181.3,
+          "end": 182.2,
+          "startFrame": 5439,
+          "endFrame": 5466
+        },
+        {
+          "word": "AI",
+          "start": 182.72,
+          "end": 182.86,
+          "startFrame": 5482,
+          "endFrame": 5486
+        },
+        {
+          "word": "opponents",
+          "start": 182.86,
+          "end": 183.38,
+          "startFrame": 5486,
+          "endFrame": 5501
+        },
+        {
+          "word": "that",
+          "start": 183.38,
+          "end": 183.76,
+          "startFrame": 5501,
+          "endFrame": 5513
+        },
+        {
+          "word": "calculate",
+          "start": 183.76,
+          "end": 184.08,
+          "startFrame": 5513,
+          "endFrame": 5522
+        },
+        {
+          "word": "slip",
+          "start": 184.08,
+          "end": 184.56,
+          "startFrame": 5522,
+          "endFrame": 5537
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "start": 184.56,
+      "end": 190.28,
+      "startFrame": 5537,
+      "endFrame": 5708,
+      "text": "streams, dynamic item boxes, and procedural audio synthesis. The entire application was",
+      "words": [
+        {
+          "word": "streams,",
+          "start": 184.56,
+          "end": 184.84,
+          "startFrame": 5537,
+          "endFrame": 5545
+        },
+        {
+          "word": "dynamic",
+          "start": 185.22,
+          "end": 185.5,
+          "startFrame": 5557,
+          "endFrame": 5565
+        },
+        {
+          "word": "item",
+          "start": 185.5,
+          "end": 185.86,
+          "startFrame": 5565,
+          "endFrame": 5576
+        },
+        {
+          "word": "boxes,",
+          "start": 185.86,
+          "end": 186.3,
+          "startFrame": 5576,
+          "endFrame": 5589
+        },
+        {
+          "word": "and",
+          "start": 186.94,
+          "end": 187.02,
+          "startFrame": 5608,
+          "endFrame": 5611
+        },
+        {
+          "word": "procedural",
+          "start": 187.02,
+          "end": 187.38,
+          "startFrame": 5611,
+          "endFrame": 5621
+        },
+        {
+          "word": "audio",
+          "start": 187.38,
+          "end": 187.8,
+          "startFrame": 5621,
+          "endFrame": 5634
+        },
+        {
+          "word": "synthesis.",
+          "start": 187.8,
+          "end": 188.24,
+          "startFrame": 5634,
+          "endFrame": 5647
+        },
+        {
+          "word": "The",
+          "start": 189.06,
+          "end": 189.16,
+          "startFrame": 5672,
+          "endFrame": 5675
+        },
+        {
+          "word": "entire",
+          "start": 189.16,
+          "end": 189.38,
+          "startFrame": 5675,
+          "endFrame": 5681
+        },
+        {
+          "word": "application",
+          "start": 189.38,
+          "end": 189.84,
+          "startFrame": 5681,
+          "endFrame": 5695
+        },
+        {
+          "word": "was",
+          "start": 189.84,
+          "end": 190.28,
+          "startFrame": 5695,
+          "endFrame": 5708
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "start": 190.28,
+      "end": 197.94,
+      "startFrame": 5708,
+      "endFrame": 5938,
+      "text": "generated in under one hour, for $8.50 in API compute. Think about the structural implications",
+      "words": [
+        {
+          "word": "generated",
+          "start": 190.28,
+          "end": 190.66,
+          "startFrame": 5708,
+          "endFrame": 5720
+        },
+        {
+          "word": "in",
+          "start": 190.66,
+          "end": 191.06,
+          "startFrame": 5720,
+          "endFrame": 5732
+        },
+        {
+          "word": "under",
+          "start": 191.06,
+          "end": 191.26,
+          "startFrame": 5732,
+          "endFrame": 5738
+        },
+        {
+          "word": "one",
+          "start": 191.26,
+          "end": 191.58,
+          "startFrame": 5738,
+          "endFrame": 5747
+        },
+        {
+          "word": "hour,",
+          "start": 191.58,
+          "end": 191.96,
+          "startFrame": 5747,
+          "endFrame": 5759
+        },
+        {
+          "word": "for",
+          "start": 192.6,
+          "end": 192.88,
+          "startFrame": 5778,
+          "endFrame": 5786
+        },
+        {
+          "word": "$8",
+          "start": 192.88,
+          "end": 193.26,
+          "startFrame": 5786,
+          "endFrame": 5798
+        },
+        {
+          "word": ".50",
+          "start": 193.26,
+          "end": 194.02,
+          "startFrame": 5798,
+          "endFrame": 5821
+        },
+        {
+          "word": "in",
+          "start": 194.02,
+          "end": 194.58,
+          "startFrame": 5821,
+          "endFrame": 5837
+        },
+        {
+          "word": "API",
+          "start": 194.58,
+          "end": 194.76,
+          "startFrame": 5837,
+          "endFrame": 5843
+        },
+        {
+          "word": "compute.",
+          "start": 194.76,
+          "end": 195.36,
+          "startFrame": 5843,
+          "endFrame": 5861
+        },
+        {
+          "word": "Think",
+          "start": 196.0,
+          "end": 196.28,
+          "startFrame": 5880,
+          "endFrame": 5888
+        },
+        {
+          "word": "about",
+          "start": 196.28,
+          "end": 196.62,
+          "startFrame": 5888,
+          "endFrame": 5899
+        },
+        {
+          "word": "the",
+          "start": 196.62,
+          "end": 196.92,
+          "startFrame": 5899,
+          "endFrame": 5908
+        },
+        {
+          "word": "structural",
+          "start": 196.92,
+          "end": 197.24,
+          "startFrame": 5908,
+          "endFrame": 5917
+        },
+        {
+          "word": "implications",
+          "start": 197.24,
+          "end": 197.94,
+          "startFrame": 5917,
+          "endFrame": 5938
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "start": 197.94,
+      "end": 203.3,
+      "startFrame": 5938,
+      "endFrame": 6099,
+      "text": "of that metric. An indie development sprint that previously demanded six months of engineering,",
+      "words": [
+        {
+          "word": "of",
+          "start": 197.94,
+          "end": 198.54,
+          "startFrame": 5938,
+          "endFrame": 5956
+        },
+        {
+          "word": "that",
+          "start": 198.54,
+          "end": 198.7,
+          "startFrame": 5956,
+          "endFrame": 5961
+        },
+        {
+          "word": "metric.",
+          "start": 198.7,
+          "end": 199.06,
+          "startFrame": 5961,
+          "endFrame": 5972
+        },
+        {
+          "word": "An",
+          "start": 199.86,
+          "end": 199.94,
+          "startFrame": 5996,
+          "endFrame": 5998
+        },
+        {
+          "word": "indie",
+          "start": 199.94,
+          "end": 200.1,
+          "startFrame": 5998,
+          "endFrame": 6003
+        },
+        {
+          "word": "development",
+          "start": 200.1,
+          "end": 200.5,
+          "startFrame": 6003,
+          "endFrame": 6015
+        },
+        {
+          "word": "sprint",
+          "start": 200.5,
+          "end": 200.9,
+          "startFrame": 6015,
+          "endFrame": 6027
+        },
+        {
+          "word": "that",
+          "start": 200.9,
+          "end": 201.22,
+          "startFrame": 6027,
+          "endFrame": 6037
+        },
+        {
+          "word": "previously",
+          "start": 201.22,
+          "end": 201.52,
+          "startFrame": 6037,
+          "endFrame": 6046
+        },
+        {
+          "word": "demanded",
+          "start": 201.52,
+          "end": 202.08,
+          "startFrame": 6046,
+          "endFrame": 6062
+        },
+        {
+          "word": "six",
+          "start": 202.08,
+          "end": 202.5,
+          "startFrame": 6062,
+          "endFrame": 6075
+        },
+        {
+          "word": "months",
+          "start": 202.5,
+          "end": 202.78,
+          "startFrame": 6075,
+          "endFrame": 6083
+        },
+        {
+          "word": "of",
+          "start": 202.78,
+          "end": 203.0,
+          "startFrame": 6083,
+          "endFrame": 6090
+        },
+        {
+          "word": "engineering,",
+          "start": 203.0,
+          "end": 203.3,
+          "startFrame": 6090,
+          "endFrame": 6099
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "start": 203.94,
+      "end": 209.22,
+      "startFrame": 6118,
+      "endFrame": 6277,
+      "text": "asset modeling, and physics debugging was executed during a lunch break for less than the price of",
+      "words": [
+        {
+          "word": "asset",
+          "start": 203.94,
+          "end": 204.54,
+          "startFrame": 6118,
+          "endFrame": 6136
+        },
+        {
+          "word": "modeling,",
+          "start": 204.54,
+          "end": 204.8,
+          "startFrame": 6136,
+          "endFrame": 6144
+        },
+        {
+          "word": "and",
+          "start": 205.26,
+          "end": 205.3,
+          "startFrame": 6158,
+          "endFrame": 6159
+        },
+        {
+          "word": "physics",
+          "start": 205.3,
+          "end": 205.56,
+          "startFrame": 6159,
+          "endFrame": 6167
+        },
+        {
+          "word": "debugging",
+          "start": 205.56,
+          "end": 206.02,
+          "startFrame": 6167,
+          "endFrame": 6181
+        },
+        {
+          "word": "was",
+          "start": 206.02,
+          "end": 206.38,
+          "startFrame": 6181,
+          "endFrame": 6191
+        },
+        {
+          "word": "executed",
+          "start": 206.38,
+          "end": 206.76,
+          "startFrame": 6191,
+          "endFrame": 6203
+        },
+        {
+          "word": "during",
+          "start": 206.76,
+          "end": 207.24,
+          "startFrame": 6203,
+          "endFrame": 6217
+        },
+        {
+          "word": "a",
+          "start": 207.24,
+          "end": 207.4,
+          "startFrame": 6217,
+          "endFrame": 6222
+        },
+        {
+          "word": "lunch",
+          "start": 207.4,
+          "end": 207.6,
+          "startFrame": 6222,
+          "endFrame": 6228
+        },
+        {
+          "word": "break",
+          "start": 207.6,
+          "end": 207.88,
+          "startFrame": 6228,
+          "endFrame": 6236
+        },
+        {
+          "word": "for",
+          "start": 207.88,
+          "end": 208.18,
+          "startFrame": 6236,
+          "endFrame": 6245
+        },
+        {
+          "word": "less",
+          "start": 208.18,
+          "end": 208.4,
+          "startFrame": 6245,
+          "endFrame": 6252
+        },
+        {
+          "word": "than",
+          "start": 208.4,
+          "end": 208.7,
+          "startFrame": 6252,
+          "endFrame": 6261
+        },
+        {
+          "word": "the",
+          "start": 208.7,
+          "end": 208.78,
+          "startFrame": 6261,
+          "endFrame": 6263
+        },
+        {
+          "word": "price",
+          "start": 208.78,
+          "end": 209.0,
+          "startFrame": 6263,
+          "endFrame": 6270
+        },
+        {
+          "word": "of",
+          "start": 209.0,
+          "end": 209.22,
+          "startFrame": 6270,
+          "endFrame": 6277
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "start": 209.22,
+      "end": 214.12,
+      "startFrame": 6277,
+      "endFrame": 6424,
+      "text": "a sandwich. And this brings us to the real fracture line across the developer community,",
+      "words": [
+        {
+          "word": "a",
+          "start": 209.22,
+          "end": 209.28,
+          "startFrame": 6277,
+          "endFrame": 6278
+        },
+        {
+          "word": "sandwich.",
+          "start": 209.28,
+          "end": 209.54,
+          "startFrame": 6278,
+          "endFrame": 6286
+        },
+        {
+          "word": "And",
+          "start": 210.26,
+          "end": 210.46,
+          "startFrame": 6308,
+          "endFrame": 6314
+        },
+        {
+          "word": "this",
+          "start": 210.46,
+          "end": 210.62,
+          "startFrame": 6314,
+          "endFrame": 6319
+        },
+        {
+          "word": "brings",
+          "start": 210.62,
+          "end": 210.86,
+          "startFrame": 6319,
+          "endFrame": 6326
+        },
+        {
+          "word": "us",
+          "start": 210.86,
+          "end": 211.18,
+          "startFrame": 6326,
+          "endFrame": 6335
+        },
+        {
+          "word": "to",
+          "start": 211.18,
+          "end": 211.44,
+          "startFrame": 6335,
+          "endFrame": 6343
+        },
+        {
+          "word": "the",
+          "start": 211.44,
+          "end": 211.56,
+          "startFrame": 6343,
+          "endFrame": 6347
+        },
+        {
+          "word": "real",
+          "start": 211.56,
+          "end": 211.82,
+          "startFrame": 6347,
+          "endFrame": 6355
+        },
+        {
+          "word": "fracture",
+          "start": 211.82,
+          "end": 212.14,
+          "startFrame": 6355,
+          "endFrame": 6364
+        },
+        {
+          "word": "line",
+          "start": 212.14,
+          "end": 212.6,
+          "startFrame": 6364,
+          "endFrame": 6378
+        },
+        {
+          "word": "across",
+          "start": 212.6,
+          "end": 212.98,
+          "startFrame": 6378,
+          "endFrame": 6389
+        },
+        {
+          "word": "the",
+          "start": 212.98,
+          "end": 213.38,
+          "startFrame": 6389,
+          "endFrame": 6401
+        },
+        {
+          "word": "developer",
+          "start": 213.38,
+          "end": 213.68,
+          "startFrame": 6401,
+          "endFrame": 6410
+        },
+        {
+          "word": "community,",
+          "start": 213.68,
+          "end": 214.12,
+          "startFrame": 6410,
+          "endFrame": 6424
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "start": 214.84,
+      "end": 220.7,
+      "startFrame": 6445,
+      "endFrame": 6621,
+      "text": "the $200 subscription trap. For the past year, closed frontier providers convinced developers",
+      "words": [
+        {
+          "word": "the",
+          "start": 214.84,
+          "end": 214.94,
+          "startFrame": 6445,
+          "endFrame": 6448
+        },
+        {
+          "word": "$200",
+          "start": 214.94,
+          "end": 215.36,
+          "startFrame": 6448,
+          "endFrame": 6461
+        },
+        {
+          "word": "subscription",
+          "start": 215.36,
+          "end": 216.04,
+          "startFrame": 6461,
+          "endFrame": 6481
+        },
+        {
+          "word": "trap.",
+          "start": 216.04,
+          "end": 216.52,
+          "startFrame": 6481,
+          "endFrame": 6496
+        },
+        {
+          "word": "For",
+          "start": 217.0,
+          "end": 217.26,
+          "startFrame": 6510,
+          "endFrame": 6518
+        },
+        {
+          "word": "the",
+          "start": 217.26,
+          "end": 217.38,
+          "startFrame": 6518,
+          "endFrame": 6521
+        },
+        {
+          "word": "past",
+          "start": 217.38,
+          "end": 217.6,
+          "startFrame": 6521,
+          "endFrame": 6528
+        },
+        {
+          "word": "year,",
+          "start": 217.6,
+          "end": 218.0,
+          "startFrame": 6528,
+          "endFrame": 6540
+        },
+        {
+          "word": "closed",
+          "start": 218.2,
+          "end": 218.7,
+          "startFrame": 6546,
+          "endFrame": 6561
+        },
+        {
+          "word": "frontier",
+          "start": 218.7,
+          "end": 219.04,
+          "startFrame": 6561,
+          "endFrame": 6571
+        },
+        {
+          "word": "providers",
+          "start": 219.04,
+          "end": 219.6,
+          "startFrame": 6571,
+          "endFrame": 6588
+        },
+        {
+          "word": "convinced",
+          "start": 219.6,
+          "end": 220.08,
+          "startFrame": 6588,
+          "endFrame": 6602
+        },
+        {
+          "word": "developers",
+          "start": 220.08,
+          "end": 220.7,
+          "startFrame": 6602,
+          "endFrame": 6621
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "start": 220.7,
+      "end": 225.72,
+      "startFrame": 6621,
+      "endFrame": 6772,
+      "text": "that high-order spatial intelligence required an enterprise paywall. If you wanted procedural",
+      "words": [
+        {
+          "word": "that",
+          "start": 220.7,
+          "end": 221.2,
+          "startFrame": 6621,
+          "endFrame": 6636
+        },
+        {
+          "word": "high",
+          "start": 221.2,
+          "end": 221.44,
+          "startFrame": 6636,
+          "endFrame": 6643
+        },
+        {
+          "word": "-order",
+          "start": 221.44,
+          "end": 221.7,
+          "startFrame": 6643,
+          "endFrame": 6651
+        },
+        {
+          "word": "spatial",
+          "start": 221.7,
+          "end": 221.96,
+          "startFrame": 6651,
+          "endFrame": 6659
+        },
+        {
+          "word": "intelligence",
+          "start": 221.96,
+          "end": 222.56,
+          "startFrame": 6659,
+          "endFrame": 6677
+        },
+        {
+          "word": "required",
+          "start": 222.56,
+          "end": 223.06,
+          "startFrame": 6677,
+          "endFrame": 6692
+        },
+        {
+          "word": "an",
+          "start": 223.06,
+          "end": 223.42,
+          "startFrame": 6692,
+          "endFrame": 6703
+        },
+        {
+          "word": "enterprise",
+          "start": 223.42,
+          "end": 223.7,
+          "startFrame": 6703,
+          "endFrame": 6711
+        },
+        {
+          "word": "paywall.",
+          "start": 223.7,
+          "end": 224.34,
+          "startFrame": 6711,
+          "endFrame": 6730
+        },
+        {
+          "word": "If",
+          "start": 224.8,
+          "end": 225.02,
+          "startFrame": 6744,
+          "endFrame": 6751
+        },
+        {
+          "word": "you",
+          "start": 225.02,
+          "end": 225.14,
+          "startFrame": 6751,
+          "endFrame": 6754
+        },
+        {
+          "word": "wanted",
+          "start": 225.14,
+          "end": 225.38,
+          "startFrame": 6754,
+          "endFrame": 6761
+        },
+        {
+          "word": "procedural",
+          "start": 225.38,
+          "end": 225.72,
+          "startFrame": 6761,
+          "endFrame": 6772
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "start": 225.72,
+      "end": 232.22,
+      "startFrame": 6772,
+      "endFrame": 6967,
+      "text": "3D logic and agentic autonomy, you had to pay $200 a month for closed APIs. This week,",
+      "words": [
+        {
+          "word": "3D",
+          "start": 225.72,
+          "end": 226.36,
+          "startFrame": 6772,
+          "endFrame": 6791
+        },
+        {
+          "word": "logic",
+          "start": 226.36,
+          "end": 226.68,
+          "startFrame": 6791,
+          "endFrame": 6800
+        },
+        {
+          "word": "and",
+          "start": 226.68,
+          "end": 227.04,
+          "startFrame": 6800,
+          "endFrame": 6811
+        },
+        {
+          "word": "agentic",
+          "start": 227.04,
+          "end": 227.5,
+          "startFrame": 6811,
+          "endFrame": 6825
+        },
+        {
+          "word": "autonomy,",
+          "start": 227.5,
+          "end": 227.7,
+          "startFrame": 6825,
+          "endFrame": 6831
+        },
+        {
+          "word": "you",
+          "start": 228.32,
+          "end": 228.56,
+          "startFrame": 6850,
+          "endFrame": 6857
+        },
+        {
+          "word": "had",
+          "start": 228.56,
+          "end": 228.66,
+          "startFrame": 6857,
+          "endFrame": 6860
+        },
+        {
+          "word": "to",
+          "start": 228.66,
+          "end": 228.78,
+          "startFrame": 6860,
+          "endFrame": 6863
+        },
+        {
+          "word": "pay",
+          "start": 228.78,
+          "end": 228.96,
+          "startFrame": 6863,
+          "endFrame": 6869
+        },
+        {
+          "word": "$200",
+          "start": 228.96,
+          "end": 229.38,
+          "startFrame": 6869,
+          "endFrame": 6881
+        },
+        {
+          "word": "a",
+          "start": 229.38,
+          "end": 229.88,
+          "startFrame": 6881,
+          "endFrame": 6896
+        },
+        {
+          "word": "month",
+          "start": 229.88,
+          "end": 230.06,
+          "startFrame": 6896,
+          "endFrame": 6902
+        },
+        {
+          "word": "for",
+          "start": 230.06,
+          "end": 230.38,
+          "startFrame": 6902,
+          "endFrame": 6911
+        },
+        {
+          "word": "closed",
+          "start": 230.38,
+          "end": 230.68,
+          "startFrame": 6911,
+          "endFrame": 6920
+        },
+        {
+          "word": "APIs.",
+          "start": 230.68,
+          "end": 230.94,
+          "startFrame": 6920,
+          "endFrame": 6928
+        },
+        {
+          "word": "This",
+          "start": 231.68,
+          "end": 231.98,
+          "startFrame": 6950,
+          "endFrame": 6959
+        },
+        {
+          "word": "week,",
+          "start": 231.98,
+          "end": 232.22,
+          "startFrame": 6959,
+          "endFrame": 6967
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "start": 232.22,
+      "end": 237.82,
+      "startFrame": 6967,
+      "endFrame": 7135,
+      "text": "that narrative completely fractured developer max conducted a blind benchmark across what the",
+      "words": [
+        {
+          "word": "that",
+          "start": 232.22,
+          "end": 232.64,
+          "startFrame": 6967,
+          "endFrame": 6979
+        },
+        {
+          "word": "narrative",
+          "start": 232.64,
+          "end": 233.08,
+          "startFrame": 6979,
+          "endFrame": 6992
+        },
+        {
+          "word": "completely",
+          "start": 233.08,
+          "end": 233.58,
+          "startFrame": 6992,
+          "endFrame": 7007
+        },
+        {
+          "word": "fractured",
+          "start": 233.58,
+          "end": 234.04,
+          "startFrame": 7007,
+          "endFrame": 7021
+        },
+        {
+          "word": "developer",
+          "start": 234.04,
+          "end": 235.04,
+          "startFrame": 7021,
+          "endFrame": 7051
+        },
+        {
+          "word": "max",
+          "start": 235.04,
+          "end": 235.46,
+          "startFrame": 7051,
+          "endFrame": 7064
+        },
+        {
+          "word": "conducted",
+          "start": 235.46,
+          "end": 236.02,
+          "startFrame": 7064,
+          "endFrame": 7081
+        },
+        {
+          "word": "a",
+          "start": 236.02,
+          "end": 236.14,
+          "startFrame": 7081,
+          "endFrame": 7084
+        },
+        {
+          "word": "blind",
+          "start": 236.14,
+          "end": 236.38,
+          "startFrame": 7084,
+          "endFrame": 7091
+        },
+        {
+          "word": "benchmark",
+          "start": 236.38,
+          "end": 236.86,
+          "startFrame": 7091,
+          "endFrame": 7106
+        },
+        {
+          "word": "across",
+          "start": 236.86,
+          "end": 237.34,
+          "startFrame": 7106,
+          "endFrame": 7120
+        },
+        {
+          "word": "what",
+          "start": 237.34,
+          "end": 237.72,
+          "startFrame": 7120,
+          "endFrame": 7132
+        },
+        {
+          "word": "the",
+          "start": 237.72,
+          "end": 237.82,
+          "startFrame": 7132,
+          "endFrame": 7135
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "start": 237.82,
+      "end": 245.02,
+      "startFrame": 7135,
+      "endFrame": 7351,
+      "text": "industry considers budget tiers. Deep-seek version 4.1 flash, Google's Gemini 3.8 flash,",
+      "words": [
+        {
+          "word": "industry",
+          "start": 237.82,
+          "end": 238.18,
+          "startFrame": 7135,
+          "endFrame": 7145
+        },
+        {
+          "word": "considers",
+          "start": 238.18,
+          "end": 238.52,
+          "startFrame": 7145,
+          "endFrame": 7156
+        },
+        {
+          "word": "budget",
+          "start": 238.52,
+          "end": 239.02,
+          "startFrame": 7156,
+          "endFrame": 7171
+        },
+        {
+          "word": "tiers.",
+          "start": 239.02,
+          "end": 239.38,
+          "startFrame": 7171,
+          "endFrame": 7181
+        },
+        {
+          "word": "Deep",
+          "start": 240.16,
+          "end": 240.42,
+          "startFrame": 7205,
+          "endFrame": 7213
+        },
+        {
+          "word": "-seek",
+          "start": 240.42,
+          "end": 240.7,
+          "startFrame": 7213,
+          "endFrame": 7221
+        },
+        {
+          "word": "version",
+          "start": 240.7,
+          "end": 240.96,
+          "startFrame": 7221,
+          "endFrame": 7229
+        },
+        {
+          "word": "4",
+          "start": 240.96,
+          "end": 241.38,
+          "startFrame": 7229,
+          "endFrame": 7241
+        },
+        {
+          "word": ".1",
+          "start": 241.38,
+          "end": 241.98,
+          "startFrame": 7241,
+          "endFrame": 7259
+        },
+        {
+          "word": "flash,",
+          "start": 241.98,
+          "end": 242.28,
+          "startFrame": 7259,
+          "endFrame": 7268
+        },
+        {
+          "word": "Google's",
+          "start": 243.04,
+          "end": 243.5,
+          "startFrame": 7291,
+          "endFrame": 7305
+        },
+        {
+          "word": "Gemini",
+          "start": 243.5,
+          "end": 243.72,
+          "startFrame": 7305,
+          "endFrame": 7312
+        },
+        {
+          "word": "3",
+          "start": 243.72,
+          "end": 244.22,
+          "startFrame": 7312,
+          "endFrame": 7327
+        },
+        {
+          "word": ".8",
+          "start": 244.22,
+          "end": 244.78,
+          "startFrame": 7327,
+          "endFrame": 7343
+        },
+        {
+          "word": "flash,",
+          "start": 244.78,
+          "end": 245.02,
+          "startFrame": 7343,
+          "endFrame": 7351
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "start": 245.6,
+      "end": 251.58,
+      "startFrame": 7368,
+      "endFrame": 7547,
+      "text": "and new spark. The prompt demanded a complete real-time WebGL reef simulation with particle",
+      "words": [
+        {
+          "word": "and",
+          "start": 245.6,
+          "end": 245.8,
+          "startFrame": 7368,
+          "endFrame": 7374
+        },
+        {
+          "word": "new",
+          "start": 245.8,
+          "end": 245.96,
+          "startFrame": 7374,
+          "endFrame": 7379
+        },
+        {
+          "word": "spark.",
+          "start": 245.96,
+          "end": 246.26,
+          "startFrame": 7379,
+          "endFrame": 7388
+        },
+        {
+          "word": "The",
+          "start": 246.88,
+          "end": 247.0,
+          "startFrame": 7406,
+          "endFrame": 7410
+        },
+        {
+          "word": "prompt",
+          "start": 247.0,
+          "end": 247.24,
+          "startFrame": 7410,
+          "endFrame": 7417
+        },
+        {
+          "word": "demanded",
+          "start": 247.24,
+          "end": 247.7,
+          "startFrame": 7417,
+          "endFrame": 7431
+        },
+        {
+          "word": "a",
+          "start": 247.7,
+          "end": 248.02,
+          "startFrame": 7431,
+          "endFrame": 7441
+        },
+        {
+          "word": "complete",
+          "start": 248.02,
+          "end": 248.36,
+          "startFrame": 7441,
+          "endFrame": 7451
+        },
+        {
+          "word": "real",
+          "start": 248.36,
+          "end": 249.22,
+          "startFrame": 7451,
+          "endFrame": 7477
+        },
+        {
+          "word": "-time",
+          "start": 249.22,
+          "end": 249.62,
+          "startFrame": 7477,
+          "endFrame": 7489
+        },
+        {
+          "word": "WebGL",
+          "start": 249.62,
+          "end": 250.1,
+          "startFrame": 7489,
+          "endFrame": 7503
+        },
+        {
+          "word": "reef",
+          "start": 250.1,
+          "end": 250.4,
+          "startFrame": 7503,
+          "endFrame": 7512
+        },
+        {
+          "word": "simulation",
+          "start": 250.4,
+          "end": 250.8,
+          "startFrame": 7512,
+          "endFrame": 7524
+        },
+        {
+          "word": "with",
+          "start": 250.8,
+          "end": 251.32,
+          "startFrame": 7524,
+          "endFrame": 7540
+        },
+        {
+          "word": "particle",
+          "start": 251.32,
+          "end": 251.58,
+          "startFrame": 7540,
+          "endFrame": 7547
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "start": 251.58,
+      "end": 257.42,
+      "startFrame": 7547,
+      "endFrame": 7723,
+      "text": "kinematics and volumetric lighting. Deep-seek version 4.1 flash didn't just pass the test.",
+      "words": [
+        {
+          "word": "kinematics",
+          "start": 251.58,
+          "end": 252.32,
+          "startFrame": 7547,
+          "endFrame": 7570
+        },
+        {
+          "word": "and",
+          "start": 252.32,
+          "end": 252.62,
+          "startFrame": 7570,
+          "endFrame": 7579
+        },
+        {
+          "word": "volumetric",
+          "start": 252.62,
+          "end": 253.12,
+          "startFrame": 7579,
+          "endFrame": 7594
+        },
+        {
+          "word": "lighting.",
+          "start": 253.12,
+          "end": 253.4,
+          "startFrame": 7594,
+          "endFrame": 7602
+        },
+        {
+          "word": "Deep",
+          "start": 254.06,
+          "end": 254.24,
+          "startFrame": 7622,
+          "endFrame": 7627
+        },
+        {
+          "word": "-seek",
+          "start": 254.24,
+          "end": 254.52,
+          "startFrame": 7627,
+          "endFrame": 7636
+        },
+        {
+          "word": "version",
+          "start": 254.52,
+          "end": 254.76,
+          "startFrame": 7636,
+          "endFrame": 7643
+        },
+        {
+          "word": "4",
+          "start": 254.76,
+          "end": 255.2,
+          "startFrame": 7643,
+          "endFrame": 7656
+        },
+        {
+          "word": ".1",
+          "start": 255.2,
+          "end": 255.7,
+          "startFrame": 7656,
+          "endFrame": 7671
+        },
+        {
+          "word": "flash",
+          "start": 255.7,
+          "end": 256.04,
+          "startFrame": 7671,
+          "endFrame": 7681
+        },
+        {
+          "word": "didn't",
+          "start": 256.04,
+          "end": 256.52,
+          "startFrame": 7681,
+          "endFrame": 7696
+        },
+        {
+          "word": "just",
+          "start": 256.52,
+          "end": 256.7,
+          "startFrame": 7696,
+          "endFrame": 7701
+        },
+        {
+          "word": "pass",
+          "start": 256.7,
+          "end": 256.94,
+          "startFrame": 7701,
+          "endFrame": 7708
+        },
+        {
+          "word": "the",
+          "start": 256.94,
+          "end": 257.22,
+          "startFrame": 7708,
+          "endFrame": 7717
+        },
+        {
+          "word": "test.",
+          "start": 257.22,
+          "end": 257.42,
+          "startFrame": 7717,
+          "endFrame": 7723
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "start": 257.98,
+      "end": 263.14,
+      "startFrame": 7739,
+      "endFrame": 7894,
+      "text": "When prompted with live shader modifications, it recompiled and hot reloaded the entire",
+      "words": [
+        {
+          "word": "When",
+          "start": 257.9,
+          "end": 258.24,
+          "startFrame": 7737,
+          "endFrame": 7747
+        },
+        {
+          "word": "prompted",
+          "start": 258.24,
+          "end": 258.68,
+          "startFrame": 7747,
+          "endFrame": 7760
+        },
+        {
+          "word": "with",
+          "start": 258.68,
+          "end": 258.92,
+          "startFrame": 7760,
+          "endFrame": 7768
+        },
+        {
+          "word": "live",
+          "start": 258.92,
+          "end": 259.18,
+          "startFrame": 7768,
+          "endFrame": 7775
+        },
+        {
+          "word": "shader",
+          "start": 259.18,
+          "end": 259.5,
+          "startFrame": 7775,
+          "endFrame": 7785
+        },
+        {
+          "word": "modifications,",
+          "start": 259.5,
+          "end": 259.98,
+          "startFrame": 7785,
+          "endFrame": 7799
+        },
+        {
+          "word": "it",
+          "start": 260.94,
+          "end": 261.06,
+          "startFrame": 7828,
+          "endFrame": 7832
+        },
+        {
+          "word": "recompiled",
+          "start": 261.06,
+          "end": 261.7,
+          "startFrame": 7832,
+          "endFrame": 7851
+        },
+        {
+          "word": "and",
+          "start": 261.7,
+          "end": 261.98,
+          "startFrame": 7851,
+          "endFrame": 7859
+        },
+        {
+          "word": "hot",
+          "start": 261.98,
+          "end": 262.18,
+          "startFrame": 7859,
+          "endFrame": 7865
+        },
+        {
+          "word": "reloaded",
+          "start": 262.18,
+          "end": 262.7,
+          "startFrame": 7865,
+          "endFrame": 7881
+        },
+        {
+          "word": "the",
+          "start": 262.7,
+          "end": 262.88,
+          "startFrame": 7881,
+          "endFrame": 7886
+        },
+        {
+          "word": "entire",
+          "start": 262.88,
+          "end": 263.14,
+          "startFrame": 7886,
+          "endFrame": 7894
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "start": 263.14,
+      "end": 269.06,
+      "startFrame": 7894,
+      "endFrame": 8072,
+      "text": "physics pipeline in under two seconds. The simulation locked at 60 frames per second on local",
+      "words": [
+        {
+          "word": "physics",
+          "start": 263.14,
+          "end": 263.48,
+          "startFrame": 7894,
+          "endFrame": 7904
+        },
+        {
+          "word": "pipeline",
+          "start": 263.48,
+          "end": 263.84,
+          "startFrame": 7904,
+          "endFrame": 7915
+        },
+        {
+          "word": "in",
+          "start": 263.84,
+          "end": 264.36,
+          "startFrame": 7915,
+          "endFrame": 7931
+        },
+        {
+          "word": "under",
+          "start": 264.36,
+          "end": 264.52,
+          "startFrame": 7931,
+          "endFrame": 7936
+        },
+        {
+          "word": "two",
+          "start": 264.52,
+          "end": 264.78,
+          "startFrame": 7936,
+          "endFrame": 7943
+        },
+        {
+          "word": "seconds.",
+          "start": 264.78,
+          "end": 265.1,
+          "startFrame": 7943,
+          "endFrame": 7953
+        },
+        {
+          "word": "The",
+          "start": 265.72,
+          "end": 265.84,
+          "startFrame": 7972,
+          "endFrame": 7975
+        },
+        {
+          "word": "simulation",
+          "start": 265.84,
+          "end": 266.18,
+          "startFrame": 7975,
+          "endFrame": 7985
+        },
+        {
+          "word": "locked",
+          "start": 266.18,
+          "end": 266.72,
+          "startFrame": 7985,
+          "endFrame": 8002
+        },
+        {
+          "word": "at",
+          "start": 266.72,
+          "end": 267.02,
+          "startFrame": 8002,
+          "endFrame": 8011
+        },
+        {
+          "word": "60",
+          "start": 267.02,
+          "end": 267.34,
+          "startFrame": 8011,
+          "endFrame": 8020
+        },
+        {
+          "word": "frames",
+          "start": 267.34,
+          "end": 267.74,
+          "startFrame": 8020,
+          "endFrame": 8032
+        },
+        {
+          "word": "per",
+          "start": 267.74,
+          "end": 268.08,
+          "startFrame": 8032,
+          "endFrame": 8042
+        },
+        {
+          "word": "second",
+          "start": 268.08,
+          "end": 268.46,
+          "startFrame": 8042,
+          "endFrame": 8054
+        },
+        {
+          "word": "on",
+          "start": 268.46,
+          "end": 268.8,
+          "startFrame": 8054,
+          "endFrame": 8064
+        },
+        {
+          "word": "local",
+          "start": 268.8,
+          "end": 269.06,
+          "startFrame": 8064,
+          "endFrame": 8072
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "start": 269.06,
+      "end": 275.14,
+      "startFrame": 8072,
+      "endFrame": 8254,
+      "text": "consumer hardware. At the same time, deep-seek released deep-seek harness. An open-source,",
+      "words": [
+        {
+          "word": "consumer",
+          "start": 269.06,
+          "end": 269.52,
+          "startFrame": 8072,
+          "endFrame": 8086
+        },
+        {
+          "word": "hardware.",
+          "start": 269.52,
+          "end": 269.9,
+          "startFrame": 8086,
+          "endFrame": 8097
+        },
+        {
+          "word": "At",
+          "start": 270.6,
+          "end": 270.72,
+          "startFrame": 8118,
+          "endFrame": 8122
+        },
+        {
+          "word": "the",
+          "start": 270.72,
+          "end": 270.84,
+          "startFrame": 8122,
+          "endFrame": 8125
+        },
+        {
+          "word": "same",
+          "start": 270.84,
+          "end": 271.04,
+          "startFrame": 8125,
+          "endFrame": 8131
+        },
+        {
+          "word": "time,",
+          "start": 271.04,
+          "end": 271.4,
+          "startFrame": 8131,
+          "endFrame": 8142
+        },
+        {
+          "word": "deep",
+          "start": 271.9,
+          "end": 272.12,
+          "startFrame": 8157,
+          "endFrame": 8164
+        },
+        {
+          "word": "-seek",
+          "start": 272.12,
+          "end": 272.48,
+          "startFrame": 8164,
+          "endFrame": 8174
+        },
+        {
+          "word": "released",
+          "start": 272.48,
+          "end": 272.72,
+          "startFrame": 8174,
+          "endFrame": 8182
+        },
+        {
+          "word": "deep",
+          "start": 272.72,
+          "end": 273.12,
+          "startFrame": 8182,
+          "endFrame": 8194
+        },
+        {
+          "word": "-seek",
+          "start": 273.12,
+          "end": 273.46,
+          "startFrame": 8194,
+          "endFrame": 8204
+        },
+        {
+          "word": "harness.",
+          "start": 273.46,
+          "end": 273.6,
+          "startFrame": 8204,
+          "endFrame": 8208
+        },
+        {
+          "word": "An",
+          "start": 274.46,
+          "end": 274.64,
+          "startFrame": 8234,
+          "endFrame": 8239
+        },
+        {
+          "word": "open",
+          "start": 274.64,
+          "end": 274.82,
+          "startFrame": 8239,
+          "endFrame": 8245
+        },
+        {
+          "word": "-source,",
+          "start": 274.82,
+          "end": 275.14,
+          "startFrame": 8245,
+          "endFrame": 8254
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "start": 275.54,
+      "end": 281.34,
+      "startFrame": 8266,
+      "endFrame": 8440,
+      "text": "modular framework designed to replace proprietary coding agent platforms entirely. Every module",
+      "words": [
+        {
+          "word": "modular",
+          "start": 275.54,
+          "end": 275.92,
+          "startFrame": 8266,
+          "endFrame": 8278
+        },
+        {
+          "word": "framework",
+          "start": 275.92,
+          "end": 276.3,
+          "startFrame": 8278,
+          "endFrame": 8289
+        },
+        {
+          "word": "designed",
+          "start": 276.3,
+          "end": 276.78,
+          "startFrame": 8289,
+          "endFrame": 8303
+        },
+        {
+          "word": "to",
+          "start": 276.78,
+          "end": 277.12,
+          "startFrame": 8303,
+          "endFrame": 8314
+        },
+        {
+          "word": "replace",
+          "start": 277.12,
+          "end": 277.38,
+          "startFrame": 8314,
+          "endFrame": 8321
+        },
+        {
+          "word": "proprietary",
+          "start": 277.38,
+          "end": 277.96,
+          "startFrame": 8321,
+          "endFrame": 8339
+        },
+        {
+          "word": "coding",
+          "start": 277.96,
+          "end": 278.54,
+          "startFrame": 8339,
+          "endFrame": 8356
+        },
+        {
+          "word": "agent",
+          "start": 278.54,
+          "end": 279.02,
+          "startFrame": 8356,
+          "endFrame": 8371
+        },
+        {
+          "word": "platforms",
+          "start": 279.02,
+          "end": 279.4,
+          "startFrame": 8371,
+          "endFrame": 8382
+        },
+        {
+          "word": "entirely.",
+          "start": 279.4,
+          "end": 280.1,
+          "startFrame": 8382,
+          "endFrame": 8403
+        },
+        {
+          "word": "Every",
+          "start": 280.86,
+          "end": 281.02,
+          "startFrame": 8426,
+          "endFrame": 8431
+        },
+        {
+          "word": "module",
+          "start": 281.02,
+          "end": 281.34,
+          "startFrame": 8431,
+          "endFrame": 8440
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "start": 281.34,
+      "end": 287.56,
+      "startFrame": 8440,
+      "endFrame": 8627,
+      "text": "is an extensible plugin. Zero proprietary lock-in. Zero monthly platform toll.",
+      "words": [
+        {
+          "word": "is",
+          "start": 281.34,
+          "end": 281.92,
+          "startFrame": 8440,
+          "endFrame": 8458
+        },
+        {
+          "word": "an",
+          "start": 281.92,
+          "end": 282.08,
+          "startFrame": 8458,
+          "endFrame": 8462
+        },
+        {
+          "word": "extensible",
+          "start": 282.08,
+          "end": 282.64,
+          "startFrame": 8462,
+          "endFrame": 8479
+        },
+        {
+          "word": "plugin.",
+          "start": 282.64,
+          "end": 283.02,
+          "startFrame": 8479,
+          "endFrame": 8491
+        },
+        {
+          "word": "Zero",
+          "start": 283.64,
+          "end": 283.98,
+          "startFrame": 8509,
+          "endFrame": 8519
+        },
+        {
+          "word": "proprietary",
+          "start": 283.98,
+          "end": 284.48,
+          "startFrame": 8519,
+          "endFrame": 8534
+        },
+        {
+          "word": "lock",
+          "start": 284.48,
+          "end": 285.12,
+          "startFrame": 8534,
+          "endFrame": 8554
+        },
+        {
+          "word": "-in.",
+          "start": 285.12,
+          "end": 285.36,
+          "startFrame": 8554,
+          "endFrame": 8561
+        },
+        {
+          "word": "Zero",
+          "start": 285.78,
+          "end": 286.2,
+          "startFrame": 8573,
+          "endFrame": 8586
+        },
+        {
+          "word": "monthly",
+          "start": 286.2,
+          "end": 286.5,
+          "startFrame": 8586,
+          "endFrame": 8595
+        },
+        {
+          "word": "platform",
+          "start": 286.5,
+          "end": 287.04,
+          "startFrame": 8595,
+          "endFrame": 8611
+        },
+        {
+          "word": "toll.",
+          "start": 287.04,
+          "end": 287.56,
+          "startFrame": 8611,
+          "endFrame": 8627
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "start": 288.12,
+      "end": 292.92,
+      "startFrame": 8644,
+      "endFrame": 8788,
+      "text": "Meanwhile, Google is preparing its own counter-offensive. Developer leaks by",
+      "words": [
+        {
+          "word": "Meanwhile,",
+          "start": 288.12,
+          "end": 288.38,
+          "startFrame": 8644,
+          "endFrame": 8651
+        },
+        {
+          "word": "Google",
+          "start": 288.86,
+          "end": 289.02,
+          "startFrame": 8666,
+          "endFrame": 8671
+        },
+        {
+          "word": "is",
+          "start": 289.02,
+          "end": 289.44,
+          "startFrame": 8671,
+          "endFrame": 8683
+        },
+        {
+          "word": "preparing",
+          "start": 289.44,
+          "end": 289.72,
+          "startFrame": 8683,
+          "endFrame": 8692
+        },
+        {
+          "word": "its",
+          "start": 289.72,
+          "end": 290.22,
+          "startFrame": 8692,
+          "endFrame": 8707
+        },
+        {
+          "word": "own",
+          "start": 290.22,
+          "end": 290.44,
+          "startFrame": 8707,
+          "endFrame": 8713
+        },
+        {
+          "word": "counter",
+          "start": 290.44,
+          "end": 290.68,
+          "startFrame": 8713,
+          "endFrame": 8720
+        },
+        {
+          "word": "-offensive.",
+          "start": 290.68,
+          "end": 291.02,
+          "startFrame": 8720,
+          "endFrame": 8731
+        },
+        {
+          "word": "Developer",
+          "start": 291.78,
+          "end": 292.22,
+          "startFrame": 8753,
+          "endFrame": 8767
+        },
+        {
+          "word": "leaks",
+          "start": 292.22,
+          "end": 292.58,
+          "startFrame": 8767,
+          "endFrame": 8777
+        },
+        {
+          "word": "by",
+          "start": 292.58,
+          "end": 292.92,
+          "startFrame": 8777,
+          "endFrame": 8788
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "start": 292.92,
+      "end": 296.48,
+      "startFrame": 8788,
+      "endFrame": 8894,
+      "text": "Salio uncovered internal registry tags for anti-gravity preview.",
+      "words": [
+        {
+          "word": "Salio",
+          "start": 292.92,
+          "end": 293.36,
+          "startFrame": 8788,
+          "endFrame": 8801
+        },
+        {
+          "word": "uncovered",
+          "start": 293.36,
+          "end": 293.8,
+          "startFrame": 8801,
+          "endFrame": 8814
+        },
+        {
+          "word": "internal",
+          "start": 293.8,
+          "end": 294.3,
+          "startFrame": 8814,
+          "endFrame": 8829
+        },
+        {
+          "word": "registry",
+          "start": 294.3,
+          "end": 294.72,
+          "startFrame": 8829,
+          "endFrame": 8842
+        },
+        {
+          "word": "tags",
+          "start": 294.72,
+          "end": 295.16,
+          "startFrame": 8842,
+          "endFrame": 8855
+        },
+        {
+          "word": "for",
+          "start": 295.16,
+          "end": 295.5,
+          "startFrame": 8855,
+          "endFrame": 8865
+        },
+        {
+          "word": "anti",
+          "start": 295.5,
+          "end": 295.7,
+          "startFrame": 8865,
+          "endFrame": 8871
+        },
+        {
+          "word": "-gravity",
+          "start": 295.7,
+          "end": 296.14,
+          "startFrame": 8871,
+          "endFrame": 8884
+        },
+        {
+          "word": "preview.",
+          "start": 296.14,
+          "end": 296.48,
+          "startFrame": 8884,
+          "endFrame": 8894
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "start": 297.22,
+      "end": 304.56,
+      "startFrame": 8917,
+      "endFrame": 9137,
+      "text": "0.9-2026 alongside early builds of Gemini 4.1 flash. Google is redesigning its entire compiler",
+      "words": [
+        {
+          "word": "0",
+          "start": 297.22,
+          "end": 297.54,
+          "startFrame": 8917,
+          "endFrame": 8926
+        },
+        {
+          "word": ".9",
+          "start": 297.54,
+          "end": 297.98,
+          "startFrame": 8926,
+          "endFrame": 8939
+        },
+        {
+          "word": "-2026",
+          "start": 297.98,
+          "end": 299.14,
+          "startFrame": 8939,
+          "endFrame": 8974
+        },
+        {
+          "word": "alongside",
+          "start": 299.14,
+          "end": 299.68,
+          "startFrame": 8974,
+          "endFrame": 8990
+        },
+        {
+          "word": "early",
+          "start": 299.68,
+          "end": 300.14,
+          "startFrame": 8990,
+          "endFrame": 9004
+        },
+        {
+          "word": "builds",
+          "start": 300.14,
+          "end": 300.46,
+          "startFrame": 9004,
+          "endFrame": 9014
+        },
+        {
+          "word": "of",
+          "start": 300.46,
+          "end": 300.74,
+          "startFrame": 9014,
+          "endFrame": 9022
+        },
+        {
+          "word": "Gemini",
+          "start": 300.74,
+          "end": 300.94,
+          "startFrame": 9022,
+          "endFrame": 9028
+        },
+        {
+          "word": "4",
+          "start": 300.94,
+          "end": 301.4,
+          "startFrame": 9028,
+          "endFrame": 9042
+        },
+        {
+          "word": ".1",
+          "start": 301.4,
+          "end": 301.58,
+          "startFrame": 9042,
+          "endFrame": 9047
+        },
+        {
+          "word": "flash.",
+          "start": 301.58,
+          "end": 301.9,
+          "startFrame": 9047,
+          "endFrame": 9057
+        },
+        {
+          "word": "Google",
+          "start": 302.4,
+          "end": 302.56,
+          "startFrame": 9072,
+          "endFrame": 9077
+        },
+        {
+          "word": "is",
+          "start": 302.56,
+          "end": 302.98,
+          "startFrame": 9077,
+          "endFrame": 9089
+        },
+        {
+          "word": "redesigning",
+          "start": 302.98,
+          "end": 303.7,
+          "startFrame": 9089,
+          "endFrame": 9111
+        },
+        {
+          "word": "its",
+          "start": 303.7,
+          "end": 303.88,
+          "startFrame": 9111,
+          "endFrame": 9116
+        },
+        {
+          "word": "entire",
+          "start": 303.88,
+          "end": 304.24,
+          "startFrame": 9116,
+          "endFrame": 9127
+        },
+        {
+          "word": "compiler",
+          "start": 304.24,
+          "end": 304.56,
+          "startFrame": 9127,
+          "endFrame": 9137
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "start": 304.56,
+      "end": 309.62,
+      "startFrame": 9137,
+      "endFrame": 9289,
+      "text": "stack around persistent autonomous agents that execute directly within developer IDs.",
+      "words": [
+        {
+          "word": "stack",
+          "start": 304.56,
+          "end": 305.08,
+          "startFrame": 9137,
+          "endFrame": 9152
+        },
+        {
+          "word": "around",
+          "start": 305.08,
+          "end": 305.56,
+          "startFrame": 9152,
+          "endFrame": 9167
+        },
+        {
+          "word": "persistent",
+          "start": 305.56,
+          "end": 306.02,
+          "startFrame": 9167,
+          "endFrame": 9181
+        },
+        {
+          "word": "autonomous",
+          "start": 306.02,
+          "end": 306.58,
+          "startFrame": 9181,
+          "endFrame": 9197
+        },
+        {
+          "word": "agents",
+          "start": 306.58,
+          "end": 307.04,
+          "startFrame": 9197,
+          "endFrame": 9211
+        },
+        {
+          "word": "that",
+          "start": 307.04,
+          "end": 307.46,
+          "startFrame": 9211,
+          "endFrame": 9224
+        },
+        {
+          "word": "execute",
+          "start": 307.46,
+          "end": 307.82,
+          "startFrame": 9224,
+          "endFrame": 9235
+        },
+        {
+          "word": "directly",
+          "start": 307.82,
+          "end": 308.42,
+          "startFrame": 9235,
+          "endFrame": 9253
+        },
+        {
+          "word": "within",
+          "start": 308.42,
+          "end": 308.84,
+          "startFrame": 9253,
+          "endFrame": 9265
+        },
+        {
+          "word": "developer",
+          "start": 308.84,
+          "end": 309.28,
+          "startFrame": 9265,
+          "endFrame": 9278
+        },
+        {
+          "word": "IDs.",
+          "start": 309.28,
+          "end": 309.62,
+          "startFrame": 9278,
+          "endFrame": 9289
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "start": 310.42,
+      "end": 314.36,
+      "startFrame": 9313,
+      "endFrame": 9431,
+      "text": "And that points to the ultimate shift of the 2026 AI war.",
+      "words": [
+        {
+          "word": "And",
+          "start": 310.34,
+          "end": 310.68,
+          "startFrame": 9310,
+          "endFrame": 9320
+        },
+        {
+          "word": "that",
+          "start": 310.68,
+          "end": 310.88,
+          "startFrame": 9320,
+          "endFrame": 9326
+        },
+        {
+          "word": "points",
+          "start": 310.88,
+          "end": 311.18,
+          "startFrame": 9326,
+          "endFrame": 9335
+        },
+        {
+          "word": "to",
+          "start": 311.18,
+          "end": 311.58,
+          "startFrame": 9335,
+          "endFrame": 9347
+        },
+        {
+          "word": "the",
+          "start": 311.58,
+          "end": 311.72,
+          "startFrame": 9347,
+          "endFrame": 9352
+        },
+        {
+          "word": "ultimate",
+          "start": 311.72,
+          "end": 312.06,
+          "startFrame": 9352,
+          "endFrame": 9362
+        },
+        {
+          "word": "shift",
+          "start": 312.06,
+          "end": 312.4,
+          "startFrame": 9362,
+          "endFrame": 9372
+        },
+        {
+          "word": "of",
+          "start": 312.4,
+          "end": 312.78,
+          "startFrame": 9372,
+          "endFrame": 9383
+        },
+        {
+          "word": "the",
+          "start": 312.78,
+          "end": 312.9,
+          "startFrame": 9383,
+          "endFrame": 9387
+        },
+        {
+          "word": "2026",
+          "start": 312.9,
+          "end": 313.6,
+          "startFrame": 9387,
+          "endFrame": 9408
+        },
+        {
+          "word": "AI",
+          "start": 313.6,
+          "end": 313.96,
+          "startFrame": 9408,
+          "endFrame": 9419
+        },
+        {
+          "word": "war.",
+          "start": 313.96,
+          "end": 314.36,
+          "startFrame": 9419,
+          "endFrame": 9431
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "start": 314.88,
+      "end": 317.2,
+      "startFrame": 9446,
+      "endFrame": 9516,
+      "text": "Sam Altman recently admitted in an interview,",
+      "words": [
+        {
+          "word": "Sam",
+          "start": 314.88,
+          "end": 315.18,
+          "startFrame": 9446,
+          "endFrame": 9455
+        },
+        {
+          "word": "Altman",
+          "start": 315.18,
+          "end": 315.62,
+          "startFrame": 9455,
+          "endFrame": 9469
+        },
+        {
+          "word": "recently",
+          "start": 315.62,
+          "end": 315.9,
+          "startFrame": 9469,
+          "endFrame": 9477
+        },
+        {
+          "word": "admitted",
+          "start": 315.9,
+          "end": 316.44,
+          "startFrame": 9477,
+          "endFrame": 9493
+        },
+        {
+          "word": "in",
+          "start": 316.44,
+          "end": 316.78,
+          "startFrame": 9493,
+          "endFrame": 9503
+        },
+        {
+          "word": "an",
+          "start": 316.78,
+          "end": 316.9,
+          "startFrame": 9503,
+          "endFrame": 9507
+        },
+        {
+          "word": "interview,",
+          "start": 316.9,
+          "end": 317.2,
+          "startFrame": 9507,
+          "endFrame": 9516
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "start": 317.78,
+      "end": 323.58,
+      "startFrame": 9533,
+      "endFrame": 9707,
+      "text": "every night, I have a few thousand autonomous agents running with GPT-6 Astra. Thousands of",
+      "words": [
+        {
+          "word": "every",
+          "start": 317.78,
+          "end": 318.04,
+          "startFrame": 9533,
+          "endFrame": 9541
+        },
+        {
+          "word": "night,",
+          "start": 318.04,
+          "end": 318.3,
+          "startFrame": 9541,
+          "endFrame": 9549
+        },
+        {
+          "word": "I",
+          "start": 319.0,
+          "end": 319.14,
+          "startFrame": 9570,
+          "endFrame": 9574
+        },
+        {
+          "word": "have",
+          "start": 319.14,
+          "end": 319.26,
+          "startFrame": 9574,
+          "endFrame": 9578
+        },
+        {
+          "word": "a",
+          "start": 319.26,
+          "end": 319.32,
+          "startFrame": 9578,
+          "endFrame": 9580
+        },
+        {
+          "word": "few",
+          "start": 319.32,
+          "end": 319.48,
+          "startFrame": 9580,
+          "endFrame": 9584
+        },
+        {
+          "word": "thousand",
+          "start": 319.48,
+          "end": 319.74,
+          "startFrame": 9584,
+          "endFrame": 9592
+        },
+        {
+          "word": "autonomous",
+          "start": 319.74,
+          "end": 319.98,
+          "startFrame": 9592,
+          "endFrame": 9599
+        },
+        {
+          "word": "agents",
+          "start": 319.98,
+          "end": 320.46,
+          "startFrame": 9599,
+          "endFrame": 9614
+        },
+        {
+          "word": "running",
+          "start": 320.46,
+          "end": 320.88,
+          "startFrame": 9614,
+          "endFrame": 9626
+        },
+        {
+          "word": "with",
+          "start": 320.88,
+          "end": 321.2,
+          "startFrame": 9626,
+          "endFrame": 9636
+        },
+        {
+          "word": "GPT",
+          "start": 321.2,
+          "end": 321.56,
+          "startFrame": 9636,
+          "endFrame": 9647
+        },
+        {
+          "word": "-6",
+          "start": 321.56,
+          "end": 322.02,
+          "startFrame": 9647,
+          "endFrame": 9661
+        },
+        {
+          "word": "Astra.",
+          "start": 322.02,
+          "end": 322.46,
+          "startFrame": 9661,
+          "endFrame": 9674
+        },
+        {
+          "word": "Thousands",
+          "start": 322.98,
+          "end": 323.3,
+          "startFrame": 9689,
+          "endFrame": 9699
+        },
+        {
+          "word": "of",
+          "start": 323.3,
+          "end": 323.58,
+          "startFrame": 9699,
+          "endFrame": 9707
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "start": 323.58,
+      "end": 328.76,
+      "startFrame": 9707,
+      "endFrame": 9863,
+      "text": "agents writing code, running unit tests, and iterating architecture while human sleep.",
+      "words": [
+        {
+          "word": "agents",
+          "start": 323.58,
+          "end": 323.82,
+          "startFrame": 9707,
+          "endFrame": 9715
+        },
+        {
+          "word": "writing",
+          "start": 323.82,
+          "end": 324.26,
+          "startFrame": 9715,
+          "endFrame": 9728
+        },
+        {
+          "word": "code,",
+          "start": 324.26,
+          "end": 324.66,
+          "startFrame": 9728,
+          "endFrame": 9740
+        },
+        {
+          "word": "running",
+          "start": 325.24,
+          "end": 325.46,
+          "startFrame": 9757,
+          "endFrame": 9764
+        },
+        {
+          "word": "unit",
+          "start": 325.46,
+          "end": 325.74,
+          "startFrame": 9764,
+          "endFrame": 9772
+        },
+        {
+          "word": "tests,",
+          "start": 325.74,
+          "end": 326.06,
+          "startFrame": 9772,
+          "endFrame": 9782
+        },
+        {
+          "word": "and",
+          "start": 326.54,
+          "end": 326.78,
+          "startFrame": 9796,
+          "endFrame": 9803
+        },
+        {
+          "word": "iterating",
+          "start": 326.78,
+          "end": 327.24,
+          "startFrame": 9803,
+          "endFrame": 9817
+        },
+        {
+          "word": "architecture",
+          "start": 327.24,
+          "end": 327.6,
+          "startFrame": 9817,
+          "endFrame": 9828
+        },
+        {
+          "word": "while",
+          "start": 327.6,
+          "end": 328.12,
+          "startFrame": 9828,
+          "endFrame": 9844
+        },
+        {
+          "word": "human",
+          "start": 328.12,
+          "end": 328.44,
+          "startFrame": 9844,
+          "endFrame": 9853
+        },
+        {
+          "word": "sleep.",
+          "start": 328.44,
+          "end": 328.76,
+          "startFrame": 9853,
+          "endFrame": 9863
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "start": 329.38,
+      "end": 334.28,
+      "startFrame": 9881,
+      "endFrame": 10028,
+      "text": "We have officially transitioned from the era of conversational chatbots to ambient autonomous",
+      "words": [
+        {
+          "word": "We",
+          "start": 329.38,
+          "end": 329.48,
+          "startFrame": 9881,
+          "endFrame": 9884
+        },
+        {
+          "word": "have",
+          "start": 329.48,
+          "end": 329.64,
+          "startFrame": 9884,
+          "endFrame": 9889
+        },
+        {
+          "word": "officially",
+          "start": 329.64,
+          "end": 330.1,
+          "startFrame": 9889,
+          "endFrame": 9903
+        },
+        {
+          "word": "transitioned",
+          "start": 330.1,
+          "end": 330.62,
+          "startFrame": 9903,
+          "endFrame": 9919
+        },
+        {
+          "word": "from",
+          "start": 330.62,
+          "end": 331.16,
+          "startFrame": 9919,
+          "endFrame": 9935
+        },
+        {
+          "word": "the",
+          "start": 331.16,
+          "end": 331.36,
+          "startFrame": 9935,
+          "endFrame": 9941
+        },
+        {
+          "word": "era",
+          "start": 331.36,
+          "end": 331.62,
+          "startFrame": 9941,
+          "endFrame": 9949
+        },
+        {
+          "word": "of",
+          "start": 331.62,
+          "end": 331.94,
+          "startFrame": 9949,
+          "endFrame": 9958
+        },
+        {
+          "word": "conversational",
+          "start": 331.94,
+          "end": 332.52,
+          "startFrame": 9958,
+          "endFrame": 9976
+        },
+        {
+          "word": "chatbots",
+          "start": 332.52,
+          "end": 333.04,
+          "startFrame": 9976,
+          "endFrame": 9991
+        },
+        {
+          "word": "to",
+          "start": 333.04,
+          "end": 333.42,
+          "startFrame": 9991,
+          "endFrame": 10003
+        },
+        {
+          "word": "ambient",
+          "start": 333.42,
+          "end": 333.7,
+          "startFrame": 10003,
+          "endFrame": 10011
+        },
+        {
+          "word": "autonomous",
+          "start": 333.7,
+          "end": 334.28,
+          "startFrame": 10011,
+          "endFrame": 10028
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "start": 334.28,
+      "end": 339.8,
+      "startFrame": 10028,
+      "endFrame": 10194,
+      "text": "execution swarms. The competitive moat around closed frontier models is evaporating.",
+      "words": [
+        {
+          "word": "execution",
+          "start": 334.28,
+          "end": 334.88,
+          "startFrame": 10028,
+          "endFrame": 10046
+        },
+        {
+          "word": "swarms.",
+          "start": 334.88,
+          "end": 335.44,
+          "startFrame": 10046,
+          "endFrame": 10063
+        },
+        {
+          "word": "The",
+          "start": 336.0,
+          "end": 336.08,
+          "startFrame": 10080,
+          "endFrame": 10082
+        },
+        {
+          "word": "competitive",
+          "start": 336.08,
+          "end": 336.5,
+          "startFrame": 10082,
+          "endFrame": 10095
+        },
+        {
+          "word": "moat",
+          "start": 336.5,
+          "end": 336.98,
+          "startFrame": 10095,
+          "endFrame": 10109
+        },
+        {
+          "word": "around",
+          "start": 336.98,
+          "end": 337.24,
+          "startFrame": 10109,
+          "endFrame": 10117
+        },
+        {
+          "word": "closed",
+          "start": 337.24,
+          "end": 337.66,
+          "startFrame": 10117,
+          "endFrame": 10130
+        },
+        {
+          "word": "frontier",
+          "start": 337.66,
+          "end": 338.08,
+          "startFrame": 10130,
+          "endFrame": 10142
+        },
+        {
+          "word": "models",
+          "start": 338.08,
+          "end": 338.56,
+          "startFrame": 10142,
+          "endFrame": 10157
+        },
+        {
+          "word": "is",
+          "start": 338.56,
+          "end": 339.06,
+          "startFrame": 10157,
+          "endFrame": 10172
+        },
+        {
+          "word": "evaporating.",
+          "start": 339.06,
+          "end": 339.8,
+          "startFrame": 10172,
+          "endFrame": 10194
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "start": 340.32,
+      "end": 345.66,
+      "startFrame": 10210,
+      "endFrame": 10370,
+      "text": "When sub-cent open architectures can generate physics engines and open frameworks orchestrate",
+      "words": [
+        {
+          "word": "When",
+          "start": 340.32,
+          "end": 340.46,
+          "startFrame": 10210,
+          "endFrame": 10214
+        },
+        {
+          "word": "sub",
+          "start": 340.46,
+          "end": 340.72,
+          "startFrame": 10214,
+          "endFrame": 10222
+        },
+        {
+          "word": "-cent",
+          "start": 340.72,
+          "end": 340.96,
+          "startFrame": 10222,
+          "endFrame": 10229
+        },
+        {
+          "word": "open",
+          "start": 340.96,
+          "end": 341.18,
+          "startFrame": 10229,
+          "endFrame": 10235
+        },
+        {
+          "word": "architectures",
+          "start": 341.18,
+          "end": 341.74,
+          "startFrame": 10235,
+          "endFrame": 10252
+        },
+        {
+          "word": "can",
+          "start": 341.74,
+          "end": 342.2,
+          "startFrame": 10252,
+          "endFrame": 10266
+        },
+        {
+          "word": "generate",
+          "start": 342.2,
+          "end": 342.56,
+          "startFrame": 10266,
+          "endFrame": 10277
+        },
+        {
+          "word": "physics",
+          "start": 342.56,
+          "end": 342.86,
+          "startFrame": 10277,
+          "endFrame": 10286
+        },
+        {
+          "word": "engines",
+          "start": 342.86,
+          "end": 343.3,
+          "startFrame": 10286,
+          "endFrame": 10299
+        },
+        {
+          "word": "and",
+          "start": 343.3,
+          "end": 344.18,
+          "startFrame": 10299,
+          "endFrame": 10325
+        },
+        {
+          "word": "open",
+          "start": 344.18,
+          "end": 344.38,
+          "startFrame": 10325,
+          "endFrame": 10331
+        },
+        {
+          "word": "frameworks",
+          "start": 344.38,
+          "end": 344.78,
+          "startFrame": 10331,
+          "endFrame": 10343
+        },
+        {
+          "word": "orchestrate",
+          "start": 344.78,
+          "end": 345.66,
+          "startFrame": 10343,
+          "endFrame": 10370
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "start": 345.66,
+      "end": 350.94,
+      "startFrame": 10370,
+      "endFrame": 10528,
+      "text": "thousands of agents overnight, intelligence is no longer scarce. The developers who dominate",
+      "words": [
+        {
+          "word": "thousands",
+          "start": 345.66,
+          "end": 346.02,
+          "startFrame": 10370,
+          "endFrame": 10381
+        },
+        {
+          "word": "of",
+          "start": 346.02,
+          "end": 346.24,
+          "startFrame": 10381,
+          "endFrame": 10387
+        },
+        {
+          "word": "agents",
+          "start": 346.24,
+          "end": 346.5,
+          "startFrame": 10387,
+          "endFrame": 10395
+        },
+        {
+          "word": "overnight,",
+          "start": 346.5,
+          "end": 346.9,
+          "startFrame": 10395,
+          "endFrame": 10407
+        },
+        {
+          "word": "intelligence",
+          "start": 347.46,
+          "end": 347.94,
+          "startFrame": 10424,
+          "endFrame": 10438
+        },
+        {
+          "word": "is",
+          "start": 347.94,
+          "end": 348.38,
+          "startFrame": 10438,
+          "endFrame": 10451
+        },
+        {
+          "word": "no",
+          "start": 348.38,
+          "end": 348.58,
+          "startFrame": 10451,
+          "endFrame": 10457
+        },
+        {
+          "word": "longer",
+          "start": 348.58,
+          "end": 348.82,
+          "startFrame": 10457,
+          "endFrame": 10465
+        },
+        {
+          "word": "scarce.",
+          "start": 348.82,
+          "end": 349.1,
+          "startFrame": 10465,
+          "endFrame": 10473
+        },
+        {
+          "word": "The",
+          "start": 349.86,
+          "end": 349.92,
+          "startFrame": 10496,
+          "endFrame": 10498
+        },
+        {
+          "word": "developers",
+          "start": 349.92,
+          "end": 350.26,
+          "startFrame": 10498,
+          "endFrame": 10508
+        },
+        {
+          "word": "who",
+          "start": 350.26,
+          "end": 350.7,
+          "startFrame": 10508,
+          "endFrame": 10521
+        },
+        {
+          "word": "dominate",
+          "start": 350.7,
+          "end": 350.94,
+          "startFrame": 10521,
+          "endFrame": 10528
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "start": 350.94,
+      "end": 356.02,
+      "startFrame": 10528,
+      "endFrame": 10681,
+      "text": "the next decade won't be the ones paying $200 tolls to closed corporate monopolies.",
+      "words": [
+        {
+          "word": "the",
+          "start": 350.94,
+          "end": 351.36,
+          "startFrame": 10528,
+          "endFrame": 10541
+        },
+        {
+          "word": "next",
+          "start": 351.36,
+          "end": 351.56,
+          "startFrame": 10541,
+          "endFrame": 10547
+        },
+        {
+          "word": "decade",
+          "start": 351.56,
+          "end": 351.92,
+          "startFrame": 10547,
+          "endFrame": 10558
+        },
+        {
+          "word": "won't",
+          "start": 351.92,
+          "end": 352.38,
+          "startFrame": 10558,
+          "endFrame": 10571
+        },
+        {
+          "word": "be",
+          "start": 352.38,
+          "end": 352.52,
+          "startFrame": 10571,
+          "endFrame": 10576
+        },
+        {
+          "word": "the",
+          "start": 352.52,
+          "end": 352.66,
+          "startFrame": 10576,
+          "endFrame": 10580
+        },
+        {
+          "word": "ones",
+          "start": 352.66,
+          "end": 352.86,
+          "startFrame": 10580,
+          "endFrame": 10586
+        },
+        {
+          "word": "paying",
+          "start": 352.86,
+          "end": 353.2,
+          "startFrame": 10586,
+          "endFrame": 10596
+        },
+        {
+          "word": "$200",
+          "start": 353.2,
+          "end": 353.7,
+          "startFrame": 10596,
+          "endFrame": 10611
+        },
+        {
+          "word": "tolls",
+          "start": 353.7,
+          "end": 354.48,
+          "startFrame": 10611,
+          "endFrame": 10634
+        },
+        {
+          "word": "to",
+          "start": 354.48,
+          "end": 354.6,
+          "startFrame": 10634,
+          "endFrame": 10638
+        },
+        {
+          "word": "closed",
+          "start": 354.6,
+          "end": 354.84,
+          "startFrame": 10638,
+          "endFrame": 10645
+        },
+        {
+          "word": "corporate",
+          "start": 354.84,
+          "end": 355.24,
+          "startFrame": 10645,
+          "endFrame": 10657
+        },
+        {
+          "word": "monopolies.",
+          "start": 355.24,
+          "end": 356.02,
+          "startFrame": 10657,
+          "endFrame": 10681
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "start": 356.48,
+      "end": 359.66,
+      "startFrame": 10694,
+      "endFrame": 10790,
+      "text": "They will be the engineers who master autonomous execution.",
+      "words": [
+        {
+          "word": "They",
+          "start": 356.48,
+          "end": 356.6,
+          "startFrame": 10694,
+          "endFrame": 10698
+        },
+        {
+          "word": "will",
+          "start": 356.6,
+          "end": 356.8,
+          "startFrame": 10698,
+          "endFrame": 10704
+        },
+        {
+          "word": "be",
+          "start": 356.8,
+          "end": 357.0,
+          "startFrame": 10704,
+          "endFrame": 10710
+        },
+        {
+          "word": "the",
+          "start": 357.0,
+          "end": 357.2,
+          "startFrame": 10710,
+          "endFrame": 10716
+        },
+        {
+          "word": "engineers",
+          "start": 357.2,
+          "end": 357.52,
+          "startFrame": 10716,
+          "endFrame": 10726
+        },
+        {
+          "word": "who",
+          "start": 357.52,
+          "end": 358.16,
+          "startFrame": 10726,
+          "endFrame": 10745
+        },
+        {
+          "word": "master",
+          "start": 358.16,
+          "end": 358.52,
+          "startFrame": 10745,
+          "endFrame": 10756
+        },
+        {
+          "word": "autonomous",
+          "start": 358.52,
+          "end": 358.94,
+          "startFrame": 10756,
+          "endFrame": 10768
+        },
+        {
+          "word": "execution.",
+          "start": 358.94,
+          "end": 359.66,
+          "startFrame": 10768,
+          "endFrame": 10790
+        }
+      ]
+    }
+  ]
+}
