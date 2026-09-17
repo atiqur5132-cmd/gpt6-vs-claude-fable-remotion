@@ -4,11 +4,23 @@ import { MainVideo } from "./MainVideo";
 import { DailyVideo } from "./DailyVideo";
 import { LongFormDocumentary } from "./LongFormDocumentary";
 import { GoogleRSIDocumentary } from "./GoogleRSIDocumentary";
+import { Gemini4NewsDocumentary } from "./Gemini4NewsDocumentary";
 import { Thumbnail } from "./Thumbnail";
+import { ThumbnailGemini4News } from "./ThumbnailGemini4News";
 
 export const Root: React.FC = () => {
   return (
     <>
+      {/* 6.28-Minute Gemini 4 Pro & Stealth AI News Documentary (>6 Minutes) */}
+      <Composition
+        id="Gemini4NewsDocumentary"
+        component={Gemini4NewsDocumentary}
+        durationInFrames={11304}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
+
       {/* 5.08-Minute Google DeepMind Dream-RSI & AGI Documentary (>5 Minutes) */}
       <Composition
         id="GoogleRSIDocumentary"
@@ -74,10 +86,10 @@ export const Root: React.FC = () => {
         height={1080}
       />
 
-      {/* 4. Pure Channel Style - Blue Border + OpenAI Verified + THE FRONTIER LIE: THE $200 TRAP */}
+      {/* 5. Channel Style - Blue Border + Google Verified + GEMINI 4 PRO UNMASKED IN ARENA */}
       <Still
-        id="Thumbnail-Pure-Frontier-Trap"
-        component={() => <Thumbnail variant="pure_the_200_trap" />}
+        id="Thumbnail-Gemini4-Unmasked"
+        component={ThumbnailGemini4News}
         width={1920}
         height={1080}
       />

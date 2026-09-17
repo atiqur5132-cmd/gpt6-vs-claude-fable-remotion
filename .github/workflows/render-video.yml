@@ -6,9 +6,10 @@ on:
       composition:
         description: 'Composition to render'
         required: true
-        default: 'GoogleRSIDocumentary'
+        default: 'Gemini4NewsDocumentary'
         type: choice
         options:
+          - Gemini4NewsDocumentary
           - GoogleRSIDocumentary
           - LongFormDocumentary
           - DailyVideo
@@ -37,10 +38,10 @@ jobs:
         run: npx remotion browser ensure
 
       - name: Render Full MP4 Video
-        run: npx remotion render ${{ inputs.composition || 'GoogleRSIDocumentary' }} out/google_dream_rsi_documentary_2026.mp4 --concurrency=4
+        run: npx remotion render ${{ inputs.composition || 'Gemini4NewsDocumentary' }} out/${{ inputs.composition || 'Gemini4NewsDocumentary' }}.mp4 --concurrency=4
 
       - name: Upload Rendered Video
         uses: actions/upload-artifact@v4
         with:
-          name: google-dream-rsi-documentary
-          path: out/google_dream_rsi_documentary_2026.mp4
+          name: ${{ inputs.composition || 'Gemini4NewsDocumentary' }}
+          path: out/${{ inputs.composition || 'Gemini4NewsDocumentary' }}.mp4
