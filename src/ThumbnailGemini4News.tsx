@@ -3,201 +3,180 @@ import { AbsoluteFill } from 'remotion';
 import { GoogleGeminiLogo } from './RealLogos';
 import { ShieldCheck, Sparkles, Zap, Flame } from 'lucide-react';
 
-export const ThumbnailGemini4News: React.FC = () => {
+export const ThumbnailGemini4News: React.FC<{
+  variant?: 'blue_leaks' | 'red_early' | 'blue_argon';
+}> = ({ variant = 'blue_leaks' }) => {
+  const isRed = variant === 'red_early';
+  const borderColor = isRed ? '#FF2B4E' : '#0084FF';
+  const accentColor = isRed ? '#FF5E7E' : '#00F0FF';
+  const subText =
+    variant === 'blue_argon'
+      ? 'INTRODUCING'
+      : isRed
+      ? 'EARLY LEAKS'
+      : 'NEW LEAKS ON';
+  const titleText =
+    variant === 'blue_argon' ? "GEMINI 4 'ARGON'" : 'GEMINI 4 PRO';
+
   return (
     <AbsoluteFill
       style={{
-        backgroundColor: '#02040A',
+        backgroundColor: '#01040A',
         overflow: 'hidden',
-        fontFamily: "'Inter', -apple-system, sans-serif",
+        fontFamily: "'Montserrat', 'Inter', -apple-system, sans-serif",
       }}
     >
-      {/* 1. Electric Blue Glowing Border Frame */}
+      {/* 1. Signature Glowing Rounded Border (WorldofAI 1:1) */}
       <div
         style={{
           position: 'absolute',
-          inset: 28,
-          border: '4px solid #0070F3',
+          inset: 20,
+          border: `10px solid ${borderColor}`,
           borderRadius: 28,
-          boxShadow: 'inset 0 0 40px rgba(0, 112, 243, 0.4), 0 0 60px rgba(0, 112, 243, 0.5)',
+          boxShadow: `inset 0 0 50px ${borderColor}66, 0 0 80px ${borderColor}99`,
           pointerEvents: 'none',
           zIndex: 10,
         }}
       />
 
-      {/* 2. Cyber Perspective Grid Floor */}
+      {/* 2. Ambient Diagonal Light Ray */}
       <div
         style={{
           position: 'absolute',
-          bottom: 0,
-          left: 0,
-          right: 0,
-          height: 480,
-          background: 'linear-gradient(180deg, transparent 0%, rgba(0, 112, 243, 0.15) 100%)',
+          top: -100,
+          right: 150,
+          width: 800,
+          height: 600,
+          background: `radial-gradient(ellipse at center, ${borderColor}33 0%, transparent 70%)`,
+          filter: 'blur(60px)',
+          transform: 'rotate(-25deg)',
+          pointerEvents: 'none',
+        }}
+      />
+
+      {/* 3. 3D Perspective Undulating Cyber Dot Matrix Wave */}
+      <div
+        style={{
+          position: 'absolute',
+          bottom: 24,
+          left: 24,
+          right: 24,
+          height: 380,
+          overflow: 'hidden',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'flex-end',
         }}
       >
-        <svg width="100%" height="100%" viewBox="0 0 1920 480" fill="none">
-          {/* Perspective grid lines */}
-          {Array.from({ length: 25 }).map((_, i) => {
-            const x = (i - 12) * 160 + 960;
-            return (
-              <line
-                key={i}
-                x1={x}
-                y1={480}
-                x2={960 + (i - 12) * 20}
-                y2={0}
-                stroke="rgba(0, 112, 243, 0.35)"
-                strokeWidth={1.5}
-              />
-            );
+        <svg width="1872" height="380" viewBox="0 0 1872 380" fill="none">
+          {Array.from({ length: 42 }).map((_, col) => {
+            const xBase = col * 45;
+            return Array.from({ length: 14 }).map((__, row) => {
+              const y = 370 - row * 24 - Math.sin((col * 0.28) + (row * 0.4)) * 28;
+              const x = xBase + (col - 21) * row * 1.6;
+              const radius = 1.8 + row * 0.35;
+              const opacity = 0.2 + (row / 14) * 0.75;
+              return (
+                <circle
+                  key={`${col}-${row}`}
+                  cx={x}
+                  cy={y}
+                  r={radius}
+                  fill={borderColor}
+                  opacity={opacity}
+                />
+              );
+            });
           })}
-          {/* Horizontal grid lines */}
-          {[60, 140, 240, 360, 440].map((y, i) => (
-            <line
-              key={i}
-              x1={0}
-              y1={y}
-              x2={1920}
-              y2={y}
-              stroke="rgba(0, 112, 243, 0.4)"
-              strokeWidth={2}
-            />
-          ))}
         </svg>
       </div>
 
-      {/* 3. Top-Left Verified Google Brand Badge */}
+      {/* 4. Top-Left Clean Brand Identity (NO PILL BOX - PURE CLEAN VECTOR) */}
       <div
         style={{
           position: 'absolute',
-          top: 64,
-          left: 68,
+          top: 68,
+          left: 76,
           display: 'flex',
           alignItems: 'center',
-          gap: 16,
-          backgroundColor: 'rgba(7, 11, 20, 0.85)',
-          border: '1.5px solid rgba(0, 112, 243, 0.5)',
-          borderRadius: 100,
-          padding: '12px 28px',
-          boxShadow: '0 10px 30px rgba(0,0,0,0.8), 0 0 20px rgba(0, 112, 243, 0.3)',
+          gap: 14,
           zIndex: 5,
         }}
       >
-        <GoogleGeminiLogo size={36} />
-        <span style={{ color: '#FFFFFF', fontWeight: 900, fontSize: 24, letterSpacing: 1.5 }}>
+        <GoogleGeminiLogo size={52} />
+        <span
+          style={{
+            color: '#FFFFFF',
+            fontWeight: 900,
+            fontSize: 40,
+            letterSpacing: 1.5,
+            fontFamily: "'Inter', sans-serif",
+          }}
+        >
           GOOGLE
         </span>
+        {/* Verified Blue Tick */}
         <div
           style={{
-            width: 26,
-            height: 26,
-            borderRadius: 13,
-            backgroundColor: '#0070F3',
+            width: 32,
+            height: 32,
+            borderRadius: 16,
+            backgroundColor: '#0084FF',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
             color: '#FFFFFF',
-            fontSize: 16,
+            fontSize: 18,
             fontWeight: 900,
+            boxShadow: '0 0 14px rgba(0, 132, 255, 0.8)',
           }}
         >
           ✓
         </div>
       </div>
 
-      {/* 4. Top-Right Red Alert Pill */}
-      <div
-        style={{
-          position: 'absolute',
-          top: 64,
-          right: 68,
-          display: 'flex',
-          alignItems: 'center',
-          gap: 12,
-          backgroundColor: 'rgba(239, 68, 68, 0.15)',
-          border: '1.5px solid #EF4444',
-          borderRadius: 100,
-          padding: '12px 28px',
-          boxShadow: '0 0 30px rgba(239, 68, 68, 0.4)',
-          zIndex: 5,
-        }}
-      >
-        <Flame size={24} color="#EF4444" />
-        <span style={{ color: '#EF4444', fontWeight: 900, fontSize: 22, letterSpacing: 2 }}>
-          FIRST CHECKPOINT LEAK
-        </span>
-      </div>
-
-      {/* 5. Center High-Impact Typography & Visuals */}
+      {/* 5. Center 2-Tier High-Impact Kinetic Headline */}
       <div
         style={{
           position: 'absolute',
           top: '46%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          width: 1720,
+          left: 76,
+          right: 76,
+          transform: 'translateY(-50%)',
           display: 'flex',
           flexDirection: 'column',
-          alignItems: 'center',
-          textAlign: 'center',
+          alignItems: 'flex-start',
           zIndex: 5,
         }}
       >
-        {/* Upper Sub-Tier in Bright Electric Cyan */}
+        {/* Tier 1: Sub-Hook in Neon Accent */}
         <div
           style={{
-            color: '#00F0FF',
-            fontSize: 48,
+            color: accentColor,
+            fontSize: 64,
             fontWeight: 900,
-            letterSpacing: 8,
+            letterSpacing: 2,
             textTransform: 'uppercase',
-            textShadow: '0 0 30px rgba(0, 240, 255, 0.7)',
-            marginBottom: 8,
+            textShadow: `0 0 30px ${accentColor}AA`,
+            marginBottom: 4,
           }}
         >
-          UNMASKED IN ARENA
+          {subText}
         </div>
 
-        {/* Hero Title: Giant Bold Glowing White */}
+        {/* Tier 2: Massive Glowing Pure White Headline */}
         <div
           style={{
-            fontSize: 136,
+            fontSize: 148,
             fontWeight: 950,
             color: '#FFFFFF',
-            letterSpacing: -2,
+            letterSpacing: -1,
             lineHeight: 0.95,
             textTransform: 'uppercase',
-            textShadow: '0 0 60px rgba(0, 112, 243, 0.8), 0 10px 40px rgba(0,0,0,1)',
+            textShadow: '0 0 40px rgba(255, 255, 255, 0.9), 0 0 80px rgba(255, 255, 255, 0.4), 0 10px 40px rgba(0,0,0,1)',
           }}
         >
-          GEMINI 4 PRO
-        </div>
-
-        {/* Sub-Pill Comparison Tag */}
-        <div
-          style={{
-            marginTop: 36,
-            display: 'flex',
-            alignItems: 'center',
-            gap: 24,
-            backgroundColor: 'rgba(15, 23, 42, 0.9)',
-            border: '2px solid rgba(255, 255, 255, 0.2)',
-            borderRadius: 100,
-            padding: '16px 44px',
-            boxShadow: '0 20px 40px rgba(0,0,0,0.8)',
-          }}
-        >
-          <span style={{ color: '#F1F5F9', fontSize: 28, fontWeight: 800 }}>
-            DISGUISED AS FLASH 3.8
-          </span>
-          <span style={{ color: '#00F0FF', fontSize: 28, fontWeight: 900 }}>•</span>
-          <span style={{ color: '#22C55E', fontSize: 28, fontWeight: 900 }}>
-            BEATS GPT-6 ASTRA?
-          </span>
+          {titleText}
         </div>
       </div>
     </AbsoluteFill>

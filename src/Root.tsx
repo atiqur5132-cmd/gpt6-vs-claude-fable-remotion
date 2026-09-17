@@ -86,10 +86,26 @@ export const Root: React.FC = () => {
         height={1080}
       />
 
-      {/* 5. Channel Style - Blue Border + Google Verified + GEMINI 4 PRO UNMASKED IN ARENA */}
+      {/* 5. WorldofAI Channel Style - Blue Border + Google Verified + NEW LEAKS ON GEMINI 4 PRO */}
       <Still
-        id="Thumbnail-Gemini4-Unmasked"
-        component={ThumbnailGemini4News}
+        id="Thumbnail-Gemini4-Blue"
+        component={() => <ThumbnailGemini4News variant="blue_leaks" />}
+        width={1920}
+        height={1080}
+      />
+
+      {/* 6. WorldofAI Channel Style - Red Border + Google DeepMind + EARLY LEAKS GEMINI 4 PRO */}
+      <Still
+        id="Thumbnail-Gemini4-Red"
+        component={() => <ThumbnailGemini4News variant="red_early" />}
+        width={1920}
+        height={1080}
+      />
+
+      {/* 7. WorldofAI Channel Style - Blue Border + INTRODUCING GEMINI 4 'ARGON' */}
+      <Still
+        id="Thumbnail-Gemini4-Argon"
+        component={() => <ThumbnailGemini4News variant="blue_argon" />}
         width={1920}
         height={1080}
       />
