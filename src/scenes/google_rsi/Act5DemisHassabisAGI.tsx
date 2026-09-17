@@ -52,7 +52,7 @@ export const Act5DemisHassabisAGI: React.FC = () => {
             handle="gp_pulipaka"
             categoryTag="MILLENNIUM PROBLEMS"
             highlightText="AGI will solve the 7 Millennium Prize Problems in 20 years"
-            maxHeight={520}
+            maxHeight={820}
           />
         </Series.Sequence>
 
@@ -71,25 +71,40 @@ export const Act5DemisHassabisAGI: React.FC = () => {
 };
 
 // -------------------------------------------------------------
-// SUB-BEATS
+// EXPANSIVE 1720px SUB-BEATS
 // -------------------------------------------------------------
 
 const BeatDemisDossier: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ backgroundColor: 'rgba(15, 23, 42, 0.9)', border: '1px solid rgba(66, 133, 244, 0.4)', borderRadius: 20, padding: '36px 54px', maxWidth: 840, width: '100%', textAlign: 'center', boxShadow: '0 25px 50px rgba(0,0,0,0.8)' }}>
-        <div style={{ color: '#4285F4', fontSize: 13, fontFamily: 'monospace', letterSpacing: '0.25em', fontWeight: 800 }}>
-          STRATEGIC LEADERSHIP TRANSITION
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(15, 23, 42, 0.92)', border: '2px solid rgba(66, 133, 244, 0.45)', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 30px 70px rgba(0,0,0,0.9)' }}>
+        <div style={{ color: '#4285F4', fontSize: 16, fontFamily: 'monospace', letterSpacing: '0.3em', fontWeight: 800 }}>
+          STRATEGIC LEADERSHIP RE-ALIGNMENT
         </div>
-        <div style={{ color: '#FFFFFF', fontSize: 44, fontWeight: 900, marginTop: 8 }}>
-          Sir Demis Hassabis
+
+        <div>
+          <div style={{ color: '#FFFFFF', fontSize: 68, fontWeight: 900, lineHeight: 1.1 }}>
+            Sir Demis Hassabis
+          </div>
+          <div style={{ display: 'flex', gap: 24, marginTop: 18, color: '#38BDF8', fontSize: 18, fontFamily: 'monospace', fontWeight: 700 }}>
+            <span>Nobel Laureate in Chemistry</span>
+            <span>•</span>
+            <span>Alphabet Chief Scientist</span>
+            <span>•</span>
+            <span>DeepMind Chair</span>
+          </div>
         </div>
-        <div style={{ display: 'flex', justifyContent: 'center', gap: 16, marginTop: 14, color: '#94A3B8', fontSize: 13, fontFamily: 'monospace' }}>
-          <span>Nobel Laureate (Chemistry)</span>
-          <span>•</span>
-          <span>Alphabet Chief Scientist</span>
-          <span>•</span>
-          <span>DeepMind Chair</span>
+
+        <div style={{ backgroundColor: 'rgba(66, 133, 244, 0.1)', border: '1px solid rgba(66, 133, 244, 0.3)', borderRadius: 16, padding: '24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <div>
+            <div style={{ color: '#64748B', fontSize: 12, fontFamily: 'monospace' }}>MANDATE</div>
+            <div style={{ color: '#FFFFFF', fontSize: 22, fontWeight: 800, marginTop: 4 }}>
+              100% Dedicated Focus on Artificial General Intelligence (AGI) Architecture
+            </div>
+          </div>
+          <div style={{ color: '#22C55E', fontFamily: 'monospace', fontSize: 14, fontWeight: 800 }}>
+            ZERO CORPORATE OVERHEAD
+          </div>
         </div>
       </div>
     </div>
@@ -98,14 +113,17 @@ const BeatDemisDossier: React.FC = () => {
 
 const BeatFocusOnAGI: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ backgroundColor: 'rgba(34, 197, 94, 0.12)', border: '2px solid #22C55E', borderRadius: 20, padding: '36px 64px', textAlign: 'center', boxShadow: '0 0 30px rgba(34, 197, 94, 0.2)' }}>
-        <Target size={44} color="#22C55E" style={{ margin: '0 auto 12px' }} />
-        <div style={{ color: '#22C55E', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>
-          STRATEGIC MANDATE
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(34, 197, 94, 0.12)', border: '2px solid #22C55E', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 70px rgba(34, 197, 94, 0.25)' }}>
+        <Target size={68} color="#22C55E" style={{ marginBottom: 20 }} />
+        <div style={{ color: '#22C55E', fontSize: 16, fontFamily: 'monospace', letterSpacing: '0.3em', fontWeight: 800 }}>
+          STRATEGIC PIVOT MANDATE
         </div>
-        <div style={{ color: '#FFFFFF', fontSize: 42, fontWeight: 900, marginTop: 4 }}>
+        <div style={{ color: '#FFFFFF', fontSize: 68, fontWeight: 900, textAlign: 'center', marginTop: 12 }}>
           100% Focus on AGI Architecture
+        </div>
+        <div style={{ color: '#94A3B8', fontSize: 20, fontFamily: 'monospace', marginTop: 16 }}>
+          Pivoting Beyond Consumer Products to Foundational Scientific Automation
         </div>
       </div>
     </div>
@@ -114,13 +132,16 @@ const BeatFocusOnAGI: React.FC = () => {
 
 const BeatExitChatbotWar: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ backgroundColor: 'rgba(15, 23, 42, 0.85)', border: '1px solid rgba(255, 255, 255, 0.1)', borderRadius: 18, padding: '32px 56px', textAlign: 'center' }}>
-        <div style={{ color: '#64748B', textDecoration: 'line-through', fontSize: 18, fontFamily: 'monospace' }}>
-          COMMERCIAL CHATBOT COMMODITY RACE
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(15, 23, 42, 0.92)', border: '2px solid rgba(255, 255, 255, 0.12)', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 70px rgba(0,0,0,0.85)' }}>
+        <div style={{ color: '#64748B', textDecoration: 'line-through', fontSize: 26, fontFamily: 'monospace' }}>
+          COMMERCIAL CHATBOT COMMODITY WAR
         </div>
-        <div style={{ color: '#FFFFFF', fontSize: 36, fontWeight: 900, marginTop: 12 }}>
+        <div style={{ color: '#FFFFFF', fontSize: 62, fontWeight: 900, textAlign: 'center', marginTop: 18 }}>
           Building the Algorithmic Discovery Engine
+        </div>
+        <div style={{ color: '#38BDF8', fontSize: 18, fontFamily: 'monospace', marginTop: 16 }}>
+          Shifting compute from dialogue simulation to automated theorem proving
         </div>
       </div>
     </div>
@@ -129,17 +150,24 @@ const BeatExitChatbotWar: React.FC = () => {
 
 const BeatNovelPhysicsAndBiology: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ display: 'flex', gap: 24, maxWidth: 880, width: '100%' }}>
-        <div style={{ flex: 1, backgroundColor: 'rgba(6, 182, 212, 0.1)', border: '1px solid #06B6D4', borderRadius: 16, padding: '28px', textAlign: 'center' }}>
-          <Atom size={36} color="#06B6D4" style={{ margin: '0 auto 10px' }} />
-          <div style={{ color: '#FFFFFF', fontSize: 20, fontWeight: 800 }}>Quantum Physics</div>
-          <div style={{ color: '#94A3B8', fontSize: 12, fontFamily: 'monospace', marginTop: 4 }}>Autonomous Equation Discovery</div>
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ display: 'flex', gap: 32, maxWidth: 1720, width: '100%', height: 680 }}>
+        <div style={{ flex: 1, backgroundColor: 'rgba(6, 182, 212, 0.1)', border: '2px solid #06B6D4', borderRadius: 24, padding: '48px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 25px 60px rgba(6, 182, 212, 0.2)' }}>
+          <Atom size={56} color="#06B6D4" />
+          <div>
+            <div style={{ color: '#FFFFFF', fontSize: 36, fontWeight: 900 }}>Novel Quantum Physics</div>
+            <p style={{ color: '#94A3B8', fontSize: 18, marginTop: 14, lineHeight: 1.6 }}>Automated discovery of non-linear field equations and superconductor lattices.</p>
+          </div>
+          <div style={{ color: '#06B6D4', fontFamily: 'monospace', fontSize: 14, fontWeight: 800 }}>DISCOVERY ENGINE ACTIVE</div>
         </div>
-        <div style={{ flex: 1, backgroundColor: 'rgba(34, 197, 94, 0.1)', border: '1px solid #22C55E', borderRadius: 16, padding: '28px', textAlign: 'center' }}>
-          <Sparkles size={36} color="#22C55E" style={{ margin: '0 auto 10px' }} />
-          <div style={{ color: '#FFFFFF', fontSize: 20, fontWeight: 800 }}>Proteomics &amp; Biology</div>
-          <div style={{ color: '#94A3B8', fontSize: 12, fontFamily: 'monospace', marginTop: 4 }}>Next-Generation AlphaFold Frontiers</div>
+
+        <div style={{ flex: 1, backgroundColor: 'rgba(34, 197, 94, 0.1)', border: '2px solid #22C55E', borderRadius: 24, padding: '48px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 25px 60px rgba(34, 197, 94, 0.2)' }}>
+          <Sparkles size={56} color="#22C55E" />
+          <div>
+            <div style={{ color: '#FFFFFF', fontSize: 36, fontWeight: 900 }}>Proteomics &amp; Cell Biology</div>
+            <p style={{ color: '#94A3B8', fontSize: 18, marginTop: 14, lineHeight: 1.6 }}>Next-generation dynamic protein simulations surpassing static structural benchmarks.</p>
+          </div>
+          <div style={{ color: '#22C55E', fontFamily: 'monospace', fontSize: 14, fontWeight: 800 }}>DISCOVERY ENGINE ACTIVE</div>
         </div>
       </div>
     </div>

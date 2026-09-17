@@ -13,6 +13,8 @@ import {
   CheckCircle2,
   Sparkles,
   Binary,
+  BarChart3,
+  Award,
 } from 'lucide-react';
 
 export const Act4BenchmarkCarnage: React.FC = () => {
@@ -95,22 +97,37 @@ export const Act4BenchmarkCarnage: React.FC = () => {
 };
 
 // -------------------------------------------------------------
-// SUB-BEATS
+// EXPANSIVE 1720px SUB-BEATS
 // -------------------------------------------------------------
 
 const BeatBenchmarkDossier: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ backgroundColor: 'rgba(34, 197, 94, 0.15)', border: '1px solid #22C55E', borderRadius: 20, padding: '8px 24px', marginBottom: 20 }}>
-        <span style={{ color: '#22C55E', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>
-          BENCHMARK EVALUATION • STAGGERING RESULTS
-        </span>
-      </div>
-      <div style={{ color: '#FFFFFF', fontSize: 48, fontWeight: 900, textAlign: 'center' }}>
-        ALGORITHM SYNTHESIS BENCHMARKS
-      </div>
-      <div style={{ color: '#94A3B8', fontSize: 16, fontFamily: 'monospace', marginTop: 12 }}>
-        High-Performance Mathematical Solver Optimization
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(15, 23, 42, 0.92)', border: '2px solid rgba(34, 197, 94, 0.45)', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 30px 70px rgba(34, 197, 94, 0.25)' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 12, backgroundColor: 'rgba(34, 197, 94, 0.15)', border: '1px solid #22C55E', borderRadius: 20, padding: '8px 24px', width: 'fit-content' }}>
+          <BarChart3 size={18} color="#22C55E" />
+          <span style={{ color: '#22C55E', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>
+            EMPIRICAL BENCHMARKS • ALGORITHM ENGINEERING VERIFICATION
+          </span>
+        </div>
+
+        <div>
+          <div style={{ color: '#FFFFFF', fontSize: 62, fontWeight: 900, fontFamily: 'monospace', lineHeight: 1.15 }}>
+            THE RESULTS ARE STAGGERING
+          </div>
+          <p style={{ color: '#94A3B8', fontSize: 20, marginTop: 18, maxWidth: 1200, lineHeight: 1.6 }}>
+            Rigorous evaluations across algorithmic engineering, mathematical optimization, and scientific solver synthesis demonstrate unprecedented acceleration over traditional baselines.
+          </p>
+        </div>
+
+        <div style={{ display: 'flex', gap: 32, borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: 20 }}>
+          <div style={{ color: '#64748B', fontFamily: 'monospace', fontSize: 14 }}>
+            PRIMARY BENCHMARK: <span style={{ color: '#22C55E', fontWeight: 700 }}>High-Performance Lasso Solver</span>
+          </div>
+          <div style={{ color: '#64748B', fontFamily: 'monospace', fontSize: 14 }}>
+            QUALITY METRIC: <span style={{ color: '#38BDF8', fontWeight: 700 }}>Superior Discovery Quality</span>
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -118,16 +135,28 @@ const BeatBenchmarkDossier: React.FC = () => {
 
 const BeatLassoMath: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ backgroundColor: 'rgba(15, 23, 42, 0.9)', border: '1px solid rgba(59, 130, 246, 0.4)', borderRadius: 18, padding: '32px 56px', textAlign: 'center' }}>
-        <div style={{ color: '#38BDF8', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>
-          TARGET PROBLEM: LASSO REGRESSION SYNTHESIS
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(10, 15, 30, 0.92)', border: '2px solid rgba(59, 130, 246, 0.45)', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 30px 70px rgba(0,0,0,0.85)' }}>
+        <div style={{ color: '#38BDF8', fontSize: 14, fontFamily: 'monospace', letterSpacing: '0.25em', fontWeight: 800 }}>
+          TARGET MATHEMATICAL SYNTHESIS
         </div>
-        <div style={{ color: '#FFFFFF', fontSize: 36, fontWeight: 900, fontFamily: 'monospace', marginTop: 14 }}>
-          min &#189; ||y - Xβ||₂² + λ ||β||₁
+
+        <div style={{ textAlign: 'center' }}>
+          <div style={{ color: '#64748B', fontSize: 16, fontFamily: 'monospace', marginBottom: 12 }}>
+            HIGH-DIMENSIONAL CONVEX OPTIMIZATION
+          </div>
+          <div style={{ color: '#FFFFFF', fontSize: 58, fontWeight: 900, fontFamily: 'monospace', textShadow: '0 0 40px rgba(59, 130, 246, 0.4)' }}>
+            min &#189; ||y - Xβ||₂² + λ ||β||₁
+          </div>
+          <div style={{ color: '#94A3B8', fontSize: 18, fontFamily: 'monospace', marginTop: 18 }}>
+            Autonomous Synthesis of Sparse Coordinate Descent Operators
+          </div>
         </div>
-        <div style={{ color: '#94A3B8', fontSize: 13, fontFamily: 'monospace', marginTop: 14 }}>
-          Generating Sparse Coordinate Descent Operators Autonomously
+
+        <div style={{ display: 'flex', justifyContent: 'space-between', borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: 18, color: '#64748B', fontSize: 14, fontFamily: 'monospace' }}>
+          <span>CONVERGENCE: QUADRATIC</span>
+          <span style={{ color: '#22C55E', fontWeight: 800 }}>SPARSITY: 100% PRESERVED</span>
+          <span>EXECUTION: GPU ACCELERATED</span>
         </div>
       </div>
     </div>
@@ -136,17 +165,28 @@ const BeatLassoMath: React.FC = () => {
 
 const BeatHeadToHeadBaseline: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ display: 'flex', gap: 24, maxWidth: 840, width: '100%' }}>
-        <div style={{ flex: 1, backgroundColor: 'rgba(239, 68, 68, 0.1)', border: '1px solid rgba(239, 68, 68, 0.3)', borderRadius: 14, padding: '24px', textAlign: 'center' }}>
-          <div style={{ color: '#EF4444', fontSize: 12, fontFamily: 'monospace' }}>BASELINE</div>
-          <div style={{ color: '#FFFFFF', fontSize: 28, fontWeight: 900, marginTop: 4 }}>SimpleTES</div>
-          <div style={{ color: '#94A3B8', fontSize: 12, fontFamily: 'monospace', marginTop: 6 }}>16,200 Calls</div>
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ display: 'flex', gap: 40, maxWidth: 1720, width: '100%', height: 680 }}>
+        <div style={{ flex: 1, backgroundColor: 'rgba(239, 68, 68, 0.08)', border: '2px solid rgba(239, 68, 68, 0.45)', borderRadius: 24, padding: '48px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 20px 50px rgba(0,0,0,0.6)' }}>
+          <div>
+            <div style={{ color: '#EF4444', fontSize: 14, fontFamily: 'monospace', fontWeight: 800 }}>INDUSTRY BASELINE (SimpleTES)</div>
+            <div style={{ color: '#FFFFFF', fontSize: 62, fontWeight: 900, fontFamily: 'monospace', marginTop: 16 }}>16,200</div>
+            <div style={{ color: '#94A3B8', fontSize: 18, fontFamily: 'monospace', marginTop: 4 }}>Agent Sandbox Calls</div>
+          </div>
+          <div style={{ backgroundColor: 'rgba(239, 68, 68, 0.15)', padding: '14px', borderRadius: 10, color: '#EF4444', fontFamily: 'monospace', fontSize: 16, fontWeight: 800, textAlign: 'center' }}>
+            100% COMPUTE CONSUMPTION
+          </div>
         </div>
-        <div style={{ flex: 1, backgroundColor: 'rgba(34, 197, 94, 0.15)', border: '2px solid #22C55E', borderRadius: 14, padding: '24px', textAlign: 'center', boxShadow: '0 0 25px rgba(34, 197, 94, 0.2)' }}>
-          <div style={{ color: '#22C55E', fontSize: 12, fontFamily: 'monospace' }}>DEEPMIND</div>
-          <div style={{ color: '#FFFFFF', fontSize: 28, fontWeight: 900, marginTop: 4 }}>Dream-RSI</div>
-          <div style={{ color: '#22C55E', fontSize: 12, fontFamily: 'monospace', marginTop: 6 }}>100 Calls (162x Reduction)</div>
+
+        <div style={{ flex: 1, backgroundColor: 'rgba(34, 197, 94, 0.12)', border: '3px solid #22C55E', borderRadius: 24, padding: '48px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 25px 70px rgba(34, 197, 94, 0.25)' }}>
+          <div>
+            <div style={{ color: '#22C55E', fontSize: 14, fontFamily: 'monospace', fontWeight: 800 }}>GOOGLE DEEPMIND (Dream-RSI)</div>
+            <div style={{ color: '#FFFFFF', fontSize: 62, fontWeight: 900, fontFamily: 'monospace', marginTop: 16 }}>100</div>
+            <div style={{ color: '#22C55E', fontSize: 18, fontFamily: 'monospace', marginTop: 4 }}>Agent Sandbox Calls (162x Reduction)</div>
+          </div>
+          <div style={{ backgroundColor: 'rgba(34, 197, 94, 0.25)', padding: '14px', borderRadius: 10, color: '#22C55E', fontFamily: 'monospace', fontSize: 16, fontWeight: 900, textAlign: 'center', border: '1px solid #22C55E' }}>
+            -99.4% COMPUTE SAVED
+          </div>
         </div>
       </div>
     </div>
@@ -155,15 +195,17 @@ const BeatHeadToHeadBaseline: React.FC = () => {
 
 const BeatCallsCollapsed: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ color: '#22C55E', fontSize: 13, fontFamily: 'monospace', letterSpacing: '0.25em', fontWeight: 800, marginBottom: 8 }}>
-        COMPUTE FOOTPRINT COLLAPSE
-      </div>
-      <div style={{ color: '#FFFFFF', fontSize: 72, fontWeight: 900, fontFamily: 'monospace' }}>
-        -99.4%
-      </div>
-      <div style={{ color: '#94A3B8', fontSize: 14, fontFamily: 'monospace', marginTop: 8 }}>
-        Fewer Expensive Agent Sandbox Iterations
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(15, 23, 42, 0.92)', border: '2px solid #22C55E', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 70px rgba(34, 197, 94, 0.25)' }}>
+        <div style={{ color: '#22C55E', fontSize: 16, fontFamily: 'monospace', letterSpacing: '0.3em', fontWeight: 800 }}>
+          TOTAL AGENT CALLS COLLAPSED
+        </div>
+        <div style={{ color: '#FFFFFF', fontSize: 148, fontWeight: 900, fontFamily: 'monospace', lineHeight: 0.95, margin: '20px 0', textShadow: '0 0 50px rgba(34, 197, 94, 0.5)' }}>
+          -99.4%
+        </div>
+        <div style={{ color: '#94A3B8', fontSize: 20, fontFamily: 'monospace' }}>
+          Fewer Expensive Computational Iterations in Sandbox Environments
+        </div>
       </div>
     </div>
   );
@@ -171,13 +213,13 @@ const BeatCallsCollapsed: React.FC = () => {
 
 const BeatDataCompression: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ backgroundColor: 'rgba(15, 23, 42, 0.85)', border: '1px solid rgba(255, 255, 255, 0.1)', borderRadius: 18, padding: '32px 56px', textAlign: 'center' }}>
-        <div style={{ color: '#38BDF8', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>
-          COMPLEX SEARCH COMPRESSION
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(10, 15, 30, 0.92)', border: '2px solid rgba(56, 189, 248, 0.45)', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 70px rgba(0,0,0,0.85)' }}>
+        <div style={{ color: '#38BDF8', fontSize: 16, fontFamily: 'monospace', letterSpacing: '0.3em', fontWeight: 800 }}>
+          COMBINATORIAL SEARCH COMPRESSION
         </div>
-        <div style={{ color: '#FFFFFF', fontSize: 36, fontWeight: 900, marginTop: 8 }}>
-          Tens of Thousands Compressed by 162x
+        <div style={{ color: '#FFFFFF', fontSize: 62, fontWeight: 900, textAlign: 'center', marginTop: 12 }}>
+          Tens of Thousands Compressed by 162×
         </div>
       </div>
     </div>
@@ -186,15 +228,17 @@ const BeatDataCompression: React.FC = () => {
 
 const BeatArchitecturalSecret: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ width: 64, height: 64, borderRadius: '50%', backgroundColor: 'rgba(56, 189, 248, 0.15)', border: '2px solid #38BDF8', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 16 }}>
-        <Lock size={32} color="#38BDF8" />
-      </div>
-      <div style={{ color: '#38BDF8', fontSize: 13, fontFamily: 'monospace', letterSpacing: '0.25em', fontWeight: 800 }}>
-        THE DEEPEST REVELATION
-      </div>
-      <div style={{ color: '#FFFFFF', fontSize: 44, fontWeight: 900, textAlign: 'center', marginTop: 6 }}>
-        Zero Weight Retraining
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(15, 23, 42, 0.92)', border: '2px solid rgba(56, 189, 248, 0.45)', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 70px rgba(0,0,0,0.85)' }}>
+        <div style={{ width: 100, height: 100, borderRadius: '50%', backgroundColor: 'rgba(56, 189, 248, 0.15)', border: '2px solid #38BDF8', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24 }}>
+          <Lock size={52} color="#38BDF8" />
+        </div>
+        <div style={{ color: '#38BDF8', fontSize: 16, fontFamily: 'monospace', letterSpacing: '0.3em', fontWeight: 800 }}>
+          THE ARCHITECTURAL PARADOX
+        </div>
+        <div style={{ color: '#FFFFFF', fontSize: 68, fontWeight: 900, textAlign: 'center', marginTop: 12 }}>
+          Zero Weight Retraining
+        </div>
       </div>
     </div>
   );
@@ -202,17 +246,17 @@ const BeatArchitecturalSecret: React.FC = () => {
 
 const BeatNoBackprop: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ backgroundColor: 'rgba(34, 197, 94, 0.12)', border: '2px solid #22C55E', borderRadius: 20, padding: '36px 64px', textAlign: 'center' }}>
-        <Zap size={40} color="#22C55E" style={{ margin: '0 auto 12px' }} />
-        <div style={{ color: '#22C55E', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(34, 197, 94, 0.12)', border: '2px solid #22C55E', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 70px rgba(34, 197, 94, 0.25)' }}>
+        <Zap size={64} color="#22C55E" style={{ marginBottom: 20 }} />
+        <div style={{ color: '#22C55E', fontSize: 16, fontFamily: 'monospace', letterSpacing: '0.3em', fontWeight: 800 }}>
           ZERO MEGATRON BACKPROPAGATION
         </div>
-        <div style={{ color: '#FFFFFF', fontSize: 40, fontWeight: 900, marginTop: 6 }}>
-          No Megawatts Burned
+        <div style={{ color: '#FFFFFF', fontSize: 62, fontWeight: 900, marginTop: 12 }}>
+          Zero Megawatts Burned in Gradient Updates
         </div>
-        <div style={{ color: '#94A3B8', fontSize: 13, fontFamily: 'monospace', marginTop: 8 }}>
-          Intelligence emerges from policy orchestration, not raw gradient updates
+        <div style={{ color: '#94A3B8', fontSize: 18, fontFamily: 'monospace', marginTop: 16 }}>
+          Intelligence emerges from programmatic policy evolution, not brute-force backprop
         </div>
       </div>
     </div>
@@ -221,21 +265,26 @@ const BeatNoBackprop: React.FC = () => {
 
 const BeatMetacognitiveArchitecture: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ width: 840, backgroundColor: 'rgba(15, 23, 42, 0.9)', border: '1px solid rgba(59, 130, 246, 0.3)', borderRadius: 16, padding: '28px 36px' }}>
-        <div style={{ color: '#60A5FA', fontSize: 12, fontFamily: 'monospace', fontWeight: 800, marginBottom: 16 }}>
-          METACOGNITIVE ORCHESTRATION ARCHITECTURE
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 700, backgroundColor: 'rgba(15, 23, 42, 0.95)', border: '2px solid rgba(59, 130, 246, 0.4)', borderRadius: 24, padding: '36px 48px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 25px 60px rgba(0,0,0,0.85)' }}>
+        <div style={{ color: '#60A5FA', fontSize: 15, fontFamily: 'monospace', fontWeight: 800, borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: 14 }}>
+          METACOGNITIVE ORCHESTRATION ARCHITECTURE (3 TIERS)
         </div>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-          <div style={{ backgroundColor: 'rgba(34, 197, 94, 0.15)', border: '1px solid #22C55E', padding: '12px 18px', borderRadius: 8, color: '#22C55E', fontFamily: 'monospace', fontWeight: 700 }}>
-            LAYER 3: Evolving Search Grammar (Mutates &amp; Selects)
+
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 16, margin: '20px 0' }}>
+          <div style={{ backgroundColor: 'rgba(34, 197, 94, 0.15)', border: '2px solid #22C55E', padding: '20px 28px', borderRadius: 14, color: '#22C55E', fontFamily: 'monospace', fontSize: 18, fontWeight: 800 }}>
+            TIER 3: Evolving Search Grammar (Mutates AST policies &amp; selects winning heuristics)
           </div>
-          <div style={{ backgroundColor: 'rgba(59, 130, 246, 0.15)', border: '1px solid #3B82F6', padding: '12px 18px', borderRadius: 8, color: '#60A5FA', fontFamily: 'monospace', fontWeight: 700 }}>
-            LAYER 2: Programmable Metacognitive Orchestrator
+          <div style={{ backgroundColor: 'rgba(59, 130, 246, 0.15)', border: '2px solid #3B82F6', padding: '20px 28px', borderRadius: 14, color: '#60A5FA', fontFamily: 'monospace', fontSize: 18, fontWeight: 800 }}>
+            TIER 2: Programmable Metacognitive Orchestrator (Coordinates offline replay dreams)
           </div>
-          <div style={{ backgroundColor: 'rgba(100, 116, 139, 0.15)', border: '1px solid #64748B', padding: '12px 18px', borderRadius: 8, color: '#94A3B8', fontFamily: 'monospace', fontWeight: 700 }}>
-            LAYER 1: Base Foundation Model (Completely Frozen Weights)
+          <div style={{ backgroundColor: 'rgba(100, 116, 139, 0.15)', border: '2px solid #64748B', padding: '20px 28px', borderRadius: 14, color: '#94A3B8', fontFamily: 'monospace', fontSize: 18, fontWeight: 800 }}>
+            TIER 1: Base Foundation Model (Completely Frozen Weights • Zero Gradient Updates)
           </div>
+        </div>
+
+        <div style={{ color: '#64748B', fontSize: 14, fontFamily: 'monospace' }}>
+          HIGH-AGILITY MODULAR SEPARATION OF REASONING AND HEURISTIC EVOLUTION
         </div>
       </div>
     </div>
@@ -244,12 +293,12 @@ const BeatMetacognitiveArchitecture: React.FC = () => {
 
 const BeatProgrammableSyntax: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ backgroundColor: 'rgba(6, 182, 212, 0.1)', border: '1px solid #06B6D4', borderRadius: 16, padding: '28px 48px', textAlign: 'center' }}>
-        <div style={{ color: '#06B6D4', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(6, 182, 212, 0.1)', border: '2px solid #06B6D4', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 70px rgba(6, 182, 212, 0.25)' }}>
+        <div style={{ color: '#06B6D4', fontSize: 16, fontFamily: 'monospace', letterSpacing: '0.3em', fontWeight: 800 }}>
           PROGRAMMABLE DISCOVERY GRAMMAR
         </div>
-        <div style={{ color: '#FFFFFF', fontSize: 34, fontWeight: 900, marginTop: 6 }}>
+        <div style={{ color: '#FFFFFF', fontSize: 62, fontWeight: 900, marginTop: 12 }}>
           Metacognitive Orchestration Layer
         </div>
       </div>
@@ -259,15 +308,15 @@ const BeatProgrammableSyntax: React.FC = () => {
 
 const BeatEvolvingMethodology: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 12, backgroundColor: 'rgba(168, 85, 247, 0.15)', border: '1px solid #A855F7', borderRadius: 20, padding: '8px 24px', marginBottom: 16 }}>
-        <Sparkles size={18} color="#C084FC" />
-        <span style={{ color: '#C084FC', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(168, 85, 247, 0.12)', border: '2px solid #A855F7', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 70px rgba(168, 85, 247, 0.25)' }}>
+        <Sparkles size={64} color="#C084FC" style={{ marginBottom: 20 }} />
+        <div style={{ color: '#C084FC', fontSize: 16, fontFamily: 'monospace', letterSpacing: '0.3em', fontWeight: 800 }}>
           DYNAMIC ADAPTATION
-        </span>
-      </div>
-      <div style={{ color: '#FFFFFF', fontSize: 40, fontWeight: 900, textAlign: 'center' }}>
-        Evolving Discovery Methodology in Real-Time
+        </div>
+        <div style={{ color: '#FFFFFF', fontSize: 62, fontWeight: 900, textAlign: 'center', marginTop: 12 }}>
+          Evolving Discovery Methodology in Real-Time
+        </div>
       </div>
     </div>
   );

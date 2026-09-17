@@ -54,7 +54,7 @@ export const RealTweetEvidence: React.FC<RealTweetEvidenceProps> = ({
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: '30px 60px',
+        padding: '24px 44px',
         boxSizing: 'border-box',
         gap: 32,
         opacity,
@@ -65,7 +65,7 @@ export const RealTweetEvidence: React.FC<RealTweetEvidenceProps> = ({
         style={{
           flex: 1.25,
           height: '100%',
-          maxHeight: 700,
+          maxHeight: 820,
           backgroundColor: '#000000',
           border: '1px solid rgba(255, 255, 255, 0.15)',
           borderRadius: 20,
@@ -196,7 +196,7 @@ export const RealTweetEvidence: React.FC<RealTweetEvidenceProps> = ({
         style={{
           flex: 0.95,
           height: '100%',
-          maxHeight: 700,
+          maxHeight: 820,
           backgroundColor: 'rgba(15, 23, 42, 0.85)',
           border: '1px solid rgba(255, 255, 255, 0.12)',
           borderRadius: 20,

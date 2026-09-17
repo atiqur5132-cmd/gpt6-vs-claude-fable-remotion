@@ -14,6 +14,8 @@ import {
   CheckCircle2,
   DollarSign,
   Layers,
+  ArrowRight,
+  Database,
 } from 'lucide-react';
 
 export const Act3DreamSimulator: React.FC = () => {
@@ -101,26 +103,28 @@ export const Act3DreamSimulator: React.FC = () => {
 };
 
 // -------------------------------------------------------------
-// SUB-BEATS
+// EXPANSIVE 1720px SUB-BEATS
 // -------------------------------------------------------------
 
 const BeatDreamWorldEmblem: React.FC = () => {
   const frame = useCurrentFrame();
-  const pulse = Math.sin(frame / 6) * 0.12 + 0.88;
+  const pulse = Math.sin(frame / 6) * 0.1 + 0.9;
 
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ width: 80, height: 80, borderRadius: '50%', backgroundColor: 'rgba(168, 85, 247, 0.2)', border: '2px solid #C084FC', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 20, transform: `scale(${pulse})`, boxShadow: '0 0 40px rgba(168, 85, 247, 0.4)' }}>
-        <Moon size={40} color="#C084FC" />
-      </div>
-      <div style={{ color: '#C084FC', fontSize: 14, fontFamily: 'monospace', letterSpacing: '0.25em', fontWeight: 800 }}>
-        THE BREAKTHROUGH ARCHITECTURE
-      </div>
-      <div style={{ color: '#FFFFFF', fontSize: 52, fontWeight: 900, fontFamily: 'monospace', marginTop: 8, textAlign: 'center' }}>
-        THE REPLAY DREAM WORLD
-      </div>
-      <div style={{ color: '#94A3B8', fontSize: 16, fontFamily: 'monospace', marginTop: 12 }}>
-        Offline High-Fidelity Simulator Built from Accumulated Reality
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(10, 15, 30, 0.92)', border: '2px solid rgba(168, 85, 247, 0.45)', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 70px rgba(168, 85, 247, 0.25)' }}>
+        <div style={{ width: 100, height: 100, borderRadius: '50%', backgroundColor: 'rgba(168, 85, 247, 0.2)', border: '2px solid #C084FC', display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 24, transform: `scale(${pulse})`, boxShadow: '0 0 50px rgba(168, 85, 247, 0.5)' }}>
+          <Moon size={52} color="#C084FC" />
+        </div>
+        <div style={{ color: '#C084FC', fontSize: 16, fontFamily: 'monospace', letterSpacing: '0.3em', fontWeight: 800 }}>
+          THE BREAKTHROUGH ARCHITECTURE
+        </div>
+        <div style={{ color: '#FFFFFF', fontSize: 68, fontWeight: 900, fontFamily: 'monospace', marginTop: 12, textAlign: 'center' }}>
+          THE REPLAY DREAM WORLD
+        </div>
+        <div style={{ color: '#94A3B8', fontSize: 20, fontFamily: 'monospace', marginTop: 16 }}>
+          Offline High-Fidelity Simulator Built from Accumulated Reality
+        </div>
       </div>
     </div>
   );
@@ -128,16 +132,29 @@ const BeatDreamWorldEmblem: React.FC = () => {
 
 const BeatDeadEndsAsData: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ backgroundColor: 'rgba(15, 23, 42, 0.9)', border: '1px solid rgba(255, 255, 255, 0.12)', borderRadius: 18, padding: '32px 54px', maxWidth: 840, textAlign: 'center' }}>
-        <div style={{ color: '#38BDF8', fontSize: 12, fontFamily: 'monospace', letterSpacing: '0.2em', fontWeight: 800 }}>
-          HISTORICAL FOOTPRINT TELEMETRY
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(15, 23, 42, 0.92)', border: '2px solid rgba(56, 189, 248, 0.45)', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 30px 70px rgba(0,0,0,0.85)' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 12, color: '#38BDF8', fontSize: 14, fontFamily: 'monospace', fontWeight: 800 }}>
+          <Database size={20} />
+          <span>ACCUMULATED HISTORICAL FOOTPRINT</span>
         </div>
-        <div style={{ color: '#FFFFFF', fontSize: 36, fontWeight: 900, marginTop: 8 }}>
-          Every Failure Becomes Ground Truth
+
+        <div>
+          <div style={{ color: '#FFFFFF', fontSize: 58, fontWeight: 900, lineHeight: 1.15 }}>
+            Every Failure Becomes Ground Truth Data
+          </div>
+          <p style={{ color: '#94A3B8', fontSize: 20, marginTop: 16, maxWidth: 1200, lineHeight: 1.6 }}>
+            When agents explore real problem spaces, they leave behind an extensive branching tree containing every dead end, failure, and intermediate breakthrough.
+          </p>
         </div>
-        <div style={{ color: '#94A3B8', fontSize: 14, fontFamily: 'monospace', marginTop: 10 }}>
-          Accumulated discovery tree contains exact state transitions and results
+
+        <div style={{ display: 'flex', gap: 32, borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: 20 }}>
+          <div style={{ color: '#64748B', fontFamily: 'monospace', fontSize: 14 }}>
+            CAPTURED NODES: <span style={{ color: '#22C55E', fontWeight: 700 }}>100% Deterministic States</span>
+          </div>
+          <div style={{ color: '#64748B', fontFamily: 'monospace', fontSize: 14 }}>
+            DEAD END TELEMETRY: <span style={{ color: '#EF4444', fontWeight: 700 }}>Zero Waste (Converted to Bounds)</span>
+          </div>
         </div>
       </div>
     </div>
@@ -146,16 +163,25 @@ const BeatDeadEndsAsData: React.FC = () => {
 
 const BeatTreeToSimulator: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 24 }}>
-        <div style={{ backgroundColor: 'rgba(59, 130, 246, 0.15)', border: '1px solid #3B82F6', borderRadius: 14, padding: '20px 28px', textAlign: 'center' }}>
-          <div style={{ color: '#3B82F6', fontSize: 12, fontFamily: 'monospace' }}>SOURCE</div>
-          <div style={{ color: '#FFFFFF', fontSize: 20, fontWeight: 800 }}>Accumulated Tree</div>
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(10, 15, 30, 0.92)', border: '2px solid rgba(168, 85, 247, 0.4)', borderRadius: 24, padding: '48px 64px', display: 'flex', alignItems: 'center', justifyContent: 'space-around', boxShadow: '0 30px 70px rgba(0,0,0,0.85)' }}>
+        <div style={{ flex: 1, backgroundColor: 'rgba(59, 130, 246, 0.1)', border: '2px solid #3B82F6', borderRadius: 20, padding: '48px 36px', textAlign: 'center' }}>
+          <GitBranch size={56} color="#3B82F6" style={{ margin: '0 auto 16px' }} />
+          <div style={{ color: '#3B82F6', fontSize: 14, fontFamily: 'monospace', fontWeight: 800 }}>SOURCE DATASET</div>
+          <div style={{ color: '#FFFFFF', fontSize: 32, fontWeight: 900, marginTop: 8 }}>Accumulated Real Tree</div>
+          <div style={{ color: '#94A3B8', fontSize: 14, fontFamily: 'monospace', marginTop: 8 }}>Past Attempts &amp; Results</div>
         </div>
-        <div style={{ color: '#C084FC', fontSize: 28, fontWeight: 900 }}>➔</div>
-        <div style={{ backgroundColor: 'rgba(168, 85, 247, 0.15)', border: '1px solid #A855F7', borderRadius: 14, padding: '20px 28px', textAlign: 'center', boxShadow: '0 0 25px rgba(168, 85, 247, 0.3)' }}>
-          <div style={{ color: '#C084FC', fontSize: 12, fontFamily: 'monospace' }}>OUTPUT</div>
-          <div style={{ color: '#FFFFFF', fontSize: 20, fontWeight: 800 }}>High-Fidelity Simulator</div>
+
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '0 32px' }}>
+          <div style={{ color: '#C084FC', fontSize: 48, fontWeight: 900 }}>➔</div>
+          <div style={{ color: '#C084FC', fontSize: 12, fontFamily: 'monospace', fontWeight: 800, marginTop: 6 }}>OFFLINE SYNTHESIS</div>
+        </div>
+
+        <div style={{ flex: 1, backgroundColor: 'rgba(168, 85, 247, 0.12)', border: '2px solid #A855F7', borderRadius: 20, padding: '48px 36px', textAlign: 'center', boxShadow: '0 0 40px rgba(168, 85, 247, 0.3)' }}>
+          <Moon size={56} color="#C084FC" style={{ margin: '0 auto 16px' }} />
+          <div style={{ color: '#C084FC', fontSize: 14, fontFamily: 'monospace', fontWeight: 800 }}>TARGET ARTIFACT</div>
+          <div style={{ color: '#FFFFFF', fontSize: 32, fontWeight: 900, marginTop: 8 }}>High-Fidelity Replay Simulator</div>
+          <div style={{ color: '#22C55E', fontSize: 14, fontFamily: 'monospace', marginTop: 8 }}>Ground Truth Known In Advance</div>
         </div>
       </div>
     </div>
@@ -164,13 +190,13 @@ const BeatTreeToSimulator: React.FC = () => {
 
 const BeatOfflineGroundTruth: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ backgroundColor: 'rgba(6, 182, 212, 0.1)', border: '1px solid #06B6D4', borderRadius: 16, padding: '28px 48px', textAlign: 'center' }}>
-        <ShieldCheck size={36} color="#06B6D4" style={{ margin: '0 auto 8px' }} />
-        <div style={{ color: '#06B6D4', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(6, 182, 212, 0.1)', border: '2px solid #06B6D4', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 70px rgba(6, 182, 212, 0.25)' }}>
+        <ShieldCheck size={64} color="#06B6D4" style={{ marginBottom: 20 }} />
+        <div style={{ color: '#06B6D4', fontSize: 16, fontFamily: 'monospace', letterSpacing: '0.3em', fontWeight: 800 }}>
           100% DETERMINISTIC FIDELITY
         </div>
-        <div style={{ color: '#FFFFFF', fontSize: 32, fontWeight: 900, marginTop: 4 }}>
+        <div style={{ color: '#FFFFFF', fontSize: 58, fontWeight: 900, fontFamily: 'monospace', marginTop: 12 }}>
           Offline Ground Truth Simulator
         </div>
       </div>
@@ -180,15 +206,17 @@ const BeatOfflineGroundTruth: React.FC = () => {
 
 const BeatZeroLatencyOutcomes: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ color: '#22C55E', fontSize: 14, fontFamily: 'monospace', letterSpacing: '0.2em', fontWeight: 800, marginBottom: 8 }}>
-        EVALUATION LATENCY COMPRESSED
-      </div>
-      <div style={{ color: '#FFFFFF', fontSize: 72, fontWeight: 900, fontFamily: 'monospace', textShadow: '0 0 30px rgba(34, 197, 94, 0.4)' }}>
-        0.00 ms
-      </div>
-      <div style={{ color: '#94A3B8', fontSize: 13, fontFamily: 'monospace', marginTop: 8 }}>
-        Outcomes Pre-Recorded • Instant Synthetic Feedback
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(15, 23, 42, 0.92)', border: '2px solid #22C55E', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 70px rgba(34, 197, 94, 0.25)' }}>
+        <div style={{ color: '#22C55E', fontSize: 16, fontFamily: 'monospace', letterSpacing: '0.3em', fontWeight: 800 }}>
+          EVALUATION LATENCY COMPRESSED TO ZERO
+        </div>
+        <div style={{ color: '#FFFFFF', fontSize: 136, fontWeight: 900, fontFamily: 'monospace', textShadow: '0 0 50px rgba(34, 197, 94, 0.5)', lineHeight: 0.95, margin: '20px 0' }}>
+          0.00 ms
+        </div>
+        <div style={{ color: '#94A3B8', fontSize: 18, fontFamily: 'monospace' }}>
+          Ground Truth Pre-Recorded • Instant Offline Policy Verification
+        </div>
       </div>
     </div>
   );
@@ -196,14 +224,14 @@ const BeatZeroLatencyOutcomes: React.FC = () => {
 
 const BeatMutationsInDream: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ backgroundColor: 'rgba(15, 23, 42, 0.85)', border: '1px solid rgba(168, 85, 247, 0.4)', borderRadius: 18, padding: '28px 48px', textAlign: 'center' }}>
-        <Sparkles size={36} color="#C084FC" style={{ margin: '0 auto 10px' }} />
-        <div style={{ color: '#FFFFFF', fontSize: 32, fontWeight: 900 }}>
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(15, 23, 42, 0.92)', border: '2px solid rgba(168, 85, 247, 0.5)', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 70px rgba(168, 85, 247, 0.25)' }}>
+        <Sparkles size={64} color="#C084FC" style={{ marginBottom: 20 }} />
+        <div style={{ color: '#FFFFFF', fontSize: 58, fontWeight: 900, textAlign: 'center' }}>
           Testing Thousands of Mutated Policies
         </div>
-        <div style={{ color: '#C084FC', fontSize: 14, fontFamily: 'monospace', fontWeight: 700, marginTop: 8 }}>
-          Entirely Inside The Dream State
+        <div style={{ color: '#C084FC', fontSize: 22, fontFamily: 'monospace', fontWeight: 800, marginTop: 16 }}>
+          Entirely Inside The Offline Dream State
         </div>
       </div>
     </div>
@@ -212,15 +240,18 @@ const BeatMutationsInDream: React.FC = () => {
 
 const BeatVirtuallyZeroCost: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ display: 'flex', gap: 24, maxWidth: 800, width: '100%' }}>
-        <div style={{ flex: 1, backgroundColor: 'rgba(239, 68, 68, 0.1)', border: '1px solid rgba(239, 68, 68, 0.3)', borderRadius: 14, padding: '20px', textAlign: 'center' }}>
-          <div style={{ color: '#EF4444', fontSize: 11, fontFamily: 'monospace' }}>ONLINE REAL-WORLD</div>
-          <div style={{ color: '#FFFFFF', fontSize: 32, fontWeight: 900, marginTop: 4 }}>$100,000+</div>
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ display: 'flex', gap: 40, maxWidth: 1720, width: '100%', height: 680 }}>
+        <div style={{ flex: 1, backgroundColor: 'rgba(239, 68, 68, 0.1)', border: '2px solid rgba(239, 68, 68, 0.45)', borderRadius: 24, padding: '48px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 20px 50px rgba(0,0,0,0.6)' }}>
+          <div style={{ color: '#EF4444', fontSize: 14, fontFamily: 'monospace', fontWeight: 800 }}>ONLINE REAL-WORLD COMPUTE</div>
+          <div style={{ color: '#FFFFFF', fontSize: 88, fontWeight: 900, fontFamily: 'monospace' }}>$100,000+</div>
+          <div style={{ color: '#94A3B8', fontSize: 16, fontFamily: 'monospace' }}>Requires live cloud GPU cluster execution</div>
         </div>
-        <div style={{ flex: 1, backgroundColor: 'rgba(34, 197, 94, 0.15)', border: '2px solid #22C55E', borderRadius: 14, padding: '20px', textAlign: 'center', boxShadow: '0 0 25px rgba(34, 197, 94, 0.2)' }}>
-          <div style={{ color: '#22C55E', fontSize: 11, fontFamily: 'monospace', fontWeight: 800 }}>DREAM SIMULATOR</div>
-          <div style={{ color: '#FFFFFF', fontSize: 32, fontWeight: 900, marginTop: 4 }}>$0.00</div>
+
+        <div style={{ flex: 1, backgroundColor: 'rgba(34, 197, 94, 0.12)', border: '3px solid #22C55E', borderRadius: 24, padding: '48px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 25px 70px rgba(34, 197, 94, 0.25)' }}>
+          <div style={{ color: '#22C55E', fontSize: 14, fontFamily: 'monospace', fontWeight: 800 }}>DEEPMIND DREAM SIMULATOR</div>
+          <div style={{ color: '#FFFFFF', fontSize: 88, fontWeight: 900, fontFamily: 'monospace' }}>$0.00</div>
+          <div style={{ color: '#22C55E', fontSize: 16, fontFamily: 'monospace', fontWeight: 800 }}>VIRTUALLY ZERO COMPUTATIONAL COST</div>
         </div>
       </div>
     </div>
@@ -229,20 +260,28 @@ const BeatVirtuallyZeroCost: React.FC = () => {
 
 const BeatCognitiveSandbox: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ width: 880, backgroundColor: 'rgba(15, 23, 42, 0.9)', border: '1px solid rgba(59, 130, 246, 0.3)', borderRadius: 16, padding: '24px 32px' }}>
-        <div style={{ color: '#3B82F6', fontSize: 12, fontFamily: 'monospace', fontWeight: 800, marginBottom: 12 }}>
-          COGNITIVE SANDBOX DUAL REPLAY
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 700, backgroundColor: 'rgba(15, 23, 42, 0.95)', border: '2px solid rgba(59, 130, 246, 0.4)', borderRadius: 24, padding: '36px 48px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 25px 60px rgba(0,0,0,0.85)' }}>
+        <div style={{ color: '#3B82F6', fontSize: 15, fontFamily: 'monospace', fontWeight: 800, borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: 14 }}>
+          COGNITIVE SANDBOX DUAL REPLAY CONSOLE
         </div>
-        <div style={{ display: 'flex', gap: 20 }}>
-          <div style={{ flex: 1, backgroundColor: 'rgba(0,0,0,0.5)', padding: '16px', borderRadius: 10, border: '1px solid rgba(255,255,255,0.08)' }}>
-            <div style={{ color: '#94A3B8', fontSize: 11, fontFamily: 'monospace' }}>HISTORICAL ATTEMPT #1</div>
-            <div style={{ color: '#EF4444', fontSize: 14, fontWeight: 700, marginTop: 4 }}>Wasted Compute on Dead End Branch #4</div>
+
+        <div style={{ display: 'flex', gap: 32, flex: 1, margin: '24px 0' }}>
+          <div style={{ flex: 1, backgroundColor: 'rgba(0,0,0,0.6)', padding: '32px', borderRadius: 16, border: '1px solid rgba(239, 68, 68, 0.4)', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <div style={{ color: '#EF4444', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>HISTORICAL ATTEMPT #1 (REAL-WORLD)</div>
+            <div style={{ color: '#FFFFFF', fontSize: 26, fontWeight: 800 }}>Wasted Compute on Dead End Branch #4</div>
+            <div style={{ color: '#94A3B8', fontSize: 14, fontFamily: 'monospace' }}>Execution time: 4.2 hours before failure detected</div>
           </div>
-          <div style={{ flex: 1, backgroundColor: 'rgba(34, 197, 94, 0.1)', padding: '16px', borderRadius: 10, border: '1px solid rgba(34, 197, 94, 0.3)' }}>
-            <div style={{ color: '#22C55E', fontSize: 11, fontFamily: 'monospace' }}>DREAM REPLAY MUTATION</div>
-            <div style={{ color: '#FFFFFF', fontSize: 14, fontWeight: 700, marginTop: 4 }}>Pruned Dead End • Directed to Global Optima</div>
+
+          <div style={{ flex: 1, backgroundColor: 'rgba(34, 197, 94, 0.1)', padding: '32px', borderRadius: 16, border: '2px solid #22C55E', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 0 30px rgba(34, 197, 94, 0.15)' }}>
+            <div style={{ color: '#22C55E', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>DREAM REPLAY MUTATION (OFFLINE)</div>
+            <div style={{ color: '#FFFFFF', fontSize: 26, fontWeight: 800 }}>Pruned Dead End • Directed to Global Optima</div>
+            <div style={{ color: '#22C55E', fontSize: 14, fontFamily: 'monospace', fontWeight: 700 }}>Execution time: 0.00ms (Instantly evaluated)</div>
           </div>
+        </div>
+
+        <div style={{ color: '#64748B', fontSize: 13, fontFamily: 'monospace' }}>
+          AGENT LEARNS FROM PAST MISTAKES WITHOUT EXECUTING NEW ONLINE JOBS
         </div>
       </div>
     </div>
@@ -251,14 +290,14 @@ const BeatCognitiveSandbox: React.FC = () => {
 
 const BeatRewiringHeuristics: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ backgroundColor: 'rgba(6, 182, 212, 0.1)', border: '1px solid #06B6D4', borderRadius: 16, padding: '24px 48px', textAlign: 'center' }}>
-        <Cpu size={36} color="#06B6D4" style={{ margin: '0 auto 8px' }} />
-        <div style={{ color: '#FFFFFF', fontSize: 32, fontWeight: 900 }}>
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(6, 182, 212, 0.1)', border: '2px solid #06B6D4', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 70px rgba(6, 182, 212, 0.25)' }}>
+        <Cpu size={64} color="#06B6D4" style={{ marginBottom: 20 }} />
+        <div style={{ color: '#FFFFFF', fontSize: 62, fontWeight: 900 }}>
           Rewiring Search Heuristics
         </div>
-        <div style={{ color: '#06B6D4', fontSize: 12, fontFamily: 'monospace', marginTop: 4 }}>
-          Autonomous Policy Evolution
+        <div style={{ color: '#06B6D4', fontSize: 18, fontFamily: 'monospace', marginTop: 12 }}>
+          Autonomous Policy Evolution &amp; Grammar Selection
         </div>
       </div>
     </div>
@@ -267,13 +306,13 @@ const BeatRewiringHeuristics: React.FC = () => {
 
 const BeatChampionPolicy: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ backgroundColor: 'rgba(234, 179, 8, 0.12)', border: '2px solid #EAB308', borderRadius: 18, padding: '28px 52px', textAlign: 'center', boxShadow: '0 0 30px rgba(234, 179, 8, 0.2)' }}>
-        <Trophy size={40} color="#EAB308" style={{ margin: '0 auto 10px' }} />
-        <div style={{ color: '#EAB308', fontSize: 12, fontFamily: 'monospace', fontWeight: 800 }}>
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(234, 179, 8, 0.12)', border: '3px solid #EAB308', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 70px rgba(234, 179, 8, 0.3)' }}>
+        <Trophy size={68} color="#EAB308" style={{ marginBottom: 20 }} />
+        <div style={{ color: '#EAB308', fontSize: 16, fontFamily: 'monospace', letterSpacing: '0.3em', fontWeight: 800 }}>
           DREAM TOURNAMENT WINNER
         </div>
-        <div style={{ color: '#FFFFFF', fontSize: 34, fontWeight: 900, marginTop: 4 }}>
+        <div style={{ color: '#FFFFFF', fontSize: 62, fontWeight: 900, marginTop: 12 }}>
           Champion Exploration Policy v4.2
         </div>
       </div>
@@ -283,15 +322,17 @@ const BeatChampionPolicy: React.FC = () => {
 
 const BeatPhysicalRedeployment: React.FC = () => {
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 12, backgroundColor: 'rgba(34, 197, 94, 0.15)', border: '1px solid #22C55E', borderRadius: 20, padding: '8px 24px', marginBottom: 16 }}>
-        <Rocket size={18} color="#22C55E" />
-        <span style={{ color: '#22C55E', fontSize: 13, fontFamily: 'monospace', fontWeight: 800 }}>
-          REDEPLOYED TO REALITY
-        </span>
-      </div>
-      <div style={{ color: '#FFFFFF', fontSize: 44, fontWeight: 900, textAlign: 'center' }}>
-        Champion Policy Active in Physical World
+    <div style={{ width: '100%', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '24px 50px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1720, height: 680, backgroundColor: 'rgba(15, 23, 42, 0.92)', border: '2px solid #22C55E', borderRadius: 24, padding: '48px 64px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 30px 70px rgba(34, 197, 94, 0.25)' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 14, backgroundColor: 'rgba(34, 197, 94, 0.15)', border: '1px solid #22C55E', borderRadius: 20, padding: '10px 28px', marginBottom: 20 }}>
+          <Rocket size={22} color="#22C55E" />
+          <span style={{ color: '#22C55E', fontSize: 15, fontFamily: 'monospace', fontWeight: 800 }}>
+            REDEPLOYED TO PHYSICAL PRODUCTION
+          </span>
+        </div>
+        <div style={{ color: '#FFFFFF', fontSize: 62, fontWeight: 900, textAlign: 'center' }}>
+          Champion Policy Active in Physical World
+        </div>
       </div>
     </div>
   );
