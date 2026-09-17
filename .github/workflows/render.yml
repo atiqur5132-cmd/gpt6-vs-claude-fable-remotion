@@ -1,0 +1,44 @@
+name: Render Remotion Video
+
+on:
+  workflow_dispatch:
+    inputs:
+      composition:
+        description: 'Composition ID'
+        required: true
+        default: 'Gemini4NewsDocumentary'
+      output_name:
+        description: 'Output MP4 filename'
+        required: true
+        default: 'gemini4_news_documentary.mp4'
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install system dependencies for Chromium / Remotion
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg libnss3 libatk-bridge2.0-0 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Render Video
+        run: npx remotion render ${{ github.event.inputs.composition }} out/${{ github.event.inputs.output_name }} --concurrency=4
+
+      - name: Upload Video Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: rendered-video
+          path: out/${{ github.event.inputs.output_name }}
+          retention-days: 14

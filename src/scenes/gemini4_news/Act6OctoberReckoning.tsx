@@ -20,13 +20,13 @@ export const Act6OctoberReckoning: React.FC = () => {
   return (
     <AbsoluteFill style={{ backgroundColor: '#05070E' }}>
       <Series>
-        {/* Micro-beat 23: 0-480 (16.0s) -> Meta Watermelon Leak Intro */}
-        <Series.Sequence durationInFrames={480}>
+        {/* Micro-beat 23: 0-162 (5.4s) -> Meta Watermelon Leak Intro */}
+        <Series.Sequence durationInFrames={162}>
           <Beat23MetaWatermelonIntro />
         </Series.Sequence>
 
-        {/* Micro-beat 24: 480-960 (16.0s) -> EVIDENCE TWEET 6: @apikey_official Meta Watermelon */}
-        <Series.Sequence durationInFrames={480}>
+        {/* Micro-beat 24: 162-390 (7.6s) -> EVIDENCE TWEET 6: @apikey_official Meta Watermelon */}
+        <Series.Sequence durationInFrames={228}>
           <RealTweetEvidence
             imageFile="meta_watermelon_tweet.png"
             authorName="API Key Official"
@@ -39,18 +39,18 @@ export const Act6OctoberReckoning: React.FC = () => {
           />
         </Series.Sequence>
 
-        {/* Micro-beat 25: 960-1440 (16.0s) -> DeepSeek 21% Price Crash */}
-        <Series.Sequence durationInFrames={480}>
+        {/* Micro-beat 25: 390-1091 (23.4s) -> DeepSeek 21% Price Crash */}
+        <Series.Sequence durationInFrames={701}>
           <Beat25DeepSeekPriceCrash />
         </Series.Sequence>
 
-        {/* Micro-beat 26: 1440-1925 (16.2s) -> TPU v6e Ironwood Compute Moat */}
-        <Series.Sequence durationInFrames={485}>
+        {/* Micro-beat 26: 1091-1640 (18.3s) -> TPU v6e Ironwood Compute Moat */}
+        <Series.Sequence durationInFrames={549}>
           <Beat26TpuIronwoodMoat />
         </Series.Sequence>
 
-        {/* Micro-beat 27: 1925-2413 (16.3s) -> The 2026 Asymmetrical Verdict & Outro */}
-        <Series.Sequence durationInFrames={488}>
+        {/* Micro-beat 27: 1640-2413 (25.8s) -> The 2026 Asymmetrical Verdict & Outro */}
+        <Series.Sequence durationInFrames={773}>
           <Beat27AsymmetricalVerdict />
         </Series.Sequence>
       </Series>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { AbsoluteFill, Series, useCurrentFrame, interpolate } from 'remotion';
+import { AbsoluteFill, Series, useCurrentFrame, interpolate, Img, staticFile } from 'remotion';
 import { RealTweetEvidence } from '../../components/RealTweetEvidence';
 import {
   Gamepad2,
@@ -67,171 +67,394 @@ export const Act2BenchmarkCarnage: React.FC = () => {
   );
 };
 
-// --- BEAT 6: THE PELICAN TORTURE TEST ---
+// --- BEAT 6: THE PELICAN TORTURE TEST (REAL VISUAL EVIDENCE & ANIMATION) ---
 const Beat6PelicanTortureTest: React.FC = () => {
+  const frame = useCurrentFrame();
+  const wheelRotation = frame * 4;
+
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '36px 60px', boxSizing: 'border-box' }}>
-      <div style={{ width: 1760, height: 820, backgroundColor: '#070B14', border: '1px solid rgba(255,255,255,0.15)', borderRadius: 24, padding: '40px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: 24 }}>
+    <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '24px 48px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1824, height: 864, backgroundColor: '#070B14', border: '1px solid rgba(245,158,11,0.35)', borderRadius: 24, padding: '28px 36px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 30px 80px -20px rgba(245,158,11,0.2)' }}>
+        
+        {/* Top Header */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div>
-            <div style={{ color: '#F59E0B', fontSize: 14, fontWeight: 800, letterSpacing: 3 }}>GEOMETRIC REASONING TORTURE TEST</div>
-            <div style={{ color: '#FFFFFF', fontSize: 36, fontWeight: 900, marginTop: 6 }}>
+            <div style={{ color: '#F59E0B', fontSize: 13, fontWeight: 800, letterSpacing: 3 }}>GEOMETRIC REASONING TORTURE TEST</div>
+            <div style={{ color: '#FFFFFF', fontSize: 32, fontWeight: 900, marginTop: 4 }}>
               "Pelican Riding a Bicycle" // Zero-Shot SVG Shootout
             </div>
           </div>
-          <div style={{ padding: '8px 18px', borderRadius: 8, backgroundColor: 'rgba(245,158,11,0.15)', color: '#FBBF24', fontSize: 14, fontWeight: 700 }}>
-            BENCHMARK: VECTOR PATH FIDELITY
-          </div>
-        </div>
-
-        {/* Side-by-side shootout containers */}
-        <div style={{ flex: 1, display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 24 }}>
-          {/* Flash Standard */}
-          <div style={{ backgroundColor: 'rgba(15,23,42,0.6)', borderRadius: 16, border: '1px solid rgba(239,68,68,0.3)', padding: 24, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-            <div>
-              <div style={{ color: '#EF4444', fontSize: 13, fontWeight: 800 }}>BASELINE FLASH</div>
-              <div style={{ color: '#FFFFFF', fontSize: 24, fontWeight: 800, marginTop: 4 }}>Standard 3.8 Flash</div>
-              <p style={{ color: '#94A3B8', fontSize: 15, marginTop: 12 }}>
-                Collapsed paths. Crossed lines. Spoke geometry disconnected from hub. Anatomy unidentifiable.
-              </p>
+          <div style={{ display: 'flex', gap: 12 }}>
+            <div style={{ padding: '6px 14px', borderRadius: 8, backgroundColor: 'rgba(239,68,68,0.2)', color: '#EF4444', fontSize: 13, fontWeight: 800, border: '1px solid #EF4444' }}>
+              FLASH: PATH COLLAPSE
             </div>
-            <div style={{ padding: '12px 16px', borderRadius: 8, backgroundColor: 'rgba(239,68,68,0.1)', color: '#EF4444', fontWeight: 700, fontSize: 14, textAlign: 'center' }}>
-              RESULT: PATH COLLAPSE
-            </div>
-          </div>
-
-          {/* Gemini 4 Pro */}
-          <div style={{ backgroundColor: 'rgba(30,58,138,0.3)', borderRadius: 16, border: '2px solid #38BDF8', padding: 24, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 0 35px rgba(56,189,248,0.2)' }}>
-            <div>
-              <div style={{ color: '#38BDF8', fontSize: 13, fontWeight: 800 }}>UNMASKED ARGON-D</div>
-              <div style={{ color: '#FFFFFF', fontSize: 24, fontWeight: 900, marginTop: 4 }}>Gemini 4 Pro</div>
-              <p style={{ color: '#93C5FD', fontSize: 15, marginTop: 12 }}>
-                Full semantic grouping. Individual 36-spoke wheels with correct tension. Pelican bill and pedal crank connected.
-              </p>
-            </div>
-            <div style={{ padding: '12px 16px', borderRadius: 8, backgroundColor: 'rgba(56,189,248,0.2)', color: '#38BDF8', fontWeight: 800, fontSize: 14, textAlign: 'center' }}>
-              RESULT: FLAWLESS SEMANTIC VECTORS
-            </div>
-          </div>
-
-          {/* GPT-6 Astra */}
-          <div style={{ backgroundColor: 'rgba(15,23,42,0.6)', borderRadius: 16, border: '1px solid rgba(16,185,129,0.4)', padding: 24, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-            <div>
-              <div style={{ color: '#10A37F', fontSize: 13, fontWeight: 800 }}>OPENAI FLAGSHIP</div>
-              <div style={{ color: '#FFFFFF', fontSize: 24, fontWeight: 800, marginTop: 4 }}>GPT-6 Astra Pro</div>
-              <p style={{ color: '#94A3B8', fontSize: 15, marginTop: 12 }}>
-                Near-identical vector grouping. High artistic shading. Parity confirmed by @LuminaBench.
-              </p>
-            </div>
-            <div style={{ padding: '12px 16px', borderRadius: 8, backgroundColor: 'rgba(16,185,129,0.15)', color: '#10A37F', fontWeight: 700, fontSize: 14, textAlign: 'center' }}>
-              RESULT: DEAD HEAT PARITY
+            <div style={{ padding: '6px 14px', borderRadius: 8, backgroundColor: 'rgba(56,189,248,0.2)', color: '#38BDF8', fontSize: 13, fontWeight: 800, border: '1px solid #38BDF8' }}>
+              GEMINI 4 PRO: MASTERPIECE
             </div>
           </div>
         </div>
+
+        {/* Center: Real Evidence Pelican Comparison Image */}
+        <div style={{ flex: 1, margin: '14px 0', position: 'relative', borderRadius: 16, overflow: 'hidden', border: '2px solid rgba(255,255,255,0.15)', backgroundColor: '#02040A', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <Img
+            src={staticFile('evidence_rsi/pelican_comparison.jpg')}
+            alt="Pelican Riding Bicycle Comparison"
+            style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+          />
+
+          {/* Flash Telemetry Badge */}
+          <div style={{ position: 'absolute', top: 16, left: 24, backgroundColor: 'rgba(15,23,42,0.85)', padding: '10px 18px', borderRadius: 10, border: '1px solid #EF4444', backdropFilter: 'blur(8px)' }}>
+            <div style={{ color: '#EF4444', fontWeight: 800, fontSize: 13 }}>BASELINE FLASH 3.8</div>
+            <div style={{ color: '#CBD5E1', fontSize: 12, marginTop: 2 }}>Collapsed paths • Unconnected hub</div>
+          </div>
+
+          {/* Gemini 4 Pro Telemetry Badge */}
+          <div style={{ position: 'absolute', top: 16, right: 24, backgroundColor: 'rgba(15,23,42,0.85)', padding: '10px 18px', borderRadius: 10, border: '2px solid #38BDF8', backdropFilter: 'blur(8px)', boxShadow: '0 0 20px rgba(56,189,248,0.3)' }}>
+            <div style={{ color: '#38BDF8', fontWeight: 900, fontSize: 13 }}>UNMASKED ARGON-D (GEMINI 4 PRO)</div>
+            <div style={{ color: '#F1F5F9', fontSize: 12, marginTop: 2 }}>Interactive SVG • Inverse kinematics • Sunrise shading</div>
+          </div>
+        </div>
+
+        {/* Bottom Comparative Vector Metrics */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 20, borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: 16 }}>
+          <div>
+            <div style={{ color: '#64748B', fontSize: 12, textTransform: 'uppercase' }}>TOPOLOGICAL NODES</div>
+            <div style={{ color: '#EF4444', fontSize: 20, fontWeight: 800 }}>Flash: 48 <span style={{ color: '#64748B', fontSize: 14 }}>/</span> <span style={{ color: '#38BDF8' }}>Pro: 384</span></div>
+          </div>
+          <div>
+            <div style={{ color: '#64748B', fontSize: 12, textTransform: 'uppercase' }}>SPOKE ALIGNMENT</div>
+            <div style={{ color: '#22C55E', fontSize: 20, fontWeight: 800 }}>Radial 36-Hub True Anchor</div>
+          </div>
+          <div>
+            <div style={{ color: '#64748B', fontSize: 12, textTransform: 'uppercase' }}>OPENAI BENCHMARK</div>
+            <div style={{ color: '#10A37F', fontSize: 20, fontWeight: 800 }}>Dead Heat Parity with GPT-6 Astra</div>
+          </div>
+          <div>
+            <div style={{ color: '#64748B', fontSize: 12, textTransform: 'uppercase' }}>VERDICT</div>
+            <div style={{ color: '#F59E0B', fontSize: 20, fontWeight: 800 }}>Definitive Superintelligence Leap</div>
+          </div>
+        </div>
+
       </div>
     </div>
   );
 };
 
-// --- BEAT 7: SVG CODE INSPECTION ---
+// --- BEAT 7: SVG CODE INSPECTION & KINETIC VECTOR RIG ---
 const Beat7SvgCodeInspection: React.FC = () => {
+  const frame = useCurrentFrame();
+  const wheelRotate = frame * 6;
+  const pedalRotate = frame * 4;
+
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '36px 60px', boxSizing: 'border-box' }}>
-      <div style={{ width: 1760, height: 820, backgroundColor: '#070B14', border: '1px solid rgba(96,165,250,0.3)', borderRadius: 24, padding: '44px 56px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+    <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '28px 48px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1824, height: 864, backgroundColor: '#070B14', border: '1px solid rgba(56,189,248,0.3)', borderRadius: 24, padding: '32px 40px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+        
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
             <Code2 size={24} color="#38BDF8" />
-            <span style={{ color: '#38BDF8', fontSize: 18, fontWeight: 800, fontFamily: 'monospace' }}>DECOMPILED SVG SOURCE // CODE FORENSICS</span>
+            <span style={{ color: '#38BDF8', fontSize: 18, fontWeight: 800, fontFamily: 'monospace' }}>DECOMPILED SVG SOURCE // PROCEDURAL VECTOR RIG</span>
           </div>
-          <span style={{ color: '#22C55E', fontFamily: 'monospace', fontSize: 15 }}>NESTED BEZIER PRECISION</span>
+          <span style={{ color: '#22C55E', fontFamily: 'monospace', fontSize: 14, fontWeight: 700 }}>RENDER STATUS: 60 FPS PROCEDURAL</span>
         </div>
 
-        {/* Code Diff Display */}
-        <div style={{ backgroundColor: '#000000', borderRadius: 16, border: '1px solid rgba(255,255,255,0.1)', padding: 32, fontFamily: 'monospace', fontSize: 18, color: '#E2E8F0', lineHeight: 1.6 }}>
-          <div style={{ color: '#64748B' }}>&lt;!-- Gemini 4 Pro argon-d Generated SVG Hierarchy --&gt;</div>
-          <div style={{ color: '#38BDF8', marginTop: 8 }}>&lt;svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg"&gt;</div>
-          <div style={{ paddingLeft: 24, color: '#F59E0B' }}>&lt;g id="pelican-body" transform="matrix(1.02, 0, 0, 1.02, 450, 280)"&gt;</div>
-          <div style={{ paddingLeft: 48, color: '#94A3B8' }}>&lt;path d="M 120 45 C 180 20, 240 70, 310 95 C 380 120, 420 80, 490 60 ..." fill="url(#featherGradient)" /&gt;</div>
-          <div style={{ paddingLeft: 24, color: '#F59E0B' }}>&lt;/g&gt;</div>
-          <div style={{ paddingLeft: 24, color: '#22C55E', marginTop: 8 }}>&lt;g id="wheel-spokes-radial" stroke="#E2E8F0" stroke-width="1.5"&gt;</div>
-          <div style={{ paddingLeft: 48, color: '#A7F3D0' }}>&lt;line x1="300" y1="600" x2="420" y2="720" /&gt; &lt;!-- Procedural 36-spoke hub anchor --&gt;</div>
-          <div style={{ paddingLeft: 24, color: '#22C55E' }}>&lt;/g&gt;</div>
-          <div style={{ color: '#38BDF8', marginTop: 8 }}>&lt;/svg&gt;</div>
+        {/* Dual Pane: Code Left, Live Animated SVG Rig Right */}
+        <div style={{ flex: 1, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 28, margin: '14px 0' }}>
+          
+          {/* Left: Code Hierarchy */}
+          <div style={{ backgroundColor: '#02040A', borderRadius: 16, border: '1px solid rgba(255,255,255,0.12)', padding: 24, fontFamily: 'monospace', fontSize: 15, color: '#E2E8F0', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <div>
+              <div style={{ color: '#64748B' }}>&lt;!-- Gemini 4 Pro argon-d Generated SVG Hierarchy --&gt;</div>
+              <div style={{ color: '#38BDF8', marginTop: 8 }}>&lt;svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg"&gt;</div>
+              <div style={{ paddingLeft: 16, color: '#F59E0B' }}>&lt;g id="pelican-body" transform="translate(380, 180)"&gt;</div>
+              <div style={{ paddingLeft: 32, color: '#94A3B8' }}>&lt;path d="M 0 0 C 40 -30, 90 -10, 120 20 ..." fill="url(#featherGradient)" /&gt;</div>
+              <div style={{ paddingLeft: 32, color: '#F59E0B' }}>&lt;path id="beak-pouch" d="M 60 10 Q 140 40 80 80 Z" fill="#F97316" /&gt;</div>
+              <div style={{ paddingLeft: 16, color: '#F59E0B' }}>&lt;/g&gt;</div>
+              <div style={{ paddingLeft: 16, color: '#22C55E', marginTop: 8 }}>&lt;g id="bike-crankset" transform="rotate(pedalDeg)"&gt;</div>
+              <div style={{ paddingLeft: 32, color: '#A7F3D0' }}>&lt;circle r="18" fill="#94A3B8" /&gt; &lt;!-- Inverse Kinematic Pedal --&gt;</div>
+              <div style={{ paddingLeft: 16, color: '#22C55E' }}>&lt;/g&gt;</div>
+              <div style={{ paddingLeft: 16, color: '#38BDF8', marginTop: 8 }}>&lt;g id="wheels-radial-spokes" transform="rotate(wheelDeg)"&gt;</div>
+              <div style={{ paddingLeft: 32, color: '#38BDF8' }}>&lt;circle r="60" stroke="#38BDF8" stroke-width="4" fill="none" /&gt;</div>
+              <div style={{ paddingLeft: 16, color: '#38BDF8' }}>&lt;/g&gt;</div>
+              <div style={{ color: '#38BDF8', marginTop: 8 }}>&lt;/svg&gt;</div>
+            </div>
+
+            <div style={{ borderTop: '1px solid rgba(255,255,255,0.08)', paddingTop: 12, display: 'flex', justifyContent: 'space-between', color: '#64748B', fontSize: 13 }}>
+              <span>AST NODES: <strong>384 ELEMENTS</strong></span>
+              <span>SYNTAX PARSER: <strong>ZERO ERRORS</strong></span>
+            </div>
+          </div>
+
+          {/* Right: Live Kinetic SVG Rig Canvas */}
+          <div style={{ backgroundColor: '#02040A', borderRadius: 16, border: '2px solid rgba(56,189,248,0.4)', padding: 24, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', position: 'relative', overflow: 'hidden' }}>
+            
+            {/* Live animated SVG bike & pelican abstraction */}
+            <svg width="600" height="340" viewBox="0 0 600 340">
+              <defs>
+                <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#1E1B4B" />
+                  <stop offset="100%" stopColor="#831843" />
+                </linearGradient>
+                <linearGradient id="goldSun" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stopColor="#FDE047" />
+                  <stop offset="100%" stopColor="#EA580C" />
+                </linearGradient>
+              </defs>
+
+              {/* Sunset Background */}
+              <rect x="20" y="20" width="560" height="280" rx="14" fill="url(#skyGrad)" />
+              <circle cx="480" cy="110" r="50" fill="url(#goldSun)" opacity="0.85" />
+
+              {/* Road */}
+              <line x1="20" y1="260" x2="580" y2="260" stroke="#475569" strokeWidth="4" />
+              <line x1="40" y1="268" x2="560" y2="268" stroke="#FDE047" strokeWidth="3" strokeDasharray="20 15" strokeDashoffset={-frame * 5} />
+
+              {/* Bicycle Frame */}
+              <line x1="200" y1="230" x2="300" y2="230" stroke="#EF4444" strokeWidth="6" strokeLinecap="round" />
+              <line x1="200" y1="230" x2="260" y2="160" stroke="#EF4444" strokeWidth="6" strokeLinecap="round" />
+              <line x1="300" y1="230" x2="360" y2="150" stroke="#EF4444" strokeWidth="6" strokeLinecap="round" />
+              <line x1="260" y1="160" x2="360" y2="150" stroke="#EF4444" strokeWidth="6" strokeLinecap="round" />
+              <line x1="260" y1="160" x2="300" y2="230" stroke="#EF4444" strokeWidth="6" strokeLinecap="round" />
+
+              {/* Handlebar & Seat */}
+              <line x1="360" y1="150" x2="350" y2="120" stroke="#CBD5E1" strokeWidth="5" />
+              <line x1="340" y1="120" x2="370" y2="120" stroke="#CBD5E1" strokeWidth="5" strokeLinecap="round" />
+              <line x1="250" y1="150" x2="275" y2="150" stroke="#0F172A" strokeWidth="8" strokeLinecap="round" />
+
+              {/* Left Wheel with Rotating Spokes */}
+              <g transform="translate(200, 230)">
+                <circle r="44" stroke="#CBD5E1" strokeWidth="5" fill="none" />
+                <g transform={`rotate(${wheelRotate})`}>
+                  {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+                    <line key={deg} x1="0" y1="0" x2={44 * Math.cos((deg * Math.PI) / 180)} y2={44 * Math.sin((deg * Math.PI) / 180)} stroke="#94A3B8" strokeWidth="1.5" />
+                  ))}
+                </g>
+                <circle r="8" fill="#F59E0B" />
+              </g>
+
+              {/* Right Wheel with Rotating Spokes */}
+              <g transform="translate(380, 230)">
+                <circle r="44" stroke="#CBD5E1" strokeWidth="5" fill="none" />
+                <g transform={`rotate(${wheelRotate})`}>
+                  {[0, 45, 90, 135, 180, 225, 270, 315].map((deg) => (
+                    <line key={deg} x1="0" y1="0" x2={44 * Math.cos((deg * Math.PI) / 180)} y2={44 * Math.sin((deg * Math.PI) / 180)} stroke="#94A3B8" strokeWidth="1.5" />
+                  ))}
+                </g>
+                <circle r="8" fill="#F59E0B" />
+              </g>
+
+              {/* Stylized Pelican Figure */}
+              <g transform="translate(290, 130)">
+                {/* Body */}
+                <ellipse cx="0" cy="0" rx="36" ry="24" fill="#F8FAFC" />
+                {/* Scarf blowing */}
+                <path d={`M -10 -5 Q -30 ${-10 + Math.sin(frame * 0.2) * 8} -50 ${-15 + Math.cos(frame * 0.2) * 6}`} stroke="#EF4444" strokeWidth="6" fill="none" strokeLinecap="round" />
+                {/* Head */}
+                <circle cx="28" cy="-22" r="16" fill="#F8FAFC" />
+                <circle cx="34" cy="-24" r="3" fill="#0F172A" />
+                {/* Pelican Beak */}
+                <path d="M 40 -25 Q 90 -22 80 -10 Q 50 5 36 -12 Z" fill="#F97316" />
+                {/* Wing */}
+                <path d={`M -15 -8 Q 5 ${15 + Math.sin(frame * 0.15) * 6} 20 -2 Z`} fill="#E2E8F0" />
+              </g>
+            </svg>
+
+            <div style={{ position: 'absolute', bottom: 12, right: 20, color: '#38BDF8', fontSize: 13, fontFamily: 'monospace' }}>
+              INTERACTIVE RENDER // LIVE PREVIEW
+            </div>
+          </div>
         </div>
 
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <span style={{ color: '#94A3B8', fontSize: 16 }}>RESOLUTION SCALING: <strong style={{ color: '#FFFFFF' }}>INFINITE VECTOR FIDELITY (8K DISPLAY VERIFIED)</strong></span>
-          <span style={{ color: '#38BDF8', fontSize: 16, fontWeight: 700 }}>ZERO-SHOT CODE GENERATION SPEED: <strong>~6.2 SECONDS</strong></span>
+          <span style={{ color: '#94A3B8', fontSize: 15 }}>GEOMETRY ARCHITECTURE: <strong style={{ color: '#FFFFFF' }}>DYNAMIC INVERSE KINEMATICS & SEMANTIC RIGGING</strong></span>
+          <span style={{ color: '#38BDF8', fontSize: 15, fontWeight: 700 }}>COMPILED INSTANTANEOUSLY BY <strong>GEMINI 4 PRO</strong></span>
         </div>
+
       </div>
     </div>
   );
 };
 
-// --- BEAT 9: THE 1-SHOT UNDERTALE SANDBOX ---
+// --- BEAT 9: THE 1-SHOT UNDERTALE SANDBOX (ANIMATED RETRO COMBAT ENGINE) ---
 const Beat9UndertaleSandbox: React.FC = () => {
+  const frame = useCurrentFrame();
+  
+  // Sans swaying motion
+  const sansSway = Math.sin(frame * 0.08) * 8;
+  
+  // SOUL heart evasive dodging inside battle box
+  const heartX = 220 + Math.sin(frame * 0.12) * 70;
+  const heartY = 90 + Math.cos(frame * 0.15) * 45;
+
+  // Moving bone obstacles
+  const bone1X = (frame * 5) % 480;
+  const bone2X = ((frame * 5) + 240) % 480;
+
+  // Dialogue typing animation
+  const fullText = "* it's a beautiful day outside.";
+  const charsToShow = Math.min(fullText.length, Math.floor(frame / 2));
+  const dialogue = fullText.slice(0, charsToShow);
+
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '36px 60px', boxSizing: 'border-box' }}>
-      <div style={{ width: 1760, height: 820, backgroundColor: '#070B14', border: '1px solid rgba(239,68,68,0.4)', borderRadius: 24, padding: '40px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: 24, boxShadow: '0 25px 60px -15px rgba(239,68,68,0.2)' }}>
+    <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '24px 48px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1824, height: 864, backgroundColor: '#05070E', border: '2px solid #EF4444', borderRadius: 24, padding: '28px 36px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: 16, boxShadow: '0 30px 80px -20px rgba(239,68,68,0.25)' }}>
+        
+        {/* Header */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
             <Gamepad2 size={26} color="#EF4444" />
-            <span style={{ color: '#FFFFFF', fontSize: 26, fontWeight: 800 }}>END-TO-END GAME COMPILATION // "UNDERTALE" 1-SHOT</span>
+            <span style={{ color: '#FFFFFF', fontSize: 24, fontWeight: 900 }}>END-TO-END GAME COMPILATION // "UNDERTALE" 1-SHOT ENGINE</span>
           </div>
-          <div style={{ padding: '6px 16px', borderRadius: 8, backgroundColor: 'rgba(239,68,68,0.2)', color: '#EF4444', fontSize: 14, fontWeight: 800, letterSpacing: 2 }}>
+          <div style={{ padding: '6px 16px', borderRadius: 8, backgroundColor: 'rgba(239,68,68,0.2)', color: '#EF4444', fontSize: 13, fontWeight: 800, border: '1px solid #EF4444' }}>
             LEAK DISCLOSURE: @MIROCHILL
           </div>
         </div>
 
-        {/* Dual Pane Game Sandbox */}
-        <div style={{ flex: 1, display: 'grid', gridTemplateColumns: '1.2fr 0.8fr', gap: 32 }}>
-          {/* Left: Playable Canvas Window */}
-          <div style={{ backgroundColor: '#000000', borderRadius: 16, border: '2px solid rgba(255,255,255,0.2)', padding: 24, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', position: 'relative' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: 12 }}>
-              <span style={{ color: '#FFFFFF', fontSize: 16, fontFamily: 'monospace' }}>CANVAS: UNDER_TALE_ARENA.HTML</span>
-              <span style={{ color: '#22C55E', fontSize: 14, fontFamily: 'monospace' }}>60 FPS // RUNNING</span>
+        {/* Dual Pane: Authentic Retro Combat Box Left, Architectural Telemetry Right */}
+        <div style={{ flex: 1, display: 'grid', gridTemplateColumns: '1.25fr 0.75fr', gap: 28 }}>
+          
+          {/* Left: Authentic 8-Bit Undertale Battle Screen */}
+          <div style={{ backgroundColor: '#000000', borderRadius: 16, border: '2px solid rgba(255,255,255,0.25)', padding: '20px 28px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', position: 'relative', overflow: 'hidden' }}>
+            
+            {/* Upper Arena: Sans + Speech Bubble */}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', position: 'relative', height: 160 }}>
+              
+              {/* Sans Character Pixel Graphic with gentle sway */}
+              <div style={{ transform: `translateX(${sansSway}px)`, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                {/* Sans Head */}
+                <div style={{ width: 56, height: 44, backgroundColor: '#FFFFFF', borderRadius: '18px 18px 12px 12px', position: 'relative', border: '3px solid #000', display: 'flex', justifyContent: 'space-around', alignItems: 'center', padding: '0 8px' }}>
+                  {/* Eyes */}
+                  <div style={{ width: 10, height: 12, backgroundColor: '#000', borderRadius: 2 }} />
+                  <div style={{ width: 10, height: 12, backgroundColor: '#000', borderRadius: 2 }} />
+                </div>
+                {/* Sans Smile */}
+                <div style={{ width: 28, height: 6, backgroundColor: '#000', marginTop: -8, borderRadius: 3 }} />
+                {/* Sans Blue Jacket */}
+                <div style={{ width: 72, height: 48, backgroundColor: '#3B82F6', borderRadius: '8px 8px 4px 4px', marginTop: 4, display: 'flex', justifyContent: 'center' }}>
+                  <div style={{ width: 20, height: '100%', backgroundColor: '#FFFFFF' }} />
+                </div>
+              </div>
+
+              {/* Sans Speech Balloon */}
+              <div style={{ marginLeft: 36, backgroundColor: '#FFFFFF', border: '3px solid #000', borderRadius: 12, padding: '10px 18px', position: 'relative' }}>
+                <div style={{ color: '#000000', fontFamily: 'monospace', fontWeight: 900, fontSize: 18 }}>
+                  {dialogue}
+                </div>
+                {/* Speech arrow */}
+                <div style={{ position: 'absolute', left: -12, top: 18, width: 0, height: 0, borderTop: '8px solid transparent', borderBottom: '8px solid transparent', borderRight: '12px solid #FFFFFF' }} />
+              </div>
             </div>
 
-            {/* Simulated Retro Pixel Art Combat Box */}
-            <div style={{ flex: 1, margin: '20px 0', border: '3px solid #FFFFFF', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', backgroundColor: '#05070E' }}>
-              <div style={{ color: '#FFFFFF', fontSize: 28, fontFamily: 'monospace', fontWeight: 900 }}>[ * SANS APPEARED. ]</div>
-              <div style={{ width: 24, height: 24, backgroundColor: '#EF4444', marginTop: 32, transform: 'rotate(45deg)' }} />
-              <div style={{ color: '#94A3B8', fontSize: 14, fontFamily: 'monospace', marginTop: 16 }}>SOUL HITBOX // COLLISION ACTIVE</div>
+            {/* Combat Bullet-Hell Box with Moving Bones & Dodging SOUL */}
+            <div style={{ width: '100%', height: 210, border: '4px solid #FFFFFF', backgroundColor: '#05070E', position: 'relative', overflow: 'hidden' }}>
+              
+              {/* Dodging Red SOUL Heart */}
+              <div
+                style={{
+                  position: 'absolute',
+                  left: heartX,
+                  top: heartY,
+                  width: 24,
+                  height: 24,
+                  backgroundColor: '#EF4444',
+                  transform: 'rotate(45deg)',
+                  boxShadow: '0 0 16px #EF4444',
+                  transition: 'all 0.05s linear',
+                }}
+              />
+
+              {/* Moving Bone Obstacle 1 (Bottom) */}
+              <div
+                style={{
+                  position: 'absolute',
+                  right: bone1X,
+                  bottom: 0,
+                  width: 16,
+                  height: 85,
+                  backgroundColor: '#FFFFFF',
+                  borderRadius: '6px 6px 0 0',
+                }}
+              />
+
+              {/* Moving Bone Obstacle 2 (Top) */}
+              <div
+                style={{
+                  position: 'absolute',
+                  right: bone2X,
+                  top: 0,
+                  width: 16,
+                  height: 75,
+                  backgroundColor: '#FFFFFF',
+                  borderRadius: '0 0 6px 6px',
+                }}
+              />
+
+              {/* Collision Telemetry HUD inside box */}
+              <div style={{ position: 'absolute', bottom: 8, left: 12, color: '#22C55E', fontSize: 11, fontFamily: 'monospace' }}>
+                PHYSICS LOOP: 60Hz // HITBOX DETECT: PASS
+              </div>
             </div>
 
-            <div style={{ display: 'flex', justifyContent: 'space-between', color: '#64748B', fontSize: 14, fontFamily: 'monospace' }}>
-              <span>CONTROLS: ARROWS / Z TO ACT</span>
-              <span>AUDIO: REAL-TIME 8-BIT SYNTHESIZER</span>
+            {/* Undertale Player Status Bar */}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', margin: '8px 0', fontFamily: 'monospace', fontSize: 18, fontWeight: 900 }}>
+              <div style={{ color: '#FFFFFF' }}>CHARA <span style={{ marginLeft: 16 }}>LV 19</span></div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                <span style={{ color: '#FFFFFF', fontSize: 14 }}>HP</span>
+                <div style={{ width: 140, height: 18, backgroundColor: '#DC2626', display: 'flex' }}>
+                  <div style={{ width: '85%', height: '100%', backgroundColor: '#FBBF24' }} />
+                </div>
+                <span style={{ color: '#FFFFFF', fontSize: 16 }}>92 / 92</span>
+              </div>
+              <div style={{ color: '#C084FC' }}>KR</div>
             </div>
+
+            {/* Retro Action Buttons */}
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
+              <div style={{ border: '2px solid #F97316', padding: '6px 0', textAlign: 'center', color: '#F97316', fontWeight: 900, fontFamily: 'monospace', fontSize: 18, backgroundColor: 'rgba(249,115,22,0.15)' }}>
+                ❤ FIGHT
+              </div>
+              <div style={{ border: '2px solid #F97316', padding: '6px 0', textAlign: 'center', color: '#F97316', fontWeight: 900, fontFamily: 'monospace', fontSize: 18 }}>
+                ACT
+              </div>
+              <div style={{ border: '2px solid #F97316', padding: '6px 0', textAlign: 'center', color: '#F97316', fontWeight: 900, fontFamily: 'monospace', fontSize: 18 }}>
+                ITEM
+              </div>
+              <div style={{ border: '2px solid #F97316', padding: '6px 0', textAlign: 'center', color: '#F97316', fontWeight: 900, fontFamily: 'monospace', fontSize: 18 }}>
+                MERCY
+              </div>
+            </div>
+
           </div>
 
           {/* Right: Architectural Telemetry */}
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
-            <div style={{ backgroundColor: 'rgba(15,23,42,0.7)', borderRadius: 14, border: '1px solid rgba(255,255,255,0.1)', padding: 20 }}>
-              <div style={{ color: '#64748B', fontSize: 13, textTransform: 'uppercase' }}>EXECUTION MODE</div>
-              <div style={{ color: '#FFFFFF', fontSize: 22, fontWeight: 800, marginTop: 4 }}>Single Prompt (1-Shot)</div>
-              <p style={{ color: '#94A3B8', fontSize: 14, marginTop: 8 }}>
-                No multi-turn scaffolding or external coding agent loops. Generated in one continuous token stream.
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+            <div style={{ backgroundColor: 'rgba(15,23,42,0.7)', borderRadius: 14, border: '1px solid rgba(255,255,255,0.1)', padding: 18 }}>
+              <div style={{ color: '#64748B', fontSize: 12, textTransform: 'uppercase' }}>EXECUTION MODE</div>
+              <div style={{ color: '#FFFFFF', fontSize: 20, fontWeight: 800, marginTop: 4 }}>Single Prompt (1-Shot)</div>
+              <p style={{ color: '#94A3B8', fontSize: 13, marginTop: 6, lineHeight: 1.4 }}>
+                No multi-turn scaffolding or external coding loops. Generated in one continuous stream of code.
               </p>
             </div>
 
-            <div style={{ backgroundColor: 'rgba(15,23,42,0.7)', borderRadius: 14, border: '1px solid rgba(255,255,255,0.1)', padding: 20 }}>
-              <div style={{ color: '#64748B', fontSize: 13, textTransform: 'uppercase' }}>AUDIO SYNTHESIS</div>
-              <div style={{ color: '#38BDF8', fontSize: 22, fontWeight: 800, marginTop: 4 }}>Web Audio API Oscillator</div>
-              <p style={{ color: '#94A3B8', fontSize: 14, marginTop: 8 }}>
-                Synthesized sound effects directly via Javascript audio nodes—zero external MP3 assets needed.
+            <div style={{ backgroundColor: 'rgba(15,23,42,0.7)', borderRadius: 14, border: '1px solid rgba(255,255,255,0.1)', padding: 18 }}>
+              <div style={{ color: '#64748B', fontSize: 12, textTransform: 'uppercase' }}>AUDIO SYNTHESIS</div>
+              <div style={{ color: '#38BDF8', fontSize: 20, fontWeight: 800, marginTop: 4 }}>Web Audio API Oscillator</div>
+              <p style={{ color: '#94A3B8', fontSize: 13, marginTop: 6, lineHeight: 1.4 }}>
+                Synthesized 8-bit chiptune sound nodes in JavaScript—zero external MP3 assets needed.
               </p>
             </div>
 
-            <div style={{ backgroundColor: 'rgba(239,68,68,0.15)', borderRadius: 14, border: '1px solid #EF4444', padding: 20 }}>
-              <div style={{ color: '#EF4444', fontSize: 13, fontWeight: 800, textTransform: 'uppercase' }}>THE SIGNIFICANCE</div>
-              <div style={{ color: '#FFFFFF', fontSize: 18, fontWeight: 700, marginTop: 4 }}>Procedural Software Generation</div>
-              <p style={{ color: '#CBD5E1', fontSize: 14, marginTop: 8 }}>
-                This is not next-token autocomplete. This is full spatial and game-loop reasoning.
+            <div style={{ backgroundColor: 'rgba(239,68,68,0.15)', borderRadius: 14, border: '1px solid #EF4444', padding: 18 }}>
+              <div style={{ color: '#EF4444', fontSize: 12, fontWeight: 800, textTransform: 'uppercase' }}>THE SIGNIFICANCE</div>
+              <div style={{ color: '#FFFFFF', fontSize: 17, fontWeight: 700, marginTop: 4 }}>Procedural Software Generation</div>
+              <p style={{ color: '#CBD5E1', fontSize: 13, marginTop: 6, lineHeight: 1.4 }}>
+                Full game-loop state reasoning, projectile physics, and responsive collision compiled end-to-end.
               </p>
             </div>
           </div>
+
         </div>
+
       </div>
     </div>
   );

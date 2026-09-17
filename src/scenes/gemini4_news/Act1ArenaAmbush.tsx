@@ -171,61 +171,175 @@ const Beat1StealthAmbush: React.FC = () => {
   );
 };
 
-// --- BEAT 2: LMSYS ARENA DISGUISE HUD ---
+// --- BEAT 2: LMSYS ARENA DISGUISE HUD (HIGH-DENSITY MOTION GRAPHICS) ---
 const Beat2ArenaDisguise: React.FC = () => {
   const frame = useCurrentFrame();
-  const scanPos = interpolate(frame, [0, 165], [0, 100]);
+  const scanPos = (frame * 3) % 100;
+  const packetOffset1 = (frame * 6) % 300;
+  const packetOffset2 = ((frame * 6) + 150) % 300;
+  const complexityProgress = interpolate(frame, [10, 50], [0, 96], { extrapolateRight: 'clamp' });
+  const pulse = interpolate(Math.sin(frame * 0.15), [-1, 1], [0.92, 1.08]);
 
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '36px 60px', boxSizing: 'border-box' }}>
-      <div style={{ width: 1760, height: 820, backgroundColor: '#070B14', border: '1px solid rgba(255,255,255,0.15)', borderRadius: 24, padding: '40px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: 24 }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+    <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '28px 48px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1824, height: 864, backgroundColor: '#050811', border: '1px solid rgba(56,189,248,0.35)', borderRadius: 24, padding: '32px 40px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 30px 80px -20px rgba(56,189,248,0.25)', position: 'relative', overflow: 'hidden' }}>
+        
+        {/* Subtle grid background */}
+        <div style={{ position: 'absolute', inset: 0, backgroundImage: 'radial-gradient(rgba(56,189,248,0.08) 1px, transparent 1px)', backgroundSize: '28px 28px', pointerEvents: 'none' }} />
+
+        {/* Top telemetry bar */}
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', position: 'relative', zIndex: 2 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
-            <Globe size={24} color="#60A5FA" />
-            <span style={{ color: '#FFFFFF', fontSize: 24, fontWeight: 800 }}>LMSYS CHATBOT ARENA // BATTLEFIELD TELEMETRY</span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10, padding: '6px 14px', borderRadius: 8, backgroundColor: 'rgba(239,68,68,0.15)', border: '1px solid #EF4444' }}>
+              <ShieldAlert size={20} color="#EF4444" />
+              <span style={{ color: '#EF4444', fontWeight: 800, fontSize: 14, letterSpacing: 2 }}>LIVE SPOOF WIRE-TRAP</span>
+            </div>
+            <span style={{ color: '#F1F5F9', fontSize: 20, fontWeight: 800, letterSpacing: 1 }}>
+              LMSYS ARENA TRAFFIC INTERCEPTION // PROXY REDIRECTION
+            </span>
           </div>
-          <div style={{ padding: '6px 14px', borderRadius: 8, backgroundColor: 'rgba(59,130,246,0.15)', color: '#60A5FA', fontSize: 14, fontWeight: 700 }}>
-            PACKET TRACE ACTIVE
+          <div style={{ display: 'flex', alignItems: 'center', gap: 20, fontFamily: 'monospace', fontSize: 14 }}>
+            <span style={{ color: '#22C55E', display: 'flex', alignItems: 'center', gap: 6 }}>
+              <span style={{ width: 8, height: 8, borderRadius: '50%', backgroundColor: '#22C55E', boxShadow: '0 0 10px #22C55E' }} />
+              TAP: TCP_8080_PROXY
+            </span>
+            <span style={{ color: '#64748B' }}>LATENCY: 142ms</span>
+            <span style={{ color: '#38BDF8', fontWeight: 700 }}>SAMPLE: #9042-ARGON</span>
+          </div>
+        </div>
+
+        {/* Middle: Kinetic Network Flow Pipeline */}
+        <div style={{ position: 'relative', zIndex: 2, margin: '8px 0', padding: '16px 24px', backgroundColor: 'rgba(15,23,42,0.65)', borderRadius: 18, border: '1px solid rgba(255,255,255,0.1)' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', position: 'relative' }}>
+            
+            {/* Step 1: User / Arena Client */}
+            <div style={{ width: 280, backgroundColor: '#0B1220', borderRadius: 14, border: '1px solid rgba(255,255,255,0.15)', padding: '16px 20px' }}>
+              <div style={{ color: '#64748B', fontSize: 11, fontFamily: 'monospace', textTransform: 'uppercase', letterSpacing: 1 }}>Origin Node</div>
+              <div style={{ color: '#FFFFFF', fontSize: 18, fontWeight: 800, marginTop: 4 }}>LMSYS Web User</div>
+              <div style={{ color: '#38BDF8', fontSize: 13, fontFamily: 'monospace', marginTop: 6, backgroundColor: 'rgba(56,189,248,0.1)', padding: '4px 8px', borderRadius: 6 }}>
+                Prompt: "SVG Pelican Bike"
+              </div>
+            </div>
+
+            {/* Connecting Pipe 1 with Animated Traveling Packet */}
+            <div style={{ flex: 1, height: 48, position: 'relative', margin: '0 16px', display: 'flex', alignItems: 'center' }}>
+              <div style={{ width: '100%', height: 4, backgroundColor: 'rgba(56,189,248,0.2)', borderRadius: 2, position: 'relative', overflow: 'hidden' }}>
+                <div style={{ position: 'absolute', top: 0, left: `${(packetOffset1 / 300) * 100}%`, width: 40, height: 4, backgroundColor: '#38BDF8', boxShadow: '0 0 12px #38BDF8' }} />
+              </div>
+              <div style={{ position: 'absolute', top: 28, left: '50%', transform: 'translateX(-50%)', color: '#64748B', fontSize: 11, fontFamily: 'monospace' }}>
+                POST /v1/chat/completions
+              </div>
+            </div>
+
+            {/* Step 2: Disguise Proxy Router (The Decoy) */}
+            <div style={{ width: 340, backgroundColor: 'rgba(239,68,68,0.12)', borderRadius: 14, border: '2px solid #EF4444', padding: '16px 20px', position: 'relative', boxShadow: '0 0 30px rgba(239,68,68,0.2)' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <span style={{ color: '#EF4444', fontSize: 11, fontWeight: 800, letterSpacing: 1 }}>DECOY INJECTION PROXY</span>
+                <span style={{ color: '#FFFFFF', backgroundColor: '#EF4444', padding: '2px 6px', borderRadius: 4, fontSize: 10, fontWeight: 900 }}>SPOOFED</span>
+              </div>
+              <div style={{ color: '#FFFFFF', fontSize: 20, fontWeight: 900, marginTop: 4 }}>"gemini-3.8-flash"</div>
+              <div style={{ color: '#FCA5A5', fontSize: 12, fontFamily: 'monospace', marginTop: 4 }}>
+                Header Rewrite: model_id masked
+              </div>
+            </div>
+
+            {/* Connecting Pipe 2 with Animated Traveling Packet */}
+            <div style={{ flex: 1, height: 48, position: 'relative', margin: '0 16px', display: 'flex', alignItems: 'center' }}>
+              <div style={{ width: '100%', height: 4, backgroundColor: 'rgba(34,197,94,0.2)', borderRadius: 2, position: 'relative', overflow: 'hidden' }}>
+                <div style={{ position: 'absolute', top: 0, left: `${(packetOffset2 / 300) * 100}%`, width: 40, height: 4, backgroundColor: '#22C55E', boxShadow: '0 0 12px #22C55E' }} />
+              </div>
+              <div style={{ position: 'absolute', top: 28, left: '50%', transform: 'translateX(-50%)', color: '#22C55E', fontSize: 11, fontFamily: 'monospace', fontWeight: 700 }}>
+                Rerouted &rarr; Internal TPU Pod
+              </div>
+            </div>
+
+            {/* Step 3: Google Superintelligence Cluster */}
+            <div style={{ width: 320, backgroundColor: 'rgba(56,189,248,0.15)', borderRadius: 14, border: '2px solid #38BDF8', padding: '16px 20px', boxShadow: '0 0 35px rgba(56,189,248,0.3)' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <span style={{ color: '#38BDF8', fontSize: 11, fontWeight: 800, letterSpacing: 1 }}>TRUE COMPUTE ENGINE</span>
+                <span style={{ color: '#000', backgroundColor: '#38BDF8', padding: '2px 6px', borderRadius: 4, fontSize: 10, fontWeight: 900 }}>UNMASKED</span>
+              </div>
+              <div style={{ color: '#FFFFFF', fontSize: 20, fontWeight: 900, marginTop: 4 }}>Gemini 4 Pro (argon-d)</div>
+              <div style={{ color: '#93C5FD', fontSize: 12, fontFamily: 'monospace', marginTop: 4 }}>
+                Google TPU v6 Tensor Pods
+              </div>
+            </div>
           </div>
         </div>
 
-        {/* Dual Arena Inspection Split */}
-        <div style={{ flex: 1, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 32 }}>
-          {/* Left: What User Sees */}
-          <div style={{ backgroundColor: 'rgba(15, 23, 42, 0.6)', borderRadius: 16, border: '1px solid rgba(255,255,255,0.1)', padding: 32, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-            <div>
-              <div style={{ color: '#94A3B8', fontSize: 15, textTransform: 'uppercase', letterSpacing: 2 }}>FRONTEND MODEL BADGE</div>
-              <div style={{ color: '#FFFFFF', fontSize: 44, fontWeight: 800, marginTop: 8 }}>Gemini 3.8 Flash</div>
-              <div style={{ display: 'inline-block', marginTop: 12, padding: '4px 12px', borderRadius: 6, backgroundColor: 'rgba(148,163,184,0.2)', color: '#CBD5E1', fontSize: 13, fontFamily: 'monospace' }}>
-                TIER: LIGHTWEIGHT UTILITY
+        {/* Lower Split: Telemetry Comparison & Wiretap Inspection */}
+        <div style={{ display: 'grid', gridTemplateColumns: '1.1fr 0.9fr', gap: 24, position: 'relative', zIndex: 2 }}>
+          
+          {/* Left: Forensic Complexity Telemetry Gauges */}
+          <div style={{ backgroundColor: '#0B1220', borderRadius: 18, border: '1px solid rgba(255,255,255,0.1)', padding: '22px 28px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+              <div style={{ color: '#38BDF8', fontSize: 14, fontWeight: 800, letterSpacing: 2 }}>
+                EXECUTION VECTOR ANOMALY GAUGES
               </div>
+              <span style={{ color: '#64748B', fontSize: 12, fontFamily: 'monospace' }}>DEEP METRIC SCAN</span>
             </div>
-            <div style={{ backgroundColor: '#000000', borderRadius: 12, padding: 20, border: '1px solid rgba(255,255,255,0.08)' }}>
-              <div style={{ color: '#64748B', fontSize: 13, fontFamily: 'monospace' }}>ARENA RESPONSE HEADER:</div>
-              <div style={{ color: '#22C55E', fontSize: 15, fontFamily: 'monospace', marginTop: 6 }}>status: 200 OK | provider: google-vertex-arena</div>
-              <div style={{ color: '#94A3B8', fontSize: 13, fontFamily: 'monospace', marginTop: 4 }}>model_id: "gemini-3.8-flash-0902" (Spoofed)</div>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 16, marginTop: 14 }}>
+              {/* Metric 1 */}
+              <div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 14, fontWeight: 700, marginBottom: 6 }}>
+                  <span style={{ color: '#94A3B8' }}>Vector Geometric Reasoning Complexity</span>
+                  <span style={{ color: '#38BDF8', fontFamily: 'monospace' }}>{Math.round(complexityProgress)}% (Frontier Spike)</span>
+                </div>
+                <div style={{ width: '100%', height: 10, backgroundColor: 'rgba(255,255,255,0.06)', borderRadius: 5, overflow: 'hidden' }}>
+                  <div style={{ width: `${complexityProgress}%`, height: '100%', backgroundColor: '#38BDF8', boxShadow: '0 0 10px #38BDF8' }} />
+                </div>
+              </div>
+
+              {/* Metric 2 */}
+              <div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 14, fontWeight: 700, marginBottom: 6 }}>
+                  <span style={{ color: '#94A3B8' }}>Recursive Reasoning Spoke Nodes</span>
+                  <span style={{ color: '#22C55E', fontFamily: 'monospace' }}>384 Semantic Groups (vs 24 Flash Baseline)</span>
+                </div>
+                <div style={{ width: '100%', height: 10, backgroundColor: 'rgba(255,255,255,0.06)', borderRadius: 5, overflow: 'hidden' }}>
+                  <div style={{ width: '92%', height: '100%', backgroundColor: '#22C55E', boxShadow: '0 0 10px #22C55E' }} />
+                </div>
+              </div>
+
+              {/* Metric 3 */}
+              <div>
+                <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 14, fontWeight: 700, marginBottom: 6 }}>
+                  <span style={{ color: '#94A3B8' }}>Frontier Parity Status</span>
+                  <span style={{ color: '#F59E0B', fontFamily: 'monospace' }}>Matching GPT-6 Astra // Crushing Claude Fable</span>
+                </div>
+                <div style={{ width: '100%', height: 10, backgroundColor: 'rgba(255,255,255,0.06)', borderRadius: 5, overflow: 'hidden' }}>
+                  <div style={{ width: '98%', height: '100%', backgroundColor: '#F59E0B', boxShadow: '0 0 10px #F59E0B' }} />
+                </div>
+              </div>
             </div>
           </div>
 
-          {/* Right: What The Model Actually Computes */}
-          <div style={{ backgroundColor: 'rgba(30, 41, 59, 0.7)', borderRadius: 16, border: '1px solid rgba(56,189,248,0.4)', padding: 32, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', position: 'relative', overflow: 'hidden' }}>
-            {/* Laser scan line */}
-            <div style={{ position: 'absolute', top: `${scanPos}%`, left: 0, right: 0, height: 2, backgroundColor: '#38BDF8', boxShadow: '0 0 12px #38BDF8' }} />
+          {/* Right: Live Wiretap HTTP Packet Inspector */}
+          <div style={{ backgroundColor: '#030712', borderRadius: 18, border: '1px solid rgba(56,189,248,0.3)', padding: '20px 24px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', fontFamily: 'monospace', position: 'relative' }}>
+            {/* Laser scanning line */}
+            <div style={{ position: 'absolute', top: `${scanPos}%`, left: 0, right: 0, height: 2, backgroundColor: '#38BDF8', boxShadow: '0 0 14px #38BDF8', opacity: 0.8 }} />
 
-            <div>
-              <div style={{ color: '#38BDF8', fontSize: 15, textTransform: 'uppercase', letterSpacing: 2 }}>BACKEND EXECUTION PROFILE</div>
-              <div style={{ color: '#38BDF8', fontSize: 44, fontWeight: 900, marginTop: 8 }}>Gemini 4 Pro (argon-d)</div>
-              <div style={{ display: 'inline-block', marginTop: 12, padding: '4px 12px', borderRadius: 6, backgroundColor: 'rgba(56,189,248,0.2)', color: '#38BDF8', fontSize: 13, fontFamily: 'monospace' }}>
-                TIER: FRONTIER SUPERINTELLIGENCE
-              </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: 8 }}>
+              <span style={{ color: '#22C55E', fontSize: 13, fontWeight: 700 }}>WIRETAP_STREAM // HTTP 200 OK</span>
+              <span style={{ color: '#EF4444', fontSize: 12 }}>SIGNATURE MATCH: 99.4%</span>
             </div>
-            <div style={{ backgroundColor: '#05070E', borderRadius: 12, padding: 20, border: '1px solid rgba(56,189,248,0.3)' }}>
-              <div style={{ color: '#38BDF8', fontSize: 13, fontFamily: 'monospace' }}>LATENT VECTOR ANOMALY:</div>
-              <div style={{ color: '#F1F5F9', fontSize: 15, fontFamily: 'monospace', marginTop: 6 }}>10x Path Complexity // Zero-Shot Spoke Physics</div>
-              <div style={{ color: '#EF4444', fontSize: 13, fontFamily: 'monospace', marginTop: 4 }}>Parity: Exceeding Fable 5.1 & Matching Astra Max</div>
+
+            <div style={{ fontSize: 13, lineHeight: 1.6, color: '#94A3B8', marginTop: 10 }}>
+              <div><span style={{ color: '#64748B' }}>01</span> <span style={{ color: '#F1F5F9' }}>X-Arena-Public-Tag:</span> <span style={{ color: '#EF4444' }}>"gemini-3.8-flash-exp"</span></div>
+              <div><span style={{ color: '#64748B' }}>02</span> <span style={{ color: '#F1F5F9' }}>X-Google-Internal-Backend:</span> <span style={{ color: '#38BDF8' }}>"cluster-us-central2-argon-d"</span></div>
+              <div><span style={{ color: '#64748B' }}>03</span> <span style={{ color: '#F1F5F9' }}>X-TPU-Generation:</span> <span style={{ color: '#22C55E' }}>"TPU_v6_Trillium_Pod"</span></div>
+              <div><span style={{ color: '#64748B' }}>04</span> <span style={{ color: '#F1F5F9' }}>X-Parameter-Class:</span> <span style={{ color: '#F59E0B' }}>"Frontier_Full_MoE_Dense"</span></div>
+              <div><span style={{ color: '#64748B' }}>05</span> <span style={{ color: '#F1F5F9' }}>X-Fingerprint-Status:</span> <span style={{ color: '#38BDF8' }}>"CONFIRMED_GEMINI_4_PRO"</span></div>
+            </div>
+
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', backgroundColor: 'rgba(56,189,248,0.1)', padding: '8px 14px', borderRadius: 8, marginTop: 8 }}>
+              <span style={{ color: '#38BDF8', fontSize: 12 }}>DECOY BREACHED:</span>
+              <span style={{ color: '#FFFFFF', fontWeight: 800, fontSize: 13 }}>PUBLIC TEST RUN CONFIRMED</span>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );

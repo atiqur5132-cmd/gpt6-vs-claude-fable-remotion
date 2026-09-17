@@ -109,50 +109,91 @@ const Beat15GhostDiscovery: React.FC = () => {
   );
 };
 
-// --- BEAT 16: TERMINAL-BENCH SCORECARD ---
+// --- BEAT 16: TERMINAL-BENCH SCORECARD (ANIMATED LEADERBOARD BARS) ---
 const Beat16TerminalBenchScorecard: React.FC = () => {
+  const frame = useCurrentFrame();
+  const barFable = interpolate(frame, [5, 40], [0, 88.4], { extrapolateRight: 'clamp' });
+  const barUnion = interpolate(frame, [15, 50], [0, 88.1], { extrapolateRight: 'clamp' });
+  const barAstra = interpolate(frame, [10, 45], [0, 89.2], { extrapolateRight: 'clamp' });
+
   return (
-    <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '36px 60px', boxSizing: 'border-box' }}>
-      <div style={{ width: 1760, height: 820, backgroundColor: '#070B14', border: '1px solid rgba(255,255,255,0.15)', borderRadius: 24, padding: '40px 56px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+    <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '28px 48px', boxSizing: 'border-box' }}>
+      <div style={{ width: 1824, height: 864, backgroundColor: '#070B14', border: '1px solid rgba(168,85,247,0.35)', borderRadius: 24, padding: '32px 40px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+        
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
             <Terminal size={24} color="#22C55E" />
-            <span style={{ color: '#FFFFFF', fontSize: 22, fontWeight: 800 }}>TERMINAL-BENCH 4.0 // AGENTIC CODING LEADERBOARD</span>
+            <span style={{ color: '#FFFFFF', fontSize: 24, fontWeight: 900 }}>TERMINAL-BENCH 4.0 // AGENTIC CODING LEADERBOARD</span>
           </div>
-          <span style={{ color: '#A855F7', fontFamily: 'monospace', fontSize: 15, fontWeight: 700 }}>AUTONOMOUS BUG RESOLUTION</span>
+          <span style={{ color: '#A855F7', fontFamily: 'monospace', fontSize: 14, fontWeight: 700, backgroundColor: 'rgba(168,85,247,0.15)', padding: '6px 14px', borderRadius: 8, border: '1px solid #A855F7' }}>
+            AUTONOMOUS BUG RESOLUTION ACCURACY
+          </span>
         </div>
 
-        {/* 3 Benchmark Cards */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 32 }}>
+        {/* 3 Benchmark Interactive Cards with Animated Fill Bars */}
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 28, margin: '14px 0' }}>
+          
           {/* Fable 5.1 */}
-          <div style={{ backgroundColor: 'rgba(15,23,42,0.7)', borderRadius: 16, border: '1px solid rgba(255,255,255,0.1)', padding: 28 }}>
-            <div style={{ color: '#D97706', fontSize: 14, fontWeight: 800 }}>ANTHROPIC TOP TIER</div>
-            <div style={{ color: '#FFFFFF', fontSize: 28, fontWeight: 800, marginTop: 6 }}>Claude Fable 5.1</div>
-            <div style={{ color: '#FCD34D', fontSize: 48, fontWeight: 900, marginTop: 16, fontFamily: 'monospace' }}>88.4%</div>
-            <div style={{ color: '#64748B', fontSize: 15, marginTop: 12 }}>Inference Cost: <strong>$$$$$</strong> (Expensive)</div>
+          <div style={{ backgroundColor: 'rgba(15,23,42,0.7)', borderRadius: 18, border: '1px solid rgba(255,255,255,0.12)', padding: 28, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <div>
+              <div style={{ color: '#D97706', fontSize: 13, fontWeight: 800 }}>ANTHROPIC TOP TIER</div>
+              <div style={{ color: '#FFFFFF', fontSize: 28, fontWeight: 800, marginTop: 4 }}>Claude Fable 5.1</div>
+              <div style={{ color: '#FCD34D', fontSize: 52, fontWeight: 900, marginTop: 12, fontFamily: 'monospace' }}>
+                {barFable.toFixed(1)}%
+              </div>
+              <div style={{ width: '100%', height: 10, backgroundColor: 'rgba(255,255,255,0.08)', borderRadius: 5, marginTop: 8, overflow: 'hidden' }}>
+                <div style={{ width: `${barFable}%`, height: '100%', backgroundColor: '#FCD34D' }} />
+              </div>
+            </div>
+            <div style={{ borderTop: '1px solid rgba(255,255,255,0.08)', paddingTop: 14, marginTop: 16 }}>
+              <div style={{ color: '#64748B', fontSize: 13 }}>INFERENCE COST</div>
+              <div style={{ color: '#EF4444', fontSize: 20, fontWeight: 800, fontFamily: 'monospace' }}>$11.80 / 1M Tokens</div>
+            </div>
           </div>
 
           {/* Union Alpha */}
-          <div style={{ backgroundColor: 'rgba(88,28,135,0.3)', borderRadius: 16, border: '2px solid #A855F7', padding: 28, boxShadow: '0 0 40px rgba(168,85,247,0.3)' }}>
-            <div style={{ color: '#A855F7', fontSize: 14, fontWeight: 900 }}>GHOST CONTENDER</div>
-            <div style={{ color: '#FFFFFF', fontSize: 28, fontWeight: 900, marginTop: 6 }}>Union Alpha</div>
-            <div style={{ color: '#A855F7', fontSize: 48, fontWeight: 900, marginTop: 16, fontFamily: 'monospace' }}>88.1%</div>
-            <div style={{ color: '#C084FC', fontSize: 15, marginTop: 12 }}>Inference Cost: <strong>$</strong> (18X LOWER)</div>
+          <div style={{ backgroundColor: 'rgba(88,28,135,0.25)', borderRadius: 18, border: '2px solid #A855F7', padding: 28, display: 'flex', flexDirection: 'column', justifyContent: 'space-between', boxShadow: '0 0 45px rgba(168,85,247,0.25)' }}>
+            <div>
+              <div style={{ color: '#A855F7', fontSize: 13, fontWeight: 900 }}>GHOST CONTENDER // FREE IN CLINE</div>
+              <div style={{ color: '#FFFFFF', fontSize: 28, fontWeight: 900, marginTop: 4 }}>Union Alpha</div>
+              <div style={{ color: '#C084FC', fontSize: 52, fontWeight: 900, marginTop: 12, fontFamily: 'monospace' }}>
+                {barUnion.toFixed(1)}%
+              </div>
+              <div style={{ width: '100%', height: 10, backgroundColor: 'rgba(255,255,255,0.08)', borderRadius: 5, marginTop: 8, overflow: 'hidden' }}>
+                <div style={{ width: `${barUnion}%`, height: '100%', backgroundColor: '#A855F7', boxShadow: '0 0 10px #A855F7' }} />
+              </div>
+            </div>
+            <div style={{ borderTop: '1px solid rgba(168,85,247,0.3)', paddingTop: 14, marginTop: 16 }}>
+              <div style={{ color: '#C084FC', fontSize: 13, fontWeight: 700 }}>INFERENCE COST (18X LOWER)</div>
+              <div style={{ color: '#22C55E', fontSize: 22, fontWeight: 900, fontFamily: 'monospace' }}>~$0.65 / 1M Tokens</div>
+            </div>
           </div>
 
           {/* GPT-6 Astra */}
-          <div style={{ backgroundColor: 'rgba(15,23,42,0.7)', borderRadius: 16, border: '1px solid rgba(255,255,255,0.1)', padding: 28 }}>
-            <div style={{ color: '#10A37F', fontSize: 14, fontWeight: 800 }}>OPENAI FRONTIER</div>
-            <div style={{ color: '#FFFFFF', fontSize: 28, fontWeight: 800, marginTop: 6 }}>GPT-6 Astra Max</div>
-            <div style={{ color: '#6EE7B7', fontSize: 48, fontWeight: 900, marginTop: 16, fontFamily: 'monospace' }}>89.2%</div>
-            <div style={{ color: '#64748B', fontSize: 15, marginTop: 12 }}>Inference Cost: <strong>$$$$$</strong> (Premium)</div>
+          <div style={{ backgroundColor: 'rgba(15,23,42,0.7)', borderRadius: 18, border: '1px solid rgba(255,255,255,0.12)', padding: 28, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <div>
+              <div style={{ color: '#10A37F', fontSize: 13, fontWeight: 800 }}>OPENAI FRONTIER</div>
+              <div style={{ color: '#FFFFFF', fontSize: 28, fontWeight: 800, marginTop: 4 }}>GPT-6 Astra Max</div>
+              <div style={{ color: '#6EE7B7', fontSize: 52, fontWeight: 900, marginTop: 12, fontFamily: 'monospace' }}>
+                {barAstra.toFixed(1)}%
+              </div>
+              <div style={{ width: '100%', height: 10, backgroundColor: 'rgba(255,255,255,0.08)', borderRadius: 5, marginTop: 8, overflow: 'hidden' }}>
+                <div style={{ width: `${barAstra}%`, height: '100%', backgroundColor: '#10A37F' }} />
+              </div>
+            </div>
+            <div style={{ borderTop: '1px solid rgba(255,255,255,0.08)', paddingTop: 14, marginTop: 16 }}>
+              <div style={{ color: '#64748B', fontSize: 13 }}>INFERENCE COST</div>
+              <div style={{ color: '#F59E0B', fontSize: 20, fontWeight: 800, fontFamily: 'monospace' }}>$6.50 / 1M Tokens</div>
+            </div>
           </div>
+
         </div>
 
-        <div style={{ backgroundColor: '#000000', padding: '18px 28px', borderRadius: 12, border: '1px solid rgba(255,255,255,0.08)', display: 'flex', justifyContent: 'space-between' }}>
-          <span style={{ color: '#94A3B8' }}>INSIGHT: <strong>Statistical dead-heat with Western frontier models at a fraction of API expenditure.</strong></span>
-          <span style={{ color: '#22C55E', fontWeight: 700 }}>PARITY VERIFIED ON OPENROUTER</span>
+        <div style={{ backgroundColor: '#02040A', padding: '16px 24px', borderRadius: 14, border: '1px solid rgba(255,255,255,0.1)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <span style={{ color: '#94A3B8', fontSize: 15 }}>ECONOMIC DISRUPTION: <strong style={{ color: '#FFFFFF' }}>Statistical dead-heat with US frontier titans at 1/18th the compute expenditure.</strong></span>
+          <span style={{ color: '#22C55E', fontWeight: 800, fontSize: 15 }}>PARITY VERIFIED ON OPENROUTER</span>
         </div>
+
       </div>
     </div>
   );
