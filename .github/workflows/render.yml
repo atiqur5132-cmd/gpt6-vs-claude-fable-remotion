@@ -6,11 +6,11 @@ on:
       composition:
         description: 'Composition ID'
         required: true
-        default: 'Gemini4NewsDocumentary'
+        default: 'Opus55VsGpt6Documentary'
       output_name:
         description: 'Output MP4 filename'
         required: true
-        default: 'gemini4_news_documentary.mp4'
+        default: 'opus55_vs_gpt6_documentary.mp4'
 
 jobs:
   render:

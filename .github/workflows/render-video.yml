@@ -6,9 +6,10 @@ on:
       composition:
         description: 'Composition to render'
         required: true
-        default: 'Gemini4NewsDocumentary'
+        default: 'Opus55VsGpt6Documentary'
         type: choice
         options:
+          - Opus55VsGpt6Documentary
           - Gemini4NewsDocumentary
           - GoogleRSIDocumentary
           - LongFormDocumentary
@@ -38,10 +39,10 @@ jobs:
         run: npx remotion browser ensure
 
       - name: Render Full MP4 Video
-        run: npx remotion render ${{ inputs.composition || 'Gemini4NewsDocumentary' }} out/${{ inputs.composition || 'Gemini4NewsDocumentary' }}.mp4 --concurrency=4
+        run: npx remotion render ${{ inputs.composition || 'Opus55VsGpt6Documentary' }} out/${{ inputs.composition || 'Opus55VsGpt6Documentary' }}.mp4 --concurrency=4
 
       - name: Upload Rendered Video
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ inputs.composition || 'Gemini4NewsDocumentary' }}
-          path: out/${{ inputs.composition || 'Gemini4NewsDocumentary' }}.mp4
+          name: ${{ inputs.composition || 'Opus55VsGpt6Documentary' }}
+          path: out/${{ inputs.composition || 'Opus55VsGpt6Documentary' }}.mp4
