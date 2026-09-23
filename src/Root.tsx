@@ -5,12 +5,22 @@ import { DailyVideo } from "./DailyVideo";
 import { LongFormDocumentary } from "./LongFormDocumentary";
 import { GoogleRSIDocumentary } from "./GoogleRSIDocumentary";
 import { Gemini4NewsDocumentary } from "./Gemini4NewsDocumentary";
+import { Opus55VsGpt6Documentary } from "./Opus55VsGpt6Documentary";
 import { Thumbnail } from "./Thumbnail";
 import { ThumbnailGemini4News } from "./ThumbnailGemini4News";
 
 export const Root: React.FC = () => {
   return (
     <>
+      {/* 7.42-Minute Claude Opus 5.5 vs GPT-6 Astra & Sol Master Documentary (>5-6 Minutes) */}
+      <Composition
+        id="Opus55VsGpt6Documentary"
+        component={Opus55VsGpt6Documentary}
+        durationInFrames={13361}
+        fps={30}
+        width={1920}
+        height={1080}
+      />
       {/* 6.28-Minute Gemini 4 Pro & Stealth AI News Documentary (>6 Minutes) */}
       <Composition
         id="Gemini4NewsDocumentary"
